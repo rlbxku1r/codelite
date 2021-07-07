@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: codelite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-02 00:51+0900\n"
-"PO-Revision-Date: 2021-07-02 00:54+0900\n"
+"POT-Creation-Date: 2021-07-08 00:00+0900\n"
+"PO-Revision-Date: 2021-07-08 00:06+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -136,7 +136,7 @@ msgstr ""
 "\n"
 "作業ディレクトリ"
 
-#: LiteEditor/cl_editor.cpp:1683
+#: LiteEditor/cl_editor.cpp:1674
 msgid ""
 "\n"
 "is a read only file, continue?"
@@ -266,11 +266,11 @@ msgstr " をファイル表示から検索できませんでした。"
 msgid " in file: "
 msgstr " ファイル: "
 
-#: Plugin/LanguageServerProtocol.cpp:604
+#: Plugin/LanguageServerProtocol.cpp:615
 msgid " is not supported"
 msgstr " はサポートされていません"
 
-#: LiteEditor/cl_editor.cpp:5753 LiteEditor/cl_editor.cpp:5794
+#: LiteEditor/cl_editor.cpp:5672 LiteEditor/cl_editor.cpp:5713
 #: LiteEditor/quickfindbar.cpp:686 LiteEditor/quickfindbar.cpp:916
 #: LiteEditor/quickfindbar.cpp:1055 Plugin/clPluginsFindBar.cpp:676
 #: Plugin/clPluginsFindBar.cpp:900 Plugin/clPluginsFindBar.cpp:1039
@@ -956,7 +956,7 @@ msgstr ""
 "'\n"
 "アカウントが見つかりませんでした: "
 
-#: codelitephp/PHPParser/php_workspace.cpp:459
+#: codelitephp/PHPParser/php_workspace.cpp:464
 msgid ""
 "'\n"
 "to:\n"
@@ -1002,7 +1002,7 @@ msgstr "' をディスクからも削除しますか？"
 msgid "' imported successfully!"
 msgstr "' を正常にインポートしました！"
 
-#: codelitephp/PHPParser/php_workspace.cpp:611
+#: codelitephp/PHPParser/php_workspace.cpp:616
 msgid "' is already part of project '"
 msgstr "' は既にプロジェクトの一部です: '"
 
@@ -1010,7 +1010,7 @@ msgstr "' は既にプロジェクトの一部です: '"
 msgid "' is located at '"
 msgstr "' はここにあります: '"
 
-#: codelitephp/PHPParser/php_workspace.cpp:621
+#: codelitephp/PHPParser/php_workspace.cpp:626
 msgid "' is located under this path"
 msgstr "' がこのパスの配下に置かれています"
 
@@ -1664,7 +1664,7 @@ msgstr "特定のメニュー項目が強調表示されています"
 msgid "A plugin that allows user to launch external tools from within CodeLite"
 msgstr "CodeLite から外部ツールを起動できるようにするプラグイン"
 
-#: codelitephp/PHPParser/php_workspace.cpp:572
+#: codelitephp/PHPParser/php_workspace.cpp:577
 msgid "A project with similar name already exists in the workspace"
 msgstr "似た名前を持つプロジェクトが、既にワークスペースに存在します"
 
@@ -1959,11 +1959,11 @@ msgstr "アカウントを追加"
 msgid "Add Bitmap"
 msgstr "ビットマップを追加"
 
-#: LiteEditor/cl_editor.cpp:3655 SFTP/SFTPTreeView.cpp:84
+#: LiteEditor/cl_editor.cpp:3631 SFTP/SFTPTreeView.cpp:84
 msgid "Add Bookmark"
 msgstr "ブックマークを追加"
 
-#: LiteEditor/cl_editor.cpp:3661
+#: LiteEditor/cl_editor.cpp:3637
 msgid "Add Breakpoint"
 msgstr "ブレークポイントを追加"
 
@@ -2133,16 +2133,16 @@ msgstr "切り替え式のツールを追加"
 msgid "Add Tool"
 msgstr "ツールを追加"
 
-#: LiteEditor/cl_editor.cpp:3964 LiteEditor/new_quick_watch_dlg.cpp:271
+#: LiteEditor/cl_editor.cpp:3940 LiteEditor/new_quick_watch_dlg.cpp:271
 #: LLDBDebugger/LLDBPlugin.cpp:322
 msgid "Add Watch"
 msgstr "ウォッチを追加"
 
-#: LiteEditor/cl_editor.cpp:3664
+#: LiteEditor/cl_editor.cpp:3640
 msgid "Add a Conditional Breakpoint.."
 msgstr "条件付きブレークポイントを追加.."
 
-#: LiteEditor/cl_editor.cpp:3663
+#: LiteEditor/cl_editor.cpp:3639
 msgid "Add a Disabled Breakpoint"
 msgstr "無効化したブレークポイントを追加"
 
@@ -2157,7 +2157,7 @@ msgstr ""
 msgid "Add a New File..."
 msgstr "新しいファイルを追加..."
 
-#: LiteEditor/cl_editor.cpp:3662
+#: LiteEditor/cl_editor.cpp:3638
 msgid "Add a Temporary Breakpoint"
 msgstr "一時的なブレークポイントを追加"
 
@@ -2241,7 +2241,7 @@ msgstr "テーブルを削除する SQL 文を追加しますか？"
 msgid "Add extra line spacing"
 msgstr "行と行の間に余白を追加します"
 
-#: git/git.cpp:2282
+#: git/git.cpp:2287
 msgid "Add file"
 msgstr "ファイルを追加"
 
@@ -2466,7 +2466,7 @@ msgstr "追加されたファイル"
 msgid "Adding file: "
 msgstr "ファイルを追加しています: "
 
-#: git/git.cpp:1382
+#: git/git.cpp:1386
 msgid "Adding files..."
 msgstr "ファイルを追加しています..."
 
@@ -2698,7 +2698,7 @@ msgstr "全てのブレークポイントを削除しました"
 msgid "All Files"
 msgstr "全てのファイル"
 
-#: git/git.cpp:2507
+#: git/git.cpp:2512
 msgid "All files are up-to-date!"
 msgstr "ファイルは全て最新です！"
 
@@ -2949,7 +2949,7 @@ msgstr ""
 "アーカイブスイッチ - 通常は必要ありません (VC コンパイラーでは /OUT: に設定さ"
 "れます)"
 
-#: git/git.cpp:787
+#: git/git.cpp:791
 msgid "Are you sure that you want to discard all local changes?"
 msgstr "ローカルの変更を全て破棄しますか？"
 
@@ -2957,7 +2957,7 @@ msgstr "ローカルの変更を全て破棄しますか？"
 msgid "Are you sure you want remove '"
 msgstr "削除しますか '"
 
-#: git/git.cpp:1731
+#: git/git.cpp:1735
 msgid "Are you sure you want to continue connecting"
 msgstr "接続を続けますか"
 
@@ -3597,7 +3597,7 @@ msgstr "括弧"
 msgid "Branch"
 msgstr "ブランチ"
 
-#: git/git.cpp:661 git/git.cpp:677
+#: git/git.cpp:665 git/git.cpp:681
 msgid "Branch name"
 msgstr "ブランチ名"
 
@@ -3695,23 +3695,23 @@ msgstr "ブレークポイントとウォッチポイントのプロパティ"
 msgid "Breakpoint creation unsuccessful"
 msgstr "ブレークポイントを作成できませんでした"
 
-#: LiteEditor/cl_editor.cpp:3785
+#: LiteEditor/cl_editor.cpp:3761
 msgid "Breakpoint deletion failed"
 msgstr "ブレークポイントの削除に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:3788
+#: LiteEditor/cl_editor.cpp:3764
 msgid "Breakpoint not deleted"
 msgstr "ブレークポイントは削除されませんでした"
 
-#: LiteEditor/cl_editor.cpp:3749 LiteEditor/breakpointsmgr.cpp:137
+#: LiteEditor/cl_editor.cpp:3725 LiteEditor/breakpointsmgr.cpp:137
 msgid "Breakpoint successfully added"
 msgstr "ブレークポイントを正常に追加しました"
 
-#: LiteEditor/cl_editor.cpp:3777 LiteEditor/breakpointdlg.cpp:92
+#: LiteEditor/cl_editor.cpp:3753 LiteEditor/breakpointdlg.cpp:92
 msgid "Breakpoint successfully deleted"
 msgstr "ブレークポイントを正常に削除しました"
 
-#: codelitephp/php-plugin/php.cpp:585 codelitephp/php-plugin/php_ui.cpp:1247
+#: codelitephp/php-plugin/php.cpp:576 codelitephp/php-plugin/php_ui.cpp:1247
 #: LiteEditor/debuggerpane.cpp:51 LiteEditor/debuggerpane.cpp:110
 #: WebTools/WebToolsBase.cpp:635 LLDBDebugger/UI.cpp:81 Runtime/rc/menu.xrc:679
 msgid "Breakpoints"
@@ -3887,7 +3887,7 @@ msgstr ""
 "ビルドをキャンセルしました。ワークスペースが使用しているコンパイラーを見つけ"
 "られませんでした:\n"
 
-#: Plugin/clStatusBar.cpp:246
+#: Plugin/clStatusBar.cpp:249
 msgid ""
 "Build ended with errors\n"
 "Click to view"
@@ -3899,7 +3899,7 @@ msgstr ""
 msgid "Build ended with errors. Continue?"
 msgstr "ビルドがエラーで終了しました。続行しますか？"
 
-#: Plugin/clStatusBar.cpp:248
+#: Plugin/clStatusBar.cpp:251
 msgid ""
 "Build ended with warnings\n"
 "Click to view"
@@ -3911,7 +3911,7 @@ msgstr ""
 msgid "Build error indicators"
 msgstr "ビルドエラーの指示"
 
-#: Plugin/clStatusBar.cpp:282
+#: Plugin/clStatusBar.cpp:285
 msgid ""
 "Build is in progress\n"
 "Click to view the Build Log"
@@ -4289,7 +4289,7 @@ msgstr "コールスタック"
 msgid "Can not create workspace in the root folder"
 msgstr "ルートフォルダーにワークスペースを作成できません"
 
-#: LiteEditor/cl_editor.cpp:2312 LiteEditor/cl_editor.cpp:2346
+#: LiteEditor/cl_editor.cpp:2297 LiteEditor/cl_editor.cpp:2331
 msgid "Can not find the string '"
 msgstr "文字列を見つけられません '"
 
@@ -4342,7 +4342,7 @@ msgstr "同時にインポートできるフォルダーはひとつのみです
 msgid "Can only refactor well formed code: "
 msgstr "構文エラーがあるため、整形できません: "
 
-#: codelitephp/php-plugin/php.cpp:643
+#: codelitephp/php-plugin/php.cpp:633
 msgid "Can't create PHP project. Close your current workspace first"
 msgstr ""
 "PHP プロジェクトを作成できません。現在のワークスペースをまず閉じてください"
@@ -4773,7 +4773,7 @@ msgstr "チェック..."
 msgid "Checked"
 msgstr "チェック"
 
-#: git/git.cpp:1356
+#: git/git.cpp:1360
 msgid "Checking file "
 msgstr "ファイルを確認しています "
 
@@ -5371,8 +5371,8 @@ msgstr "コードデザイナープロジェクトの設定:"
 #: Gizmos/newclassdlg.cpp:160 Gizmos/newclassdlg.cpp:169
 #: Gizmos/newclassdlg.cpp:175 Gizmos/gizmos.cpp:305 Gizmos/gizmos.cpp:332
 #: Gizmos/newwxprojectdlg.cpp:78 Gizmos/newwxprojectdlg.cpp:88
-#: LiteEditor/cl_editor.cpp:296 LiteEditor/cl_editor.cpp:301
-#: LiteEditor/cl_editor.cpp:2313 LiteEditor/cl_editor.cpp:2346
+#: LiteEditor/cl_editor.cpp:290 LiteEditor/cl_editor.cpp:295
+#: LiteEditor/cl_editor.cpp:2298 LiteEditor/cl_editor.cpp:2331
 #: LiteEditor/frame.cpp:2065 LiteEditor/renamesymboldlg.cpp:91
 #: LiteEditor/reconcileproject.cpp:128 LiteEditor/reconcileproject.cpp:741
 #: LiteEditor/debugger_predefined_types_page.cpp:85
@@ -5444,7 +5444,7 @@ msgstr "CodeLite IDE, オープンソースの C/C++/PHP/JavaScript 統合開発
 msgid "CodeLite IP address"
 msgstr "CodeLite の IP アドレス"
 
-#: codelite_terminal/MainFrame.cpp:43
+#: codelite_terminal/MainFrame.cpp:46
 msgid "CodeLite built-in terminal emulator"
 msgstr "CodeLite 内蔵の端末エミュレーター"
 
@@ -5542,7 +5542,7 @@ msgstr "折り畳み"
 msgid "Colour"
 msgstr "色"
 
-#: Plugin/clStatusBar.cpp:466
+#: Plugin/clStatusBar.cpp:477
 msgid "Colour Themes"
 msgstr "色テーマ"
 
@@ -5550,11 +5550,11 @@ msgstr "色テーマ"
 msgid "Colouring"
 msgstr "配色"
 
-#: git/git.cpp:1236
+#: git/git.cpp:1240
 msgid "Colouring modified git files..."
 msgstr "変更された Git ファイルに色付けしています..."
 
-#: git/git.cpp:1231
+#: git/git.cpp:1235
 msgid "Colouring tracked git files..."
 msgstr "追跡中の Git ファイルに色付けしています..."
 
@@ -5749,7 +5749,7 @@ msgstr "コメント"
 msgid "Comments:"
 msgstr "コメント:"
 
-#: git/git.cpp:2336 git/GitConsole.cpp:200 git/gitui.cpp:536 git/gitui.cpp:938
+#: git/git.cpp:2341 git/GitConsole.cpp:200 git/gitui.cpp:536 git/gitui.cpp:938
 #: git/gitui.cpp:1003 Subversion2/subversion2.cpp:271
 #: Subversion2/subversion_view.cpp:451 Subversion2/subversion_view.cpp:482
 msgid "Commit"
@@ -5963,7 +5963,7 @@ msgstr ""
 "条件:\n"
 "<code>%s</code>\n"
 
-#: LiteEditor/cl_editor.cpp:3755
+#: LiteEditor/cl_editor.cpp:3731
 msgid "Conditional "
 msgstr "条件付き"
 
@@ -6151,11 +6151,11 @@ msgstr "インデントをスペースに変換"
 msgid "Convert Indentation to Tabs"
 msgstr "インデントをタブに変換"
 
-#: Plugin/clStatusBar.cpp:491
+#: Plugin/clStatusBar.cpp:502
 msgid "Convert Indentations to Spaces"
 msgstr "インデントをスペースに変換"
 
-#: Plugin/clStatusBar.cpp:490
+#: Plugin/clStatusBar.cpp:501
 msgid "Convert Indentations to Tabs"
 msgstr "インデントをタブに変換"
 
@@ -6169,7 +6169,7 @@ msgid ""
 "file)"
 msgstr "選択したパスを相対にする (wxCrafter プロジェクトファイルへの相対パス)"
 
-#: Plugin/clStatusBar.cpp:543
+#: Plugin/clStatusBar.cpp:555
 msgid "Convert to Linux Format"
 msgstr "Linux 形式に変換"
 
@@ -6177,7 +6177,7 @@ msgstr "Linux 形式に変換"
 msgid "Convert to Unix Format"
 msgstr "Unix 形式に変換"
 
-#: Plugin/clStatusBar.cpp:542 Runtime/rc/menu.xrc:214
+#: Plugin/clStatusBar.cpp:554 Runtime/rc/menu.xrc:214
 msgid "Convert to Windows Format"
 msgstr "Windows 形式に変換"
 
@@ -6401,7 +6401,7 @@ msgstr "codelite-lldb に接続できませんでした '"
 msgid "Could not connect to wxCrafter in a timely manner"
 msgstr "wxCrafter へ時間内に接続できませんでした"
 
-#: LiteEditor/cl_editor.cpp:1646
+#: LiteEditor/cl_editor.cpp:1637
 msgid "Could not convert the file to the requested encoding"
 msgstr "ファイルを要求されたエンコーディングに変換できませんでした"
 
@@ -6422,7 +6422,7 @@ msgstr "対象のファイル '%s' を作成できませんでした"
 msgid "Could not create virtual folder 'wxcrafter'"
 msgstr "仮想フォルダー 'wxcrafter' を作成できませんでした"
 
-#: codelitephp/php-plugin/php.cpp:314
+#: codelitephp/php-plugin/php.cpp:307
 #, c-format
 msgid ""
 "Could not create workspace folder:\n"
@@ -6644,7 +6644,7 @@ msgstr "CScope データベースを作成 (&D)"
 msgid "Create CScope database"
 msgstr "CScope データベースを作成"
 
-#: LiteEditor/cl_editor.cpp:3711
+#: LiteEditor/cl_editor.cpp:3687
 msgid "Create Conditional Breakpoint"
 msgstr "条件付きブレークポイントを作成"
 
@@ -7827,7 +7827,7 @@ msgstr "全てのブレークポイントを無効化 (&L)"
 msgid "Disable"
 msgstr "無効"
 
-#: LiteEditor/cl_editor.cpp:3686
+#: LiteEditor/cl_editor.cpp:3662
 msgid "Disable Breakpoint"
 msgstr "ブレークポイントを無効化"
 
@@ -7844,7 +7844,7 @@ msgstr "セミコロンをシフトさせない"
 msgid "Disabled"
 msgstr "無効"
 
-#: LiteEditor/cl_editor.cpp:3753
+#: LiteEditor/cl_editor.cpp:3729
 msgid "Disabled "
 msgstr "無効化した"
 
@@ -7889,7 +7889,7 @@ msgstr "関数呼び出しのヒントを表示 (&F)"
 msgid "Display Breakpoints / Bookmarks margin"
 msgstr "ブレークポイント / ブックマークのマージンを表示"
 
-#: Plugin/clStatusBar.cpp:535
+#: Plugin/clStatusBar.cpp:547
 msgid "Display EOL"
 msgstr "改行コードを表示"
 
@@ -8013,7 +8013,7 @@ msgstr ""
 "既存のエディターを置き換えますか？ ('いいえ' にすると、新しいものを別々に読み"
 "込みます)"
 
-#: git/git.cpp:1320
+#: git/git.cpp:1324
 msgid "Do you want to start importing new / updating changed files?"
 msgstr "新しいファイルのインポート / 変更されたファイルの更新を開始しますか？"
 
@@ -8130,7 +8130,7 @@ msgstr "エディターをフォーカスしても、このペインを閉じま
 msgid "Don't know how to run '"
 msgstr "実行する方法が分かりません '"
 
-#: git/git.cpp:2320 git/git.cpp:2582
+#: git/git.cpp:2325 git/git.cpp:2587
 msgid "Don't know how to start MSYSGit..."
 msgstr "MSYSGit を開始する方法が分かりません..."
 
@@ -8327,7 +8327,7 @@ msgstr "EOS ウィキ"
 msgid "ERD type doesn't match current database adapter."
 msgstr "ERD の種類が、現在のデータベースアダプターと一致しません。"
 
-#: git/git.cpp:2468 git/git.cpp:2474
+#: git/git.cpp:2473 git/git.cpp:2479
 msgid "ERROR: Failed to write commit message to file: "
 msgstr "エラー: ファイルにコミットメッセージを書き込めませんでした: "
 
@@ -8384,7 +8384,7 @@ msgstr "エッジの閾値 [%] :"
 msgid "Edit"
 msgstr "編集"
 
-#: LiteEditor/cl_editor.cpp:3687
+#: LiteEditor/cl_editor.cpp:3663
 msgid "Edit Breakpoint"
 msgstr "ブレークポイントを編集"
 
@@ -8544,7 +8544,7 @@ msgstr ".editorconfig のサポートを有効化"
 msgid "Enable Auto Save"
 msgstr "自動保存を有効化"
 
-#: LiteEditor/cl_editor.cpp:3686
+#: LiteEditor/cl_editor.cpp:3662
 msgid "Enable Breakpoint"
 msgstr "ブレークポイントを有効化"
 
@@ -8584,7 +8584,7 @@ msgstr "言語サーバーによる補完を有効化"
 msgid "Enable Log"
 msgstr "ログを有効化"
 
-#: codelitephp/php-plugin/php.cpp:60
+#: codelitephp/php-plugin/php.cpp:61
 msgid "Enable PHP support for codelite IDE"
 msgstr "CodeLite IDE に PHP のサポートを追加"
 
@@ -8872,7 +8872,7 @@ msgstr "他のオプションを入力"
 msgid "Enter the URL to debug"
 msgstr "デバッグする URL を入力"
 
-#: LiteEditor/cl_editor.cpp:3711
+#: LiteEditor/cl_editor.cpp:3687
 msgid "Enter the condition statement"
 msgstr "条件文を入力"
 
@@ -8986,7 +8986,7 @@ msgid "Eran Ifrah (author & project admin)"
 msgstr "Eran Ifrah (作者 & プロジェクトの管理者)"
 
 #: DatabaseExplorer/DbViewerPanel.cpp:344 Gizmos/newwxprojectdlg.cpp:103
-#: LiteEditor/cl_editor.cpp:1559 LiteEditor/manager.cpp:313
+#: LiteEditor/cl_editor.cpp:1550 LiteEditor/manager.cpp:313
 #: LiteEditor/manager.cpp:330 LiteEditor/manager.cpp:526
 #: LiteEditor/manager.cpp:662 LiteEditor/manager.cpp:732
 #: LiteEditor/manager.cpp:1106 LiteEditor/manager.cpp:1133
@@ -9070,7 +9070,7 @@ msgstr "削除エラー: パラメーター型が不明です\n"
 msgid "Error evaluating expression "
 msgstr "式の評価エラー "
 
-#: git/git.cpp:1326
+#: git/git.cpp:1330
 msgid "Error obtaining project"
 msgstr "プロジェクトの取得エラー"
 
@@ -9649,7 +9649,7 @@ msgstr "ファイル: "
 msgid "Failed to initialize debugger: "
 msgstr "デバッガーの初期化に失敗しました: "
 
-#: LiteEditor/cl_editor.cpp:3744
+#: LiteEditor/cl_editor.cpp:3720
 msgid "Failed to insert breakpoint"
 msgstr "ブレークポイントの挿入に失敗しました"
 
@@ -9743,11 +9743,11 @@ msgstr ""
 msgid "Failed to map remote file: "
 msgstr "リモートファイルの対応付けに失敗しました: "
 
-#: LiteEditor/cl_editor.cpp:299
+#: LiteEditor/cl_editor.cpp:293
 msgid "Failed to open file"
 msgstr "ファイル"
 
-#: LiteEditor/cl_editor.cpp:1637
+#: LiteEditor/cl_editor.cpp:1628
 #, c-format
 msgid ""
 "Failed to open file\n"
@@ -9791,12 +9791,12 @@ msgstr "これらのファイルはスキャンできませんでした:"
 msgid "Failed to open workspace '"
 msgstr "ワークスペースを開けませんでした '"
 
-#: codelitephp/php-plugin/php.cpp:395
+#: codelitephp/php-plugin/php.cpp:388
 msgid "Failed to open workspace: corrupted workspace file"
 msgstr ""
 "ワークスペースを開けませんでした: ワークスペースのファイルが壊れています"
 
-#: LiteEditor/cl_editor.cpp:1696 LiteEditor/cl_editor.cpp:1705
+#: LiteEditor/cl_editor.cpp:1687 LiteEditor/cl_editor.cpp:1696
 msgid "Failed to override read-only file"
 msgstr "読み取り専用のファイルを上書きできませんでした"
 
@@ -9830,7 +9830,7 @@ msgstr "ファイル名の変更に失敗しました: "
 msgid "Failed to rename path. "
 msgstr "パス名の変更に失敗しました。 "
 
-#: codelitephp/PHPParser/php_workspace.cpp:459
+#: codelitephp/PHPParser/php_workspace.cpp:464
 msgid ""
 "Failed to rename workspace file:\n"
 "'"
@@ -9842,7 +9842,7 @@ msgstr ""
 msgid "Failed to save content to file: "
 msgstr "ファイルに内容を保存できませんでした: "
 
-#: LiteEditor/cl_editor.cpp:1559
+#: LiteEditor/cl_editor.cpp:1550
 msgid "Failed to save file"
 msgstr "ファイルの保存に失敗しました"
 
@@ -10070,7 +10070,7 @@ msgstr "ファイルの削除に失敗しました"
 msgid "File system scan completed"
 msgstr "ファイルシステムのスキャンが完了しました"
 
-#: LiteEditor/cl_editor.cpp:1656
+#: LiteEditor/cl_editor.cpp:1647
 msgid ""
 "File text conversion failed!\n"
 "Check your file font encoding from\n"
@@ -10345,7 +10345,7 @@ msgstr "検索:"
 msgid "Finish editing a label. This can be prevented by calling Veto()"
 msgstr "ラベルの編集を終了しました (Veto() を呼び出すと防止できます)"
 
-#: git/git.cpp:1423
+#: git/git.cpp:1427
 msgid "Finished adding files..."
 msgstr "ファイルの追加が完了しました..."
 
@@ -10601,7 +10601,7 @@ msgstr "前方"
 msgid "Found and replaced "
 msgstr "発見箇所を置換しました: "
 
-#: LiteEditor/cl_editor.cpp:5753 LiteEditor/cl_editor.cpp:5794
+#: LiteEditor/cl_editor.cpp:5672 LiteEditor/cl_editor.cpp:5713
 #: LiteEditor/quickfindbar.cpp:686 Plugin/clPluginsFindBar.cpp:676
 msgid "Found and selected "
 msgstr "発見箇所を選択しました: "
@@ -10712,7 +10712,7 @@ msgid "GNU gdb debugger"
 msgstr "GNU GDB デバッガー"
 
 #: Runtime/templates/projects/executable-wxcrafter-frame/MainFrame.cpp:24
-#: codelite_terminal/MainFrame.cpp:42
+#: codelite_terminal/MainFrame.cpp:45
 #: codelite-cli/codelite-client/MainFrame.cpp:36
 msgid "GPL v2 or later"
 msgstr "GPL v2 以降"
@@ -10927,7 +10927,7 @@ msgstr "ctags ファイルを生成しています... 成功"
 msgid "Get Info Version String"
 msgstr "バージョン情報の文字列"
 
-#: git/git.cpp:201 git/git.cpp:202 git/git.cpp:2299 git/git.cpp:2361
+#: git/git.cpp:201 git/git.cpp:202 git/git.cpp:2304 git/git.cpp:2366
 #: LiteEditor/editorsettingsdockingwindowsbase.cpp:388
 #: Plugin/editor_config.cpp:471 Plugin/editor_config.cpp:508
 msgid "Git"
@@ -11201,7 +11201,7 @@ msgstr "伸長可能な行:"
 msgid "Guides"
 msgstr "ガイド"
 
-#: git/git.cpp:2192 Subversion2/subversion_view.cpp:1288
+#: git/git.cpp:2197 Subversion2/subversion_view.cpp:1288
 msgid "HEAD version"
 msgstr "作業中のバージョン"
 
@@ -11255,7 +11255,7 @@ msgstr "ヘッダーファイル:"
 msgid "Height:"
 msgstr "高さ:"
 
-#: codelitephp/php-plugin/php.cpp:513
+#: codelitephp/php-plugin/php.cpp:506
 #: Runtime/templates/projects/executable-wxcrafter-frame/wxcrafter.cpp:40
 #: codelite_terminal/wxcrafter.cpp:70 LiteEditor/CompilerMainPage.cpp:85
 #: LiteEditor/CompilerMainPage.cpp:91
@@ -11824,14 +11824,14 @@ msgid ""
 msgstr ""
 "既にあなた好みの構成になっているなら、クリックでウィザードをスキップできます"
 
-#: codelitephp/PHPParser/php_workspace.cpp:483 SpellChecker/spellcheck.cpp:224
+#: codelitephp/PHPParser/php_workspace.cpp:488 SpellChecker/spellcheck.cpp:224
 #: SpellChecker/wxcrafter.cpp:232 CodeFormatter/codeformatterdlgbase.cpp:665
 #: CodeFormatter/codeformatterdlgbase.cpp:680
 #: Subversion2/subversion_view.cpp:476
 msgid "Ignore"
 msgstr "無視"
 
-#: LiteEditor/cl_editor.cpp:3680
+#: LiteEditor/cl_editor.cpp:3656
 msgid "Ignore Breakpoint"
 msgstr "ブレークポイントを無視"
 
@@ -12006,7 +12006,7 @@ msgstr "データベースを SQL ファイルからインポート..."
 msgid "Import database from file"
 msgstr "データベースをファイルからインポート"
 
-#: git/git.cpp:1320
+#: git/git.cpp:1324
 msgid "Import files"
 msgstr "ファイルをインポート"
 
@@ -12042,7 +12042,7 @@ msgstr "wxSmith ファイルをインポート (&S)"
 msgid "Importing IDE solution/workspace..."
 msgstr "IDE ソリューション/ワークスペースをインポートしています..."
 
-#: git/git.cpp:1342 LiteEditor/fileview.cpp:1638 LiteEditor/fileview.cpp:1711
+#: git/git.cpp:1346 LiteEditor/fileview.cpp:1638 LiteEditor/fileview.cpp:1711
 msgid "Importing files ..."
 msgstr "ファイルをインポートしています..."
 
@@ -12535,7 +12535,7 @@ msgstr "Java"
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: LiteEditor/cl_editor.cpp:3973 LLDBDebugger/LLDBPlugin.cpp:302
+#: LiteEditor/cl_editor.cpp:3949 LLDBDebugger/LLDBPlugin.cpp:302
 #: Runtime/rc/menu.xrc:624
 msgid "Jump to Caret Line"
 msgstr "キャレットがある行へジャンプ"
@@ -12544,7 +12544,7 @@ msgstr "キャレットがある行へジャンプ"
 msgid "Jump to location"
 msgstr "場所へジャンプ"
 
-#: git/git.cpp:823
+#: git/git.cpp:827
 msgid "Jump to modified file"
 msgstr "変更されたファイルへジャンプ"
 
@@ -12733,7 +12733,7 @@ msgstr "ラベル:"
 msgid "Labels"
 msgstr "ラベル"
 
-#: Plugin/clStatusBar.cpp:465
+#: Plugin/clStatusBar.cpp:476
 msgid "Language"
 msgstr "言語"
 
@@ -13050,7 +13050,7 @@ msgstr "拡張ライブラリのサポートは利用できません"
 msgid "Loading Svn blame dialog...\n"
 msgstr "SVN Blame ダイアログを読み込んでいます...\n"
 
-#: LiteEditor/cl_editor.cpp:3208
+#: LiteEditor/cl_editor.cpp:3184
 msgid "Loading file..."
 msgstr "ファイルを読み込んでいます..."
 
@@ -13529,7 +13529,7 @@ msgstr "メニュー項目がクリックされました"
 msgid "Menu item image"
 msgstr "メニュー項目の画像"
 
-#: git/git.cpp:1552
+#: git/git.cpp:1556
 msgid "Merged after pull. Rebase?"
 msgstr "プル後にマージされました。リベースしますか？"
 
@@ -13658,11 +13658,11 @@ msgstr "変更されたファイル"
 msgid "Modified Paths:"
 msgstr "変更されたパス:"
 
-#: git/git.cpp:823
+#: git/git.cpp:827
 msgid "Modified files"
 msgstr "変更されたファイル"
 
-#: git/git.cpp:613 git/git.cpp:642
+#: git/git.cpp:617 git/git.cpp:646
 msgid "Modified files found! Commit them first before switching branches..."
 msgstr ""
 "変更されたファイルがあります！ブランチを切り替える前に、まず変更をコミットし"
@@ -13676,7 +13676,7 @@ msgstr "変更されたファイル:"
 msgid "Modifiers:"
 msgstr "修飾子:"
 
-#: LiteEditor/cl_editor.cpp:3961
+#: LiteEditor/cl_editor.cpp:3937
 msgid "More Watches"
 msgstr "他のウォッチ"
 
@@ -14430,7 +14430,7 @@ msgstr ""
 msgid "No blank lines before namespace"
 msgstr "名前空間前の空行を削除"
 
-#: LiteEditor/cl_editor.cpp:3782
+#: LiteEditor/cl_editor.cpp:3758
 msgid "No breakpoint found on this line"
 msgstr "この行にブレークポイントは見つかりません"
 
@@ -14478,7 +14478,7 @@ msgstr ""
 msgid "No null property initialization"
 msgstr "プロパティを null で初期化しない"
 
-#: git/git.cpp:619
+#: git/git.cpp:623
 msgid "No other local branches found."
 msgstr "他のローカルブランチが見つかりませんでした。"
 
@@ -14490,11 +14490,11 @@ msgstr "アクティブなプロジェクトがないため、続行できませ
 msgid "No prototypes were found"
 msgstr "プロトタイプ宣言が見つかりませんでした"
 
-#: git/git.cpp:647
+#: git/git.cpp:651
 msgid "No remote branches found."
 msgstr "リモートブランチが見つかりませんでした。"
 
-#: git/git.cpp:733
+#: git/git.cpp:737
 msgid "No remotes found, can't push!"
 msgstr "リモートがないため、プッシュできません！"
 
@@ -14996,7 +14996,7 @@ msgstr "ファイルを開く"
 msgid "Open folder"
 msgstr "フォルダーを開く"
 
-#: git/git.cpp:2356
+#: git/git.cpp:2361
 msgid "Open git bash"
 msgstr "Git Bash を開く"
 
@@ -15261,7 +15261,7 @@ msgstr "上書きしますか？"
 msgid "Overwrite?"
 msgstr "上書きしますか？"
 
-#: codelitephp/php-plugin/php.cpp:515
+#: codelitephp/php-plugin/php.cpp:508
 msgid "P&HP"
 msgstr "PHP (&H)"
 
@@ -15335,7 +15335,7 @@ msgstr "PHP の静的解析"
 msgid "PHP Linter Options"
 msgstr "PHP 静的解析のオプション"
 
-#: codelitephp/php-plugin/php.cpp:82
+#: codelitephp/php-plugin/php.cpp:80
 msgid "PHP Plugin for the codelite IDE"
 msgstr "CodeLite IDE 用の PHP プラグイン"
 
@@ -15363,7 +15363,7 @@ msgstr "PHP リファクタリングのプレビュー"
 msgid "PHP Run / Debug"
 msgstr "PHP の実行 / デバッグ"
 
-#: codelitephp/php-plugin/php.cpp:509
+#: codelitephp/php-plugin/php.cpp:502
 msgid "PHP Settings..."
 msgstr "PHP の設定..."
 
@@ -15656,7 +15656,7 @@ msgstr "適用するパッチファイル"
 msgid "Path"
 msgstr "パス"
 
-#: codelitephp/PHPParser/php_workspace.cpp:610
+#: codelitephp/PHPParser/php_workspace.cpp:615
 msgid "Path '"
 msgstr "パス '"
 
@@ -16968,7 +16968,7 @@ msgstr "プログラムが終了しました。返却コード: "
 msgid "Project"
 msgstr "プロジェクト"
 
-#: codelitephp/PHPParser/php_workspace.cpp:620
+#: codelitephp/PHPParser/php_workspace.cpp:625
 msgid "Project '"
 msgstr "プロジェクト '"
 
@@ -17177,7 +17177,7 @@ msgstr "公開鍵のハッシュ: "
 msgid "Pull"
 msgstr "プル"
 
-#: git/git.cpp:226 git/git.cpp:2332 git/GitConsole.cpp:198
+#: git/git.cpp:226 git/git.cpp:2337 git/GitConsole.cpp:198
 msgid "Pull remote changes"
 msgstr "リモートの変更をプル"
 
@@ -17189,11 +17189,11 @@ msgstr "購入"
 msgid "Purchase wxCrafter"
 msgstr "wxCrafter を購入"
 
-#: git/git.cpp:2340 git/GitConsole.cpp:201
+#: git/git.cpp:2345 git/GitConsole.cpp:201
 msgid "Push"
 msgstr "プッシュ"
 
-#: git/git.cpp:737
+#: git/git.cpp:741
 msgid "Push all local commits?"
 msgstr "全てのローカルコミットをプッシュしますか？"
 
@@ -17311,7 +17311,7 @@ msgstr "'ファイルから検索' 結果の終わりに到達しました"
 msgid "Reached the start of the 'Find In Files' results"
 msgstr "'ファイルから検索' 結果の始まりに到達しました"
 
-#: LanguageServer/LanguageServerCluster.cpp:410 LiteEditor/cl_editor.cpp:3249
+#: LanguageServer/LanguageServerCluster.cpp:410 LiteEditor/cl_editor.cpp:3225
 #: cscope/cscopetab.cpp:63 cscope/cscopetab.cpp:144
 #: Plugin/CompileCommandsGenerator.cpp:44
 msgid "Ready"
@@ -17331,15 +17331,15 @@ msgstr "既定の設定を再読み込み"
 msgid "Reb&uild Project"
 msgstr "プロジェクトを再ビルド (&U)"
 
-#: git/git.cpp:1552 git/git.cpp:1555 git/git.cpp:1559 git/GitConsole.cpp:202
+#: git/git.cpp:1556 git/git.cpp:1559 git/git.cpp:1563 git/GitConsole.cpp:202
 msgid "Rebase"
 msgstr "リベース"
 
-#: git/git.cpp:1559
+#: git/git.cpp:1563
 msgid "Rebase with "
 msgstr "リベース元 "
 
-#: git/git.cpp:1555
+#: git/git.cpp:1559
 msgid "Rebase with what branch?"
 msgstr "どのブランチでリベースしますか？"
 
@@ -17532,7 +17532,7 @@ msgstr "ファイルを再読み込み\tCtrl-R"
 msgid "Reload Modified Files"
 msgstr "変更されたファイルを再読み込み"
 
-#: codelitephp/PHPParser/php_workspace.cpp:483 Runtime/rc/menu.xrc:1044
+#: codelitephp/PHPParser/php_workspace.cpp:488 Runtime/rc/menu.xrc:1044
 msgid "Reload Workspace"
 msgstr "ワークスペースを再読み込み"
 
@@ -17625,7 +17625,7 @@ msgstr "リモートフォルダーのパス:"
 msgid "Remote folder:"
 msgstr "リモートフォルダー:"
 
-#: git/git.cpp:1650
+#: git/git.cpp:1654
 msgid "Remote git error (needs to be handled manually on the remote server)\n"
 msgstr ""
 "リモートの Git エラー (リモートサーバー上での手作業による修正が必要です)\n"
@@ -17670,7 +17670,7 @@ msgstr "@return void|null を phpdoc から削除します。"
 msgid "Remove All &Currently-Active Bookmarks"
 msgstr "現在アクティブなブックマークを全て削除 (&C)"
 
-#: LiteEditor/cl_editor.cpp:3656
+#: LiteEditor/cl_editor.cpp:3632
 msgid "Remove All Bookmarks"
 msgstr "全てのブックマークを削除"
 
@@ -17678,11 +17678,11 @@ msgstr "全てのブックマークを削除"
 msgid "Remove All Currently-Active Bookmarks"
 msgstr "現在アクティブなブックマークを全て削除"
 
-#: LiteEditor/cl_editor.cpp:3655
+#: LiteEditor/cl_editor.cpp:3631
 msgid "Remove Bookmark"
 msgstr "ブックマークを削除"
 
-#: LiteEditor/cl_editor.cpp:3679
+#: LiteEditor/cl_editor.cpp:3655
 msgid "Remove Breakpoint"
 msgstr "ブレークポイントを削除"
 
@@ -17987,11 +17987,11 @@ msgstr "色をリセット"
 msgid "Reset current repository"
 msgstr "現在のリポジトリをリセット"
 
-#: git/git.cpp:2286 git/GitConsole.cpp:401
+#: git/git.cpp:2291 git/GitConsole.cpp:401
 msgid "Reset file"
 msgstr "ファイルをリセット"
 
-#: git/git.cpp:787 git/GitConsole.cpp:195
+#: git/git.cpp:791 git/GitConsole.cpp:195
 msgid "Reset repository"
 msgstr "リポジトリをリセット"
 
@@ -18408,7 +18408,7 @@ msgstr ".sql ファイルに記述されている SQL コマンドを実行"
 msgid "Run Unit tests..."
 msgstr "ユニットテストを実行..."
 
-#: codelitephp/php-plugin/php.cpp:510 codelitephp/php-plugin/php.cpp:511
+#: codelitephp/php-plugin/php.cpp:503 codelitephp/php-plugin/php.cpp:504
 msgid "Run XDebug Setup Wizard..."
 msgstr "XDebug セットアップウィザードを実行..."
 
@@ -18468,12 +18468,12 @@ msgstr "これらの追加チェックを実行:"
 msgid "Run this tool when a file is saved"
 msgstr "ファイルの保存時に実行"
 
-#: LiteEditor/cl_editor.cpp:3972 LLDBDebugger/LLDBPlugin.cpp:305
+#: LiteEditor/cl_editor.cpp:3948 LLDBDebugger/LLDBPlugin.cpp:305
 #: Runtime/rc/menu.xrc:627
 msgid "Run to Caret Line"
 msgstr "キャレットがある行まで実行"
 
-#: LiteEditor/cl_editor.cpp:3692
+#: LiteEditor/cl_editor.cpp:3668
 msgid "Run to here"
 msgstr "ここまで実行"
 
@@ -18787,7 +18787,7 @@ msgstr "名前を付けて保存 (&A)..."
 msgid "Save All"
 msgstr "全て保存"
 
-#: LiteEditor/cl_editor.cpp:1545
+#: LiteEditor/cl_editor.cpp:1536
 msgid "Save As"
 msgstr "名前を付けて保存"
 
@@ -18833,11 +18833,11 @@ msgstr "SQL 作成クエリを保存..."
 msgid "Save a tab group"
 msgstr "タブグループを保存"
 
-#: git/git.cpp:763
+#: git/git.cpp:767
 msgid "Save all changes and pull remote changes?"
 msgstr "全ての変更を保存し、リモートの変更をプルしますか？"
 
-#: git/git.cpp:2221
+#: git/git.cpp:2226
 msgid "Save all changes and rebase?"
 msgstr "全ての変更を保存し、リベースしますか？"
 
@@ -18892,7 +18892,7 @@ msgstr "変更を保存しますか '"
 msgid "Save diagram"
 msgstr "ダイヤグラムを保存"
 
-#: LiteEditor/cl_editor.cpp:1645
+#: LiteEditor/cl_editor.cpp:1636
 msgid "Save file failed!"
 msgstr "ファイルの保存に失敗しました！"
 
@@ -19239,7 +19239,7 @@ msgstr "シンボルを選択"
 msgid "Select Tab"
 msgstr "タブを選択"
 
-#: Plugin/clStatusBar.cpp:596
+#: Plugin/clStatusBar.cpp:609
 msgid "Select Theme: "
 msgstr "テーマを選択: "
 
@@ -19382,7 +19382,7 @@ msgstr "ビットマップを選択:"
 msgid "Select bookmark type:"
 msgstr "ブックマークの種類を選択:"
 
-#: git/git.cpp:623
+#: git/git.cpp:627
 msgid "Select branch (current is "
 msgstr "ブランチを選択 (現在は "
 
@@ -19539,7 +19539,7 @@ msgstr "プロジェクトを選択:"
 msgid "Select projects to insert copyrights block:"
 msgstr "著作権ブロックを挿入するプロジェクトを選択:"
 
-#: git/git.cpp:650
+#: git/git.cpp:654
 msgid "Select remote branch (current is "
 msgstr "リモートブランチを選択 (現在は "
 
@@ -20087,7 +20087,7 @@ msgstr "サイザーの比率を 1 に設定"
 msgid "Set Splitter Left:"
 msgstr "区切りの左寄せ:"
 
-#: Plugin/clStatusBar.cpp:587
+#: Plugin/clStatusBar.cpp:600
 msgid "Set Syntax: "
 msgstr "構文を設定: "
 
@@ -20906,7 +20906,7 @@ msgstr "現在のファイルのレイアウトを表示"
 msgid "Show Effect"
 msgstr "視覚効果"
 
-#: git/git.cpp:2295
+#: git/git.cpp:2300
 msgid "Show Git Blame"
 msgstr "Git Blame を表示"
 
@@ -21048,7 +21048,7 @@ msgstr "差分を表示"
 msgid "Show earlier commit's blame"
 msgstr "前のコミットの Blame を表示"
 
-#: git/git.cpp:2290
+#: git/git.cpp:2295
 msgid "Show file diff"
 msgstr "ファイルの差分を表示"
 
@@ -21516,11 +21516,11 @@ msgid ""
 "other people who are using this workspace:"
 msgstr "このワークスペースの使用者同士で共有する、追加の環境変数を指定します:"
 
-#: git/git.cpp:661
+#: git/git.cpp:665
 msgid "Specify the name for the local branch"
 msgstr "ローカルブランチの名前を指定"
 
-#: git/git.cpp:677
+#: git/git.cpp:681
 msgid "Specify the name of the new branch"
 msgstr "新しいブランチの名前を指定"
 
@@ -21629,11 +21629,11 @@ msgstr "開始時に実行するコマンド"
 msgid "Startup commands:"
 msgstr "開始時に実行するコマンド:"
 
-#: git/git.cpp:2346
+#: git/git.cpp:2351
 msgid "Stash"
 msgstr "スタッシュ"
 
-#: git/git.cpp:2350
+#: git/git.cpp:2355
 msgid "Stash pop"
 msgstr "スタッシュから引き出す"
 
@@ -22075,7 +22075,7 @@ msgstr "スイッチ"
 msgid "Switch URL..."
 msgstr "URL を切り替え..."
 
-#: git/git.cpp:626
+#: git/git.cpp:630
 msgid "Switch branch"
 msgstr "ブランチを切り替え"
 
@@ -22099,15 +22099,15 @@ msgstr "前のタブに切り替え"
 msgid "Switch to local branch"
 msgstr "ローカルブランチに切り替え"
 
-#: git/git.cpp:684
+#: git/git.cpp:688
 msgid "Switch to new branch"
 msgstr "新しいブランチに切り替え"
 
-#: git/git.cpp:684
+#: git/git.cpp:688
 msgid "Switch to new branch once it is created?"
 msgstr "新しく作成したブランチに切り替えますか？"
 
-#: git/git.cpp:653 git/GitConsole.cpp:106
+#: git/git.cpp:657 git/GitConsole.cpp:106
 msgid "Switch to remote branch"
 msgstr "リモートブランチに切り替え"
 
@@ -22426,7 +22426,7 @@ msgstr "テンプレート:"
 msgid "Templates"
 msgstr "テンプレート"
 
-#: LiteEditor/cl_editor.cpp:3751
+#: LiteEditor/cl_editor.cpp:3727
 msgid "Temporary "
 msgstr "一時的な"
 
@@ -22888,7 +22888,7 @@ msgstr ""
 msgid "The executable to run / debug"
 msgstr "実行 / デバッグする実行ファイル"
 
-#: LiteEditor/cl_editor.cpp:1682
+#: LiteEditor/cl_editor.cpp:1673
 msgid "The file\n"
 msgstr "ファイル\n"
 
@@ -24755,8 +24755,8 @@ msgstr "ファイルをロック解除"
 msgid "UnPad Parenthesis"
 msgstr "括弧を詰める"
 
-#: codelitephp/PHPParser/php_workspace.cpp:610
-#: codelitephp/PHPParser/php_workspace.cpp:620
+#: codelitephp/PHPParser/php_workspace.cpp:615
+#: codelitephp/PHPParser/php_workspace.cpp:625
 msgid "Unable to create a project at the selected path\n"
 msgstr "選択したパスにプロジェクトを作成できませんでした\n"
 
@@ -24764,7 +24764,7 @@ msgstr "選択したパスにプロジェクトを作成できませんでした
 msgid "Unable to create a workspace on the root folder"
 msgstr "ルートフォルダーにワークスペースを作成できませんでした"
 
-#: LiteEditor/cl_editor.cpp:1628
+#: LiteEditor/cl_editor.cpp:1619
 #, c-format
 msgid ""
 "Unable to create intermediate file\n"
@@ -24965,7 +24965,7 @@ msgstr "メイン表示領域に行った変更を適用します"
 msgid "Updating database..."
 msgstr "データベースを更新しています..."
 
-#: codelitephp/PHPParser/php_workspace.cpp:289
+#: codelitephp/PHPParser/php_workspace.cpp:294
 msgid "Updating workspace..."
 msgstr "ワークスペースを更新しています..."
 
@@ -25027,7 +25027,7 @@ msgstr "カーソル下の式の評価に Ctrl キーを使用"
 msgid "Use Custom Selection Foreground Colour:"
 msgstr "選択範囲の前景色をカスタマイズ:"
 
-#: Plugin/clStatusBar.cpp:538
+#: Plugin/clStatusBar.cpp:550
 msgid "Use Linux Format (LF)"
 msgstr "Linux 形式 (LF) を使用"
 
@@ -25051,7 +25051,7 @@ msgstr "POSIX ロケールを使用"
 msgid "Use Qt document style"
 msgstr "Qt ドキュメントのスタイルを使用"
 
-#: Plugin/clStatusBar.cpp:494
+#: Plugin/clStatusBar.cpp:505
 msgid "Use Spaces"
 msgstr "スペースを使用"
 
@@ -25059,7 +25059,7 @@ msgstr "スペースを使用"
 msgid "Use Static wxWidgets libraries"
 msgstr "静的な wxWidgets ライブラリを使用"
 
-#: Plugin/clStatusBar.cpp:493
+#: Plugin/clStatusBar.cpp:504
 msgid "Use Tabs"
 msgstr "タブを使用"
 
@@ -25071,7 +25071,7 @@ msgstr "ユニコードビルドの wxWidgets を使用"
 msgid "Use Universal wxWidgets libraries"
 msgstr "ユニバーサルな wxWidgets ライブラリを使用"
 
-#: Plugin/clStatusBar.cpp:539
+#: Plugin/clStatusBar.cpp:551
 msgid "Use Windows Format (CRLF)"
 msgstr "Windows 形式 (CRLF) を使用"
 
@@ -25333,6 +25333,14 @@ msgstr ""
 msgid "Using default options file %s\n"
 msgstr "既定のオプションファイル %s を使用します\n"
 
+#: git/git.cpp:482
+msgid ""
+"Using git\n"
+"Click to open the git view"
+msgstr ""
+"Git を使用しています\n"
+"クリックで Git 表示を開きます"
+
 #: sdk/databaselayer/src/dblayer/SqliteResultSetMetaData.cpp:23
 msgid "VARCHAR"
 msgstr "VARCHAR"
@@ -25541,7 +25549,7 @@ msgstr "警告 : これらの変更を適用すると、自動で元には戻せ
 msgid "Warnings colour"
 msgstr "警告の色"
 
-#: LiteEditor/cl_editor.cpp:4943
+#: LiteEditor/cl_editor.cpp:4892
 msgid "Watch"
 msgstr "ウォッチ"
 
@@ -26150,7 +26158,7 @@ msgstr "作業ディレクトリ"
 msgid "Working Directory:"
 msgstr "作業ディレクトリ:"
 
-#: git/git.cpp:2207 Subversion2/subversion_view.cpp:1287
+#: git/git.cpp:2212 Subversion2/subversion_view.cpp:1287
 msgid "Working copy"
 msgstr "作業コピー"
 
@@ -26217,7 +26225,7 @@ msgstr "ワークスペースの設定..."
 msgid "Workspace View"
 msgstr "ワークスペースビュー"
 
-#: codelitephp/PHPParser/php_workspace.cpp:481
+#: codelitephp/PHPParser/php_workspace.cpp:486
 msgid ""
 "Workspace file modified externally. Would you like to reload the workspace?"
 msgstr ""
@@ -26260,7 +26268,7 @@ msgstr "ワークスペースのタブグループ"
 msgid "Would you like CodeLite to open this file for you?"
 msgstr "このファイルを CodeLite で開きますか？"
 
-#: LiteEditor/cl_editor.cpp:295
+#: LiteEditor/cl_editor.cpp:289
 msgid "Would you like CodeLite to try and remove it?"
 msgstr "CodeLite 側で削除を試みますか？"
 
@@ -26698,7 +26706,7 @@ msgstr "about:blank"
 msgid "address "
 msgstr "アドレス "
 
-#: LiteEditor/cl_editor.cpp:4943
+#: LiteEditor/cl_editor.cpp:4892
 msgid "as"
 msgstr "- 型"
 
@@ -26802,7 +26810,7 @@ msgstr "commit transaction;"
 msgid "cppcheck analysis ended. Found "
 msgstr "C++ チェックの分析が終了しました。"
 
-#: git/git.cpp:1464
+#: git/git.cpp:1468
 msgid "created"
 msgstr "created"
 
@@ -26858,7 +26866,7 @@ msgstr "例: FooDlg"
 msgid "e.g. character 1234 in the file"
 msgstr "例: ファイルの 1234 文字目"
 
-#: git/git.cpp:2488
+#: git/git.cpp:2493
 msgid "error: no commit message given, aborting"
 msgstr "エラー: コミットの説明が未指定のため、中断します"
 
@@ -26889,7 +26897,7 @@ msgstr "false"
 msgid "for building project '"
 msgstr "'"
 
-#: LiteEditor/cl_editor.cpp:300
+#: LiteEditor/cl_editor.cpp:294
 msgid "for write"
 msgstr "を書き込み用に開けませんでした"
 
@@ -26905,7 +26913,7 @@ msgstr "git apply への追加フラグ:"
 msgid "git clone.."
 msgstr "Git クローン.."
 
-#: LiteEditor/cl_editor.cpp:294
+#: LiteEditor/cl_editor.cpp:288
 msgid "has the read-only attribute set"
 msgstr "には読み取り専用の属性が設定されています"
 
@@ -26964,7 +26972,7 @@ msgid ""
 msgstr ""
 "コンパイラーに渡すマクロ (#define) です。セミコロン区切りの一覧で指定します"
 
-#: Plugin/LanguageServerProtocol.cpp:603
+#: Plugin/LanguageServerProtocol.cpp:614
 msgid "method: "
 msgstr "メソッド: "
 
