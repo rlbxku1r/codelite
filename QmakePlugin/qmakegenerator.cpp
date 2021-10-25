@@ -252,12 +252,17 @@ void QMakeProFileGenerator::SetVariables(wxString& pro_file, BuildConfigPtr bldC
     //--------------------------------------------
     wxString libs = bldConf->GetLibraries();
     if(cmp) {
-        wxString libSwitch = cmp->GetSwitch(wxT("Library"));
         wxArrayString libsArr = wxStringTokenize(libs, wxT(";"), wxTOKEN_STRTOK);
         libs.Clear();
 
         for(size_t i = 0; i < libsArr.GetCount(); i++) {
-            libs << libSwitch << libsArr.Item(i) << wxT(" ");
+            const wxString& lib = libsArr.Item(i);
+            wxString libSwitch = cmp->GetSwitch(wxT("Library"));
+            if(lib.EndsWith(wxT(".a")) || lib.EndsWith(wxT(".so")) || lib.EndsWith(wxT(".dylib")) ||
+               lib.EndsWith(wxT(".dll"))) {
+                libSwitch = cmp->GetSwitch(wxT("FullLibrary"));
+            }
+            libs << libSwitch << lib << wxT(" ");
         }
         pro_file << wxT("LIBS           += ") << libs << wxT("\n");
     }

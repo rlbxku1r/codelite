@@ -1179,6 +1179,7 @@ void BuilderGnuMake::CreateConfigsVariables(ProjectPtr proj, BuildConfigPtr bldC
     text << "DebugSwitch            :=" << cmp->GetSwitch("Debug") << "\n";
     text << "IncludeSwitch          :=" << cmp->GetSwitch("Include") << "\n";
     text << "LibrarySwitch          :=" << cmp->GetSwitch("Library") << "\n";
+    text << "FullLibrarySwitch      :=" << cmp->GetSwitch("FullLibrary") << "\n";
     text << "OutputSwitch           :=" << cmp->GetSwitch("Output") << "\n";
     text << "LibraryPathSwitch      :=" << cmp->GetSwitch("LibraryPath") << "\n";
     text << "PreprocessorSwitch     :=" << cmp->GetSwitch("Preprocessor") << "\n";
@@ -1336,18 +1337,17 @@ wxString BuilderGnuMake::ParseLibs(const wxString& libs)
     while(tkz.HasMoreTokens()) {
         wxString lib(tkz.NextToken());
         TrimString(lib);
-        // remove lib prefix
-        if(lib.StartsWith(wxT("lib"))) {
-            lib = lib.Mid(3);
-        }
-
-        // remove known suffixes
         if(lib.EndsWith(wxT(".a")) || lib.EndsWith(wxT(".so")) || lib.EndsWith(wxT(".dylib")) ||
            lib.EndsWith(wxT(".dll"))) {
-            lib = lib.BeforeLast(wxT('.'));
+            // use this library name as-is
+            slibs << wxT("$(FullLibrarySwitch)") << lib << wxT(" ");
+        } else {
+            // remove lib prefix
+            if(lib.StartsWith(wxT("lib"))) {
+                lib = lib.Mid(3);
+            }
+            slibs << wxT("$(LibrarySwitch)") << lib << wxT(" ");
         }
-
-        slibs << wxT("$(LibrarySwitch)") << lib << wxT(" ");
     }
     return slibs;
 }

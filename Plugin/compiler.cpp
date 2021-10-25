@@ -49,6 +49,7 @@ Compiler::Compiler(wxXmlNode* node, Compiler::eRegexType regexType)
     SetSwitch("Debug", "");
     SetSwitch("Preprocessor", "");
     SetSwitch("Library", "");
+    SetSwitch("FullLibrary", "");
     SetSwitch("LibraryPath", "");
     SetSwitch("Source", "");
     SetSwitch("Output", "");
@@ -220,6 +221,7 @@ Compiler::Compiler(wxXmlNode* node, Compiler::eRegexType regexType)
         SetSwitch("Debug", "-g ");
         SetSwitch("Preprocessor", "-D");
         SetSwitch("Library", "-l");
+        SetSwitch("FullLibrary", "-l:");
         SetSwitch("LibraryPath", "-L");
         SetSwitch("Source", "-c ");
         SetSwitch("Output", "-o ");

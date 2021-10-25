@@ -1238,6 +1238,7 @@ void BuilderNMake::CreateConfigsVariables(ProjectPtr proj, BuildConfigPtr bldCon
     text << wxT("DebugSwitch            =") << cmp->GetSwitch(wxT("Debug")) << wxT("\n");
     text << wxT("IncludeSwitch          =") << cmp->GetSwitch(wxT("Include")) << wxT("\n");
     text << wxT("LibrarySwitch          =") << cmp->GetSwitch(wxT("Library")) << wxT("\n");
+    text << wxT("FullLibrarySwitch      =") << cmp->GetSwitch(wxT("FullLibrary")) << wxT("\n");
     text << wxT("OutputSwitch           =") << cmp->GetSwitch(wxT("Output")) << wxT("\n");
     text << wxT("LibraryPathSwitch      =") << cmp->GetSwitch(wxT("LibraryPath")) << wxT("\n");
     text << wxT("PreprocessorSwitch     =") << cmp->GetSwitch(wxT("Preprocessor")) << wxT("\n");
@@ -1435,18 +1436,17 @@ wxString BuilderNMake::ParseLibs(const wxString& libs)
     while(tkz.HasMoreTokens()) {
         wxString lib(tkz.NextToken());
         TrimString(lib);
-        // remove lib prefix
-        if(lib.StartsWith(wxT("lib"))) {
-            lib = lib.Mid(3);
-        }
-
-        // remove known suffixes
         if(lib.EndsWith(wxT(".a")) || lib.EndsWith(wxT(".so")) || lib.EndsWith(wxT(".dylib")) ||
            lib.EndsWith(wxT(".dll"))) {
-            lib = lib.BeforeLast(wxT('.'));
+            // use this library name as-is
+            slibs << wxT("$(FullLibrarySwitch)") << lib << wxT(" ");
+        } else {
+            // remove lib prefix
+            if(lib.StartsWith(wxT("lib"))) {
+                lib = lib.Mid(3);
+            }
+            slibs << wxT("$(LibrarySwitch)") << lib << wxT(" ");
         }
-
-        slibs << wxT("$(LibrarySwitch)") << lib << wxT(" ");
     }
     return slibs;
 }

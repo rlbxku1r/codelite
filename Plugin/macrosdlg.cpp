@@ -124,6 +124,7 @@ void MacrosDlg::Initialize()
         AddMacro(wxT("$(PreprocessSuffix)"), _("Objects suffix (usually set to .o.i)"));
         AddMacro(wxT("$(IncludeSwitch)"), _("The compiler include switch"));
         AddMacro(wxT("$(LibrarySwitch)"), _("The library switch (e.g. -l)"));
+        AddMacro(wxT("$(FullLibrarySwitch)"), _("The full library switch (e.g. -l:)"));
         AddMacro(wxT("$(OutputSwitch)"), _("The output switch (e.g. -o)"));
         AddMacro(wxT("$(LibraryPathSwitch)"), _("Library switch (e.g. -L)"));
         AddMacro(wxT("$(PreprocessorSwitch)"), _("Preprocessor switch (e.g. -D)"));
@@ -135,7 +136,8 @@ void MacrosDlg::Initialize()
         AddMacro(wxT("$(LinkOptions)"), _("The linker options as set in the project settings"));
         AddMacro(wxT("$(IncludePath)"), _("All include paths prefixed with $(IncludeSwitch)"));
         AddMacro(wxT("$(RcIncludePath)"), _("Resource compiler include path as set in the project settings"));
-        AddMacro(wxT("$(Libs)"), _("List of libraries to link with. Each library is prefixed with $(LibrarySwitch)"));
+        AddMacro(wxT("$(Libs)"), _("List of libraries to link with. Each library is prefixed with $(LibrarySwitch) or "
+                                   "$(FullLibrarySwitch)"));
         AddMacro(wxT("$(LibPath)"),
                  _("List of library paths to link with. Each library is prefixed with $(LibraryPathSwitch)"));
         AddMacro(wxT("$(ProjectOutputFile)"), _("The output file"));

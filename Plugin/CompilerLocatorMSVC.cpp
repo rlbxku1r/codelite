@@ -110,6 +110,7 @@ void CompilerLocatorMSVC::AddTools(const wxString& masterFolder,
     compiler->SetSwitch("Debug", "/Zi ");
     compiler->SetSwitch("Include", "/I");
     compiler->SetSwitch("Library", " ");
+    compiler->SetSwitch("FullLibrary", " ");
     compiler->SetSwitch("LibraryPath", "/LIBPATH:");
     compiler->SetSwitch("Object", "/Fo");
     compiler->SetSwitch("Output", "/OUT:");
