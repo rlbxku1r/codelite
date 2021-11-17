@@ -2034,6 +2034,7 @@ void Project::CreateCompileFlags(const wxStringMap_t& compilersGlobalPaths)
     std::vector<wxString> pathsVec;
     wxString compile_flags_content;
     wxString cxxStandard;
+    wxArrayString otherOptions;
     if(buildConf->IsCustomBuild() && (buildConf->GetBuilder() != "CMake")) {
         // Probably just plain old Makefile build system
         CHECK_PTR_RET(GetWorkspace());
@@ -2075,6 +2076,9 @@ void Project::CreateCompileFlags(const wxStringMap_t& compilersGlobalPaths)
         // Keep the standard
         cxxStandard = cxxParser.GetStandardWithPrefix();
 
+        // Remember other C++ compiler options as well
+        otherOptions = cxxParser.GetOtherOptions();
+
         ProcessMacros(cxxParser.GetMacrosWithPrefix(), macroSet);
         ProcessMacros(cParser.GetMacrosWithPrefix(), macroSet);
     }
@@ -2101,6 +2105,10 @@ void Project::CreateCompileFlags(const wxStringMap_t& compilersGlobalPaths)
     // Check if standard passed
     if(!cxxStandard.empty()) {
         compile_flags_content << cxxStandard << "\n";
+    }
+
+    for(const wxString& option : otherOptions) {
+        compile_flags_content << option << "\n";
     }
 
     // Add the target flag
