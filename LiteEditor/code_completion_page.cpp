@@ -94,6 +94,8 @@ void CodeCompletionPage::Save()
 
         if(m_checkBoxSWTLW->IsChecked())
             flags |= LocalWorkspace::EnableSWTLW;
+        if(m_checkBoxForceCpp->IsChecked())
+            flags |= LocalWorkspace::EnableForceCpp;
         lw->SetParserFlags(flags);
         lw->Flush();
     }

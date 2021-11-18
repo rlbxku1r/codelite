@@ -92,7 +92,9 @@ protected:
     wxStaticText* m_staticText12;
     wxStyledTextCtrl* m_textCtrlMacros;
     wxChoice* m_choiceStandard;
+    wxBoxSizer* boxSizer19;
     wxCheckBox* m_checkBoxSWTLW;
+    wxCheckBox* m_checkBoxForceCpp;
 
 protected:
     virtual void OnCCContentModified(wxStyledTextEvent& event) { event.Skip(); }
@@ -107,6 +109,7 @@ public:
     wxSplitterWindow* GetSplitter1() { return m_splitter1; }
     wxChoice* GetChoiceStandard() { return m_choiceStandard; }
     wxCheckBox* GetCheckBoxSWTLW() { return m_checkBoxSWTLW; }
+    wxCheckBox* GetCheckBoxForceCpp() { return m_checkBoxForceCpp; }
     CodeCompletionBasePage(wxWindow* parent, wxWindowID id = wxID_ANY, const wxPoint& pos = wxDefaultPosition,
                            const wxSize& size = wxSize(-1, -1), long style = wxTAB_TRAVERSAL);
     virtual ~CodeCompletionBasePage();

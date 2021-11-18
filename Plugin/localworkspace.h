@@ -241,6 +241,7 @@ public:
         EnableCpp17 = 0x00000004,
         EnableSWTLW = 0x00000008, // Save Parse folders to Workspace file.
         EnableCpp20 = 0x00000010,
+        EnableForceCpp = 0x00000020,
     };
 
 private:

@@ -2107,6 +2107,12 @@ void Project::CreateCompileFlags(const wxStringMap_t& compilersGlobalPaths)
         compile_flags_content << cxxStandard << "\n";
     }
 
+    // Handle C files as C++
+    if(GetWorkspace()->GetLocalWorkspace()->GetParserFlags() & LocalWorkspace::EnableForceCpp) {
+        compile_flags_content << "-xc++\n";
+    }
+
+    // Other compiler options
     for(const wxString& option : otherOptions) {
         compile_flags_content << option << "\n";
     }
@@ -2116,9 +2122,6 @@ void Project::CreateCompileFlags(const wxStringMap_t& compilersGlobalPaths)
         GCCMetadata cmd = cmp->GetMetadata();
         compile_flags_content << "-target\n" << cmd.GetTarget() << "\n";
     }
-
-    // Handle h files as C++ headers
-    // compile_flags_content << "-x c++-header\n";
 
     // Write the file content
     wxFileName compile_flags(GetFileName());

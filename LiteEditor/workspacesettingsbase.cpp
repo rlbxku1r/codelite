@@ -286,13 +286,24 @@ CodeCompletionBasePage::CodeCompletionBasePage(wxWindow* parent, wxWindowID id, 
 
     bSizer9->Add(m_choiceStandard, 0, wxALL | wxEXPAND, WXC_FROM_DIP(5));
 
+    boxSizer19 = new wxBoxSizer(wxHORIZONTAL);
+
+    bSizer9->Add(boxSizer19, 0, wxALL | wxEXPAND, WXC_FROM_DIP(5));
+
     m_checkBoxSWTLW = new wxCheckBox(this, wxID_ANY, _("Sync to Workspace File"), wxDefaultPosition,
                                      wxDLG_UNIT(this, wxSize(-1, -1)), 0);
     m_checkBoxSWTLW->SetValue(false);
     m_checkBoxSWTLW->SetToolTip(_("When enabled search paths folders for Code Completion will be synced between the "
                                   "Workspace file and the local search paths database."));
 
-    bSizer9->Add(m_checkBoxSWTLW, 0, wxALL, WXC_FROM_DIP(5));
+    boxSizer19->Add(m_checkBoxSWTLW, 0, wxALL, WXC_FROM_DIP(5));
+
+    m_checkBoxForceCpp = new wxCheckBox(this, wxID_ANY, _("Handle .c and .h as C++ file"), wxDefaultPosition,
+                                        wxDLG_UNIT(this, wxSize(-1, -1)), 0);
+    m_checkBoxForceCpp->SetValue(false);
+    m_checkBoxForceCpp->SetToolTip(_("When enabled foo.c and foo.h will be handled as C++ file."));
+
+    boxSizer19->Add(m_checkBoxForceCpp, 0, wxALL, WXC_FROM_DIP(5));
 
     SetName(wxT("CodeCompletionBasePage"));
     SetSize(wxDLG_UNIT(this, wxSize(-1, -1)));
