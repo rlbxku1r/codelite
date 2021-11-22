@@ -101,8 +101,7 @@
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Win_x86_Release">
-      <Environment>WXWIN=C:\src\wxWidgets32
-WXCFG=gcc_dll\mswu</Environment>
+      <Environment/>
       <Project Name="abbreviation" ConfigName="Win_x86_Release"/>
       <Project Name="AutoSave" ConfigName="Win_x86_Release"/>
       <Project Name="CallGraph" ConfigName="Win_x86_Release"/>
@@ -490,8 +489,7 @@ WXCFG=gcc_dll\mswu</Environment>
       <Project Name="ctagsdlib" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Win_x64_Release">
-      <Environment>WXWIN=C:/msys64/home/eran/root
-WXCFG=gcc_x64_dll/mswu</Environment>
+      <Environment/>
       <Project Name="abbreviation" ConfigName="Win_x64_Release"/>
       <Project Name="AutoSave" ConfigName="Win_x64_Release"/>
       <Project Name="CallGraph" ConfigName="Win_x64_Release"/>
@@ -568,8 +566,7 @@ WXCFG=gcc_x64_dll/mswu</Environment>
       <Project Name="ZoomNavigator" ConfigName="Win_x64_Release"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Win_x64_Debug">
-      <Environment>WXWIN=C:/msys64/home/eran/root&#xD;
-WXCFG=gcc_x64_dll/mswu</Environment>
+      <Environment/>
       <Project Name="abbreviation" ConfigName="Win_x64_Debug"/>
       <Project Name="AutoSave" ConfigName="Win_x64_Debug"/>
       <Project Name="CallGraph" ConfigName="Win_x64_Debug"/>
