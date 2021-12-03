@@ -211,6 +211,7 @@ typedef struct sStatementInfo {
     boolean      isNamespacAlias;/* is this a namespace alias? */
     char         namespaceAlias[256]; /* namespace alias */
     boolean      isNestedNamespace;
+    boolean      inUnnamedNamespace; /* are we inside of an unnamed namespace? */
     vString*     usingAlias;
     struct sStatementInfo *parent;  /* statement we are nested within */
 } statementInfo;
@@ -786,11 +787,14 @@ static void reinitStatement (statementInfo *const st, const boolean partial)
     st->tokenIndex		= 0;
     st->isNamespacAlias = FALSE;
     st->isNestedNamespace = FALSE;
+    st->inUnnamedNamespace = FALSE;
 
     memset(st->namespaceAlias, 0, sizeof(st->namespaceAlias));
 
-    if (st->parent != NULL)
-        st->inFunction = st->parent->inFunction;
+    if (st->parent != NULL) {
+        st->inFunction         = st->parent->inFunction;
+        st->inUnnamedNamespace = st->parent->inUnnamedNamespace;
+    }
 
     for (i = 0  ;  i < (unsigned int) NumTokens  ;  ++i)
         initToken (st->token [i]);
@@ -804,7 +808,7 @@ static void reinitStatement (statementInfo *const st, const boolean partial)
         initToken (st->blockName);
 
     vStringClear (st->parentClasses);
-    vStringClear(st->usingAlias);
+    vStringClear (st->usingAlias);
     /*  Init member info.
      */
     if (! partial)
@@ -1225,6 +1229,11 @@ static void findScopeHierarchy (vString *const string,
             if (isContextualStatement (s) ||
                 s->declaration == DECL_NAMESPACE ||
                 s->declaration == DECL_PROGRAM) {
+                if (st->declaration == DECL_NAMESPACE &&
+                    ! isType (s->blockName, TOKEN_NAME)) {
+                    // C++ unnamed namespace, skip.
+                    continue;
+                }
                 vStringCopy (temp, string);
                 vStringClear (string);
                 Assert (isType (s->blockName, TOKEN_NAME));
@@ -1304,7 +1313,7 @@ static void makeTag (const tokenInfo *const token,
 {
     /*  Nothing is really of file scope when it appears in a header file.
      */
-    isFileScope = (boolean) (isFileScope && ! isHeaderFile ());
+    isFileScope = (boolean) ((isFileScope || st->inUnnamedNamespace) && ! isHeaderFile ());
 
     if ((isType (token, TOKEN_NAME)  &&  vStringLength (token->name) > 0  && includeTag (type, isFileScope)) ||
         st->isNamespacAlias == TRUE) {
@@ -3151,9 +3160,13 @@ static void tagCheck (statementInfo *const st)
         } else if (isContextualStatement (st) ||
                    st->declaration == DECL_NAMESPACE ||
                    st->declaration == DECL_PROGRAM) {
-            if (isType (prev, TOKEN_NAME))
+            if (isType (prev, TOKEN_NAME)) {
                 copyToken (st->blockName, prev);
-            else {
+                qualifyBlockTag (st, prev);
+            } else if (st->declaration == DECL_NAMESPACE) {
+                // C++ unnamed namespace, do nothing here.
+                st->inUnnamedNamespace = TRUE;
+            } else {
                 /*  For an anonymous struct or union we use a unique ID
                  *  a number, so that the members can be found.
                  */
@@ -3163,7 +3176,6 @@ static void tagCheck (statementInfo *const st)
                 st->blockName->type = TOKEN_NAME;
                 st->blockName->keyword = KEYWORD_NONE;
             }
-            qualifyBlockTag (st, prev);
         } else if ( isType(prev, TOKEN_NAME) && isCppDataTypeKeyword(prev2->keyword) ) {
             // C++11 variable
             // <type> <name> { ... }
