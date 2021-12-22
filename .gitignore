@@ -9,6 +9,7 @@
 .cache/
 .clangd/
 .codelite/
+.ctagsd/
 /build-release/
 Debug/
 Makefile
