@@ -25,6 +25,7 @@
 
 #include "CodeLiteIndexer.hpp"
 #include "ColoursAndFontsManager.h"
+#include "CompilersDetectorManager.h"
 #include "CompilersFoundDlg.h"
 #include "DebuggerToolBar.h"
 #include "GCCMetadata.hpp"
@@ -60,6 +61,7 @@
 #include "code_completion_manager.h"
 #include "console_frame.h"
 #include "context_cpp.h"
+#include "cpptoken.h"
 #include "event_notifier.h"
 #include "file_logger.h"
 #include "fileutils.h"
@@ -76,13 +78,12 @@
 #include "wxCustomControls.hpp"
 #include "wxCustomStatusBar.h"
 
-#include <CompilersDetectorManager.h>
 #include <algorithm>
 #include <array>
-#include <cpptoken.h>
 #include <wx/bookctrl.h>
 #include <wx/busyinfo.h>
 #include <wx/dcbuffer.h>
+#include <wx/msgdlg.h>
 #include <wx/richmsgdlg.h>
 #include <wx/settings.h>
 #include <wx/splash.h>
@@ -157,8 +158,6 @@
 #include "webupdatethread.h"
 #include "workspace_pane.h"
 #include "workspacetab.h"
-
-#include <wx/msgdlg.h>
 
 //////////////////////////////////////////////////
 

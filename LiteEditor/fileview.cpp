@@ -23,6 +23,7 @@
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 #include "fileview.h"
+
 #include "BuildOrderDialog.h"
 #include "ICompilerLocator.h"
 #include "ImportFilesDialogNew.h"
@@ -60,14 +61,14 @@
 #include "tree.h"
 #include "workspacesettingsdlg.h"
 #include "workspacetab.h"
-#include "wx/imaglist.h"
 #include "wxStringHash.h"
+
 #include <algorithm>
 #include <deque>
-#include <project.h>
 #include <queue>
 #include <wx/colordlg.h>
 #include <wx/filedlg.h>
+#include <wx/imaglist.h>
 #include <wx/mimetype.h>
 #include <wx/msgdlg.h>
 #include <wx/progdlg.h>
@@ -85,6 +86,7 @@ EVT_TREE_END_DRAG(wxID_ANY, FileViewTree::OnItemEndDrag)
 EVT_TREE_ITEM_MENU(wxID_ANY, FileViewTree::OnPopupMenu)
 EVT_TREE_SEL_CHANGED(wxID_ANY, FileViewTree::OnSelectionChanged)
 
+EVT_MENU(XRCID("rename_workspace"), FileViewTree::OnRenameWorkspace)
 EVT_MENU(XRCID("local_workspace_prefs"), FileViewTree::OnLocalPrefs)
 EVT_MENU(XRCID("local_workspace_settings"), FileViewTree::OnLocalWorkspaceSettings)
 EVT_MENU(XRCID("remove_project"), FileViewTree::OnRemoveProject)
@@ -124,6 +126,7 @@ EVT_MENU(XRCID("colour_virtual_folder"), FileViewTree::OnSetBgColourVirtualFolde
 EVT_MENU(XRCID("clear_virtual_folder_colour"), FileViewTree::OnClearBgColourVirtualFolder)
 EVT_MENU(XRCID("open_with_default_application"), FileViewTree::OnOpenWithDefaultApplication)
 
+EVT_UPDATE_UI(XRCID("rename_workspace"), FileViewTree::OnBuildInProgress)
 EVT_UPDATE_UI(XRCID("remove_project"), FileViewTree::OnBuildInProgress)
 EVT_UPDATE_UI(XRCID("rename_project"), FileViewTree::OnBuildInProgress)
 EVT_UPDATE_UI(XRCID("set_as_active"), FileViewTree::OnBuildInProgress)
@@ -2018,6 +2021,27 @@ void FileViewTree::OnRebuildProjectOnly(wxCommandEvent& event)
     }
 }
 
+void FileViewTree::OnRenameWorkspace(wxCommandEvent& e)
+{
+    if(clCxxWorkspaceST::Get()->IsOpen()) {
+        wxString newname = ::wxGetTextFromUser(_("New workspace name:"), _("Rename workspace"));
+        newname.Trim().Trim(false);
+        CHECK_COND_RET(!newname.IsEmpty());
+
+        wxString oldname = clCxxWorkspaceST::Get()->GetName();
+        // If the new name and the old name are the same, do nothing
+        if(oldname == newname) {
+            return;
+        }
+
+        // Update the name and save workspace file
+        clCxxWorkspaceST::Get()->SetName(newname);
+
+        // Reload the view
+        CallAfter(&FileViewTree::BuildTree);
+    }
+}
+
 void FileViewTree::OnLocalWorkspaceSettings(wxCommandEvent& e)
 {
     if(ManagerST::Get()->IsWorkspaceOpen()) {
@@ -2252,7 +2276,7 @@ void FileViewTree::OnRenameProject(wxCommandEvent& event)
 
     FilewViewTreeItemData* data = static_cast<FilewViewTreeItemData*>(GetItemData(item));
     if(data->GetData().GetKind() == ProjectItem::TypeProject) {
-        wxString newname = ::wxGetTextFromUser(_("Project new name:"), _("Rename project"));
+        wxString newname = ::wxGetTextFromUser(_("New project name:"), _("Rename project"));
         newname.Trim().Trim(false);
         CHECK_COND_RET(!newname.IsEmpty());
 
@@ -2723,6 +2747,7 @@ void FileViewTree::DoBindEvents()
     frame->Bind(wxEVT_MENU, &FileViewTree::OnWorkspaceNewWorkspaceFolder, this, XRCID("add_workspace_folder"));
     frame->Bind(wxEVT_MENU, &FileViewTree::OnNewProject, this, XRCID("new_cxx_project"));
     frame->Bind(wxEVT_MENU, &FileViewTree::OnAddProjectToWorkspaceFolder, this, XRCID("add_existing_cxx_project"));
+    m_eventsBound = true;
 }
 
 void FileViewTree::DoUnbindEvents()

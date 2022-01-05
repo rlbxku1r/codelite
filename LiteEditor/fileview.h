@@ -25,15 +25,16 @@
 #ifndef FILE_VIEW_TREE_H
 #define FILE_VIEW_TREE_H
 
+#include "VirtualDirectoryColour.h"
 #include "clThemedTreeCtrl.h"
 #include "clTreeCtrlColourHelper.h"
 #include "imanager.h"
-#include "map"
 #include "pluginmanager.h"
 #include "project.h"
-#include "wx/treectrl.h"
 #include "wxStringHash.h"
-#include <VirtualDirectoryColour.h>
+
+#include <map>
+#include <wx/treectrl.h>
 
 class wxMenu;
 
@@ -185,6 +186,7 @@ protected:
     virtual void OnSetBgColourVirtualFolder(wxCommandEvent& e);
     virtual void OnClearBgColourVirtualFolder(wxCommandEvent& e);
     virtual wxTreeItemId ItemByFullPath(const wxString& fullPath);
+    virtual void OnRenameWorkspace(wxCommandEvent& e);
     virtual void OnLocalWorkspaceSettings(wxCommandEvent& e);
     virtual void OnOpenWithDefaultApplication(wxCommandEvent& event);
     virtual void OnBuildTree(wxCommandEvent& e);

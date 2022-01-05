@@ -40,13 +40,13 @@
 #include "macros.h"
 #include "plugin.h"
 #include "project.h"
-#include "wx/regex.h"
 #include "wx_xml_compatibility.h"
 #include "xmlutils.h"
 
 #include <wx/app.h>
 #include <wx/log.h>
 #include <wx/msgdlg.h>
+#include <wx/regex.h>
 #include <wx/sstream.h>
 #include <wx/stc/stc.h>
 #include <wx/thread.h>
@@ -76,6 +76,14 @@ wxString clCxxWorkspace::GetName() const
         return XmlUtils::ReadString(m_doc.GetRoot(), wxT("Name"));
     }
     return wxEmptyString;
+}
+
+void clCxxWorkspace::SetName(const wxString& name)
+{
+    if(m_doc.IsOk()) {
+        XmlUtils::UpdateProperty(m_doc.GetRoot(), wxT("Name"), name);
+        SaveXmlFile();
+    }
 }
 
 void clCxxWorkspace::CloseWorkspace()
