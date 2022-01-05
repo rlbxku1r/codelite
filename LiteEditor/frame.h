@@ -656,6 +656,7 @@ protected:
     void OnActiveEditorChanged(wxCommandEvent& e);
     void OnWorkspaceLoaded(clWorkspaceEvent& e);
     void OnWorkspaceClosed(clWorkspaceEvent& e);
+    void OnWorkspaceRenamed(clCommandEvent& event);
     void OnRefactoringCacheStatus(wxCommandEvent& e);
     void OnChangeActiveBookmarkType(wxCommandEvent& e);
     void OnSettingsChanged(wxCommandEvent& e);

@@ -797,6 +797,7 @@ clMainFrame::clMainFrame(wxWindow* pParent, wxWindowID id, const wxString& title
     EventNotifier::Get()->Bind(wxEVT_BUILD_PROCESS_ENDED, &clMainFrame::OnBuildEnded, this);
     EventNotifier::Get()->Bind(wxEVT_WORKSPACE_LOADED, &clMainFrame::OnWorkspaceLoaded, this);
     EventNotifier::Get()->Bind(wxEVT_WORKSPACE_CLOSED, &clMainFrame::OnWorkspaceClosed, this);
+    EventNotifier::Get()->Bind(wxEVT_WORKSPACE_RENAMED, &clMainFrame::OnWorkspaceRenamed, this);
     EventNotifier::Get()->Connect(wxEVT_CL_THEME_CHANGED, wxCommandEventHandler(clMainFrame::OnThemeChanged), NULL,
                                   this);
     EventNotifier::Get()->Connect(wxEVT_ACTIVE_EDITOR_CHANGED,
@@ -887,6 +888,7 @@ clMainFrame::~clMainFrame(void)
     EventNotifier::Get()->Disconnect(wxEVT_LOAD_SESSION, wxCommandEventHandler(clMainFrame::OnLoadSession), NULL, this);
     EventNotifier::Get()->Unbind(wxEVT_WORKSPACE_LOADED, &clMainFrame::OnWorkspaceLoaded, this);
     EventNotifier::Get()->Unbind(wxEVT_WORKSPACE_CLOSED, &clMainFrame::OnWorkspaceClosed, this);
+    EventNotifier::Get()->Unbind(wxEVT_WORKSPACE_RENAMED, &clMainFrame::OnWorkspaceRenamed, this);
     EventNotifier::Get()->Disconnect(wxEVT_CL_THEME_CHANGED, wxCommandEventHandler(clMainFrame::OnThemeChanged), NULL,
                                      this);
     EventNotifier::Get()->Disconnect(wxEVT_ACTIVE_EDITOR_CHANGED,
@@ -5277,6 +5279,12 @@ void clMainFrame::OnSplitSelectionUI(wxUpdateUIEvent& event)
 {
     clEditor* editor = GetMainBook()->GetActiveEditor(true);
     event.Enable(editor && editor->HasSelection());
+}
+
+void clMainFrame::OnWorkspaceRenamed(clCommandEvent& event)
+{
+    event.Skip();
+    SetFrameTitle(GetMainBook()->GetActiveEditor());
 }
 
 void clMainFrame::OnProjectRenamed(clCommandEvent& event)

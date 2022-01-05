@@ -25,10 +25,6 @@
 #ifndef MANAGER_H
 #define MANAGER_H
 
-#include <list>
-#include <map>
-#include <wx/event.h>
-
 #include "async_executable_cmd.h"
 #include "breakpointsmgr.h"
 #include "clDebuggerTerminal.h"
@@ -42,6 +38,10 @@
 #include "shell_command.h"
 #include "singleton.h"
 #include "workspace.h"
+
+#include <list>
+#include <map>
+#include <wx/event.h>
 
 class clEditor;
 class IProcess;
@@ -231,6 +231,11 @@ protected:
     void DoSetupWorkspace(const wxString& path);
 
     void OnAddWorkspaceToRecentlyUsedList(wxCommandEvent& e);
+
+    /**
+     * @brief a workspace was renamed, reload the workspace
+     */
+    void OnWorkspaceRenamed(clCommandEvent& event);
 
     /**
      * @brief a project was renamed, reload the workspace

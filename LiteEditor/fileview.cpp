@@ -2034,11 +2034,8 @@ void FileViewTree::OnRenameWorkspace(wxCommandEvent& e)
             return;
         }
 
-        // Update the name and save workspace file
+        // Calling 'SetName' will trigger a wxEVT_WORKSPACE_RENAMED event
         clCxxWorkspaceST::Get()->SetName(newname);
-
-        // Reload the view
-        CallAfter(&FileViewTree::BuildTree);
     }
 }
 

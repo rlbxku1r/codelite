@@ -81,8 +81,14 @@ wxString clCxxWorkspace::GetName() const
 void clCxxWorkspace::SetName(const wxString& name)
 {
     if(m_doc.IsOk()) {
+        wxString oldname = GetName();
         XmlUtils::UpdateProperty(m_doc.GetRoot(), wxT("Name"), name);
         SaveXmlFile();
+
+        clCommandEvent event(wxEVT_WORKSPACE_RENAMED);
+        event.SetOldName(oldname);
+        event.SetString(name);
+        EventNotifier::Get()->AddPendingEvent(event);
     }
 }
 

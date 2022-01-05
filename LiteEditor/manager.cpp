@@ -209,6 +209,7 @@ Manager::Manager(void)
     Connect(wxEVT_CMD_RESTART_CODELITE, wxCommandEventHandler(Manager::OnCmdRestart), NULL, this);
     Connect(wxEVT_CMD_DB_CONTENT_CACHE_COMPLETED, wxCommandEventHandler(Manager::OnDbContentCacherLoaded), NULL, this);
 
+    EventNotifier::Get()->Bind(wxEVT_WORKSPACE_RENAMED, &Manager::OnWorkspaceRenamed, this);
     EventNotifier::Get()->Connect(wxEVT_CMD_PROJ_SETTINGS_SAVED,
                                   clProjectSettingsEventHandler(Manager::OnProjectSettingsModified), NULL, this);
     EventNotifier::Get()->Connect(wxEVT_BUILD_ENDED, clBuildEventHandler(Manager::OnBuildEnded), NULL, this);
@@ -242,6 +243,7 @@ Manager::~Manager(void)
 
     Disconnect(wxEVT_CMD_RESTART_CODELITE, wxCommandEventHandler(Manager::OnCmdRestart), NULL, this);
 
+    EventNotifier::Get()->Unbind(wxEVT_WORKSPACE_RENAMED, &Manager::OnWorkspaceRenamed, this);
     EventNotifier::Get()->Disconnect(wxEVT_CMD_PROJ_SETTINGS_SAVED,
                                      clProjectSettingsEventHandler(Manager::OnProjectSettingsModified), NULL, this);
     EventNotifier::Get()->Disconnect(wxEVT_BUILD_ENDED, clBuildEventHandler(Manager::OnBuildEnded), NULL, this);
@@ -3475,6 +3477,14 @@ bool Manager::StartTTY(const wxString& title, wxString& tty)
     wxUnusedVar(tty);
     return false;
 #endif
+}
+
+void Manager::OnWorkspaceRenamed(clCommandEvent& event)
+{
+    event.Skip();
+    if(clCxxWorkspaceST::Get()->IsOpen()) {
+        ReloadWorkspace();
+    }
 }
 
 void Manager::OnProjectRenamed(clCommandEvent& event)
