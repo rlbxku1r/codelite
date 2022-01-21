@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 00:49+0900\n"
-"PO-Revision-Date: 2022-01-21 00:52+0900\n"
+"POT-Creation-Date: 2022-01-21 22:14+0900\n"
+"PO-Revision-Date: 2022-01-21 22:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -2900,7 +2900,7 @@ msgid "Print preview"
 msgstr "印刷プレビュー"
 
 #: DatabaseExplorer/ErdPanel.cpp:188 DatabaseExplorer/FrameCanvas.cpp:173
-#: LiteEditor/BuildTab.cpp:286 LiteEditor/frame.cpp:999
+#: LiteEditor/BuildTab.cpp:288 LiteEditor/frame.cpp:999
 #: LiteEditor/frame.cpp:1537 LiteEditor/project_settings_base_dlg.cpp:313
 #: Runtime/rc/menu.xrc:877 Runtime/rc/menu.xrc:922 Runtime/rc/menu.xrc:1085
 #: wxcrafter/allocator_mgr.cpp:1092
@@ -4264,7 +4264,7 @@ msgstr "クラス名:"
 msgid "The class name"
 msgstr "クラス名"
 
-#: Gizmos/newclassbasedlg.cpp:49 Plugin/newkeyshortcutdlg.cpp:91
+#: Gizmos/newclassbasedlg.cpp:49 Plugin/newkeyshortcutdlg.cpp:89
 msgid "*"
 msgstr "*"
 
@@ -5379,55 +5379,55 @@ msgid ""
 msgstr ""
 "保存されていない変更があります。構成を切り替える前に、変更を保存しますか？"
 
-#: LiteEditor/BuildTab.cpp:289
+#: LiteEditor/BuildTab.cpp:291
 msgid "Copy all"
 msgstr "全てコピー"
 
-#: LiteEditor/BuildTab.cpp:355
+#: LiteEditor/BuildTab.cpp:357
 msgid "A file with the same name already exists, continue?"
 msgstr "同じ名前のファイルが既に存在します。続行しますか？"
 
-#: LiteEditor/BuildTab.cpp:403
+#: LiteEditor/BuildTab.cpp:405
 msgid "total time"
 msgstr "合計時間"
 
-#: LiteEditor/BuildTab.cpp:404
+#: LiteEditor/BuildTab.cpp:406
 msgid "seconds"
 msgstr "秒"
 
-#: LiteEditor/BuildTab.cpp:410
+#: LiteEditor/BuildTab.cpp:412
 msgid "(Build cancelled by the user)\n"
 msgstr "(ユーザーによりビルドが取り消されました)\n"
 
-#: LiteEditor/BuildTab.cpp:418
+#: LiteEditor/BuildTab.cpp:420
 msgid "==== build ended with "
 msgstr "==== ビルドは終了しましたが、"
 
-#: LiteEditor/BuildTab.cpp:419
+#: LiteEditor/BuildTab.cpp:421
 msgid "errors"
 msgstr "エラーがありました"
 
-#: LiteEditor/BuildTab.cpp:421
+#: LiteEditor/BuildTab.cpp:423
 msgid "=== build ended with "
 msgstr "=== ビルドは終了しましたが、"
 
-#: LiteEditor/BuildTab.cpp:422
+#: LiteEditor/BuildTab.cpp:424
 msgid "warnings"
 msgstr "警告がありました"
 
-#: LiteEditor/BuildTab.cpp:424
+#: LiteEditor/BuildTab.cpp:426
 msgid "=== build completed "
 msgstr "=== ビルドが正常に"
 
-#: LiteEditor/BuildTab.cpp:425
+#: LiteEditor/BuildTab.cpp:427
 msgid "successfully"
 msgstr "完了しました"
 
-#: LiteEditor/BuildTab.cpp:427
+#: LiteEditor/BuildTab.cpp:429
 msgid " errors, "
 msgstr " 件のエラー, "
 
-#: LiteEditor/BuildTab.cpp:427
+#: LiteEditor/BuildTab.cpp:429
 msgid " warnings)"
 msgstr " 件の警告)"
 
@@ -15357,216 +15357,216 @@ msgstr "このテンプレートに説明を設定"
 msgid "Save Project As Template"
 msgstr "プロジェクトをテンプレートとして保存"
 
-#: Plugin/newkeyshortcutdlg.cpp:37 Plugin/newkeyshortcutdlg.cpp:89
+#: Plugin/newkeyshortcutdlg.cpp:35 Plugin/newkeyshortcutdlg.cpp:87
 msgid "DEL"
 msgstr "DEL"
 
-#: Plugin/newkeyshortcutdlg.cpp:38
+#: Plugin/newkeyshortcutdlg.cpp:36
 msgid "DELETE"
 msgstr "DELETE"
 
-#: Plugin/newkeyshortcutdlg.cpp:39
+#: Plugin/newkeyshortcutdlg.cpp:37
 msgid "BACK"
 msgstr "BACK"
 
-#: Plugin/newkeyshortcutdlg.cpp:40 Plugin/newkeyshortcutdlg.cpp:88
+#: Plugin/newkeyshortcutdlg.cpp:38 Plugin/newkeyshortcutdlg.cpp:86
 msgid "INS"
 msgstr "INS"
 
-#: Plugin/newkeyshortcutdlg.cpp:41 Plugin/newkeyshortcutdlg.cpp:76
+#: Plugin/newkeyshortcutdlg.cpp:39 Plugin/newkeyshortcutdlg.cpp:74
 msgid "ENTER"
 msgstr "ENTER"
 
-#: Plugin/newkeyshortcutdlg.cpp:42
+#: Plugin/newkeyshortcutdlg.cpp:40
 msgid "RETURN"
 msgstr "RETURN"
 
-#: Plugin/newkeyshortcutdlg.cpp:43 Plugin/newkeyshortcutdlg.cpp:83
+#: Plugin/newkeyshortcutdlg.cpp:41 Plugin/newkeyshortcutdlg.cpp:81
 msgid "PGUP"
 msgstr "PGUP"
 
-#: Plugin/newkeyshortcutdlg.cpp:44 Plugin/newkeyshortcutdlg.cpp:85
+#: Plugin/newkeyshortcutdlg.cpp:42 Plugin/newkeyshortcutdlg.cpp:83
 msgid "PGDN"
 msgstr "PGDN"
 
-#: Plugin/newkeyshortcutdlg.cpp:45 Plugin/newkeyshortcutdlg.cpp:78
+#: Plugin/newkeyshortcutdlg.cpp:43 Plugin/newkeyshortcutdlg.cpp:76
 msgid "LEFT"
 msgstr "LEFT"
 
-#: Plugin/newkeyshortcutdlg.cpp:46 Plugin/newkeyshortcutdlg.cpp:80
+#: Plugin/newkeyshortcutdlg.cpp:44 Plugin/newkeyshortcutdlg.cpp:78
 msgid "RIGHT"
 msgstr "RIGHT"
 
-#: Plugin/newkeyshortcutdlg.cpp:47 Plugin/newkeyshortcutdlg.cpp:79
+#: Plugin/newkeyshortcutdlg.cpp:45 Plugin/newkeyshortcutdlg.cpp:77
 msgid "UP"
 msgstr "UP"
 
-#: Plugin/newkeyshortcutdlg.cpp:48 Plugin/newkeyshortcutdlg.cpp:81
+#: Plugin/newkeyshortcutdlg.cpp:46 Plugin/newkeyshortcutdlg.cpp:79
 msgid "DOWN"
 msgstr "DOWN"
 
-#: Plugin/newkeyshortcutdlg.cpp:49 Plugin/newkeyshortcutdlg.cpp:77
+#: Plugin/newkeyshortcutdlg.cpp:47 Plugin/newkeyshortcutdlg.cpp:75
 msgid "HOME"
 msgstr "HOME"
 
-#: Plugin/newkeyshortcutdlg.cpp:50 Plugin/newkeyshortcutdlg.cpp:86
+#: Plugin/newkeyshortcutdlg.cpp:48 Plugin/newkeyshortcutdlg.cpp:84
 msgid "END"
 msgstr "END"
 
-#: Plugin/newkeyshortcutdlg.cpp:51 Plugin/newkeyshortcutdlg.cpp:74
+#: Plugin/newkeyshortcutdlg.cpp:49 Plugin/newkeyshortcutdlg.cpp:72
 msgid "SPACE"
 msgstr "SPACE"
 
-#: Plugin/newkeyshortcutdlg.cpp:52 Plugin/newkeyshortcutdlg.cpp:75
+#: Plugin/newkeyshortcutdlg.cpp:50 Plugin/newkeyshortcutdlg.cpp:73
 msgid "TAB"
 msgstr "TAB"
 
-#: Plugin/newkeyshortcutdlg.cpp:53
+#: Plugin/newkeyshortcutdlg.cpp:51
 msgid "ESC"
 msgstr "ESC"
 
-#: Plugin/newkeyshortcutdlg.cpp:54
+#: Plugin/newkeyshortcutdlg.cpp:52
 msgid "ESCAPE"
 msgstr "ESCAPE"
 
-#: Plugin/newkeyshortcutdlg.cpp:55
+#: Plugin/newkeyshortcutdlg.cpp:53
 msgid "CANCEL"
 msgstr "CANCEL"
 
-#: Plugin/newkeyshortcutdlg.cpp:56
+#: Plugin/newkeyshortcutdlg.cpp:54
 msgid "CLEAR"
 msgstr "CLEAR"
 
-#: Plugin/newkeyshortcutdlg.cpp:57
+#: Plugin/newkeyshortcutdlg.cpp:55
 msgid "MENU"
 msgstr "MENU"
 
-#: Plugin/newkeyshortcutdlg.cpp:58
+#: Plugin/newkeyshortcutdlg.cpp:56
 msgid "PAUSE"
 msgstr "PAUSE"
 
-#: Plugin/newkeyshortcutdlg.cpp:59
+#: Plugin/newkeyshortcutdlg.cpp:57
 msgid "CAPITAL"
 msgstr "CAPITAL"
 
-#: Plugin/newkeyshortcutdlg.cpp:60
+#: Plugin/newkeyshortcutdlg.cpp:58
 msgid "SELECT"
 msgstr "SELECT"
 
-#: Plugin/newkeyshortcutdlg.cpp:61
+#: Plugin/newkeyshortcutdlg.cpp:59
 msgid "PRINT"
 msgstr "PRINT"
 
-#: Plugin/newkeyshortcutdlg.cpp:62
+#: Plugin/newkeyshortcutdlg.cpp:60
 msgid "EXECUTE"
 msgstr "EXECUTE"
 
-#: Plugin/newkeyshortcutdlg.cpp:63
+#: Plugin/newkeyshortcutdlg.cpp:61
 msgid "SNAPSHOT"
 msgstr "SNAPSHOT"
 
-#: Plugin/newkeyshortcutdlg.cpp:64
+#: Plugin/newkeyshortcutdlg.cpp:62
 msgid "HELP"
 msgstr "HELP"
 
-#: Plugin/newkeyshortcutdlg.cpp:65
+#: Plugin/newkeyshortcutdlg.cpp:63
 msgid "ADD"
 msgstr "ADD"
 
-#: Plugin/newkeyshortcutdlg.cpp:66
+#: Plugin/newkeyshortcutdlg.cpp:64
 msgid "SEPARATOR"
 msgstr "SEPARATOR"
 
-#: Plugin/newkeyshortcutdlg.cpp:67
+#: Plugin/newkeyshortcutdlg.cpp:65
 msgid "SUBTRACT"
 msgstr "SUBTRACT"
 
-#: Plugin/newkeyshortcutdlg.cpp:68
+#: Plugin/newkeyshortcutdlg.cpp:66
 msgid "DECIMAL"
 msgstr "DECIMAL"
 
-#: Plugin/newkeyshortcutdlg.cpp:69
+#: Plugin/newkeyshortcutdlg.cpp:67
 msgid "DIVIDE"
 msgstr "DIVIDE"
 
-#: Plugin/newkeyshortcutdlg.cpp:70
+#: Plugin/newkeyshortcutdlg.cpp:68
 msgid "NUM_LOCK"
 msgstr "NUM_LOCK"
 
-#: Plugin/newkeyshortcutdlg.cpp:71
+#: Plugin/newkeyshortcutdlg.cpp:69
 msgid "SCROLL_LOCK"
 msgstr "SCROLL_LOCK"
 
-#: Plugin/newkeyshortcutdlg.cpp:72
+#: Plugin/newkeyshortcutdlg.cpp:70
 msgid "PAGEUP"
 msgstr "PAGEUP"
 
-#: Plugin/newkeyshortcutdlg.cpp:73
+#: Plugin/newkeyshortcutdlg.cpp:71
 msgid "PAGEDOWN"
 msgstr "PAGEDOWN"
 
-#: Plugin/newkeyshortcutdlg.cpp:82
+#: Plugin/newkeyshortcutdlg.cpp:80
 msgid "PRIOR"
 msgstr "PRIOR"
 
-#: Plugin/newkeyshortcutdlg.cpp:84
+#: Plugin/newkeyshortcutdlg.cpp:82
 msgid "NEXT"
 msgstr "NEXT"
 
-#: Plugin/newkeyshortcutdlg.cpp:87
+#: Plugin/newkeyshortcutdlg.cpp:85
 #: sdk/databaselayer/src/dblayer/PostgresDatabaseLayer.cpp:277
 msgid "BEGIN"
 msgstr "BEGIN"
 
-#: Plugin/newkeyshortcutdlg.cpp:90
+#: Plugin/newkeyshortcutdlg.cpp:88
 msgid "="
 msgstr "="
 
-#: Plugin/newkeyshortcutdlg.cpp:92 wxcrafter/wxcrafter_gui.cpp:1476
+#: Plugin/newkeyshortcutdlg.cpp:90 wxcrafter/wxcrafter_gui.cpp:1476
 msgid "+"
 msgstr "+"
 
-#: Plugin/newkeyshortcutdlg.cpp:93
+#: Plugin/newkeyshortcutdlg.cpp:91
 msgid "KP_SEPARATOR"
 msgstr "KP_SEPARATOR"
 
-#: Plugin/newkeyshortcutdlg.cpp:94
+#: Plugin/newkeyshortcutdlg.cpp:92
 msgid "-"
 msgstr "-"
 
-#: Plugin/newkeyshortcutdlg.cpp:95
+#: Plugin/newkeyshortcutdlg.cpp:93
 msgid "."
 msgstr "."
 
-#: Plugin/newkeyshortcutdlg.cpp:96
+#: Plugin/newkeyshortcutdlg.cpp:94
 msgid "/"
 msgstr "/"
 
-#: Plugin/newkeyshortcutdlg.cpp:97
+#: Plugin/newkeyshortcutdlg.cpp:95
 msgid "WINDOWS_LEFT"
 msgstr "WINDOWS_LEFT"
 
-#: Plugin/newkeyshortcutdlg.cpp:98
+#: Plugin/newkeyshortcutdlg.cpp:96
 msgid "WINDOWS_RIGHT"
 msgstr "WINDOWS_RIGHT"
 
-#: Plugin/newkeyshortcutdlg.cpp:99
+#: Plugin/newkeyshortcutdlg.cpp:97
 msgid "WINDOWS_MENU"
 msgstr "WINDOWS_MENU"
 
-#: Plugin/newkeyshortcutdlg.cpp:100
+#: Plugin/newkeyshortcutdlg.cpp:98
 msgid "COMMAND"
 msgstr "COMMAND"
 
-#: Plugin/newkeyshortcutdlg.cpp:151
+#: Plugin/newkeyshortcutdlg.cpp:149
 msgid "F"
 msgstr "F"
 
-#: Plugin/newkeyshortcutdlg.cpp:155
+#: Plugin/newkeyshortcutdlg.cpp:153
 msgid "SPECIAL"
 msgstr "SPECIAL"
 
-#: Plugin/newkeyshortcutdlg.cpp:219
+#: Plugin/newkeyshortcutdlg.cpp:217
 msgid "Select a Keyboard Shortcut"
 msgstr "キーボードショートカットを選択"
 
