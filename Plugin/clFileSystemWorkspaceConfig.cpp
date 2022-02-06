@@ -10,6 +10,7 @@
 #include "event_notifier.h"
 #include "file_logger.h"
 #include "fileextmanager.h"
+#include "globals.h"
 #include "macromanager.h"
 #include "procutils.h"
 
@@ -191,6 +192,7 @@ wxArrayString clFileSystemWorkspaceConfig::GetCompilerOptions(clBacktickCache::p
             compilerPaths.insert(compilerPaths.end(), globalIncludePaths.begin(), globalIncludePaths.end());
         }
         for(wxString& compilerPath : compilerPaths) {
+            ::WrapWithQuotes(compilerPath);
             compilerPath.Prepend("-I");
         }
         searchPaths.insert(searchPaths.end(), compilerPaths.begin(), compilerPaths.end());
