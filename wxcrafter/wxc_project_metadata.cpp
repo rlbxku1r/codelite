@@ -238,6 +238,7 @@ wxString wxcProjectMetadata::GetHeaderFileExt() const
             return ext;
         }
     }
+    // or use `.h` or `.hpp` depending on user's preference
     return wxcSettings::Get().HasFlag(wxcSettings::PREFER_C_STYLE_HEADER) ? "h" : "hpp";
 }
 

@@ -66,6 +66,11 @@ public:
     bool IsUseEnum() const { return m_useEnum; }
     void SetOutputFileName(const wxString& outputFileName) { this->m_outputFileName = outputFileName; }
     wxString GetOutputFileName() const;
+    /**
+     * @brief get appropriate header file extension for the project
+     * note that this method actually checks filesystem to know whether the file exists
+     * so don't call this method frequently for better performance
+     */
     wxString GetHeaderFileExt() const;
 
     bool IsLoaded() const { return m_projectFile.IsEmpty() == false; }
