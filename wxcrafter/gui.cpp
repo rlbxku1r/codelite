@@ -1003,6 +1003,15 @@ wxcSettingsDlgBase::wxcSettingsDlgBase(wxWindow* parent, wxWindowID id, const wx
 
     boxSizer145->Add(staticBoxSizer152, 0, wxALL | wxEXPAND, WXC_FROM_DIP(5));
 
+    m_checkBoxPreferCStyleHeader = new wxCheckBox(this, wxID_ANY, _("Prefer C-style header file extension (.h)"),
+                                                  wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1, -1)), 0);
+    m_checkBoxPreferCStyleHeader->SetValue(false);
+    m_checkBoxPreferCStyleHeader->SetToolTip(
+        _("By default, wxCrafter uses C++ header file extension (.hpp) for newly created forms. Tick this option if "
+          "you prefer C-style .h file extension."));
+
+    staticBoxSizer152->Add(m_checkBoxPreferCStyleHeader, 0, wxALL, WXC_FROM_DIP(5));
+
     m_checkBoxFormatInheritedFiles = new wxCheckBox(this, wxID_ANY, _("Format inherited files"), wxDefaultPosition,
                                                     wxDLG_UNIT(this, wxSize(-1, -1)), 0);
     m_checkBoxFormatInheritedFiles->SetValue(false);

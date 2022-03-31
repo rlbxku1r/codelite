@@ -321,6 +321,7 @@ class wxcSettingsDlgBase : public wxDialog
 {
 protected:
     wxCheckBox* m_checkBoxUseTRay;
+    wxCheckBox* m_checkBoxPreferCStyleHeader;
     wxCheckBox* m_checkBoxFormatInheritedFiles;
     wxStaticText* m_staticText215;
     wxCheckBox* m_checkBoxKeepAllUsersetNames;
@@ -336,6 +337,7 @@ protected:
 
 public:
     wxCheckBox* GetCheckBoxUseTRay() { return m_checkBoxUseTRay; }
+    wxCheckBox* GetCheckBoxPreferCStyleHeader() { return m_checkBoxPreferCStyleHeader; }
     wxCheckBox* GetCheckBoxFormatInheritedFiles() { return m_checkBoxFormatInheritedFiles; }
     wxStaticText* GetStaticText215() { return m_staticText215; }
     wxCheckBox* GetCheckBoxKeepAllUsersetNames() { return m_checkBoxKeepAllUsersetNames; }
