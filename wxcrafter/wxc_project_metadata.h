@@ -30,7 +30,6 @@ protected:
     CustomControlTemplateMap_t m_projctCustomControls;
     wxStringMap_t m_additionalFiles;
     wxString m_outputFileName;
-    bool m_useHpp;
     int m_firstWindowId;
     bool m_useEnum;
     bool m_useUnderscoreMacro;

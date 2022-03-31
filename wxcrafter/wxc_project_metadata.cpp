@@ -2,6 +2,7 @@
 
 #include "event_notifier.h"
 
+#include <array>
 #include <wx/ffile.h>
 #include <wx/filename.h>
 
@@ -10,7 +11,6 @@ const wxEventType wxEVT_CMD_WXCRAFTER_PROJECT_SYNCHED = wxNewEventType();
 
 wxcProjectMetadata::wxcProjectMetadata()
     : m_objCounter(0)
-    , m_useHpp(true)
     , m_firstWindowId(10000)
     , m_useEnum(true)
     , m_useUnderscoreMacro(true)
@@ -40,14 +40,6 @@ void wxcProjectMetadata::FromJSON(const JSONElement& json)
     if(m_bitmapFunction.IsEmpty()) {
         DoGenerateBitmapFunctionName();
     }
-
-    // for backward-compatibility, we continue to use .h file extension if it's already there
-    wxFileName headerFile = BaseCppFile();
-    headerFile.SetExt("h");
-    if(headerFile.IsRelative()) {
-        headerFile.MakeAbsolute(GetProjectPath());
-    }
-    m_useHpp = !headerFile.FileExists();
 }
 
 JSONElement wxcProjectMetadata::ToJSON()
@@ -152,7 +144,6 @@ void wxcProjectMetadata::Reset()
     m_bitmapsFile.Clear();
     m_additionalFiles.clear();
     m_outputFileName.Clear();
-    m_useHpp = true;
     m_useEnum = true;
     m_useUnderscoreMacro = true;
     m_firstWindowId = 10000;
@@ -233,7 +224,22 @@ wxString wxcProjectMetadata::GetOutputFileName() const
     return m_outputFileName;
 }
 
-wxString wxcProjectMetadata::GetHeaderFileExt() const { return m_useHpp ? "hpp" : "h"; }
+wxString wxcProjectMetadata::GetHeaderFileExt() const
+{
+    // use already-existing header file extension to prevent anything from breaking
+    wxFileName headerFile = BaseCppFile();
+    if(headerFile.IsRelative()) {
+        headerFile.MakeAbsolute(GetProjectPath());
+    }
+    static const std::array<wxString, 2> exts = { "h", "hpp" };
+    for(const wxString& ext : exts) {
+        headerFile.SetExt(ext);
+        if(headerFile.FileExists()) {
+            return ext;
+        }
+    }
+    return wxcSettings::Get().HasFlag(wxcSettings::PREFER_C_STYLE_HEADER) ? "h" : "hpp";
+}
 
 void wxcProjectMetadata::SetProjectFile(const wxString& filename)
 {
