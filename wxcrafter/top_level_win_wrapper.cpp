@@ -318,8 +318,8 @@ void TopLevelWinWrapper::GenerateCode(const wxcProjectMetadata& project, bool pr
     wxFileName derivedClassFileCPP(filename);
     wxFileName derivedClassFileHPP(filename);
 
-    derivedClassFileCPP.SetExt("cpp");
-    derivedClassFileHPP.SetExt(wxcProjectMetadata::Get().GetHeaderFileExt());
+    derivedClassFileCPP.SetExt(sourceFile.GetExt());
+    derivedClassFileHPP.SetExt(headerFile.GetExt());
 
     // Fix the paths if needed
     // i.e. if the derived classes are relative, make them use the same

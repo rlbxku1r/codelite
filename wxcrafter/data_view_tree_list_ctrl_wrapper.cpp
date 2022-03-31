@@ -151,8 +151,10 @@ void DataViewTreeListCtrlWrapper::GenerateAdditionalFiles(wxStringMap_t& extraFi
     wxString modelCpp = rl.File("my_tree_list_model.cpp");
     wxString modelHpp = rl.File("my_tree_list_model.hpp");
 
+    wxString headerExt = wxcProjectMetadata::Get().GetHeaderFileExt();
+
     wxString blockGuard = modelName;
-    blockGuard << "_GUARD__" << wxcProjectMetadata::Get().GetHeaderFileExt();
+    blockGuard << "_GUARD__" << headerExt;
     blockGuard.MakeUpper();
 
     // Replace place holders
@@ -169,7 +171,7 @@ void DataViewTreeListCtrlWrapper::GenerateAdditionalFiles(wxStringMap_t& extraFi
     headerFileName = basename;
 
     cppFileName << ".cpp";
-    headerFileName << "." << wxcProjectMetadata::Get().GetHeaderFileExt();
+    headerFileName << "." << headerExt;
 
     // change the include statement in the template file
     modelCpp.Replace("my_tree_list_model.hpp", headerFileName);
