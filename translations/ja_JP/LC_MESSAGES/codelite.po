@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-14 16:18+0900\n"
-"PO-Revision-Date: 2022-04-14 16:20+0900\n"
+"POT-Creation-Date: 2022-04-28 05:11+0900\n"
+"PO-Revision-Date: 2022-04-28 05:22+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -416,6 +416,7 @@ msgid "Edge threshold (0 - 100) [%]:"
 msgstr "エッジの閾値 (0 - 100) [%]:"
 
 #: CallGraph/uisettings.cpp:120 LanguageServer/UI.cpp:180
+#: LiteEditor/findinfiles_dlg.cpp:155
 #: LiteEditor/implementparentvirtualfunctionsbase.cpp:89
 #: codelitephp/php-plugin/new_class.cpp:119
 msgid "Options:"
@@ -678,7 +679,7 @@ msgstr "プロジェクトツリーのフォルダー:"
 #: ExternalTools/NewToolBase.cpp:79 ExternalTools/NewToolBase.cpp:98
 #: Gizmos/newclassbasedlg.cpp:139 Gizmos/newclassbasedlg.cpp:160
 #: LanguageServer/UI.cpp:350 LanguageServer/UI.cpp:374
-#: LiteEditor/importfilesdialog_new.cpp:48
+#: LiteEditor/findinfiles_dlg.cpp:126 LiteEditor/importfilesdialog_new.cpp:48
 #: LiteEditor/newworkspacebasedlg.cpp:66
 #: LiteEditor/project_settings_base_dlg.cpp:560
 #: LiteEditor/project_settings_base_dlg.cpp:1156
@@ -1450,7 +1451,7 @@ msgid "Namespaces"
 msgstr "名前空間"
 
 #: CodeFormatter/codeformatterdlgbase.cpp:481
-#: LiteEditor/findinfiles_dlg.cpp:205 MemCheck/memcheckui.cpp:390
+#: LiteEditor/findinfiles_dlg.cpp:160 MemCheck/memcheckui.cpp:390
 msgid "Case"
 msgstr "ケース"
 
@@ -1888,7 +1889,6 @@ msgid "Do not fix warnings"
 msgstr "警告への対処をしない"
 
 #: CodeFormatter/codeformatterdlgbase.cpp:1024
-#: LiteEditor/findinfiles_dlg.cpp:195
 #: LiteEditor/project_settings_base_dlg.cpp:327
 #: LiteEditor/project_settings_base_dlg.cpp:465
 #: LiteEditor/project_settings_base_dlg.cpp:1324
@@ -2130,23 +2130,23 @@ msgstr "<ワークスペースのフォルダー>"
 msgid "<Use Defaults>"
 msgstr "<既定値を使用>"
 
-#: CodeLite/search_thread.h:310
+#: CodeLite/search_thread.h:315
 msgid "Number of files scanned: "
 msgstr "スキャンしたファイル数: "
 
-#: CodeLite/search_thread.h:312
+#: CodeLite/search_thread.h:317
 msgid " Matches found: "
 msgstr " 見つかった一致: "
 
-#: CodeLite/search_thread.h:317
+#: CodeLite/search_thread.h:322
 msgid " seconds"
 msgstr " 秒"
 
-#: CodeLite/search_thread.h:317
+#: CodeLite/search_thread.h:322
 msgid ", elapsed time: "
 msgstr ", 経過時間: "
 
-#: CodeLite/search_thread.h:320
+#: CodeLite/search_thread.h:325
 msgid "Failed to open the following files for scan:"
 msgstr "これらのファイルはスキャンできませんでした:"
 
@@ -2519,7 +2519,7 @@ msgstr "ビュー"
 
 #: DatabaseExplorer/DbViewerPanel.cpp:281 DatabaseExplorer/GUI.cpp:868
 #: LiteEditor/batchbuildbasedlg.cpp:97 LiteEditor/edit_configuration.cpp:100
-#: LiteEditor/editorframe.cpp:64 LiteEditor/findinfiles_dlg.cpp:176
+#: LiteEditor/editorframe.cpp:64 LiteEditor/findinfiles_dlg.cpp:144
 #: LiteEditor/frame.cpp:1033 LiteEditor/frame.cpp:1536
 #: LiteEditor/quickfindbar.cpp:118 Plugin/DiffFoldersFrame.cpp:31
 #: Plugin/clPluginsFindBar.cpp:101 Plugin/clTreeCtrlPanel.cpp:121
@@ -2761,7 +2761,7 @@ msgstr "データファイルをバックアップ"
 
 #: DatabaseExplorer/ErdCommitWizard.cpp:175
 #: DatabaseExplorer/ErdCommitWizard.cpp:181
-#: DatabaseExplorer/ErdCommitWizard.cpp:399 LiteEditor/context_cpp.cpp:2183
+#: DatabaseExplorer/ErdCommitWizard.cpp:399 LiteEditor/context_cpp.cpp:2176
 #: LiteEditor/syntaxhighlightdlg.cpp:642
 msgid "Select file"
 msgstr "ファイルを選択"
@@ -5196,7 +5196,7 @@ msgstr "スキャン..."
 msgid "Scan for installed Language Servers insalled"
 msgstr "インストール済みの言語サーバーをスキャン"
 
-#: LanguageServer/UI.cpp:68 LiteEditor/findinfiles_dlg.cpp:365
+#: LanguageServer/UI.cpp:68 LiteEditor/findinfiles_dlg.cpp:324
 msgid "Add..."
 msgstr "追加..."
 
@@ -7098,35 +7098,35 @@ msgstr "'関数の実装を追加' は有効なスコープでのみ使えます
 msgid "No un-implemented functions found"
 msgstr "未実装の関数は見つかりません"
 
-#: LiteEditor/context_cpp.cpp:2030
+#: LiteEditor/context_cpp.cpp:2023
 msgid "Symbol renamed"
 msgstr "シンボル名が変更されました"
 
-#: LiteEditor/context_cpp.cpp:2042
+#: LiteEditor/context_cpp.cpp:2035
 msgid "Please save the file before retagging it"
 msgstr "タグを再生成する前に、ファイルを保存してください"
 
-#: LiteEditor/context_cpp.cpp:2183
+#: LiteEditor/context_cpp.cpp:2176
 msgid "Select file to open:"
 msgstr "開くファイルを選択:"
 
-#: LiteEditor/context_cpp.cpp:2196
+#: LiteEditor/context_cpp.cpp:2189
 msgid "Create File"
 msgstr "ファイルを作成"
 
-#: LiteEditor/context_cpp.cpp:2196
+#: LiteEditor/context_cpp.cpp:2189
 msgid "New File Name:"
 msgstr "新しいファイル名:"
 
-#: LiteEditor/context_cpp.cpp:2544 LiteEditor/frame.cpp:1047
+#: LiteEditor/context_cpp.cpp:2537 LiteEditor/frame.cpp:1047
 msgid "Find Symbol"
 msgstr "シンボルを検索"
 
-#: LiteEditor/context_cpp.cpp:2545
+#: LiteEditor/context_cpp.cpp:2538
 msgid "Go to Declaration"
 msgstr "宣言へ移動"
 
-#: LiteEditor/context_cpp.cpp:2546
+#: LiteEditor/context_cpp.cpp:2539
 msgid "Go to Implementation"
 msgstr "実装へ移動"
 
@@ -9152,28 +9152,45 @@ msgstr "新しいフォルダー名"
 msgid "Open Project"
 msgstr "プロジェクトを開く"
 
-#: LiteEditor/findinfiles_dlg.cpp:48
-msgid "Find What :"
-msgstr "検索文字列 :"
+#: LiteEditor/findinfiles_dlg.cpp:43
+msgid "Find :"
+msgstr "検索:"
 
-#: LiteEditor/findinfiles_dlg.cpp:56 LiteEditor/findinfiles_dlg.cpp:59
+#: LiteEditor/findinfiles_dlg.cpp:51 LiteEditor/findinfiles_dlg.cpp:54
 msgid "Find what"
 msgstr "検索する文字列"
 
-#: LiteEditor/findinfiles_dlg.cpp:64 LiteEditor/replaceinfilespanel.cpp:65
-#: Plugin/renamefilebasedlg.cpp:49
-msgid "Replace With:"
-msgstr "置換内容:"
+#: LiteEditor/findinfiles_dlg.cpp:59
+msgid "&Find"
+msgstr "検索 (&F)"
 
-#: LiteEditor/findinfiles_dlg.cpp:73
+#: LiteEditor/findinfiles_dlg.cpp:62
+msgid "Begin search"
+msgstr "検索を開始"
+
+#: LiteEditor/findinfiles_dlg.cpp:66
+msgid "Replace:"
+msgstr "置換:"
+
+#: LiteEditor/findinfiles_dlg.cpp:75
 msgid "Replace with"
 msgstr "置き換え内容"
 
-#: LiteEditor/findinfiles_dlg.cpp:78
+#: LiteEditor/findinfiles_dlg.cpp:80
+msgid "&Replace"
+msgstr "置換 (&R)"
+
+#: LiteEditor/findinfiles_dlg.cpp:83
+msgid ""
+"Search for matches and place them in the 'Replace' window as candidates for "
+"possible replace operation"
+msgstr "一致する箇所を検索し、'置換' ウィンドウに置き換え候補を表示します"
+
+#: LiteEditor/findinfiles_dlg.cpp:87
 msgid "Files:"
 msgstr "ファイル:"
 
-#: LiteEditor/findinfiles_dlg.cpp:80
+#: LiteEditor/findinfiles_dlg.cpp:89
 msgid ""
 "File extensions to include in the search\n"
 "Wildcards are supported"
@@ -9181,19 +9198,19 @@ msgstr ""
 "検索対象に含めるファイルの拡張子です\n"
 "ワイルドカードを使用できます"
 
-#: LiteEditor/findinfiles_dlg.cpp:85
+#: LiteEditor/findinfiles_dlg.cpp:94
 msgid "*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc"
 msgstr "*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc"
 
-#: LiteEditor/findinfiles_dlg.cpp:89
+#: LiteEditor/findinfiles_dlg.cpp:98
 msgid "Search these file types"
 msgstr "これらの種類のファイルを検索"
 
-#: LiteEditor/findinfiles_dlg.cpp:97
-msgid "Search in:"
-msgstr "検索対象:"
+#: LiteEditor/findinfiles_dlg.cpp:108 Plugin/sftp_ui.cpp:499
+msgid "Where:"
+msgstr "場所:"
 
-#: LiteEditor/findinfiles_dlg.cpp:100
+#: LiteEditor/findinfiles_dlg.cpp:111
 msgid ""
 "Search in these folders\n"
 "To exclude a file from the search, use wildcard that starts with an hyphen "
@@ -9213,70 +9230,44 @@ msgstr ""
 "/home/user/path/to/root/folder\n"
 "-*node_modules*"
 
-#: LiteEditor/findinfiles_dlg.cpp:146
-msgid "Files Encoding:"
-msgstr "ファイルのエンコーディング:"
-
-#: LiteEditor/findinfiles_dlg.cpp:154
-msgid "Use this file encoding when scanning files for matches"
-msgstr "ファイルから一致をスキャンするとき、このエンコーディングを使います"
-
-#: LiteEditor/findinfiles_dlg.cpp:162
-msgid "&Find"
-msgstr "検索 (&F)"
-
-#: LiteEditor/findinfiles_dlg.cpp:165
-msgid "Begin search"
-msgstr "検索を開始"
-
-#: LiteEditor/findinfiles_dlg.cpp:169
-msgid "&Replace"
-msgstr "置換 (&R)"
-
-#: LiteEditor/findinfiles_dlg.cpp:172
-msgid ""
-"Search for matches and place them in the 'Replace' window as candidates for "
-"possible replace operation"
-msgstr "一致する箇所を検索し、'置換' ウィンドウに置き換え候補を表示します"
-
-#: LiteEditor/findinfiles_dlg.cpp:178
-msgid "Close this dialog"
-msgstr "このダイアログを閉じる"
-
-#: LiteEditor/findinfiles_dlg.cpp:182
-msgid "Add Path..."
-msgstr "パスを追加..."
-
-#: LiteEditor/findinfiles_dlg.cpp:184
+#: LiteEditor/findinfiles_dlg.cpp:128
 msgid "Add new search location"
 msgstr "新しい検索場所を追加"
 
-#: LiteEditor/findinfiles_dlg.cpp:207
+#: LiteEditor/findinfiles_dlg.cpp:132
+msgid "Encoding:"
+msgstr "エンコーディング:"
+
+#: LiteEditor/findinfiles_dlg.cpp:146
+msgid "Close this dialog"
+msgstr "このダイアログを閉じる"
+
+#: LiteEditor/findinfiles_dlg.cpp:162
 msgid "Toggle case sensitive search"
 msgstr "大文字小文字を区別した検索を切り替え"
 
-#: LiteEditor/findinfiles_dlg.cpp:212 MemCheck/memcheckui.cpp:395
+#: LiteEditor/findinfiles_dlg.cpp:167 MemCheck/memcheckui.cpp:395
 msgid "Word"
 msgstr "単語"
 
-#: LiteEditor/findinfiles_dlg.cpp:214
+#: LiteEditor/findinfiles_dlg.cpp:169
 msgid "Toggle whole word search"
 msgstr "単語全体の検索を切り替え"
 
-#: LiteEditor/findinfiles_dlg.cpp:219 LiteEditor/quickfindbar.cpp:123
+#: LiteEditor/findinfiles_dlg.cpp:174 LiteEditor/quickfindbar.cpp:123
 #: LiteEditor/reconcileproject.cpp:637 Plugin/clPluginsFindBar.cpp:109
 msgid "Regex"
 msgstr "正規表現"
 
-#: LiteEditor/findinfiles_dlg.cpp:221
+#: LiteEditor/findinfiles_dlg.cpp:176
 msgid "The 'Find What' field is a regular expression"
 msgstr "'検索内容' を正規表現として扱う"
 
-#: LiteEditor/findinfiles_dlg.cpp:225
+#: LiteEditor/findinfiles_dlg.cpp:181
 msgid "Pipe filter"
 msgstr "パイプ区切りのフィルター"
 
-#: LiteEditor/findinfiles_dlg.cpp:229
+#: LiteEditor/findinfiles_dlg.cpp:184
 msgid ""
 "Use the pipe character (\"|\") as a special separator for applying "
 "additional filters. This has the similar effect as using the \"grep\" "
@@ -9285,23 +9276,43 @@ msgstr ""
 "特殊なパイプ文字 (\"|\") で区切ると、追加のフィルターを適用できます。コマンド"
 "ラインツール \"grep\" と似たようなものです"
 
-#: LiteEditor/findinfiles_dlg.cpp:234
+#: LiteEditor/findinfiles_dlg.cpp:190
 msgid "Save before"
 msgstr "検索前に保存"
 
-#: LiteEditor/findinfiles_dlg.cpp:237
+#: LiteEditor/findinfiles_dlg.cpp:192
 msgid "Save any modified files before search starts"
 msgstr "検索を開始する前に、変更されたファイルを保存"
 
-#: LiteEditor/findinfiles_dlg.cpp:243
-msgid "Preset"
-msgstr "プリセット"
+#: LiteEditor/findinfiles_dlg.cpp:197
+msgid "File System:"
+msgstr "ファイルシステム:"
 
-#: LiteEditor/findinfiles_dlg.cpp:253
+#: LiteEditor/findinfiles_dlg.cpp:202
+msgid "Symlinks"
+msgstr "シンボリックリンク"
+
+#: LiteEditor/findinfiles_dlg.cpp:204
+msgid "When enabled, follow symbolic links folders"
+msgstr "有効にすると、シンボリックリンクのフォルダーを辿ります"
+
+#: LiteEditor/findinfiles_dlg.cpp:209
+msgid "Hidden folders"
+msgstr "隠しフォルダー"
+
+#: LiteEditor/findinfiles_dlg.cpp:211
+msgid "Search in hidden folders"
+msgstr "隠しフォルダーの中を検索します"
+
+#: LiteEditor/findinfiles_dlg.cpp:216
+msgid "Presets:"
+msgstr "プリセット:"
+
+#: LiteEditor/findinfiles_dlg.cpp:220
 msgid "TODO"
 msgstr "TODO"
 
-#: LiteEditor/findinfiles_dlg.cpp:255
+#: LiteEditor/findinfiles_dlg.cpp:222
 msgid ""
 "Search for TODO patterns in the code\n"
 "This options enables regular expression"
@@ -9309,11 +9320,11 @@ msgstr ""
 "コードから TODO パターンを検索します\n"
 "(正規表現を使用)"
 
-#: LiteEditor/findinfiles_dlg.cpp:260
+#: LiteEditor/findinfiles_dlg.cpp:226
 msgid "ATTN"
 msgstr "ATTN"
 
-#: LiteEditor/findinfiles_dlg.cpp:262
+#: LiteEditor/findinfiles_dlg.cpp:228
 msgid ""
 "Search for ATTN patterns in the code\n"
 "This options enables regular expression"
@@ -9321,11 +9332,11 @@ msgstr ""
 "コードから ATTN パターンを検索します\n"
 "(正規表現を使用)"
 
-#: LiteEditor/findinfiles_dlg.cpp:267
+#: LiteEditor/findinfiles_dlg.cpp:232
 msgid "BUG"
 msgstr "BUG"
 
-#: LiteEditor/findinfiles_dlg.cpp:269
+#: LiteEditor/findinfiles_dlg.cpp:234
 msgid ""
 "Search for BUG patterns in the code\n"
 "This options enables regular expression"
@@ -9333,11 +9344,11 @@ msgstr ""
 "コードから BUG パターンを検索します\n"
 "(正規表現を使用)"
 
-#: LiteEditor/findinfiles_dlg.cpp:274
+#: LiteEditor/findinfiles_dlg.cpp:239
 msgid "FIXME"
 msgstr "FIXME"
 
-#: LiteEditor/findinfiles_dlg.cpp:276
+#: LiteEditor/findinfiles_dlg.cpp:241
 msgid ""
 "Search for FIXME patterns in the code\n"
 "This options enables regular expression"
@@ -9345,11 +9356,11 @@ msgstr ""
 "コードから FIXME パターンを検索します\n"
 "(正規表現を使用)"
 
-#: LiteEditor/findinfiles_dlg.cpp:366 LiteEditor/findinfilesdlg.cpp:359
+#: LiteEditor/findinfiles_dlg.cpp:325 LiteEditor/findinfilesdlg.cpp:401
 msgid "Add Folder..."
 msgstr "フォルダーを追加..."
 
-#: LiteEditor/findinfiles_dlg.cpp:370 LiteEditor/reconcileprojectbase.cpp:321
+#: LiteEditor/findinfiles_dlg.cpp:329 LiteEditor/reconcileprojectbase.cpp:321
 #: LiteEditor/reconcileprojectbase.cpp:353
 #: LiteEditor/reconcileprojectbase.cpp:384 Runtime/rc/menu.xrc:1071
 #: SnipWiz/editsnippetsbasedlg.cpp:104 SnipWiz/templateclassbasedlg.cpp:215
@@ -9361,28 +9372,33 @@ msgstr "フォルダーを追加..."
 msgid "Remove"
 msgstr "削除"
 
-#: LiteEditor/findinfiles_dlg.cpp:371
+#: LiteEditor/findinfiles_dlg.cpp:330
 msgid "Remove the selected path"
 msgstr "選択したパスを削除"
 
-#: LiteEditor/findinfiles_dlg.h:123 LiteEditor/frame.cpp:1556
+#: LiteEditor/findinfiles_dlg.h:118 LiteEditor/frame.cpp:1556
 #: LiteEditor/frame.cpp:1557 Runtime/rc/menu.xrc:420
 msgid "Find In Files"
 msgstr "ファイルから検索"
 
-#: LiteEditor/findinfiles_dlg.h:149
+#: LiteEditor/findinfiles_dlg.h:144
 msgid "Edit Search Locations"
 msgstr "検索場所を編集"
 
-#: LiteEditor/findinfilesdlg.cpp:368
+#: LiteEditor/findinfilesdlg.cpp:74 LiteEditor/findinfilesdlg.cpp:84
+#: LiteEditor/findinfilesdlg.cpp:96 LiteEditor/findinfilesdlg.cpp:107
+msgid "Clear history"
+msgstr "履歴を消去"
+
+#: LiteEditor/findinfilesdlg.cpp:410
 msgid "Add Exclude Pattern"
 msgstr "除外パターンを追加"
 
-#: LiteEditor/findreplacedlg.cpp:54
+#: LiteEditor/findreplacedlg.cpp:56
 msgid "'Find What' is empty"
 msgstr "'検索文字列' が空です"
 
-#: LiteEditor/findreplacedlg.h:158 LiteEditor/findreplacedlg.h:163
+#: LiteEditor/findreplacedlg.h:167 LiteEditor/findreplacedlg.h:172
 msgid "Find / Replace"
 msgstr "検索 / 置換"
 
@@ -9398,50 +9414,50 @@ msgstr "最近の検索を表示"
 msgid "Another search is currently running, try again later"
 msgstr "現在、他の検索を実行しています。また後で試してください"
 
-#: LiteEditor/findresultstab.cpp:184
+#: LiteEditor/findresultstab.cpp:185
 msgid "'; Match case: "
 msgstr "'; 大文字小文字を区別: "
 
-#: LiteEditor/findresultstab.cpp:184
+#: LiteEditor/findresultstab.cpp:185
 msgid "====== Searching for: '"
 msgstr "====== 検索中: '"
 
-#: LiteEditor/findresultstab.cpp:185
+#: LiteEditor/findresultstab.cpp:186
 msgid " ; Match whole word: "
 msgstr " ; 単語全体に一致: "
 
-#: LiteEditor/findresultstab.cpp:185 LiteEditor/findresultstab.cpp:186
-#: LiteEditor/findresultstab.cpp:187 Subversion2/subversion2.cpp:1360
+#: LiteEditor/findresultstab.cpp:186 LiteEditor/findresultstab.cpp:187
+#: LiteEditor/findresultstab.cpp:188 Subversion2/subversion2.cpp:1360
 #: Subversion2/subversion2.cpp:1449
 msgid "false"
 msgstr "false"
 
-#: LiteEditor/findresultstab.cpp:185 LiteEditor/findresultstab.cpp:186
-#: LiteEditor/findresultstab.cpp:187 Subversion2/subversion2.cpp:1447
+#: LiteEditor/findresultstab.cpp:186 LiteEditor/findresultstab.cpp:187
+#: LiteEditor/findresultstab.cpp:188 Subversion2/subversion2.cpp:1447
 msgid "true"
 msgstr "true"
 
-#: LiteEditor/findresultstab.cpp:186
+#: LiteEditor/findresultstab.cpp:187
 msgid " ; Regular expression: "
 msgstr " ; 正規表現: "
 
-#: LiteEditor/findresultstab.cpp:285
+#: LiteEditor/findresultstab.cpp:286
 msgid "====== Search cancelled by user ======\n"
 msgstr "====== ユーザーにより検索が取り消されました ======\n"
 
-#: LiteEditor/findresultstab.cpp:349
+#: LiteEditor/findresultstab.cpp:350
 msgid "Reached the end of the 'Find In Files' results"
 msgstr "'ファイルから検索' 結果の終わりに到達しました"
 
-#: LiteEditor/findresultstab.cpp:374
+#: LiteEditor/findresultstab.cpp:375
 msgid "Reached the start of the 'Find In Files' results"
 msgstr "'ファイルから検索' 結果の始まりに到達しました"
 
-#: LiteEditor/findresultstab.cpp:419
+#: LiteEditor/findresultstab.cpp:420
 msgid "Search result is no longer valid"
 msgstr "検索結果が古くなっています"
 
-#: LiteEditor/findresultstab.cpp:510 Subversion2/SvnCommitDialog.cpp:313
+#: LiteEditor/findresultstab.cpp:511 Subversion2/SvnCommitDialog.cpp:313
 msgid "Clear History"
 msgstr "履歴を消去"
 
@@ -12115,6 +12131,10 @@ msgstr "全てマーク解除 (&U)"
 msgid "Mark &All"
 msgstr "全てマーク (&A)"
 
+#: LiteEditor/replaceinfilespanel.cpp:65 Plugin/renamefilebasedlg.cpp:49
+msgid "Replace With:"
+msgstr "置換内容:"
+
 #: LiteEditor/replaceinfilespanel.cpp:73
 msgid "&Replace Marked"
 msgstr "マーク部分を置換 (&R)"
@@ -12448,20 +12468,32 @@ msgstr ""
 msgid "Select theme to import"
 msgstr "インポートするテーマを選択"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:714
+#: LiteEditor/syntaxhighlightdlg.cpp:713
+msgid ""
+"\n"
+"Invalid file"
+msgstr ""
+"\n"
+"無効なファイルです"
+
+#: LiteEditor/syntaxhighlightdlg.cpp:713
+msgid "Failed to import theme file: "
+msgstr "テーマファイルのインポートに失敗しました: "
+
+#: LiteEditor/syntaxhighlightdlg.cpp:719
 msgid "' imported successfully!"
 msgstr "' を正常にインポートしました！"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:714
+#: LiteEditor/syntaxhighlightdlg.cpp:719
 msgid "Theme : '"
 msgstr "テーマ : '"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:792 git/gitFileDiffDlg.cpp:60
+#: LiteEditor/syntaxhighlightdlg.cpp:797 git/gitFileDiffDlg.cpp:60
 #: wxcrafter/wxguicraft_main_view.cpp:1011
 msgid "Save as"
 msgstr "名前を付けて保存"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:811
+#: LiteEditor/syntaxhighlightdlg.cpp:816
 msgid "Settings have been saved into:\n"
 msgstr "設定が保存されました:\n"
 
@@ -14177,8 +14209,9 @@ msgid "About"
 msgstr "情報"
 
 #: Plugin/clAboutDialogBase.cpp:41
-msgid "CodeLite IDE, an open source, C/C++/PHP and JavaScript IDE"
-msgstr "CodeLite IDE, オープンソースの C/C++/PHP/JavaScript 統合開発環境"
+msgid "CodeLite IDE, an open source, C/C++/Rust/Python/PHP and JavaScript IDE"
+msgstr ""
+"CodeLite IDE, オープンソースの C/C++/Rust/Python/PHP/JavaScript 統合開発環境"
 
 #: Plugin/clAboutDialogBase.cpp:63 Subversion2/subversion2_ui.cpp:751
 msgid "Author:"
@@ -14808,7 +14841,7 @@ msgstr " 件の項目"
 msgid "Message"
 msgstr "メッセージ"
 
-#: Plugin/clToolBar.cpp:523
+#: Plugin/clToolBar.cpp:519
 msgid "Customise..."
 msgstr "カスタマイズ..."
 
@@ -15610,10 +15643,6 @@ msgstr ""
 msgid "Find:"
 msgstr "検索:"
 
-#: Plugin/sftp_ui.cpp:499
-msgid "Where:"
-msgstr "場所:"
-
 #: Plugin/sftp_ui.cpp:513
 msgid "File types:"
 msgstr "ファイルの種類:"
@@ -15716,7 +15745,7 @@ msgstr "変更済み"
 msgid "Text"
 msgstr "テキスト"
 
-#: Plugin/wxcrafter_plugin.cpp:616 wxcrafter/data_view_list_ctrl_column.cpp:36
+#: Plugin/wxcrafter_plugin.cpp:616 wxcrafter/data_view_list_ctrl_column.cpp:38
 #: wxcrafter/grid_column_wrapper.cpp:15
 #: wxcrafter/list_ctrl_column_wrapper.cpp:15
 #: wxcrafter/tree_list_ctrl_column_wrapper.cpp:24
@@ -22724,15 +22753,15 @@ msgstr ""
 "ボタン上に表示する、第二の行のテキストです。ボタンの動作についての詳細を説明"
 "します"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:35
+#: wxcrafter/data_view_list_ctrl_column.cpp:37
 msgid "wxDataViewListCtrl Column"
 msgstr "wxDataViewListCtrl の列"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:36
+#: wxcrafter/data_view_list_ctrl_column.cpp:38
 msgid "Column Caption"
 msgstr "列の見出し"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:38
+#: wxcrafter/data_view_list_ctrl_column.cpp:40
 msgid ""
 "Column Width (in pixels)\n"
 "-1 - special value for column width meaning unspecified/default\n"
@@ -22742,11 +22771,11 @@ msgstr ""
 "-1 - 未指定/既定値を表す、特別な値です\n"
 "-2 - 全ての値が収まるように、幅を自動調整します"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:40 wxcrafter/wxgui_defs.h:227
+#: wxcrafter/data_view_list_ctrl_column.cpp:42 wxcrafter/wxgui_defs.h:227
 msgid "Column Type"
 msgstr "列の種類"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:41
+#: wxcrafter/data_view_list_ctrl_column.cpp:43
 msgid ""
 "Choices strings\n"
 "Relevant only for column of type 'choice'"
@@ -22754,15 +22783,15 @@ msgstr ""
 "選択肢の文字列です\n"
 "列の種類が '選択' の場合にのみ効果があります"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:43
+#: wxcrafter/data_view_list_ctrl_column.cpp:45
 msgid "Cell Alignment"
 msgstr "セルの整列"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:45
+#: wxcrafter/data_view_list_ctrl_column.cpp:47
 msgid "Cell mode (can be editable, activatable or inert)"
 msgstr "セルのモード (編集やアクティブ化の可否)"
 
-#: wxcrafter/data_view_list_ctrl_column.cpp:47
+#: wxcrafter/data_view_list_ctrl_column.cpp:49
 msgid "One or more flags of the wxDataViewColumnFlags enumeration"
 msgstr "ひとつ以上の wxDataViewColumnFlags 列挙型フラグ"
 
