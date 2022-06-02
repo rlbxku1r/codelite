@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-26 15:07+0900\n"
-"PO-Revision-Date: 2022-05-27 00:38+0900\n"
+"POT-Creation-Date: 2022-06-02 14:07+0900\n"
+"PO-Revision-Date: 2022-06-02 14:23+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -44,7 +44,7 @@ msgstr "自動的にソースファイルの変更を保存"
 #: Copyright/copyright.cpp:119 Docker/clDockerWorkspaceView.cpp:82
 #: Docker/clDockerWorkspaceView.cpp:116
 #: EditorConfigPlugin/editorconfigplugin.cpp:56 HelpPlugin/helpplugin.cpp:54
-#: LiteEditor/fileview.cpp:2590 Plugin/clFileSystemWorkspaceView.cpp:131
+#: LiteEditor/fileview.cpp:2589 Plugin/clFileSystemWorkspaceView.cpp:131
 #: QmakePlugin/qmakeplugin.cpp:121 SFTP/sftp.cpp:175
 #: SmartCompletion/smartcompletion.cpp:57 SnipWiz/snipwiz.cpp:164
 #: SpellChecker/spellcheck.cpp:190 SpellChecker/spellcheck.cpp:248
@@ -79,11 +79,11 @@ msgstr "上書きしない"
 msgid "Overwrite"
 msgstr "上書き"
 
-#: CMakePlugin/CMakeGenerator.cpp:110 LiteEditor/frame.cpp:2537
+#: CMakePlugin/CMakeGenerator.cpp:110 LiteEditor/frame.cpp:2477
 msgid "Remember my answer and don't annoy me again"
 msgstr "次回から確認しない"
 
-#: CMakePlugin/CMakeHelpTab.cpp:164
+#: CMakePlugin/CMakeHelpTab.cpp:166
 msgid "CMake application path is invalid!"
 msgstr "CMake アプリケーションへのパスが無効です！"
 
@@ -116,8 +116,8 @@ msgid "Failed to execute:\n"
 msgstr "実行に失敗しました:\n"
 
 #: CMakePlugin/CMakePlugin.cpp:616 Docker/UI.cpp:205
-#: LiteEditor/fileview.cpp:2501 LiteEditor/fileview.cpp:2541
-#: LiteEditor/frame.cpp:946 LiteEditor/project_settings_base_dlg.cpp:178
+#: LiteEditor/fileview.cpp:2500 LiteEditor/fileview.cpp:2540
+#: LiteEditor/frame.cpp:965 LiteEditor/project_settings_base_dlg.cpp:178
 #: Plugin/clFileSystemWorkspaceDlgBase.cpp:426 Plugin/clStrings.h:5
 #: Plugin/editor_config.cpp:448 Plugin/editor_config.cpp:486
 #: QmakePlugin/qmakeplugin.cpp:552 Remoty/RemotyWorkspaceView.cpp:97
@@ -131,19 +131,19 @@ msgstr "CMake プログラム:"
 
 #: CMakePlugin/CMakePluginUi.cpp:40 CodeFormatter/codeformatterdlgbase.cpp:1092
 #: DatabaseExplorer/GUI.cpp:379 Docker/UI.cpp:122 Docker/UI.cpp:134
-#: LiteEditor/CompilerMainPage.cpp:209 LiteEditor/wxcrafter.cpp:132
+#: LiteEditor/CompilerMainPage.cpp:209 LiteEditor/wxcrafter.cpp:129
 #: MemCheck/memcheckui.cpp:654 MemCheck/memcheckui.cpp:712
 #: PHPLint/phplintdlgbase.cpp:76 PHPLint/phplintdlgbase.cpp:98
 #: PHPLint/phplintdlgbase.cpp:107 PHPLint/phplintdlgbase.cpp:129
 #: PHPRefactoring/phprefactoringdlgbase.cpp:40
-#: QmakePlugin/qmakesettingsbasedlg.cpp:133 SFTP/UI.cpp:318
+#: QmakePlugin/qmakesettingsbasedlg.cpp:133 SFTP/UI.cpp:310
 #: Subversion2/subversion2_ui.cpp:1273 WebTools/WebToolsBase.cpp:73
 #: WebTools/WebToolsBase.cpp:91 WebTools/WebToolsBase.cpp:223
 #: WebTools/WebToolsBase.cpp:236 codelitephp/php-plugin/php_ui.cpp:372
 #: codelitephp/php-plugin/php_ui.cpp:672 codelitephp/php-plugin/php_ui.cpp:686
 #: codelitephp/php-plugin/php_ui.cpp:697 codelitephp/php-plugin/php_ui.cpp:1850
-#: cscope/CscopeTabBase.cpp:196 git/gitui.cpp:51 git/gitui.cpp:59
-#: git/gitui.cpp:1222 wxcrafter/file_picker_ctrl_wrapper.cpp:13
+#: cscope/CscopeTabBase.cpp:196 git/gitui.cpp:52 git/gitui.cpp:63
+#: git/gitui.cpp:1360 wxcrafter/file_picker_ctrl_wrapper.cpp:13
 msgid "Select a file"
 msgstr "ファイルを選択"
 
@@ -173,7 +173,7 @@ msgstr "バージョン:"
 #: CMakePlugin/CMakePluginUi.cpp:116 LiteEditor/importfilesdialog_new.cpp:61
 #: LiteEditor/rename_symbool_dlg.cpp:60 Plugin/ToolBarUI.cpp:33
 #: Subversion2/subversion2_ui.cpp:59 codelitephp/php-plugin/php_ui.cpp:2180
-#: git/gitui.cpp:1316
+#: git/gitui.cpp:1464
 msgid "?"
 msgstr "？"
 
@@ -182,7 +182,7 @@ msgid "Select Topic:"
 msgstr "トピックを選択:"
 
 #: CMakePlugin/CMakePluginUi.cpp:139 LiteEditor/editorframe.cpp:65
-#: LiteEditor/frame.cpp:1534 Runtime/rc/menu.xrc:802
+#: LiteEditor/frame.cpp:1474 Runtime/rc/menu.xrc:802
 #: wxcrafter/wxcrafter.cpp:1018
 msgid "Reload"
 msgstr "再読み込み"
@@ -216,7 +216,7 @@ msgid "Show call graph for selected/active project"
 msgstr "選択中/アクティブなプロジェクトの呼び出し図を表示"
 
 #: CallGraph/callgraph.cpp:158 DatabaseExplorer/databaseexplorer.cpp:163
-#: LiteEditor/frame.cpp:1038
+#: LiteEditor/frame.cpp:1057
 #: Runtime/templates/projects/executable-wxcrafter-frame/wxcrafter.cpp:44
 #: codelite-cli/codelite-client/wxcrafter.cpp:115
 #: codelite_terminal/wxcrafter.cpp:72 wxcrafter/wxcrafter_plugin.cpp:405
@@ -328,9 +328,9 @@ msgstr "名前空間を隠す"
 #: Docker/DockerOutputPane.cpp:72 ExternalTools/external_tools.cpp:160
 #: LiteEditor/simpletablebase.cpp:50 Plugin/DiffFoldersFrame.cpp:32
 #: Plugin/DiffSideBySidePanel.cpp:92 Plugin/clFileSystemWorkspace.cpp:544
-#: Plugin/clFileSystemWorkspaceView.cpp:26 Plugin/clRemoteDirCtrl.cpp:246
+#: Plugin/clFileSystemWorkspaceView.cpp:26 Plugin/clRemoteDirCtrl.cpp:251
 #: Plugin/clTreeCtrlPanel.cpp:98 Runtime/rc/menu.xrc:1130
-#: git/GitConsole.cpp:110 git/gitui.cpp:1419
+#: git/GitConsole.cpp:110 git/gitui.cpp:1590
 msgid "Refresh"
 msgstr "再読み込み"
 
@@ -454,7 +454,7 @@ msgstr "OK (&O)"
 #: LiteEditor/symbols_dialog_base.cpp:67 LiteEditor/tabgroupbasedlgs.cpp:68
 #: LiteEditor/tabgroupbasedlgs.cpp:180
 #: LiteEditor/tagsparsersearchpathsbasedlg.cpp:71
-#: LiteEditor/workspacesettingsbase.cpp:111 LiteEditor/wxcrafter.cpp:147
+#: LiteEditor/workspacesettingsbase.cpp:111 LiteEditor/wxcrafter.cpp:144
 #: Plugin/renamefilebasedlg.cpp:119 Plugin/sftp_ui.cpp:74
 #: Plugin/sftp_ui.cpp:259 Plugin/sftp_ui.cpp:402 Plugin/wxcrafter_plugin.cpp:78
 #: QmakePlugin/NewQtProj.cpp:97 QmakePlugin/qmakesettingsbasedlg.cpp:57
@@ -520,8 +520,8 @@ msgstr "新しいクラスダイヤグラム..."
 #: Copyright/copyright.cpp:383 Copyright/copyright.cpp:394
 #: DatabaseExplorer/ClassGenerateDialog.cpp:128
 #: DatabaseExplorer/ClassGenerateDialog.cpp:133
-#: ExternalTools/externaltooldlg.cpp:72 Gizmos/gizmos.cpp:313
-#: Gizmos/gizmos.cpp:340 Gizmos/newclassdlg.cpp:132 Gizmos/newclassdlg.cpp:145
+#: ExternalTools/externaltooldlg.cpp:72 Gizmos/gizmos.cpp:316
+#: Gizmos/gizmos.cpp:343 Gizmos/newclassdlg.cpp:132 Gizmos/newclassdlg.cpp:145
 #: Gizmos/newclassdlg.cpp:156 Gizmos/newclassdlg.cpp:161
 #: Gizmos/newclassdlg.cpp:170 Gizmos/newclassdlg.cpp:179
 #: Gizmos/newclassdlg.cpp:185 Gizmos/newwxprojectdlg.cpp:78
@@ -529,24 +529,24 @@ msgstr "新しいクラスダイヤグラム..."
 #: LiteEditor/CompilerMainPage.cpp:220 LiteEditor/CompilerMainPage.cpp:242
 #: LiteEditor/CompilerMainPage.cpp:252 LiteEditor/CompilerMainPage.cpp:867
 #: LiteEditor/acceltabledlg.cpp:155 LiteEditor/cl_editor.cpp:316
-#: LiteEditor/cl_editor.cpp:321 LiteEditor/cl_editor.cpp:2454
-#: LiteEditor/cl_editor.cpp:2487 LiteEditor/configuration_manager_dlg.cpp:171
-#: LiteEditor/context_cpp.cpp:1653
+#: LiteEditor/cl_editor.cpp:321 LiteEditor/cl_editor.cpp:2458
+#: LiteEditor/cl_editor.cpp:2491 LiteEditor/configuration_manager_dlg.cpp:171
+#: LiteEditor/context_cpp.cpp:1666
 #: LiteEditor/debugger_predefined_types_page.cpp:85
-#: LiteEditor/edit_workspace_conf_dlg.cpp:124 LiteEditor/fileview.cpp:979
-#: LiteEditor/fileview.cpp:1830 LiteEditor/findresultstab.cpp:120
-#: LiteEditor/frame.cpp:2168 LiteEditor/manager.cpp:1139
-#: LiteEditor/manager.cpp:1920 LiteEditor/manager.cpp:1981
-#: LiteEditor/manager.cpp:2469 LiteEditor/manager.cpp:2493
-#: LiteEditor/manager.cpp:2525 LiteEditor/movefuncimpldlg.cpp:77
+#: LiteEditor/edit_workspace_conf_dlg.cpp:124 LiteEditor/fileview.cpp:978
+#: LiteEditor/fileview.cpp:1829 LiteEditor/findresultstab.cpp:120
+#: LiteEditor/frame.cpp:2108 LiteEditor/manager.cpp:1220
+#: LiteEditor/manager.cpp:2001 LiteEditor/manager.cpp:2062
+#: LiteEditor/manager.cpp:2549 LiteEditor/manager.cpp:2573
+#: LiteEditor/manager.cpp:2605 LiteEditor/movefuncimpldlg.cpp:77
 #: LiteEditor/new_configuration_dlg.cpp:132
 #: LiteEditor/ps_custom_build_page.cpp:90 LiteEditor/reconcileproject.cpp:132
 #: LiteEditor/reconcileproject.cpp:786 LiteEditor/renamesymboldlg.cpp:91
-#: LiteEditor/tabgroupspane.cpp:212 LiteEditor/tabgroupspane.cpp:256
-#: LiteEditor/tabgroupspane.cpp:456 LiteEditor/tabgroupspane.cpp:504
-#: LiteEditor/tabgroupspane.cpp:511 LiteEditor/tabgroupspane.cpp:575
-#: LiteEditor/tabgroupspane.cpp:620 LiteEditor/tabgroupspane.cpp:626
-#: LiteEditor/tabgroupspane.cpp:727 LiteEditor/tabgroupspane.cpp:750
+#: LiteEditor/tabgroupspane.cpp:214 LiteEditor/tabgroupspane.cpp:258
+#: LiteEditor/tabgroupspane.cpp:458 LiteEditor/tabgroupspane.cpp:506
+#: LiteEditor/tabgroupspane.cpp:513 LiteEditor/tabgroupspane.cpp:577
+#: LiteEditor/tabgroupspane.cpp:622 LiteEditor/tabgroupspane.cpp:628
+#: LiteEditor/tabgroupspane.cpp:729 LiteEditor/tabgroupspane.cpp:752
 #: Plugin/builder_NMake.cpp:177 Plugin/builder_gnumake.cpp:167
 #: Plugin/builder_gnumake_default.cpp:187 Plugin/memoryview.cpp:164
 #: Plugin/workspace.cpp:249 Plugin/workspace.cpp:480
@@ -557,12 +557,12 @@ msgstr "新しいクラスダイヤグラム..."
 #: UnitTestCPP/unittestpp.cpp:210 UnitTestCPP/unittestpp.cpp:278
 #: UnitTestCPP/unittestpp.cpp:332 UnitTestCPP/unittestpp.cpp:400
 #: WebTools/NodeDebugger.cpp:268 abbreviation/abbreviationssettingsdlg.cpp:95
-#: codelitephp/php-plugin/php_workspace_view.cpp:524
-#: wxcrafter/import_from_wxFB.cpp:35 wxcrafter/import_from_wxFB.cpp:53
-#: wxcrafter/import_from_wxFB.cpp:58 wxcrafter/import_from_wxFB.cpp:76
-#: wxcrafter/import_from_wxFB.cpp:83 wxcrafter/import_from_wxSmith.cpp:36
-#: wxcrafter/import_from_wxSmith.cpp:58 wxcrafter/import_from_xrc.cpp:33
-#: wxcrafter/import_from_xrc.cpp:52 wxformbuilder/wxfbitemdlg.cpp:51
+#: codelitephp/php-plugin/php_workspace_view.cpp:526
+#: wxcrafter/import_from_wxFB.cpp:41 wxcrafter/import_from_wxFB.cpp:59
+#: wxcrafter/import_from_wxFB.cpp:64 wxcrafter/import_from_wxFB.cpp:82
+#: wxcrafter/import_from_wxFB.cpp:89 wxcrafter/import_from_wxSmith.cpp:36
+#: wxcrafter/import_from_wxSmith.cpp:58 wxcrafter/import_from_xrc.cpp:39
+#: wxcrafter/import_from_xrc.cpp:58 wxformbuilder/wxfbitemdlg.cpp:51
 #: wxformbuilder/wxformbuilder.cpp:221 wxformbuilder/wxformbuilder.cpp:235
 #: wxformbuilder/wxformbuilder.cpp:241 wxformbuilder/wxformbuilder.cpp:252
 #: wxformbuilder/wxformbuilder.cpp:296
@@ -645,7 +645,7 @@ msgid "C"
 msgstr "C 言語"
 
 #: CodeDesigner/codedesigneritembasedlg.cpp:47
-#: CodeFormatter/codeformatterdlgbase.cpp:150 LiteEditor/frame.cpp:962
+#: CodeFormatter/codeformatterdlgbase.cpp:150 LiteEditor/frame.cpp:981
 #: Plugin/workspace.cpp:58 wxcrafter/gui.cpp:371
 msgid "C++"
 msgstr "C++"
@@ -708,7 +708,7 @@ msgstr "..."
 #: Plugin/VirtualDirectorySelectorBase.cpp:55
 #: Runtime/templates/projects/executable-wxcrafter-dialog/wxcrafter.cpp:39
 #: Subversion2/subversion2_ui.cpp:874
-#: codelitephp/php-plugin/XDebugManager.cpp:736
+#: codelitephp/php-plugin/XDebugManager.cpp:738
 msgid "OK"
 msgstr "OK"
 
@@ -717,7 +717,7 @@ msgstr "OK"
 #: DatabaseExplorer/GUI.cpp:1123 DatabaseExplorer/GUI.cpp:1474
 #: ExternalTools/external_tools.cpp:166 LiteEditor/breakpointdlgbase.cpp:367
 #: LiteEditor/compiler_pages.cpp:76 LiteEditor/debugcoredumpbase.cpp:112
-#: LiteEditor/fileview.cpp:902 LiteEditor/frame.cpp:2783
+#: LiteEditor/fileview.cpp:901 LiteEditor/frame.cpp:2723
 #: LiteEditor/new_configuration_dlg.cpp:109 LiteEditor/options_base_dlg2.cpp:58
 #: LiteEditor/tags_options_base_dlg.cpp:135 MacBundler/macbundler.cpp:142
 #: Plugin/EnvironmentVariablesDlgBase.cpp:125
@@ -726,7 +726,7 @@ msgstr "OK"
 #: SpellChecker/wxcrafter.cpp:244 Subversion2/subversion2_ui.cpp:256
 #: Subversion2/subversion2_ui.cpp:338 Subversion2/subversion2_ui.cpp:879
 #: Subversion2/wxcrafter.cpp:210 codelite_terminal/wxcrafter.cpp:162
-#: codelitephp/php-plugin/php_ui.cpp:227 git/gitui.cpp:360
+#: codelitephp/php-plugin/php_ui.cpp:227 git/gitui.cpp:403
 #: wxcrafter/wxcrafter.cpp:150 wxcrafter/wxcrafter.cpp:747
 #: wxformbuilder/formbuildsettingsbasedlg.cpp:88
 #: wxformbuilder/wxfbitembasedlg.cpp:95
@@ -768,7 +768,7 @@ msgstr "通信ポート:"
 #: LiteEditor/new_configuration_dlg.cpp:106
 #: LiteEditor/new_virtual_folder.cpp:72 LiteEditor/newquickwatch.cpp:53
 #: LiteEditor/options_base_dlg2.cpp:52 LiteEditor/rename_symbool_dlg.cpp:217
-#: LiteEditor/symbols_dialog_base.cpp:63 LiteEditor/wxcrafter.cpp:142
+#: LiteEditor/symbols_dialog_base.cpp:63 LiteEditor/wxcrafter.cpp:139
 #: Plugin/EnvironmentVariablesDlgBase.cpp:129 Plugin/sftp_ui.cpp:69
 #: Plugin/sftp_ui.cpp:254 Plugin/sftp_ui.cpp:397 Plugin/wxcrafter_plugin.cpp:73
 #: QmakePlugin/NewQtProj.cpp:101 QmakePlugin/qmakesettingsbasedlg.cpp:61
@@ -780,7 +780,7 @@ msgstr "通信ポート:"
 #: codelitephp/php-plugin/php_ui.cpp:222 codelitephp/php-plugin/php_ui.cpp:554
 #: codelitephp/php-plugin/php_ui.cpp:933
 #: cppchecker/cppchecksettingsdlgbase.cpp:332
-#: cppchecker/cppchecksettingsdlgbase.cpp:485 git/gitui.cpp:355
+#: cppchecker/cppchecksettingsdlgbase.cpp:485 git/gitui.cpp:397
 #: sdk/wxflatnotebook/src/wxFlatNotebook/fnb_customize_dlg.cpp:39
 #: wxcrafter/gui.cpp:831 wxcrafter/gui.cpp:932 wxcrafter/wxcrafter.cpp:145
 #: wxcrafter/wxcrafter.cpp:1251 wxcrafter/wxcrafter.cpp:1344
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #: CodeFormatter/codeformatterdlgbase.cpp:37 LLDBDebugger/UI.cpp:332
 #: LiteEditor/debuggersettingsbasedlg.cpp:338
-#: LiteEditor/editorsettingsmiscpanel.cpp:49
+#: LiteEditor/editorsettingsmiscpanel.cpp:50
 #: LiteEditor/project_settings_base_dlg.cpp:166
 #: LiteEditor/project_settings_dlg.cpp:105
 #: LiteEditor/syntaxhighlightbasedlg.cpp:59 MemCheck/memcheckui.cpp:575
@@ -1437,7 +1437,7 @@ msgid "Bracket Style options define the bracket style to use"
 msgstr "括弧の改行とインデントのスタイルを指定します"
 
 #: CodeFormatter/codeformatterdlgbase.cpp:477
-#: SnipWiz/templateclassbasedlg.cpp:42 codelitephp/php-plugin/localsview.cpp:35
+#: SnipWiz/templateclassbasedlg.cpp:42 codelitephp/php-plugin/localsview.cpp:37
 msgid "Class"
 msgstr "クラス"
 
@@ -1943,11 +1943,11 @@ msgstr "プロセスにコマンドを送信"
 msgid "Terminal"
 msgstr "端末"
 
-#: CodeLite/UnixProcess.cpp:24 codelite-stdio/UnixProcess.cpp:17
+#: CodeLite/UnixProcess.cpp:26 codelite-stdio/UnixProcess.cpp:17
 msgid "Failed to start child process"
 msgstr "子プロセスの開始に失敗しました"
 
-#: CodeLite/clCommandProcessor.cpp:28 LiteEditor/manager.cpp:1741
+#: CodeLite/clCommandProcessor.cpp:28 LiteEditor/manager.cpp:1822
 msgid "Executing: "
 msgstr "実行中: "
 
@@ -2177,7 +2177,7 @@ msgid "Select file:"
 msgstr "ファイルを選択:"
 
 #: CodeLiteDiff/NewFileComparison.cpp:40 CodeLiteDiff/codelitediff.cpp:129
-#: CodeLiteDiff/codelitediff.cpp:138 LiteEditor/mainbook.cpp:492
+#: CodeLiteDiff/codelitediff.cpp:138 LiteEditor/mainbook.cpp:493
 msgid "Untitled"
 msgstr "無題"
 
@@ -2517,12 +2517,12 @@ msgstr "ビュー"
 #: DatabaseExplorer/DbViewerPanel.cpp:281 DatabaseExplorer/GUI.cpp:868
 #: LiteEditor/batchbuildbasedlg.cpp:97 LiteEditor/edit_configuration.cpp:100
 #: LiteEditor/editorframe.cpp:64 LiteEditor/findinfiles_dlg.cpp:144
-#: LiteEditor/frame.cpp:1034 LiteEditor/frame.cpp:1537
-#: LiteEditor/quickfindbar.cpp:118 Plugin/DiffFoldersFrame.cpp:31
+#: LiteEditor/frame.cpp:1053 LiteEditor/frame.cpp:1477
+#: LiteEditor/quickfindbar.cpp:111 Plugin/DiffFoldersFrame.cpp:31
 #: Plugin/clPluginsFindBar.cpp:101 Plugin/clTreeCtrlPanel.cpp:121
 #: Runtime/rc/menu.xrc:761 Runtime/rc/menu.xrc:772 Runtime/rc/menu.xrc:780
 #: SnipWiz/editsnippetsbasedlg.cpp:134 Subversion2/subversion_view.cpp:501
-#: git/gitui.cpp:610 git/gitui.cpp:736 wxcrafter/main.cpp:198
+#: git/gitui.cpp:684 git/gitui.cpp:821 wxcrafter/main.cpp:198
 msgid "Close"
 msgstr "閉じる"
 
@@ -2547,13 +2547,13 @@ msgid "Can't create new db in this database engine!"
 msgstr "このデータベースエンジンでは、新しいデータベースを作成できません！"
 
 #: DatabaseExplorer/DbViewerPanel.cpp:348 Gizmos/newwxprojectdlg.cpp:103
-#: LiteEditor/advanced_settings.cpp:89 LiteEditor/cl_editor.cpp:1687
-#: LiteEditor/fileview.cpp:915 LiteEditor/fileview.cpp:926
-#: LiteEditor/manager.cpp:299 LiteEditor/manager.cpp:316
-#: LiteEditor/manager.cpp:499 LiteEditor/manager.cpp:617
-#: LiteEditor/manager.cpp:687 LiteEditor/manager.cpp:985
-#: LiteEditor/manager.cpp:1012 LiteEditor/manager.cpp:1155
-#: LiteEditor/manager.cpp:1311 LiteEditor/newworkspacedlg.cpp:107
+#: LiteEditor/advanced_settings.cpp:89 LiteEditor/cl_editor.cpp:1691
+#: LiteEditor/fileview.cpp:914 LiteEditor/fileview.cpp:925
+#: LiteEditor/manager.cpp:370 LiteEditor/manager.cpp:387
+#: LiteEditor/manager.cpp:570 LiteEditor/manager.cpp:698
+#: LiteEditor/manager.cpp:768 LiteEditor/manager.cpp:1066
+#: LiteEditor/manager.cpp:1093 LiteEditor/manager.cpp:1236
+#: LiteEditor/manager.cpp:1392 LiteEditor/newworkspacedlg.cpp:107
 msgid "Error"
 msgstr "エラー"
 
@@ -2758,7 +2758,7 @@ msgstr "データファイルをバックアップ"
 
 #: DatabaseExplorer/ErdCommitWizard.cpp:175
 #: DatabaseExplorer/ErdCommitWizard.cpp:181
-#: DatabaseExplorer/ErdCommitWizard.cpp:399 LiteEditor/context_cpp.cpp:2176
+#: DatabaseExplorer/ErdCommitWizard.cpp:399 LiteEditor/context_cpp.cpp:2196
 #: LiteEditor/syntaxhighlightdlg.cpp:612
 msgid "Select file"
 msgstr "ファイルを選択"
@@ -2848,10 +2848,10 @@ msgstr "復元ログ:"
 msgid "Restore"
 msgstr "復元"
 
-#: DatabaseExplorer/ErdPanel.cpp:176 LiteEditor/frame.cpp:1533
-#: MemCheck/memcheckui.cpp:362 Plugin/clRemoteDirCtrl.cpp:193
+#: DatabaseExplorer/ErdPanel.cpp:176 LiteEditor/frame.cpp:1473
+#: MemCheck/memcheckui.cpp:362 Plugin/clRemoteDirCtrl.cpp:198
 #: Plugin/clTreeCtrlPanel.cpp:152
-#: codelitephp/php-plugin/php_workspace_view.cpp:295
+#: codelitephp/php-plugin/php_workspace_view.cpp:297
 msgid "Open"
 msgstr "開く"
 
@@ -2860,7 +2860,7 @@ msgid "Open diagram"
 msgstr "ダイヤグラムを開く"
 
 #: DatabaseExplorer/ErdPanel.cpp:178 LiteEditor/editorframe.cpp:63
-#: LiteEditor/frame.cpp:1535 Plugin/DiffSideBySidePanel.cpp:93
+#: LiteEditor/frame.cpp:1475 Plugin/DiffSideBySidePanel.cpp:93
 #: Runtime/rc/menu.xrc:775 Runtime/rc/menu.xrc:805
 #: wxcrafter/allocator_mgr.cpp:1044 wxcrafter/main.cpp:199
 msgid "Save"
@@ -2899,8 +2899,8 @@ msgid "Print preview"
 msgstr "印刷プレビュー"
 
 #: DatabaseExplorer/ErdPanel.cpp:188 DatabaseExplorer/FrameCanvas.cpp:173
-#: LiteEditor/BuildTab.cpp:297 LiteEditor/frame.cpp:993
-#: LiteEditor/frame.cpp:1540 LiteEditor/project_settings_base_dlg.cpp:313
+#: LiteEditor/BuildTab.cpp:297 LiteEditor/frame.cpp:1012
+#: LiteEditor/frame.cpp:1480 LiteEditor/project_settings_base_dlg.cpp:313
 #: Runtime/rc/menu.xrc:877 Runtime/rc/menu.xrc:922 Runtime/rc/menu.xrc:1081
 #: wxcrafter/allocator_mgr.cpp:1092
 msgid "Copy"
@@ -2911,7 +2911,7 @@ msgid "Copy item"
 msgstr "項目をコピー"
 
 #: DatabaseExplorer/ErdPanel.cpp:190 DatabaseExplorer/FrameCanvas.cpp:174
-#: LiteEditor/frame.cpp:992 LiteEditor/frame.cpp:1539 Runtime/rc/menu.xrc:890
+#: LiteEditor/frame.cpp:1011 LiteEditor/frame.cpp:1479 Runtime/rc/menu.xrc:890
 #: Runtime/rc/menu.xrc:919 wxcrafter/allocator_mgr.cpp:1093
 msgid "Cut"
 msgstr "切り取り"
@@ -2921,7 +2921,7 @@ msgid "Cut item"
 msgstr "項目を切り取り"
 
 #: DatabaseExplorer/ErdPanel.cpp:192 DatabaseExplorer/FrameCanvas.cpp:175
-#: LiteEditor/frame.cpp:994 LiteEditor/frame.cpp:1541 Runtime/rc/menu.xrc:880
+#: LiteEditor/frame.cpp:1013 LiteEditor/frame.cpp:1481 Runtime/rc/menu.xrc:880
 #: Runtime/rc/menu.xrc:925 wxcrafter/allocator_mgr.cpp:731
 #: wxcrafter/allocator_mgr.cpp:1094
 msgid "Paste"
@@ -2932,15 +2932,15 @@ msgid "Paste item"
 msgstr "項目を貼り付け"
 
 #: DatabaseExplorer/ErdPanel.cpp:195 LiteEditor/editorframe.cpp:68
-#: LiteEditor/frame.cpp:990 LiteEditor/frame.cpp:1542
-#: LiteEditor/wxcrafter.cpp:393 Runtime/rc/menu.xrc:883 Runtime/rc/menu.xrc:912
+#: LiteEditor/frame.cpp:1009 LiteEditor/frame.cpp:1482
+#: LiteEditor/wxcrafter.cpp:380 Runtime/rc/menu.xrc:883 Runtime/rc/menu.xrc:912
 #: wxcrafter/main.cpp:201
 msgid "Undo"
 msgstr "元に戻す"
 
 #: DatabaseExplorer/ErdPanel.cpp:197 LiteEditor/editorframe.cpp:69
-#: LiteEditor/frame.cpp:991 LiteEditor/frame.cpp:1543
-#: LiteEditor/wxcrafter.cpp:396 Runtime/rc/menu.xrc:886 Runtime/rc/menu.xrc:915
+#: LiteEditor/frame.cpp:1010 LiteEditor/frame.cpp:1483
+#: LiteEditor/wxcrafter.cpp:383 Runtime/rc/menu.xrc:886 Runtime/rc/menu.xrc:915
 #: wxcrafter/main.cpp:202
 msgid "Redo"
 msgstr "やり直す"
@@ -2961,8 +2961,8 @@ msgstr "DBE テーブル"
 msgid "Database table"
 msgstr "データベースのテーブル"
 
-#: DatabaseExplorer/ErdPanel.cpp:216 LiteEditor/frame.cpp:1083
-#: LiteEditor/wxcrafter.cpp:609 codelitephp/php-plugin/php_ui.cpp:822
+#: DatabaseExplorer/ErdPanel.cpp:216 LiteEditor/frame.cpp:1102
+#: LiteEditor/wxcrafter.cpp:570 codelitephp/php-plugin/php_ui.cpp:822
 msgid "View"
 msgstr "表示"
 
@@ -3156,7 +3156,7 @@ msgid "Database user name"
 msgstr "データベースのユーザー名"
 
 #: DatabaseExplorer/GUI.cpp:449 DatabaseExplorer/GUI.cpp:536
-#: Plugin/sftp_ui.cpp:211 SFTP/UI.cpp:525 Subversion2/subversion2_ui.cpp:317
+#: Plugin/sftp_ui.cpp:211 SFTP/UI.cpp:512 Subversion2/subversion2_ui.cpp:317
 msgid "Password:"
 msgstr "パスワード:"
 
@@ -3179,7 +3179,7 @@ msgid "Name:"
 msgstr "名前:"
 
 #: DatabaseExplorer/GUI.cpp:510 LiteEditor/project_settings_base_dlg.cpp:731
-#: Plugin/sftp_ui.cpp:184 SFTP/UI.cpp:500 codelitephp/php-plugin/php_ui.cpp:519
+#: Plugin/sftp_ui.cpp:184 SFTP/UI.cpp:487 codelitephp/php-plugin/php_ui.cpp:519
 msgid "Port:"
 msgstr "ポート:"
 
@@ -3239,7 +3239,7 @@ msgstr "ON UPDATE"
 msgid "Referenced table:"
 msgstr "参照先のテーブル:"
 
-#: DatabaseExplorer/GUI.cpp:854 LiteEditor/editorsettingsmiscpanel.cpp:103
+#: DatabaseExplorer/GUI.cpp:854 LiteEditor/editorsettingsmiscpanel.cpp:108
 #: SFTP/SFTPStatusPage.cpp:197 SFTP/UI.cpp:36 git/GitConsole.cpp:204
 msgid "Log"
 msgstr "ログ"
@@ -3273,7 +3273,7 @@ msgstr "フォルダー:"
 #: codelite-generate-themes/codelite-generate-themes/wxcrafter.cpp:50
 #: codelitephp/php-plugin/php_ui.cpp:210 codelitephp/php-plugin/php_ui.cpp:711
 #: codelitephp/php-plugin/php_ui.cpp:1097
-#: codelitephp/php-plugin/php_ui.cpp:1772 git/gitui.cpp:139 git/gitui.cpp:1072
+#: codelitephp/php-plugin/php_ui.cpp:1772 git/gitui.cpp:159 git/gitui.cpp:1208
 #: wxcrafter/dir_picker_ctrl_wrapper.cpp:13
 msgid "Select a folder"
 msgstr "フォルダーを選択"
@@ -3344,7 +3344,7 @@ msgstr "列名"
 #: LiteEditor/compiler_pages.cpp:600
 #: LiteEditor/debugger_predefined_types_page.cpp:36
 #: LiteEditor/localstable.cpp:56 LiteEditor/simpletable.cpp:117
-#: Plugin/sftp_ui.cpp:375 codelitephp/php-plugin/localsview.cpp:34
+#: Plugin/sftp_ui.cpp:375 codelitephp/php-plugin/localsview.cpp:36
 #: codelitephp/php-plugin/php_ui.cpp:288
 msgid "Type"
 msgstr "タイプ"
@@ -3481,9 +3481,9 @@ msgstr "接続できません！"
 
 #: DatabaseExplorer/SqlCommandPanel.cpp:281 LiteEditor/ps_compiler_page.cpp:116
 #: LiteEditor/ps_general_page.cpp:245 Plugin/DiffSideBySidePanel.cpp:957
-#: Plugin/DiffSideBySidePanel.cpp:966 Plugin/clPropertiesPage.cpp:301
-#: Plugin/wxcrafter_plugin.cpp:151 Remoty/RemotySwitchToWorkspaceDlg.cpp:51
-#: Remoty/RemotySwitchToWorkspaceDlg.cpp:62
+#: Plugin/DiffSideBySidePanel.cpp:966 Plugin/clPropertiesPage.cpp:320
+#: Plugin/wxcrafter_plugin.cpp:151 Remoty/RemotySwitchToWorkspaceDlg.cpp:53
+#: Remoty/RemotySwitchToWorkspaceDlg.cpp:64
 msgid "Choose a file"
 msgstr "ファイルを選択"
 
@@ -3648,27 +3648,27 @@ msgstr "ブレークポイント %i の条件を消去しました"
 msgid "Condition %s set for breakpoint %i"
 msgstr "条件 %s をブレークポイント %i に設定しました"
 
-#: Debugger/debuggergdb.cpp:272
+#: Debugger/debuggergdb.cpp:265
 msgid "Debugging over SSH, using account: "
 msgstr "SSH 経由でデバッグしています - アカウント: "
 
-#: Debugger/debuggergdb.cpp:273
+#: Debugger/debuggergdb.cpp:266
 msgid "Current working dir: "
 msgstr "現在の作業ディレクトリ: "
 
-#: Debugger/debuggergdb.cpp:274
+#: Debugger/debuggergdb.cpp:267
 msgid "Launching gdb from : "
 msgstr "GDB の起動元 : "
 
-#: Debugger/debuggergdb.cpp:275
+#: Debugger/debuggergdb.cpp:268
 msgid "Starting debugger  : "
 msgstr "デバッガーを開始しています  : "
 
-#: Debugger/debuggergdb.cpp:658 Debugger/debuggergdb.cpp:704
+#: Debugger/debuggergdb.cpp:655 Debugger/debuggergdb.cpp:701
 msgid "Can't interrupt debuggee process: I don't know its PID!"
 msgstr "デバッギープロセスを中断できません: PID が分かりません！"
 
-#: Debugger/debuggergdb.cpp:833
+#: Debugger/debuggergdb.cpp:831
 msgid "Failed to start debugger: permission denied"
 msgstr "デバッガーの開始に失敗しました: 権限がありません"
 
@@ -3709,7 +3709,7 @@ msgid "Restart"
 msgstr "再起動"
 
 #: Docker/DockerOutputPane.cpp:257 ExternalTools/external_tools.cpp:150
-#: LiteEditor/frame.cpp:950 LiteEditor/shelltab.cpp:77
+#: LiteEditor/frame.cpp:969 LiteEditor/shelltab.cpp:77
 msgid "Stop"
 msgstr "停止"
 
@@ -3754,7 +3754,7 @@ msgstr ""
 "例:\n"
 "'-t my_container .'"
 
-#: Docker/UI.cpp:259 LiteEditor/frame.cpp:949
+#: Docker/UI.cpp:259 LiteEditor/frame.cpp:968
 msgid "Run"
 msgstr "実行"
 
@@ -3774,9 +3774,9 @@ msgstr ""
 "例:\n"
 "'-i my_container .'"
 
-#: Docker/UI.cpp:361 LiteEditor/debuggerpane.cpp:55 Plugin/clStrings.h:6
+#: Docker/UI.cpp:361 LiteEditor/debuggerpane.cpp:57 Plugin/clStrings.h:6
 #: Plugin/editor_config.cpp:457 Plugin/editor_config.cpp:494
-#: Runtime/rc/menu.xrc:662 Subversion2/subversion2_ui.cpp:95 git/gitui.cpp:1341
+#: Runtime/rc/menu.xrc:662 Subversion2/subversion2_ui.cpp:95 git/gitui.cpp:1498
 msgid "Output"
 msgstr "出力"
 
@@ -3815,7 +3815,7 @@ msgstr "名前"
 msgid "Repository"
 msgstr "リポジトリ"
 
-#: Docker/UI.cpp:467 git/gitui.cpp:813 git/gitui.cpp:869
+#: Docker/UI.cpp:467 git/gitui.cpp:904 git/gitui.cpp:970
 msgid "Tag"
 msgstr "タグ"
 
@@ -3890,14 +3890,14 @@ msgstr "CodeLite への Docker 統合"
 
 #: Docker/docker.cpp:66 HelpPlugin/HelpPluginUI.h:99
 #: LLDBDebugger/LLDBPlugin.cpp:278 LanguageServer/languageserver.cpp:91
-#: LiteEditor/frame.cpp:1072 MemCheck/memcheckui.cpp:257
+#: LiteEditor/frame.cpp:1091 MemCheck/memcheckui.cpp:257
 #: Plugin/clFileSystemWorkspaceView.cpp:25
 #: Plugin/clFileSystemWorkspaceView.cpp:131
 #: WordCompletion/wordcompletion.cpp:69 ZoomNavigator/zoomnavigator.cpp:130
 #: codelite_terminal/wxcrafter.h:95 cppchecker/cppchecker.cpp:156
 #: cppchecker/cppchecker.cpp:233 cppchecker/cppchecker.cpp:249
 #: cppchecker/cppchecker.cpp:263 cppchecker/cppchecker.cpp:277
-#: git/gitui.cpp:1423
+#: git/gitui.cpp:1596 git/gitui.cpp:1597
 msgid "Settings"
 msgstr "設定"
 
@@ -3925,7 +3925,7 @@ msgstr "新しい EOS プロジェクト"
 msgid "CodeLite for EOS"
 msgstr "CodeLite 用の EOS"
 
-#: EOSWiki/eoswiki.cpp:60 LiteEditor/fileview.cpp:2671
+#: EOSWiki/eoswiki.cpp:60 LiteEditor/fileview.cpp:2670
 #: wxcrafter/allocator_mgr.cpp:608
 msgid "New Project..."
 msgstr "新しいプロジェクト..."
@@ -3944,7 +3944,7 @@ msgstr ""
 msgid "A project with the same name: '"
 msgstr "同じ名前のプロジェクト: '"
 
-#: EOSWiki/eoswiki.cpp:103 LiteEditor/fileview.cpp:2361
+#: EOSWiki/eoswiki.cpp:103 LiteEditor/fileview.cpp:2360
 msgid "Failed to create workspace:\n"
 msgstr "ワークスペースの作成に失敗しました:\n"
 
@@ -4069,7 +4069,7 @@ msgstr "外部ツール"
 #: LiteEditor/attachdbgprocbasedlg.cpp:72 LiteEditor/localstable.cpp:54
 #: Plugin/clFileSystemWorkspace.cpp:823 Plugin/clSelectSymbolDialogBase.cpp:40
 #: Plugin/openresourcedialogbase.cpp:45 Plugin/sftp_ui.cpp:373
-#: Subversion2/subversion2_ui.cpp:76 codelitephp/php-plugin/localsview.cpp:33
+#: Subversion2/subversion2_ui.cpp:76 codelitephp/php-plugin/localsview.cpp:35
 #: codelitephp/php-plugin/php_ui.cpp:286 wxcrafter/aui_pane_info.cpp:51
 #: wxcrafter/aui_pane_info.cpp:174 wxcrafter/info_bar_button_wrapper.cpp:16
 #: wxcrafter/properties_list_view.cpp:316
@@ -4082,8 +4082,8 @@ msgstr "名前"
 #: ExternalTools/external_tools.cpp:41 LiteEditor/openwindowspanelbase.cpp:33
 #: LiteEditor/project_settings_base_dlg.cpp:584
 #: Subversion2/subversion2_ui.cpp:61 Subversion2/subversion2_ui.cpp:78
-#: codelite-cli/codelite-client/MainFrame.cpp:72 git/gitui.cpp:1317
-#: git/gitui.cpp:1328
+#: codelite-cli/codelite-client/MainFrame.cpp:72 git/gitui.cpp:1466
+#: git/gitui.cpp:1481
 msgid "Path"
 msgstr "パス"
 
@@ -4179,35 +4179,35 @@ msgstr ""
 "新しいクラスウィザード、新しい wxWidgets ウィザード、新しいプラグインウィザー"
 "ド"
 
-#: Gizmos/gizmos.cpp:172
+#: Gizmos/gizmos.cpp:175
 msgid "Wizards Plugin - a collection of useful utils for C++"
 msgstr "ウィザードプラグイン - C++ に便利なユーティリティのコレクション"
 
-#: Gizmos/gizmos.cpp:203
+#: Gizmos/gizmos.cpp:206
 msgid "New CodeLite Plugin Wizard..."
 msgstr "新しい CodeLite プラグインウィザード..."
 
-#: Gizmos/gizmos.cpp:206
+#: Gizmos/gizmos.cpp:209
 msgid "New Class Wizard..."
 msgstr "新しいクラスウィザード..."
 
-#: Gizmos/gizmos.cpp:208
+#: Gizmos/gizmos.cpp:211
 msgid "Wizards"
 msgstr "ウィザード"
 
-#: Gizmos/gizmos.cpp:221
+#: Gizmos/gizmos.cpp:224
 msgid "&New Class..."
 msgstr "新しいクラス (&N)..."
 
-#: Gizmos/gizmos.cpp:313
+#: Gizmos/gizmos.cpp:316
 msgid "Failed to load wizard's file 'plugin.cpp.wizard'"
 msgstr "ウィザードのファイル 'plugin.cpp.wizard' を読み込めませんでした"
 
-#: Gizmos/gizmos.cpp:340
+#: Gizmos/gizmos.cpp:343
 msgid "Failed to load wizard's file 'plugin.h.wizard'"
 msgstr "ウィザードのファイル 'plugin.h.wizard' を読み込めませんでした"
 
-#: Gizmos/gizmos.cpp:716
+#: Gizmos/gizmos.cpp:719
 msgid "New C++ Class"
 msgstr "新しい C++ クラス"
 
@@ -4328,9 +4328,9 @@ msgstr ""
 
 #: Gizmos/newclassbasedlg.cpp:171 LLDBDebugger/UI.cpp:37
 #: LLDBDebugger/UI.cpp:580 LiteEditor/ThreadListPanelBase.cpp:43
-#: LiteEditor/breakpointslistctrl.h:55 LiteEditor/frame.cpp:1027
+#: LiteEditor/breakpointslistctrl.h:55 LiteEditor/frame.cpp:1046
 #: LiteEditor/listctrlpanelbase.cpp:37 LiteEditor/symbols_dialog.cpp:44
-#: LiteEditor/wxcrafter.cpp:374 MemCheck/memcheckui.cpp:290
+#: LiteEditor/wxcrafter.cpp:361 MemCheck/memcheckui.cpp:290
 #: Runtime/templates/projects/executable-wxcrafter-frame/wxcrafter.cpp:36
 #: UnitTestCPP/unittestreport.cpp:100 WebTools/WebToolsBase.cpp:537
 #: WebTools/WebToolsBase.cpp:560 codelite-cli/codelite-client/wxcrafter.cpp:107
@@ -4721,7 +4721,7 @@ msgstr "概要"
 #: LLDBDebugger/LLDBLocalsView.cpp:56 LiteEditor/CompilerMainPage.cpp:78
 #: LiteEditor/debuggersettingsbasedlg.cpp:861 LiteEditor/localstable.cpp:55
 #: LiteEditor/simpletable.cpp:116 Plugin/macrosdlg.cpp:68
-#: codelitephp/php-plugin/localsview.cpp:36 wxcrafter/check_box_wrapper.cpp:14
+#: codelitephp/php-plugin/localsview.cpp:38 wxcrafter/check_box_wrapper.cpp:14
 #: wxcrafter/dir_picker_ctrl_wrapper.cpp:12
 #: wxcrafter/rich_text_ctrl_wrapper.cpp:61 wxcrafter/slider_wrapper.cpp:10
 msgid "Value"
@@ -4731,7 +4731,7 @@ msgstr "値"
 msgid "Local Variables"
 msgstr "ローカル変数"
 
-#: LLDBDebugger/LLDBLocalsView.cpp:76 LiteEditor/frame.cpp:1532
+#: LLDBDebugger/LLDBLocalsView.cpp:76 LiteEditor/frame.cpp:1472
 #: LiteEditor/simpletablebase.cpp:59 Plugin/clFileSystemWorkspaceDlgBase.cpp:41
 #: Plugin/clFileSystemWorkspaceDlgBase.cpp:449 Runtime/rc/menu.xrc:975
 msgid "New"
@@ -4740,19 +4740,19 @@ msgstr "新規"
 #: LLDBDebugger/LLDBLocalsView.cpp:77 LanguageServer/UI.cpp:74
 #: LiteEditor/compiler_pages.cpp:434 LiteEditor/compiler_pages.cpp:475
 #: LiteEditor/compiler_pages.cpp:519 LiteEditor/compiler_pages.cpp:556
-#: LiteEditor/compiler_pages.cpp:615 LiteEditor/fileview.cpp:2669
+#: LiteEditor/compiler_pages.cpp:615 LiteEditor/fileview.cpp:2668
 #: LiteEditor/project_settings_base_dlg.cpp:1189
 #: LiteEditor/simpletablebase.cpp:55 Plugin/clFileSystemWorkspaceDlgBase.cpp:46
-#: Plugin/clFileSystemWorkspaceDlgBase.cpp:459 Plugin/clRemoteDirCtrl.cpp:271
+#: Plugin/clFileSystemWorkspaceDlgBase.cpp:459 Plugin/clRemoteDirCtrl.cpp:276
 #: Plugin/clTreeCtrlPanel.cpp:105 Plugin/clTreeCtrlPanel.cpp:157
 #: QmakePlugin/qmakesettingsdlg.cpp:102 Runtime/rc/menu.xrc:893
 #: Runtime/rc/menu.xrc:928 Runtime/rc/menu.xrc:1092 Runtime/rc/menu.xrc:1134
-#: SFTP/UI.cpp:245 Subversion2/subversion2.cpp:280
+#: SFTP/UI.cpp:241 Subversion2/subversion2.cpp:280
 #: Subversion2/subversion_view.cpp:456
 #: abbreviation/abbreviationssettingsbase.cpp:47
 #: codelitephp/php-plugin/PHPDebugPane.cpp:33
-#: codelitephp/php-plugin/php_workspace_view.cpp:298
-#: codelitephp/php-plugin/php_workspace_view.cpp:388
+#: codelitephp/php-plugin/php_workspace_view.cpp:300
+#: codelitephp/php-plugin/php_workspace_view.cpp:390
 #: wxcrafter/allocator_mgr.cpp:1036 wxcrafter/wxcrafter.cpp:556
 #: wxcrafter/wxcrafter.cpp:733 wxcrafter/wxcrafter.cpp:1810
 msgid "Delete"
@@ -4791,9 +4791,9 @@ msgstr "表示形式"
 
 #: LLDBDebugger/LLDBLocalsView.cpp:459 LiteEditor/AddOptionsDialogBase.h:49
 #: LiteEditor/CompilerMainPage.cpp:623
-#: LiteEditor/EditorOptionsGeneralEdit.cpp:10 LiteEditor/frame.cpp:990
+#: LiteEditor/EditorOptionsGeneralEdit.cpp:10 LiteEditor/frame.cpp:1009
 #: LiteEditor/free_text_dialog.h:57 LiteEditor/options_dlg2.cpp:86
-#: LiteEditor/wxcrafter.cpp:388 Plugin/clFileSystemWorkspaceDlgBase.cpp:419
+#: LiteEditor/wxcrafter.cpp:375 Plugin/clFileSystemWorkspaceDlgBase.cpp:419
 #: Plugin/clFileSystemWorkspaceDlgBase.cpp:454 Runtime/rc/menu.xrc:1088
 msgid "Edit"
 msgstr "編集"
@@ -4806,7 +4806,7 @@ msgstr "新しい値:"
 msgid "Delete Breakpoint"
 msgstr "ブレークポイントを削除"
 
-#: LLDBDebugger/LLDBOutputView.cpp:60 LiteEditor/frame.cpp:988
+#: LLDBDebugger/LLDBOutputView.cpp:60 LiteEditor/frame.cpp:1007
 #: Runtime/rc/menu.xrc:907
 msgid "Delete All Breakpoints"
 msgstr "全てのブレークポイントを削除"
@@ -4823,17 +4823,17 @@ msgstr "CodeLite 用の LLDB デバッガー"
 msgid "LLDB Settings..."
 msgstr "LLDB の設定..."
 
-#: LLDBDebugger/LLDBPlugin.cpp:304 LiteEditor/cl_editor.cpp:4183
-#: LiteEditor/frame.cpp:984 Runtime/rc/menu.xrc:623
+#: LLDBDebugger/LLDBPlugin.cpp:304 LiteEditor/cl_editor.cpp:4187
+#: LiteEditor/frame.cpp:1003 Runtime/rc/menu.xrc:623
 msgid "Jump to Caret Line"
 msgstr "キャレットがある行へジャンプ"
 
-#: LLDBDebugger/LLDBPlugin.cpp:307 LiteEditor/cl_editor.cpp:4182
-#: LiteEditor/frame.cpp:983 Runtime/rc/menu.xrc:626
+#: LLDBDebugger/LLDBPlugin.cpp:307 LiteEditor/cl_editor.cpp:4186
+#: LiteEditor/frame.cpp:1002 Runtime/rc/menu.xrc:626
 msgid "Run to Caret Line"
 msgstr "キャレットがある行まで実行"
 
-#: LLDBDebugger/LLDBPlugin.cpp:324 LiteEditor/cl_editor.cpp:4174
+#: LLDBDebugger/LLDBPlugin.cpp:324 LiteEditor/cl_editor.cpp:4178
 #: LiteEditor/new_quick_watch_dlg.cpp:273
 msgid "Add Watch"
 msgstr "ウォッチを追加"
@@ -4879,7 +4879,7 @@ msgstr "他のデバッグセッションが既に進行中です。まずそれ
 msgid "Attach to process with LLDB is not supported under Windows"
 msgstr "Windows 環境下では、LLDB をプロセスにアタッチすることはできません"
 
-#: LLDBDebugger/LLDBProtocol/LLDBConnector.cpp:493
+#: LLDBDebugger/LLDBProtocol/LLDBConnector.cpp:507
 msgid "Locally debugging with LLDB on Windows is not supported by LLDB"
 msgstr ""
 "Windows 環境下では、LLDB でローカルプロセスをデバッグすることはできません"
@@ -4917,7 +4917,7 @@ msgstr "#"
 #: LiteEditor/ThreadListPanelBase.cpp:41 LiteEditor/breakpointslistctrl.h:55
 #: LiteEditor/implementparentvirtualfunctionsbase.cpp:67
 #: LiteEditor/listctrlpanelbase.cpp:35 LiteEditor/setters_getters.cpp:46
-#: LiteEditor/wxcrafter.cpp:117
+#: LiteEditor/wxcrafter.cpp:114
 msgid "Function"
 msgstr "関数"
 
@@ -4931,9 +4931,9 @@ msgstr "関数"
 msgid "Line"
 msgstr "行"
 
-#: LLDBDebugger/UI.cpp:81 LiteEditor/debuggerpane.cpp:51
-#: LiteEditor/debuggerpane.cpp:110 Runtime/rc/menu.xrc:678
-#: WebTools/WebToolsBase.cpp:543 codelitephp/php-plugin/php.cpp:577
+#: LLDBDebugger/UI.cpp:81 LiteEditor/debuggerpane.cpp:53
+#: LiteEditor/debuggerpane.cpp:113 Runtime/rc/menu.xrc:678
+#: WebTools/WebToolsBase.cpp:543 codelitephp/php-plugin/php.cpp:578
 #: codelitephp/php-plugin/php_ui.cpp:1247
 msgid "Breakpoints"
 msgstr "ブレークポイント"
@@ -5155,7 +5155,7 @@ msgstr "(Esc キーで閉じます)"
 msgid "Restarting Language Servers..."
 msgstr "言語サーバーを再起動しています..."
 
-#: LanguageServer/LanguageServerCluster.cpp:665 LiteEditor/cl_editor.cpp:3452
+#: LanguageServer/LanguageServerCluster.cpp:665 LiteEditor/cl_editor.cpp:3456
 #: Plugin/CompileCommandsGenerator.cpp:52 cscope/cscopetab.cpp:63
 #: cscope/cscopetab.cpp:144
 msgid "Ready"
@@ -5454,10 +5454,10 @@ msgid "Switch"
 msgstr "スイッチ"
 
 #: LiteEditor/CompilerMainPage.cpp:84 LiteEditor/CompilerMainPage.cpp:90
-#: LiteEditor/frame.cpp:1038
+#: LiteEditor/frame.cpp:1057
 #: Runtime/templates/projects/executable-wxcrafter-frame/wxcrafter.cpp:42
 #: codelite-cli/codelite-client/wxcrafter.cpp:113
-#: codelite_terminal/wxcrafter.cpp:70 codelitephp/php-plugin/php.cpp:507
+#: codelite_terminal/wxcrafter.cpp:70 codelitephp/php-plugin/php.cpp:509
 msgid "Help"
 msgstr "ヘルプ"
 
@@ -5507,7 +5507,7 @@ msgstr "全ての欄を埋めてください"
 
 #: LiteEditor/CompilerMainPage.cpp:876 Plugin/clTreeCtrlPanel.cpp:110
 #: QmakePlugin/qmakesettingsdlg.cpp:101 QmakePlugin/qmakesettingsdlg.cpp:130
-#: Runtime/rc/menu.xrc:1067 codelitephp/php-plugin/php_workspace_view.cpp:386
+#: Runtime/rc/menu.xrc:1067 codelitephp/php-plugin/php_workspace_view.cpp:388
 #: wxcrafter/allocator_mgr.cpp:1090
 msgid "Rename..."
 msgstr "名前を変更..."
@@ -5584,13 +5584,13 @@ msgstr "既存のコンパイラーを複製し、新しくコンパイラー '"
 msgid "Select the workspace configuration to edit from the drop down list:"
 msgstr "ドロップダウンの一覧から、編集するワークスペースの構成を選択します:"
 
-#: LiteEditor/ConfigManagerBaseDlg.cpp:50 LiteEditor/wxcrafter.cpp:304
+#: LiteEditor/ConfigManagerBaseDlg.cpp:50 LiteEditor/wxcrafter.cpp:295
 #: Runtime/rc/menu.xrc:948
 msgid "Project"
 msgstr "プロジェクト"
 
 #: LiteEditor/ConfigManagerBaseDlg.cpp:52 Remoty/RemotyWorkspaceView.cpp:118
-#: git/gitui.cpp:75
+#: git/gitui.cpp:84
 msgid "Configuration"
 msgstr "構成"
 
@@ -5687,17 +5687,100 @@ msgstr "マウスのスクロールによるズームを有効化"
 msgid "Indent line comments"
 msgstr "一行コメントをインデント"
 
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:9
+msgid "Line numbers"
+msgstr "行番号"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:10
+#: LiteEditor/editorsettingslocalbase.cpp:176
+msgid "Display line numbers"
+msgstr "行番号を表示"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:11
+msgid "Highlight current line number"
+msgstr "現在の行番号を強調表示"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:13
+msgid "Use relative line numbers"
+msgstr "相対的な行番号を使用"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:16
+msgid "What to highlight?"
+msgstr "何を強調表示しますか？"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:17
+msgid "Indentation lines"
+msgstr "インデントの行"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:19
+msgid "Matching braces"
+msgstr "一致する括弧"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:21
+msgid "Modified lines"
+msgstr "編集された行"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:23
+msgid "Caret line"
+msgstr "キャレットの行"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:24
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:34
+msgid "Enable background colour"
+msgstr "背景色を有効化"
+
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:26
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:36
+msgid "Background colour"
+msgstr "背景色"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:28
 msgid "Right margin indicator"
 msgstr "右マージンのインジケーター"
 
-#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:27
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:29
 msgid "Show right margin indicator"
 msgstr "右マージンのインジケーターを表示"
 
-#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:29
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:31
 msgid "Indicator column"
 msgstr "インジケーターの列数"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:33
+msgid "Debugger line"
+msgstr "デバッガーの行"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:38
+msgid "Whitespace"
+msgstr "空白"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:41
+#: LiteEditor/editorsettingslocal.cpp:80 LiteEditor/frame.cpp:1121
+#: Plugin/clBoostrapWizardBase.cpp:251 Runtime/rc/menu.xrc:287
+msgid "Invisible"
+msgstr "非表示"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:42
+#: LiteEditor/editorsettingslocal.cpp:80 Plugin/clBoostrapWizardBase.cpp:252
+msgid "Visible always"
+msgstr "常に表示"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:43
+#: LiteEditor/editorsettingslocal.cpp:81 Plugin/clBoostrapWizardBase.cpp:253
+msgid "Visible after indentation"
+msgstr "インデント後に表示"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:44
+msgid "Indentation visibility"
+msgstr "インデントの可視性"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:62
+msgid "EOL Style"
+msgstr "改行コード"
+
+#: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:66
+msgid "Line spacing"
+msgstr "行間のスペース"
 
 #: LiteEditor/ImportFilesDialogNew.cpp:293 LiteEditor/debugcoredump.cpp:189
 #: LiteEditor/ps_custom_build_page.cpp:75 LiteEditor/quickdebugdlg.cpp:249
@@ -5819,10 +5902,10 @@ msgid "A compiler with this name already exists"
 msgstr "この名前のコンパイラーが既に存在します"
 
 #: LiteEditor/advanced_settings.cpp:106 LiteEditor/edit_configuration.cpp:179
-#: LiteEditor/fileview.cpp:855 LiteEditor/fileview.cpp:895
-#: LiteEditor/fileview.cpp:1133 LiteEditor/mainbook.cpp:286
-#: LiteEditor/manager.cpp:2777 LiteEditor/manager.cpp:2828
-#: LiteEditor/manager.cpp:2866 LiteEditor/syntaxhighlightdlg.cpp:655
+#: LiteEditor/fileview.cpp:855 LiteEditor/fileview.cpp:894
+#: LiteEditor/fileview.cpp:1132 LiteEditor/mainbook.cpp:287
+#: LiteEditor/manager.cpp:2857 LiteEditor/manager.cpp:2908
+#: LiteEditor/manager.cpp:2946 LiteEditor/syntaxhighlightdlg.cpp:655
 #: Plugin/EnvironmentVariablesDlg.cpp:122 Plugin/clTreeCtrlPanel.cpp:598
 #: Subversion2/subversion_view.cpp:711 Subversion2/subversion_view.cpp:1301
 #: Subversion2/svn_checkout_dialog.cpp:84
@@ -5853,8 +5936,8 @@ msgstr "新しいコンパイラーが見つかりました！"
 msgid "Set a name to the compiler"
 msgstr "コンパイラーに名前を設定"
 
-#: LiteEditor/app.cpp:1062 LiteEditor/fileexplorer.cpp:82
-#: LiteEditor/workspace_pane.cpp:169 LiteEditor/workspace_pane.cpp:360
+#: LiteEditor/app.cpp:1069 LiteEditor/fileexplorer.cpp:82
+#: LiteEditor/workspace_pane.cpp:170 LiteEditor/workspace_pane.cpp:360
 #: LiteEditor/workspace_pane.cpp:384 LiteEditor/workspace_pane.cpp:385
 msgid "Explorer"
 msgstr "エクスプローラー"
@@ -5916,7 +5999,7 @@ msgstr "下へ移動"
 msgid "Batch Build"
 msgstr "一括ビルド"
 
-#: LiteEditor/breakpointdlg.cpp:93 LiteEditor/cl_editor.cpp:3988
+#: LiteEditor/breakpointdlg.cpp:93 LiteEditor/cl_editor.cpp:3992
 msgid "Breakpoint successfully deleted"
 msgstr "ブレークポイントを正常に削除しました"
 
@@ -6310,7 +6393,7 @@ msgstr "その他"
 msgid "Ignored"
 msgstr "無視回数"
 
-#: LiteEditor/breakpointslistctrl.h:56 LiteEditor/debuggerpane.cpp:53
+#: LiteEditor/breakpointslistctrl.h:56 LiteEditor/debuggerpane.cpp:55
 #: Runtime/rc/menu.xrc:674
 msgid "Memory"
 msgstr "メモリ"
@@ -6327,7 +6410,7 @@ msgstr "ブレークポイント、またはウォッチポイントを作成"
 msgid "Watchpoint successfully added"
 msgstr "ウォッチポイントを正常に追加しました"
 
-#: LiteEditor/breakpointsmgr.cpp:140 LiteEditor/cl_editor.cpp:3960
+#: LiteEditor/breakpointsmgr.cpp:140 LiteEditor/cl_editor.cpp:3964
 msgid "Breakpoint successfully added"
 msgstr "ブレークポイントを正常に追加しました"
 
@@ -6494,15 +6577,15 @@ msgstr "ファイル"
 msgid "for write"
 msgstr "を書き込み用に開けませんでした"
 
-#: LiteEditor/cl_editor.cpp:1673
+#: LiteEditor/cl_editor.cpp:1677
 msgid "Save As"
 msgstr "名前を付けて保存"
 
-#: LiteEditor/cl_editor.cpp:1687
+#: LiteEditor/cl_editor.cpp:1691
 msgid "Failed to save file"
 msgstr "ファイルの保存に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:1756
+#: LiteEditor/cl_editor.cpp:1760
 #, c-format
 msgid ""
 "Unable to create intermediate file\n"
@@ -6514,7 +6597,7 @@ msgstr ""
 "を書き込み用に作成できませんでした。\n"
 "ファイルが既に存在します！"
 
-#: LiteEditor/cl_editor.cpp:1765
+#: LiteEditor/cl_editor.cpp:1769
 #, c-format
 msgid ""
 "Failed to open file\n"
@@ -6525,15 +6608,15 @@ msgstr ""
 "'%s'\n"
 "を開けませんでした"
 
-#: LiteEditor/cl_editor.cpp:1773
+#: LiteEditor/cl_editor.cpp:1777
 msgid "Save file failed!"
 msgstr "ファイルの保存に失敗しました！"
 
-#: LiteEditor/cl_editor.cpp:1774
+#: LiteEditor/cl_editor.cpp:1778
 msgid "Could not convert the file to the requested encoding"
 msgstr "ファイルを要求されたエンコーディングに変換できませんでした"
 
-#: LiteEditor/cl_editor.cpp:1784
+#: LiteEditor/cl_editor.cpp:1788
 msgid ""
 "File text conversion failed!\n"
 "Check your file font encoding from\n"
@@ -6544,11 +6627,11 @@ msgstr ""
 "[設定] | [個人設定] | [その他] | [ロケール]\n"
 "で確認してください"
 
-#: LiteEditor/cl_editor.cpp:1810
+#: LiteEditor/cl_editor.cpp:1814
 msgid "The file\n"
 msgstr "ファイル\n"
 
-#: LiteEditor/cl_editor.cpp:1811
+#: LiteEditor/cl_editor.cpp:1815
 msgid ""
 "\n"
 "is a read only file, continue?"
@@ -6556,136 +6639,136 @@ msgstr ""
 "\n"
 "は読み取り専用です。それでもよろしいですか？"
 
-#: LiteEditor/cl_editor.cpp:1824 LiteEditor/cl_editor.cpp:1833
+#: LiteEditor/cl_editor.cpp:1828 LiteEditor/cl_editor.cpp:1837
 msgid "Failed to override read-only file"
 msgstr "読み取り専用のファイルを上書きできませんでした"
 
-#: LiteEditor/cl_editor.cpp:2453 LiteEditor/cl_editor.cpp:2487
+#: LiteEditor/cl_editor.cpp:2457 LiteEditor/cl_editor.cpp:2491
 msgid "Can not find the string '"
 msgstr "文字列を見つけられません '"
 
-#: LiteEditor/cl_editor.cpp:3176
+#: LiteEditor/cl_editor.cpp:3180
 #, c-format
 msgid "Type %i bookmark"
 msgstr "種類 %i のブックマーク"
 
-#: LiteEditor/cl_editor.cpp:3195 LiteEditor/editorsettingsbookmarkspanel.cpp:37
+#: LiteEditor/cl_editor.cpp:3199 LiteEditor/editorsettingsbookmarkspanel.cpp:37
 #: LiteEditor/options_dlg2.cpp:93 Plugin/clEditorBar.cpp:135
 #: Runtime/rc/menu.xrc:446
 msgid "Bookmarks"
 msgstr "ブックマーク"
 
-#: LiteEditor/cl_editor.cpp:3411
+#: LiteEditor/cl_editor.cpp:3415
 msgid "Loading file..."
 msgstr "ファイルを読み込んでいます..."
 
-#: LiteEditor/cl_editor.cpp:3864 SFTP/SFTPTreeView.cpp:84
+#: LiteEditor/cl_editor.cpp:3868 SFTP/SFTPTreeView.cpp:84
 msgid "Add Bookmark"
 msgstr "ブックマークを追加"
 
-#: LiteEditor/cl_editor.cpp:3864
+#: LiteEditor/cl_editor.cpp:3868
 msgid "Remove Bookmark"
 msgstr "ブックマークを削除"
 
-#: LiteEditor/cl_editor.cpp:3865 LiteEditor/frame.cpp:1053
+#: LiteEditor/cl_editor.cpp:3869 LiteEditor/frame.cpp:1072
 msgid "Remove All Bookmarks"
 msgstr "全てのブックマークを削除"
 
-#: LiteEditor/cl_editor.cpp:3870
+#: LiteEditor/cl_editor.cpp:3874
 msgid "Add Breakpoint"
 msgstr "ブレークポイントを追加"
 
-#: LiteEditor/cl_editor.cpp:3871
+#: LiteEditor/cl_editor.cpp:3875
 msgid "Add a Temporary Breakpoint"
 msgstr "一時的なブレークポイントを追加"
 
-#: LiteEditor/cl_editor.cpp:3872
+#: LiteEditor/cl_editor.cpp:3876
 msgid "Add a Disabled Breakpoint"
 msgstr "無効化したブレークポイントを追加"
 
-#: LiteEditor/cl_editor.cpp:3873
+#: LiteEditor/cl_editor.cpp:3877
 msgid "Add a Conditional Breakpoint.."
 msgstr "条件付きブレークポイントを追加.."
 
-#: LiteEditor/cl_editor.cpp:3888
+#: LiteEditor/cl_editor.cpp:3892
 msgid "Remove Breakpoint"
 msgstr "ブレークポイントを削除"
 
-#: LiteEditor/cl_editor.cpp:3889
+#: LiteEditor/cl_editor.cpp:3893
 msgid "Ignore Breakpoint"
 msgstr "ブレークポイントを無視"
 
-#: LiteEditor/cl_editor.cpp:3895
+#: LiteEditor/cl_editor.cpp:3899
 msgid "Disable Breakpoint"
 msgstr "ブレークポイントを無効化"
 
-#: LiteEditor/cl_editor.cpp:3895
+#: LiteEditor/cl_editor.cpp:3899
 msgid "Enable Breakpoint"
 msgstr "ブレークポイントを有効化"
 
-#: LiteEditor/cl_editor.cpp:3896
+#: LiteEditor/cl_editor.cpp:3900
 msgid "Edit Breakpoint"
 msgstr "ブレークポイントを編集"
 
-#: LiteEditor/cl_editor.cpp:3901
+#: LiteEditor/cl_editor.cpp:3905
 msgid "Run to here"
 msgstr "ここまで実行"
 
-#: LiteEditor/cl_editor.cpp:3920
+#: LiteEditor/cl_editor.cpp:3924
 msgid "Create Conditional Breakpoint"
 msgstr "条件付きブレークポイントを作成"
 
-#: LiteEditor/cl_editor.cpp:3920
+#: LiteEditor/cl_editor.cpp:3924
 msgid "Enter the condition statement"
 msgstr "条件文を入力"
 
-#: LiteEditor/cl_editor.cpp:3955
+#: LiteEditor/cl_editor.cpp:3959
 msgid "Failed to insert breakpoint"
 msgstr "ブレークポイントの挿入に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:3962
+#: LiteEditor/cl_editor.cpp:3966
 msgid "Temporary "
 msgstr "一時的な"
 
-#: LiteEditor/cl_editor.cpp:3964
+#: LiteEditor/cl_editor.cpp:3968
 msgid "Disabled "
 msgstr "無効化した"
 
-#: LiteEditor/cl_editor.cpp:3966
+#: LiteEditor/cl_editor.cpp:3970
 msgid "Conditional "
 msgstr "条件付き"
 
-#: LiteEditor/cl_editor.cpp:3993
+#: LiteEditor/cl_editor.cpp:3997
 msgid "No breakpoint found on this line"
 msgstr "この行にブレークポイントは見つかりません"
 
-#: LiteEditor/cl_editor.cpp:3996
+#: LiteEditor/cl_editor.cpp:4000
 msgid "Breakpoint deletion failed"
 msgstr "ブレークポイントの削除に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:3999
+#: LiteEditor/cl_editor.cpp:4003
 msgid "Breakpoint not deleted"
 msgstr "ブレークポイントは削除されませんでした"
 
-#: LiteEditor/cl_editor.cpp:4171
+#: LiteEditor/cl_editor.cpp:4175
 msgid "More Watches"
 msgstr "他のウォッチ"
 
-#: LiteEditor/cl_editor.cpp:5143
+#: LiteEditor/cl_editor.cpp:5147
 msgid "Watch"
 msgstr "ウォッチ"
 
-#: LiteEditor/cl_editor.cpp:5143
+#: LiteEditor/cl_editor.cpp:5147
 msgid "as"
 msgstr "- 型"
 
-#: LiteEditor/cl_editor.cpp:5947 LiteEditor/cl_editor.cpp:5988
+#: LiteEditor/cl_editor.cpp:5951 LiteEditor/cl_editor.cpp:5992
 #: Plugin/clPluginsFindBar.cpp:666 Plugin/clPluginsFindBar.cpp:890
 #: Plugin/clPluginsFindBar.cpp:1029
 msgid " matches"
 msgstr " 件の一致"
 
-#: LiteEditor/cl_editor.cpp:5947 LiteEditor/cl_editor.cpp:5988
+#: LiteEditor/cl_editor.cpp:5951 LiteEditor/cl_editor.cpp:5992
 #: Plugin/clPluginsFindBar.cpp:666
 msgid "Found and selected "
 msgstr "発見箇所を選択しました: "
@@ -6694,7 +6777,7 @@ msgstr "発見箇所を選択しました: "
 msgid "Ask me for each file"
 msgstr "各ファイルごとに尋ねる"
 
-#: LiteEditor/close_all_dlg.cpp:70 LiteEditor/frame.cpp:1033
+#: LiteEditor/close_all_dlg.cpp:70 LiteEditor/frame.cpp:1052
 #: Runtime/rc/menu.xrc:87
 msgid "Save all files"
 msgstr "全てのファイルを保存"
@@ -6707,7 +6790,7 @@ msgstr "全てのファイルへの変更を破棄"
 msgid "Some of the files are modified, what action should CodeLite take?"
 msgstr "一部のファイルが変更されています。どうしますか？"
 
-#: LiteEditor/close_all_dlg.h:67 LiteEditor/frame.cpp:1035
+#: LiteEditor/close_all_dlg.h:67 LiteEditor/frame.cpp:1054
 #: Runtime/rc/menu.xrc:108 Runtime/rc/menu.xrc:764 Runtime/rc/menu.xrc:783
 msgid "Close All"
 msgstr "全て閉じる"
@@ -7008,7 +7091,7 @@ msgstr ""
 #: LiteEditor/compiler_pages.cpp:740 LiteEditor/debuggersettingsdlg.cpp:287
 #: LiteEditor/editoroptionsgeneralsavepanel.cpp:53
 #: LiteEditor/editorsettingslocalbase.cpp:187 LiteEditor/options_dlg2.cpp:95
-#: git/gitui.cpp:144
+#: git/gitui.cpp:167
 msgid "Misc"
 msgstr "その他"
 
@@ -7080,103 +7163,103 @@ msgstr "新しい構成名を入力:"
 msgid "New Configuration"
 msgstr "新しい構成"
 
-#: LiteEditor/context_cpp.cpp:581
+#: LiteEditor/context_cpp.cpp:583
 msgid "Open Include File \""
 msgstr "インクルードファイルを開く \""
 
-#: LiteEditor/context_cpp.cpp:597
+#: LiteEditor/context_cpp.cpp:599
 msgid "Add Forward Declaration for \""
 msgstr "前方宣言を追加: \""
 
-#: LiteEditor/context_cpp.cpp:601
+#: LiteEditor/context_cpp.cpp:603
 msgid "Add Include File for \""
 msgstr "インクルードファイルを追加: \""
 
-#: LiteEditor/context_cpp.cpp:821
+#: LiteEditor/context_cpp.cpp:828
 msgid "Multiple candidates found. Select a file to open:"
 msgstr "複数の候補が見つかりました。開くファイルを選択してください:"
 
-#: LiteEditor/context_cpp.cpp:822
+#: LiteEditor/context_cpp.cpp:829
 msgid "Swap Header/Source Implementation"
 msgstr "ヘッダー/ソースの実装を切り替え"
 
-#: LiteEditor/context_cpp.cpp:844
+#: LiteEditor/context_cpp.cpp:852
 msgid "No matched file was found, would you like to create one?"
 msgstr "一致するファイルが見つかりませんでした。作成しますか？"
 
-#: LiteEditor/context_cpp.cpp:845
+#: LiteEditor/context_cpp.cpp:853
 msgid "Create"
 msgstr "作成"
 
-#: LiteEditor/context_cpp.cpp:845
+#: LiteEditor/context_cpp.cpp:853
 msgid "Don't Create"
 msgstr "作成しない"
 
-#: LiteEditor/context_cpp.cpp:846 LiteEditor/fileview.cpp:903
+#: LiteEditor/context_cpp.cpp:854 LiteEditor/fileview.cpp:902
 #: Plugin/compile_request.cpp:93 Plugin/globals.h:448 Plugin/globals.h:465
-#: codelitephp/php-plugin/php_workspace_view.cpp:817
-#: codelitephp/php-plugin/php_workspace_view.cpp:835
+#: codelitephp/php-plugin/php_workspace_view.cpp:819
+#: codelitephp/php-plugin/php_workspace_view.cpp:837
 msgid "Remember my answer and don't ask me again"
 msgstr "次回から確認しない"
 
-#: LiteEditor/context_cpp.cpp:1193
+#: LiteEditor/context_cpp.cpp:1203
 msgid "Seems like you have all the getters/setters you need..."
 msgstr "既に全てのゲッター/セッターが揃っているようです..."
 
-#: LiteEditor/context_cpp.cpp:1193 LiteEditor/frame.cpp:4301
-#: LiteEditor/frame.cpp:4385
+#: LiteEditor/context_cpp.cpp:1203 LiteEditor/frame.cpp:4299
+#: LiteEditor/frame.cpp:4383
 msgid "codelite"
 msgstr "CodeLite"
 
-#: LiteEditor/context_cpp.cpp:1602
+#: LiteEditor/context_cpp.cpp:1615
 msgid "Could not locate implementation file!"
 msgstr "実装ファイルが見つかりませんでした！"
 
-#: LiteEditor/context_cpp.cpp:1616
+#: LiteEditor/context_cpp.cpp:1629
 msgid "Could not read file: "
 msgstr "ファイルを読み取れませんでした: "
 
-#: LiteEditor/context_cpp.cpp:1643
+#: LiteEditor/context_cpp.cpp:1656
 msgid "No prototypes were found"
 msgstr "プロトタイプ宣言が見つかりませんでした"
 
-#: LiteEditor/context_cpp.cpp:1652
+#: LiteEditor/context_cpp.cpp:1665
 msgid "'Add Functions Implementation' can only work inside valid scope, got ("
 msgstr "'関数の実装を追加' は有効なスコープでのみ使えます。現在は ("
 
-#: LiteEditor/context_cpp.cpp:1679
+#: LiteEditor/context_cpp.cpp:1692
 msgid "No un-implemented functions found"
 msgstr "未実装の関数は見つかりません"
 
-#: LiteEditor/context_cpp.cpp:2023
+#: LiteEditor/context_cpp.cpp:2039
 msgid "Symbol renamed"
 msgstr "シンボル名が変更されました"
 
-#: LiteEditor/context_cpp.cpp:2035
+#: LiteEditor/context_cpp.cpp:2051
 msgid "Please save the file before retagging it"
 msgstr "タグを再生成する前に、ファイルを保存してください"
 
-#: LiteEditor/context_cpp.cpp:2176
+#: LiteEditor/context_cpp.cpp:2196
 msgid "Select file to open:"
 msgstr "開くファイルを選択:"
 
-#: LiteEditor/context_cpp.cpp:2189
+#: LiteEditor/context_cpp.cpp:2209
 msgid "Create File"
 msgstr "ファイルを作成"
 
-#: LiteEditor/context_cpp.cpp:2189
+#: LiteEditor/context_cpp.cpp:2209
 msgid "New File Name:"
 msgstr "新しいファイル名:"
 
-#: LiteEditor/context_cpp.cpp:2537 LiteEditor/frame.cpp:1048
+#: LiteEditor/context_cpp.cpp:2561 LiteEditor/frame.cpp:1067
 msgid "Find Symbol"
 msgstr "シンボルを検索"
 
-#: LiteEditor/context_cpp.cpp:2538
+#: LiteEditor/context_cpp.cpp:2562
 msgid "Go to Declaration"
 msgstr "宣言へ移動"
 
-#: LiteEditor/context_cpp.cpp:2539
+#: LiteEditor/context_cpp.cpp:2563
 msgid "Go to Implementation"
 msgstr "実装へ移動"
 
@@ -7221,7 +7304,7 @@ msgstr "作業ディレクトリ (任意):"
 msgid "Select debugger:"
 msgstr "デバッガーを選択:"
 
-#: LiteEditor/debugcoredumpbase.cpp:109 LiteEditor/frame.cpp:3143
+#: LiteEditor/debugcoredumpbase.cpp:109 LiteEditor/frame.cpp:3076
 #: Plugin/clFileSystemWorkspaceDlgBase.cpp:466 Plugin/clStrings.h:7
 #: Plugin/editor_config.cpp:459 Plugin/editor_config.cpp:496
 #: codelitephp/php-plugin/php_ui.cpp:852
@@ -7255,29 +7338,29 @@ msgstr "表示中:"
 msgid "&Clear"
 msgstr "消去 (&C)"
 
-#: LiteEditor/debuggerpane.cpp:48 LiteEditor/localstable.cpp:53
-#: Runtime/rc/menu.xrc:654 codelitephp/php-plugin/localsview.cpp:218
+#: LiteEditor/debuggerpane.cpp:50 LiteEditor/localstable.cpp:53
+#: Runtime/rc/menu.xrc:654 codelitephp/php-plugin/localsview.cpp:227
 msgid "Locals"
 msgstr "ローカル"
 
-#: LiteEditor/debuggerpane.cpp:49 Runtime/rc/menu.xrc:658
+#: LiteEditor/debuggerpane.cpp:51 Runtime/rc/menu.xrc:658
 msgid "Watches"
 msgstr "ウォッチ"
 
-#: LiteEditor/debuggerpane.cpp:50 Runtime/rc/menu.xrc:670
+#: LiteEditor/debuggerpane.cpp:52 Runtime/rc/menu.xrc:670
 #: codelitephp/php-plugin/php_ui.cpp:1226
 msgid "Call Stack"
 msgstr "コールスタック"
 
-#: LiteEditor/debuggerpane.cpp:52 Runtime/rc/menu.xrc:666
+#: LiteEditor/debuggerpane.cpp:54 Runtime/rc/menu.xrc:666
 msgid "Threads"
 msgstr "スレッド"
 
-#: LiteEditor/debuggerpane.cpp:54
+#: LiteEditor/debuggerpane.cpp:56
 msgid "Ascii Viewer"
 msgstr "ASCII ビューアー"
 
-#: LiteEditor/debuggerpane.cpp:56
+#: LiteEditor/debuggerpane.cpp:58
 msgid "Disassemble"
 msgstr "逆アセンブル"
 
@@ -7595,11 +7678,11 @@ msgid "Enter New Name:"
 msgstr "新しい名前を入力:"
 
 #: LiteEditor/edit_configuration.cpp:143 LiteEditor/edit_configuration.cpp:163
-#: LiteEditor/edit_workspace_conf_dlg.cpp:136 Plugin/clRemoteDirCtrl.cpp:262
+#: LiteEditor/edit_workspace_conf_dlg.cpp:136 Plugin/clRemoteDirCtrl.cpp:267
 #: Plugin/clTreeCtrlPanel.cpp:153 Subversion2/subversion2.cpp:307
 #: Subversion2/subversion_view.cpp:457
-#: codelitephp/php-plugin/php_workspace_view.cpp:296
-#: codelitephp/php-plugin/php_workspace_view.cpp:327
+#: codelitephp/php-plugin/php_workspace_view.cpp:298
+#: codelitephp/php-plugin/php_workspace_view.cpp:329
 msgid "Rename"
 msgstr "名前を変更"
 
@@ -7633,7 +7716,7 @@ msgstr "新しい構成名:"
 msgid "Edit Workspace Configuration"
 msgstr "ワークスペースの構成を編集"
 
-#: LiteEditor/editorframe.cpp:66 LiteEditor/frame.cpp:1555
+#: LiteEditor/editorframe.cpp:66 LiteEditor/frame.cpp:1495
 #: LiteEditor/quickfindbarbase.cpp:50 Plugin/DiffSideBySidePanel.cpp:95
 #: Plugin/quickfindbarbase.cpp:50 cscope/cscope.cpp:103 wxcrafter/gui.cpp:147
 #: wxcrafter/main.cpp:204 wxcrafter/main.cpp:790 wxcrafter/main.cpp:812
@@ -7705,7 +7788,7 @@ msgid " label"
 msgstr " のラベル"
 
 #: LiteEditor/editorsettingsbookmarkspanel.cpp:66
-#: LiteEditor/quickfindbar.cpp:124 Plugin/clPluginsFindBar.cpp:110
+#: LiteEditor/quickfindbar.cpp:117 Plugin/clPluginsFindBar.cpp:110
 msgid "Highlight matches"
 msgstr "一致の強調表示"
 
@@ -7791,61 +7874,61 @@ msgid "Use Qt style docs"
 msgstr "Qt スタイルの文書を使用"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:35 LiteEditor/options_dlg2.cpp:92
-#: LiteEditor/workspace_pane.cpp:186 LiteEditor/workspace_pane.cpp:365
+#: LiteEditor/workspace_pane.cpp:187 LiteEditor/workspace_pane.cpp:365
 #: LiteEditor/workspace_pane.cpp:389 LiteEditor/workspace_pane.cpp:390
 msgid "Tabs"
 msgstr "タブ"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:39
+#: LiteEditor/editorsettingsdockingwidows.cpp:41
 #: LiteEditor/editorsettingsfolding.cpp:38
 msgid "Appearance"
 msgstr "外観"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:57
+#: LiteEditor/editorsettingsdockingwidows.cpp:61
 msgid "Height"
 msgstr "高さ"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:72
+#: LiteEditor/editorsettingsdockingwidows.cpp:73
 msgid "Workspace tabs orientation"
 msgstr "ワークスペースのタブの方向"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:80
+#: LiteEditor/editorsettingsdockingwidows.cpp:81
 msgid "Output tabs orientation"
 msgstr "出力タブの方向"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:88
+#: LiteEditor/editorsettingsdockingwidows.cpp:91
 msgid "Show close button on tabs"
 msgstr "タブに閉じるボタンを表示"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:89
+#: LiteEditor/editorsettingsdockingwidows.cpp:94
 msgid "Show file path on tab label"
 msgstr "タブのラベルにファイルパスを表示"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:90
+#: LiteEditor/editorsettingsdockingwidows.cpp:97
 msgid "Mouse scroll switch bewtween tabs"
 msgstr "タブをマウスのスクロールで切り替え"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:92
+#: LiteEditor/editorsettingsdockingwidows.cpp:101
 msgid "Sort tab file list"
 msgstr "タブのファイル一覧を並べ替え"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:94
+#: LiteEditor/editorsettingsdockingwidows.cpp:103
 msgid "Use Ctrl+TAB to switch tabs"
 msgstr "Ctrl+Tab によるタブの切り替えを使用"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:96
+#: LiteEditor/editorsettingsdockingwidows.cpp:105
 msgid "Hide main tab bar"
 msgstr "メインタブバーを隠す"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:99
+#: LiteEditor/editorsettingsdockingwidows.cpp:108
 msgid "Find in files"
 msgstr "ファイルから検索"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:100
+#: LiteEditor/editorsettingsdockingwidows.cpp:109
 msgid "Don't automatically fold search results"
 msgstr "自動的に検索結果を畳まない"
 
-#: LiteEditor/editorsettingsdockingwidows.cpp:102
+#: LiteEditor/editorsettingsdockingwidows.cpp:111
 msgid "When searching, don't override search string with current selection"
 msgstr "検索時、新たに選択したテキストで、検索文字列を上書きしない"
 
@@ -7889,22 +7972,9 @@ msgstr "エディターの個人設定 (ワークスペース固有)"
 msgid "Project local editor preferences"
 msgstr "エディターの個人設定 (プロジェクト固有)"
 
-#: LiteEditor/editorsettingslocal.cpp:80 LiteEditor/frame.cpp:1102
-#: Plugin/clBoostrapWizardBase.cpp:251 Runtime/rc/menu.xrc:287
-msgid "Invisible"
-msgstr "非表示"
-
-#: LiteEditor/editorsettingslocal.cpp:80 Plugin/clBoostrapWizardBase.cpp:252
-msgid "Visible always"
-msgstr "常に表示"
-
 #: LiteEditor/editorsettingslocal.cpp:81
 msgid "Indentation only"
 msgstr "インデントのみ"
-
-#: LiteEditor/editorsettingslocal.cpp:81 Plugin/clBoostrapWizardBase.cpp:253
-msgid "Visible after indentation"
-msgstr "インデント後に表示"
 
 #: LiteEditor/editorsettingslocal.h:39 LiteEditor/editorsettingslocalbase.h:144
 msgid "Local Preferences"
@@ -7976,10 +8046,6 @@ msgstr ""
 "エディターで編集された行番号を着色し、どの箇所が変わったのかを分かりやすくし"
 "ます"
 
-#: LiteEditor/editorsettingslocalbase.cpp:176
-msgid "Display line numbers"
-msgstr "行番号を表示"
-
 #: LiteEditor/editorsettingslocalbase.cpp:179
 msgid "Display line numbers margin"
 msgstr "行番号のマージンを表示"
@@ -8032,86 +8098,119 @@ msgstr ""
 msgid "File font encoding"
 msgstr "エンコーディング"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:50
+#: LiteEditor/editorsettingsmiscpanel.cpp:51
 msgid "Allow only single instance"
 msgstr "単一インスタンスのみを許可"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:52
-#: LiteEditor/editorsettingsmiscpanel.cpp:54
-msgid "Check for new version on startup"
-msgstr "起動時に新しいバージョンを確認"
-
-#: LiteEditor/editorsettingsmiscpanel.cpp:56
-msgid "Load last session on startup"
-msgstr "起動時に前回のセッションを読み込む"
-
-#: LiteEditor/editorsettingsmiscpanel.cpp:58
+#: LiteEditor/editorsettingsmiscpanel.cpp:53
 msgid "Web search URL"
 msgstr "ウェブ検索の URL"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:60
+#: LiteEditor/editorsettingsmiscpanel.cpp:55
 msgid "Use Direct2D editor drawings"
 msgstr "エディターの描画に Direct2D を使用"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:63
+#: LiteEditor/editorsettingsmiscpanel.cpp:58
 msgid "Frame title"
 msgstr "フレームの題名"
 
+#: LiteEditor/editorsettingsmiscpanel.cpp:61
+msgid "Startup"
+msgstr "起動"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:62
+msgid "Check for new version on startup"
+msgstr "起動時に新しいバージョンを確認"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:64
+msgid "Only prompt for stable releases"
+msgstr "安定版のリリースのみを通知"
+
 #: LiteEditor/editorsettingsmiscpanel.cpp:66
+msgid "Load last session on startup"
+msgstr "起動時に前回のセッションを読み込む"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:68
+msgid "Show splashscreen"
+msgstr "スプラッシュ画面を表示"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:71
 msgid "Status bar"
 msgstr "ステータスバー"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:67
+#: LiteEditor/editorsettingsmiscpanel.cpp:72
 msgid "Show current line number"
 msgstr "現在の行番号を表示"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:69
+#: LiteEditor/editorsettingsmiscpanel.cpp:74
 msgid "Show current column"
 msgstr "現在の列を表示"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:71
+#: LiteEditor/editorsettingsmiscpanel.cpp:76
 msgid "Show current position"
 msgstr "現在の位置を表示"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:73
+#: LiteEditor/editorsettingsmiscpanel.cpp:78
 msgid "Show file length"
 msgstr "ファイルの長さを表示"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:75
+#: LiteEditor/editorsettingsmiscpanel.cpp:80
 msgid "Show number of selected chars"
 msgstr "選択した文字数を表示"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:78
+#: LiteEditor/editorsettingsmiscpanel.cpp:83
 msgid "Tool bar"
 msgstr "ツールバー"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:79
+#: LiteEditor/editorsettingsmiscpanel.cpp:84
 msgid "Space between button groups"
 msgstr "ボタングループ間のスペース"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:98
+#: LiteEditor/editorsettingsmiscpanel.cpp:103
 msgid "Locale"
 msgstr "ロケール"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:99
+#: LiteEditor/editorsettingsmiscpanel.cpp:104
 msgid "File text encoding"
 msgstr "ファイルのテキストエンコーディング"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:100
+#: LiteEditor/editorsettingsmiscpanel.cpp:105
 msgid "Enable localization"
 msgstr "翻訳を有効化"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:101
+#: LiteEditor/editorsettingsmiscpanel.cpp:106
 msgid "Locale to use"
 msgstr "使用するロケール"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:113
+#: LiteEditor/editorsettingsmiscpanel.cpp:118
 msgid "Log file verbosity"
 msgstr "ログファイルの詳細度"
 
-#: LiteEditor/editorsettingsmiscpanel.cpp:122
+#: LiteEditor/editorsettingsmiscpanel.cpp:127
 msgid "Redirect stdout/stderr to file"
 msgstr "stdout/stderr をファイルにリダイレクト"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:131
+msgid "History"
+msgstr "履歴"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:132
+#: LiteEditor/editorsettingsmiscpanel.cpp:140
+msgid "Clear "
+msgstr "消去 "
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:132
+msgid "Forget recent workspaces and files"
+msgstr "最近使ったワークスペースとファイルを消去"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:137
+#: LiteEditor/editorsettingsmiscpanel.cpp:144
+msgid "Success!"
+msgstr "成功！"
+
+#: LiteEditor/editorsettingsmiscpanel.cpp:140
+msgid "Reset annoying dialogs answers"
+msgstr "非表示にしたダイアログの答えをリセット"
 
 #: LiteEditor/editorsettingsterminal.cpp:46
 msgid "Terminals"
@@ -8173,7 +8272,7 @@ msgstr "ファイルがエディターの外部から変更されました"
 msgid "Open folder"
 msgstr "フォルダーを開く"
 
-#: LiteEditor/fileexplorer.cpp:71 LiteEditor/workspace_pane.cpp:182
+#: LiteEditor/fileexplorer.cpp:71 LiteEditor/workspace_pane.cpp:183
 msgid "File Explorer"
 msgstr "ファイルエクスプローラー"
 
@@ -8181,7 +8280,7 @@ msgstr "ファイルエクスプローラー"
 msgid "Select folder to open"
 msgstr "開くフォルダーを選択"
 
-#: LiteEditor/fileview.cpp:414 LiteEditor/fileview.cpp:2584
+#: LiteEditor/fileview.cpp:414 LiteEditor/fileview.cpp:2583
 msgid "Set Custom Background Colour..."
 msgstr "カスタムの背景色を設定..."
 
@@ -8197,41 +8296,41 @@ msgstr "新しい項目"
 msgid "Are you sure you want remove '"
 msgstr "削除しますか '"
 
-#: LiteEditor/fileview.cpp:857 LiteEditor/fileview.cpp:897
+#: LiteEditor/fileview.cpp:857 LiteEditor/fileview.cpp:896
 msgid "Remember my answer and apply it all files"
 msgstr "次回から確認せず、全てのファイルに適用"
 
-#: LiteEditor/fileview.cpp:862 LiteEditor/frame.cpp:2185
+#: LiteEditor/fileview.cpp:862 LiteEditor/frame.cpp:2125
 msgid "Are you sure?"
 msgstr "よろしいですか？"
 
-#: LiteEditor/fileview.cpp:892
+#: LiteEditor/fileview.cpp:891
 msgid "' from disc?"
 msgstr "' をディスクからも削除しますか？"
 
-#: LiteEditor/fileview.cpp:892
+#: LiteEditor/fileview.cpp:891
 msgid "Do you also want to delete the file '"
 msgstr "ファイル '"
 
-#: LiteEditor/fileview.cpp:902 LiteEditor/frame.cpp:3871
-#: LiteEditor/frame.cpp:4937 LiteEditor/pluginmgrdlg.cpp:127
+#: LiteEditor/fileview.cpp:901 LiteEditor/frame.cpp:3869
+#: LiteEditor/frame.cpp:4936 LiteEditor/pluginmgrdlg.cpp:127
 #: Plugin/compile_request.cpp:92 Plugin/globals.h:447 Plugin/globals.h:465
-#: codelitephp/php-plugin/php_workspace_view.cpp:816
-#: codelitephp/php-plugin/php_workspace_view.cpp:834
-#: codelitephp/php-plugin/php_workspace_view.cpp:1763
+#: codelitephp/php-plugin/php_workspace_view.cpp:818
+#: codelitephp/php-plugin/php_workspace_view.cpp:836
+#: codelitephp/php-plugin/php_workspace_view.cpp:1764
 msgid "No"
 msgstr "いいえ"
 
-#: LiteEditor/fileview.cpp:902 LiteEditor/frame.cpp:3524
-#: LiteEditor/frame.cpp:4937 LiteEditor/pluginmgrdlg.cpp:127
+#: LiteEditor/fileview.cpp:901 LiteEditor/frame.cpp:3483
+#: LiteEditor/frame.cpp:4936 LiteEditor/pluginmgrdlg.cpp:127
 #: Plugin/compile_request.cpp:92 Plugin/globals.h:446 Plugin/globals.h:464
-#: codelitephp/php-plugin/php_workspace_view.cpp:816
-#: codelitephp/php-plugin/php_workspace_view.cpp:834
-#: codelitephp/php-plugin/php_workspace_view.cpp:1763
+#: codelitephp/php-plugin/php_workspace_view.cpp:818
+#: codelitephp/php-plugin/php_workspace_view.cpp:836
+#: codelitephp/php-plugin/php_workspace_view.cpp:1764
 msgid "Yes"
 msgstr "はい"
 
-#: LiteEditor/fileview.cpp:911
+#: LiteEditor/fileview.cpp:910
 msgid ""
 "An error occurred during file removal. Maybe it has been already deleted or "
 "you don't have the necessary permissions"
@@ -8239,233 +8338,233 @@ msgstr ""
 "ファイルの削除中にエラーが発生しました。既に外部から削除されたか、必要な権限"
 "がないためかもしれません"
 
-#: LiteEditor/fileview.cpp:978
+#: LiteEditor/fileview.cpp:977
 msgid " and all its contents will be removed from the project."
 msgstr " とその全ての内容は、プロジェクトから削除されます。"
 
-#: LiteEditor/fileview.cpp:1130
+#: LiteEditor/fileview.cpp:1129
 msgid "You are about to remove project '"
 msgstr "プロジェクト '"
 
-#: LiteEditor/fileview.cpp:1132
+#: LiteEditor/fileview.cpp:1131
 msgid " from the workspace, click 'Yes' to proceed or 'No' to abort."
 msgstr ""
 " をワークスペースから削除しようとしています。続行するには 'はい'、中断するに"
 "は 'いいえ' をクリックしてください。"
 
-#: LiteEditor/fileview.cpp:1274 LiteEditor/fileview.cpp:1294
+#: LiteEditor/fileview.cpp:1273 LiteEditor/fileview.cpp:1293
 msgid " of project "
 msgstr " プロジェクト: "
 
-#: LiteEditor/fileview.cpp:1274
+#: LiteEditor/fileview.cpp:1273
 msgid "Compiling file: "
 msgstr "ファイルをコンパイルしています: "
 
-#: LiteEditor/fileview.cpp:1294
+#: LiteEditor/fileview.cpp:1293
 msgid "Preprocessing file: "
 msgstr "ファイルをプリプロセッサーに通しています: "
 
-#: LiteEditor/fileview.cpp:1442
+#: LiteEditor/fileview.cpp:1441
 msgid " in FileView."
 msgstr " をファイル表示から検索できませんでした。"
 
-#: LiteEditor/fileview.cpp:1442
+#: LiteEditor/fileview.cpp:1441
 msgid "Failed to find file: "
 msgstr "ファイル: "
 
-#: LiteEditor/fileview.cpp:1664 LiteEditor/fileview.cpp:1737 git/git.cpp:1366
+#: LiteEditor/fileview.cpp:1663 LiteEditor/fileview.cpp:1736 git/git.cpp:1366
 msgid "Importing files ..."
 msgstr "ファイルをインポートしています..."
 
-#: LiteEditor/fileview.cpp:1697 LiteEditor/fileview.cpp:1760
+#: LiteEditor/fileview.cpp:1696 LiteEditor/fileview.cpp:1759
 msgid "Adding file: "
 msgstr "ファイルを追加しています: "
 
-#: LiteEditor/fileview.cpp:1823
-#: codelitephp/php-plugin/php_workspace_view.cpp:767
+#: LiteEditor/fileview.cpp:1822
+#: codelitephp/php-plugin/php_workspace_view.cpp:769
 msgid "New file name:"
 msgstr "新しいファイル名:"
 
-#: LiteEditor/fileview.cpp:1823
+#: LiteEditor/fileview.cpp:1822
 msgid "Rename file:"
 msgstr "ファイル名を変更:"
 
-#: LiteEditor/fileview.cpp:1830
+#: LiteEditor/fileview.cpp:1829
 msgid "A File with that name already exists!"
 msgstr "指定した名前のファイルが既に存在します！"
 
-#: LiteEditor/fileview.cpp:1861
+#: LiteEditor/fileview.cpp:1860
 msgid "New virtual folder name:"
 msgstr "新しい仮想フォルダー名:"
 
-#: LiteEditor/fileview.cpp:1861
+#: LiteEditor/fileview.cpp:1860
 msgid "Rename virtual folder:"
 msgstr "仮想フォルダー名を変更:"
 
-#: LiteEditor/fileview.cpp:1874
+#: LiteEditor/fileview.cpp:1873
 msgid ", reason: could not locate project "
 msgstr ", 理由: プロジェクトが見つかりませんでした "
 
-#: LiteEditor/fileview.cpp:1874 LiteEditor/fileview.cpp:1880
+#: LiteEditor/fileview.cpp:1873 LiteEditor/fileview.cpp:1879
 msgid "failed to rename virtual folder: "
 msgstr "仮想フォルダー名の変更に失敗しました: "
 
-#: LiteEditor/fileview.cpp:2282
+#: LiteEditor/fileview.cpp:2281
 msgid "Project new name:"
 msgstr "プロジェクトの新しい名前:"
 
-#: LiteEditor/fileview.cpp:2282
+#: LiteEditor/fileview.cpp:2281
 msgid "Rename project"
 msgstr "プロジェクト名を変更"
 
-#: LiteEditor/fileview.cpp:2294
+#: LiteEditor/fileview.cpp:2293
 msgid "A project with this name already exists in the workspace"
 msgstr "この名前のプロジェクトが、既にワークスペースに存在します"
 
-#: LiteEditor/fileview.cpp:2300
+#: LiteEditor/fileview.cpp:2299
 msgid "Project names may contain only the following characters [a-z0-9_-]"
 msgstr "プロジェクト名に使える文字は [a-z0-9_-] だけです"
 
-#: LiteEditor/fileview.cpp:2325
+#: LiteEditor/fileview.cpp:2324
 msgid "You can only drag one folder at a time"
 msgstr "一度にドラッグできるフォルダーはひとつだけです"
 
-#: LiteEditor/fileview.cpp:2394
+#: LiteEditor/fileview.cpp:2393
 msgid "Can't import files to workspace without projects"
 msgstr "プロジェクトのないワークスペースには、ファイルをインポートできません"
 
-#: LiteEditor/fileview.cpp:2402
+#: LiteEditor/fileview.cpp:2401
 msgid "Import files to project"
 msgstr "プロジェクトにファイルをインポート"
 
-#: LiteEditor/fileview.cpp:2402
+#: LiteEditor/fileview.cpp:2401
 msgid "Select project:"
 msgstr "プロジェクトを選択:"
 
-#: LiteEditor/fileview.cpp:2495
+#: LiteEditor/fileview.cpp:2494
 msgid "Pin Project"
 msgstr "プロジェクトをピン留め"
 
-#: LiteEditor/fileview.cpp:2501
+#: LiteEditor/fileview.cpp:2500
 msgid "Build project"
 msgstr "プロジェクトをビルド"
 
-#: LiteEditor/fileview.cpp:2505 LiteEditor/fileview.cpp:2543
+#: LiteEditor/fileview.cpp:2504 LiteEditor/fileview.cpp:2542
 msgid "Rebuild"
 msgstr "再ビルド"
 
-#: LiteEditor/fileview.cpp:2505
+#: LiteEditor/fileview.cpp:2504
 msgid "Rebuild project"
 msgstr "プロジェクトを再ビルド"
 
-#: LiteEditor/fileview.cpp:2508 LiteEditor/fileview.cpp:2542
+#: LiteEditor/fileview.cpp:2507 LiteEditor/fileview.cpp:2541
 msgid "Clean"
 msgstr "クリーン"
 
-#: LiteEditor/fileview.cpp:2508
+#: LiteEditor/fileview.cpp:2507
 msgid "Clean project"
 msgstr "プロジェクトをクリーン"
 
-#: LiteEditor/fileview.cpp:2512 LiteEditor/frame.cpp:958
+#: LiteEditor/fileview.cpp:2511 LiteEditor/frame.cpp:977
 msgid "Stop Build"
 msgstr "ビルドを停止"
 
-#: LiteEditor/fileview.cpp:2545
+#: LiteEditor/fileview.cpp:2544
 msgid "Project Only"
 msgstr "プロジェクトのみ"
 
-#: LiteEditor/fileview.cpp:2548
+#: LiteEditor/fileview.cpp:2547
 msgid "Build Order..."
 msgstr "ビルドの順番..."
 
-#: LiteEditor/fileview.cpp:2553 LiteEditor/fileview.cpp:2554
-#: LiteEditor/frame.cpp:1056 Plugin/clEditorBar.cpp:233
+#: LiteEditor/fileview.cpp:2552 LiteEditor/fileview.cpp:2553
+#: LiteEditor/frame.cpp:1075 Plugin/clEditorBar.cpp:233
 #: Plugin/clTreeCtrlPanel.cpp:116 Plugin/clTreeCtrlPanel.cpp:160
 #: Runtime/rc/menu.xrc:833 Runtime/rc/menu.xrc:1048
-#: codelitephp/php-plugin/php_workspace_view.cpp:300
-#: codelitephp/php-plugin/php_workspace_view.cpp:329
-#: codelitephp/php-plugin/php_workspace_view.cpp:358
-#: codelitephp/php-plugin/php_workspace_view.cpp:395
+#: codelitephp/php-plugin/php_workspace_view.cpp:302
+#: codelitephp/php-plugin/php_workspace_view.cpp:331
+#: codelitephp/php-plugin/php_workspace_view.cpp:360
+#: codelitephp/php-plugin/php_workspace_view.cpp:397
 msgid "Open Containing Folder"
 msgstr "存在するフォルダーを開く"
 
-#: LiteEditor/fileview.cpp:2558 Plugin/clEditorBar.cpp:227
+#: LiteEditor/fileview.cpp:2557 Plugin/clEditorBar.cpp:227
 #: Plugin/clTreeCtrlPanel.cpp:117 Plugin/clTreeCtrlPanel.cpp:161
 #: Runtime/rc/menu.xrc:830 Runtime/rc/menu.xrc:1045
-#: codelitephp/php-plugin/php_workspace_view.cpp:301
-#: codelitephp/php-plugin/php_workspace_view.cpp:330
-#: codelitephp/php-plugin/php_workspace_view.cpp:359
-#: codelitephp/php-plugin/php_workspace_view.cpp:396
+#: codelitephp/php-plugin/php_workspace_view.cpp:303
+#: codelitephp/php-plugin/php_workspace_view.cpp:332
+#: codelitephp/php-plugin/php_workspace_view.cpp:361
+#: codelitephp/php-plugin/php_workspace_view.cpp:398
 msgid "Open Shell"
 msgstr "シェルを開く"
 
-#: LiteEditor/fileview.cpp:2563
+#: LiteEditor/fileview.cpp:2562
 msgid "Make Active (double click)"
 msgstr "アクティブ化 (ダブルクリック)"
 
-#: LiteEditor/fileview.cpp:2566
+#: LiteEditor/fileview.cpp:2565
 msgid "Import Files From Directory..."
 msgstr "ディレクトリからファイルをインポート..."
 
-#: LiteEditor/fileview.cpp:2567
+#: LiteEditor/fileview.cpp:2566
 msgid "Reconcile Project..."
 msgstr "プロジェクトを調和..."
 
-#: LiteEditor/fileview.cpp:2570 LiteEditor/new_virtual_folder.h:76
+#: LiteEditor/fileview.cpp:2569 LiteEditor/new_virtual_folder.h:76
 #: Plugin/VirtualDirectorySelectorDlg.cpp:352 Runtime/rc/menu.xrc:957
 msgid "New Virtual Folder"
 msgstr "新しい仮想フォルダー"
 
-#: LiteEditor/fileview.cpp:2573
+#: LiteEditor/fileview.cpp:2572
 msgid "Remove Project"
 msgstr "プロジェクトを削除"
 
-#: LiteEditor/fileview.cpp:2575
+#: LiteEditor/fileview.cpp:2574
 msgid "Rename Project"
 msgstr "プロジェクト名を変更"
 
-#: LiteEditor/fileview.cpp:2578
+#: LiteEditor/fileview.cpp:2577
 msgid "Save As Template..."
 msgstr "テンプレートとして保存..."
 
-#: LiteEditor/fileview.cpp:2580
+#: LiteEditor/fileview.cpp:2579
 msgid "Project Editor Preferences..."
 msgstr "エディターの個人設定 (プロジェクト固有)..."
 
-#: LiteEditor/fileview.cpp:2588 Runtime/rc/menu.xrc:969
+#: LiteEditor/fileview.cpp:2587 Runtime/rc/menu.xrc:969
 msgid "Clear Background Colour"
 msgstr "背景色を消去"
 
-#: LiteEditor/fileview.cpp:2608
+#: LiteEditor/fileview.cpp:2607
 msgid "Plugins..."
 msgstr "プラグイン..."
 
-#: LiteEditor/fileview.cpp:2668 Runtime/rc/menu.xrc:980
+#: LiteEditor/fileview.cpp:2667 Runtime/rc/menu.xrc:980
 msgid "New Workspace Folder"
 msgstr "新しいワークスペースのフォルダー"
 
-#: LiteEditor/fileview.cpp:2673
+#: LiteEditor/fileview.cpp:2672
 msgid "Add an Existing Project..."
 msgstr "既存のプロジェクトを追加..."
 
-#: LiteEditor/fileview.cpp:2697
+#: LiteEditor/fileview.cpp:2696
 msgid "Are you sure you want to delete the following workspace folders:\n"
 msgstr "これらのワークスペースのフォルダーを削除しますか:\n"
 
-#: LiteEditor/fileview.cpp:2704
+#: LiteEditor/fileview.cpp:2703
 msgid "Are you sure you want to delete the workspace folder:\n"
 msgstr "ワークスペースのフォルダーを削除しますか:\n"
 
-#: LiteEditor/fileview.cpp:2724 LiteEditor/fileview.cpp:2737
+#: LiteEditor/fileview.cpp:2723 LiteEditor/fileview.cpp:2736
 msgid "Enter folder name:"
 msgstr "フォルダー名を入力:"
 
-#: LiteEditor/fileview.cpp:2724 LiteEditor/fileview.cpp:2737
+#: LiteEditor/fileview.cpp:2723 LiteEditor/fileview.cpp:2736
 msgid "New Folder Name"
 msgstr "新しいフォルダー名"
 
-#: LiteEditor/fileview.cpp:2936 LiteEditor/frame.cpp:2288
-#: codelitephp/php-plugin/php_workspace_view.cpp:1437 wxcrafter/main.cpp:197
+#: LiteEditor/fileview.cpp:2935 LiteEditor/frame.cpp:2228
+#: codelitephp/php-plugin/php_workspace_view.cpp:1438 wxcrafter/main.cpp:197
 msgid "Open Project"
 msgstr "プロジェクトを開く"
 
@@ -8571,7 +8670,7 @@ msgstr "単語"
 msgid "Toggle whole word search"
 msgstr "単語全体の検索を切り替え"
 
-#: LiteEditor/findinfiles_dlg.cpp:174 LiteEditor/quickfindbar.cpp:123
+#: LiteEditor/findinfiles_dlg.cpp:174 LiteEditor/quickfindbar.cpp:116
 #: LiteEditor/reconcileproject.cpp:637 Plugin/clPluginsFindBar.cpp:109
 msgid "Regex"
 msgstr "正規表現"
@@ -8693,8 +8792,8 @@ msgstr "削除"
 msgid "Remove the selected path"
 msgstr "選択したパスを削除"
 
-#: LiteEditor/findinfiles_dlg.h:118 LiteEditor/frame.cpp:1557
-#: LiteEditor/frame.cpp:1558 Runtime/rc/menu.xrc:420
+#: LiteEditor/findinfiles_dlg.h:118 LiteEditor/frame.cpp:1497
+#: LiteEditor/frame.cpp:1498 Runtime/rc/menu.xrc:420
 msgid "Find In Files"
 msgstr "ファイルから検索"
 
@@ -8786,676 +8885,672 @@ msgstr "ファイルを開けませんでした: "
 msgid "Failed to download file: "
 msgstr "ファイルのダウンロードに失敗しました: "
 
-#: LiteEditor/frame.cpp:908
+#: LiteEditor/frame.cpp:828
 msgid "CodeLite "
 msgstr "CodeLite "
 
-#: LiteEditor/frame.cpp:947
+#: LiteEditor/frame.cpp:966
 msgid "Configuration Manager..."
 msgstr "構成マネージャー..."
 
-#: LiteEditor/frame.cpp:948 Runtime/rc/menu.xrc:577
+#: LiteEditor/frame.cpp:967 Runtime/rc/menu.xrc:577
 msgid "Batch Build..."
 msgstr "一括ビルド..."
 
-#: LiteEditor/frame.cpp:951 Runtime/rc/menu.xrc:1055
+#: LiteEditor/frame.cpp:970 Runtime/rc/menu.xrc:1055
 msgid "Build Project"
 msgstr "プロジェクトをビルド"
 
-#: LiteEditor/frame.cpp:952 Runtime/rc/menu.xrc:567 Runtime/rc/menu.xrc:986
+#: LiteEditor/frame.cpp:971 Runtime/rc/menu.xrc:567 Runtime/rc/menu.xrc:986
 msgid "Build Workspace"
 msgstr "ワークスペースをビルド"
 
-#: LiteEditor/frame.cpp:953 Runtime/rc/menu.xrc:573
+#: LiteEditor/frame.cpp:972 Runtime/rc/menu.xrc:573
 msgid "Rebuild Workspace"
 msgstr "ワークスペースを再ビルド"
 
-#: LiteEditor/frame.cpp:954 Runtime/rc/menu.xrc:570 Runtime/rc/menu.xrc:989
+#: LiteEditor/frame.cpp:973 Runtime/rc/menu.xrc:570 Runtime/rc/menu.xrc:989
 msgid "Clean Workspace"
 msgstr "ワークスペースをクリーン"
 
-#: LiteEditor/frame.cpp:955
+#: LiteEditor/frame.cpp:974
 msgid "Compile Current File"
 msgstr "現在のファイルをコンパイル"
 
-#: LiteEditor/frame.cpp:956
+#: LiteEditor/frame.cpp:975
 msgid "Compile Current File's Project"
 msgstr "現在のファイルを持つプロジェクトをコンパイル"
 
-#: LiteEditor/frame.cpp:957
+#: LiteEditor/frame.cpp:976
 msgid "Clean Project"
 msgstr "プロジェクトをクリーン"
 
-#: LiteEditor/frame.cpp:959
+#: LiteEditor/frame.cpp:978
 msgid "Rebuild Project"
 msgstr "プロジェクトを再ビルド"
 
-#: LiteEditor/frame.cpp:960
+#: LiteEditor/frame.cpp:979
 msgid "Build and Run Project"
 msgstr "プロジェクトをビルドして実行"
 
-#: LiteEditor/frame.cpp:961
+#: LiteEditor/frame.cpp:980
 msgid "Next Build Error"
 msgstr "次のビルドエラー"
 
-#: LiteEditor/frame.cpp:962
+#: LiteEditor/frame.cpp:981
 msgid "Swap Header/Implementation file"
 msgstr "ヘッダー/実装ファイルを切り替え"
 
-#: LiteEditor/frame.cpp:963
+#: LiteEditor/frame.cpp:982
 msgid "Goto Declaration"
 msgstr "宣言へ移動"
 
-#: LiteEditor/frame.cpp:964
+#: LiteEditor/frame.cpp:983
 msgid "Goto Implementation"
 msgstr "実装へ移動"
 
-#: LiteEditor/frame.cpp:965
+#: LiteEditor/frame.cpp:984
 msgid "Open Include File"
 msgstr "インクルードファイルを開く"
 
-#: LiteEditor/frame.cpp:966
+#: LiteEditor/frame.cpp:985
 msgid "Add Include File"
 msgstr "インクルードファイルを追加"
 
-#: LiteEditor/frame.cpp:967
+#: LiteEditor/frame.cpp:986
 msgid "C++ | Code Generation / Refactoring"
 msgstr "C++ | コードの生成 / リファクタリング"
 
-#: LiteEditor/frame.cpp:968 Runtime/rc/menu.xrc:855
+#: LiteEditor/frame.cpp:987 Runtime/rc/menu.xrc:855
 msgid "Generate Setters/Getters..."
 msgstr "セッター/ゲッターを生成..."
 
-#: LiteEditor/frame.cpp:969 Runtime/rc/menu.xrc:866
+#: LiteEditor/frame.cpp:988 Runtime/rc/menu.xrc:866
 msgid "Move Function Implementation to..."
 msgstr "関数の実装を移動..."
 
-#: LiteEditor/frame.cpp:970 Runtime/rc/menu.xrc:869
+#: LiteEditor/frame.cpp:989 Runtime/rc/menu.xrc:869
 msgid "Add Function Implementation..."
 msgstr "関数の実装を追加..."
 
-#: LiteEditor/frame.cpp:971 Runtime/rc/menu.xrc:872
+#: LiteEditor/frame.cpp:990 Runtime/rc/menu.xrc:872
 msgid "Implement all Un-implemented Functions..."
 msgstr "未実装の関数を全て実装..."
 
-#: LiteEditor/frame.cpp:972 LiteEditor/project_settings_base_dlg.cpp:246
+#: LiteEditor/frame.cpp:991 LiteEditor/project_settings_base_dlg.cpp:246
 #: LiteEditor/project_settings_dlg.cpp:109
 msgid "Debugger"
 msgstr "デバッガー"
 
-#: LiteEditor/frame.cpp:972
+#: LiteEditor/frame.cpp:991
 msgid "Start/Continue Debugger"
 msgstr "デバッガーを開始/続行"
 
-#: LiteEditor/frame.cpp:973
+#: LiteEditor/frame.cpp:992
 msgid "Restart Debugger"
 msgstr "デバッガーを再起動"
 
-#: LiteEditor/frame.cpp:974
+#: LiteEditor/frame.cpp:993
 msgid "Attach to process..."
 msgstr "プロセスにアタッチ..."
 
-#: LiteEditor/frame.cpp:975 Plugin/DebuggerToolBar.cpp:41
+#: LiteEditor/frame.cpp:994 Plugin/DebuggerToolBar.cpp:41
 msgid "Pause debugger"
 msgstr "デバッガーを一時停止"
 
-#: LiteEditor/frame.cpp:976 Plugin/DebuggerToolBar.cpp:40
+#: LiteEditor/frame.cpp:995 Plugin/DebuggerToolBar.cpp:40
 msgid "Stop debugger"
 msgstr "デバッガーを停止"
 
-#: LiteEditor/frame.cpp:977 Plugin/DebuggerToolBar.cpp:46
+#: LiteEditor/frame.cpp:996 Plugin/DebuggerToolBar.cpp:46
 msgid "Step Into"
 msgstr "ステップイン"
 
-#: LiteEditor/frame.cpp:978 Plugin/DebuggerToolBar.cpp:48
+#: LiteEditor/frame.cpp:997 Plugin/DebuggerToolBar.cpp:48
 msgid "Step Out"
 msgstr "ステップアウト"
 
-#: LiteEditor/frame.cpp:979
+#: LiteEditor/frame.cpp:998
 msgid "Step Into Instruction"
 msgstr "命令へステップイン"
 
-#: LiteEditor/frame.cpp:980 Plugin/DebuggerToolBar.cpp:47 git/gitui.cpp:451
-#: git/gitui.cpp:1399
+#: LiteEditor/frame.cpp:999 Plugin/DebuggerToolBar.cpp:47 git/gitui.cpp:501
+#: git/gitui.cpp:1563
 msgid "Next"
 msgstr "次"
 
-#: LiteEditor/frame.cpp:981 Runtime/rc/menu.xrc:616
+#: LiteEditor/frame.cpp:1000 Runtime/rc/menu.xrc:616
 msgid "Next Instruction"
 msgstr "次の命令"
 
-#: LiteEditor/frame.cpp:982
+#: LiteEditor/frame.cpp:1001
 msgid "Show Cursor"
 msgstr "カーソルを表示"
 
-#: LiteEditor/frame.cpp:985 Runtime/rc/menu.xrc:904
+#: LiteEditor/frame.cpp:1004 Runtime/rc/menu.xrc:904
 msgid "Toggle Breakpoint"
 msgstr "ブレークポイントを切り替え"
 
-#: LiteEditor/frame.cpp:986
+#: LiteEditor/frame.cpp:1005
 msgid "Disable All Breakpoints"
 msgstr "全てのブレークポイントを無効化"
 
-#: LiteEditor/frame.cpp:987
+#: LiteEditor/frame.cpp:1006
 msgid "Enable All Breakpoints"
 msgstr "全てのブレークポイントを有効化"
 
-#: LiteEditor/frame.cpp:989
+#: LiteEditor/frame.cpp:1008
 msgid "Quick Debug..."
 msgstr "クイックデバッグ..."
 
-#: LiteEditor/frame.cpp:995
+#: LiteEditor/frame.cpp:1014
 msgid "Duplicate Selection / Line"
 msgstr "選択範囲 / 行を複製"
 
-#: LiteEditor/frame.cpp:996
+#: LiteEditor/frame.cpp:1015
 msgid "Delete to Line End"
 msgstr "行の終了まで削除"
 
-#: LiteEditor/frame.cpp:997
+#: LiteEditor/frame.cpp:1016
 msgid "Delete to Line Start"
 msgstr "行の開始まで削除"
 
-#: LiteEditor/frame.cpp:998
+#: LiteEditor/frame.cpp:1017
 msgid "Delete Line"
 msgstr "行を削除"
 
-#: LiteEditor/frame.cpp:999 Runtime/rc/menu.xrc:174
+#: LiteEditor/frame.cpp:1018 Runtime/rc/menu.xrc:174
 msgid "Copy Line"
 msgstr "行をコピー"
 
-#: LiteEditor/frame.cpp:1000 Runtime/rc/menu.xrc:177
+#: LiteEditor/frame.cpp:1019 Runtime/rc/menu.xrc:177
 msgid "Cut Line"
 msgstr "行を切り取り"
 
-#: LiteEditor/frame.cpp:1001 Runtime/rc/menu.xrc:156
+#: LiteEditor/frame.cpp:1020 Runtime/rc/menu.xrc:156
 msgid "Split selection into lines"
 msgstr "選択範囲を複数のキャレットに分ける"
 
-#: LiteEditor/frame.cpp:1002
+#: LiteEditor/frame.cpp:1021
 msgid "Make Lowercase"
 msgstr "小文字にする"
 
-#: LiteEditor/frame.cpp:1003
+#: LiteEditor/frame.cpp:1022
 msgid "Make Uppercase"
 msgstr "大文字にする"
 
-#: LiteEditor/frame.cpp:1004 Runtime/rc/menu.xrc:201
+#: LiteEditor/frame.cpp:1023 Runtime/rc/menu.xrc:201
 msgid "Insert Comment Block"
 msgstr "コメントのブロックを挿入"
 
-#: LiteEditor/frame.cpp:1005 Runtime/rc/menu.xrc:198
+#: LiteEditor/frame.cpp:1024 Runtime/rc/menu.xrc:198
 msgid "Comment Line"
 msgstr "行をコメント化"
 
-#: LiteEditor/frame.cpp:1006 Runtime/rc/menu.xrc:195
+#: LiteEditor/frame.cpp:1025 Runtime/rc/menu.xrc:195
 msgid "Comment Selection"
 msgstr "選択範囲をコメント化"
 
-#: LiteEditor/frame.cpp:1007
+#: LiteEditor/frame.cpp:1026
 msgid "Transpose Lines"
 msgstr "行を交換"
 
-#: LiteEditor/frame.cpp:1008 Runtime/rc/menu.xrc:183
+#: LiteEditor/frame.cpp:1027 Runtime/rc/menu.xrc:183
 msgid "Move Line Up"
 msgstr "行を上へ移動"
 
-#: LiteEditor/frame.cpp:1009 Runtime/rc/menu.xrc:186
+#: LiteEditor/frame.cpp:1028 Runtime/rc/menu.xrc:186
 msgid "Move Line Down"
 msgstr "行を下へ移動"
 
-#: LiteEditor/frame.cpp:1010 Runtime/rc/menu.xrc:221
+#: LiteEditor/frame.cpp:1029 Runtime/rc/menu.xrc:221
 msgid "Convert Indentation to Tabs"
 msgstr "インデントをタブに変換"
 
-#: LiteEditor/frame.cpp:1011 Runtime/rc/menu.xrc:224
+#: LiteEditor/frame.cpp:1030 Runtime/rc/menu.xrc:224
 msgid "Convert Indentation to Spaces"
 msgstr "インデントをスペースに変換"
 
-#: LiteEditor/frame.cpp:1012 Runtime/rc/menu.xrc:189
+#: LiteEditor/frame.cpp:1031 Runtime/rc/menu.xrc:189
 msgid "Center Line in Editor"
 msgstr "行を中心にスクロール"
 
-#: LiteEditor/frame.cpp:1013 Runtime/rc/menu.xrc:897 Runtime/rc/menu.xrc:932
+#: LiteEditor/frame.cpp:1032 Runtime/rc/menu.xrc:897 Runtime/rc/menu.xrc:932
 msgid "Select All"
 msgstr "全て選択"
 
-#: LiteEditor/frame.cpp:1014
+#: LiteEditor/frame.cpp:1033
 msgid "Match Brace"
 msgstr "対応する括弧に移動"
 
-#: LiteEditor/frame.cpp:1015
+#: LiteEditor/frame.cpp:1034
 msgid "Select to Brace"
 msgstr "対応する括弧までを選択"
 
-#: LiteEditor/frame.cpp:1016
+#: LiteEditor/frame.cpp:1035
 msgid "Code Complete"
 msgstr "コードを補完"
 
-#: LiteEditor/frame.cpp:1017
+#: LiteEditor/frame.cpp:1036
 msgid "Complete Word"
 msgstr "単語を補完"
 
-#: LiteEditor/frame.cpp:1018
+#: LiteEditor/frame.cpp:1037
 msgid "Display Function Calltip"
 msgstr "関数呼び出しのヒントを表示"
 
-#: LiteEditor/frame.cpp:1019 Plugin/clStatusBar.cpp:509 Runtime/rc/menu.xrc:214
+#: LiteEditor/frame.cpp:1038 Plugin/clStatusBar.cpp:509 Runtime/rc/menu.xrc:214
 msgid "Convert to Windows Format"
 msgstr "Windows 形式に変換"
 
-#: LiteEditor/frame.cpp:1020 Runtime/rc/menu.xrc:217
+#: LiteEditor/frame.cpp:1039 Runtime/rc/menu.xrc:217
 msgid "Convert to Unix Format"
 msgstr "Unix 形式に変換"
 
-#: LiteEditor/frame.cpp:1021
+#: LiteEditor/frame.cpp:1040
 msgid "Trim Trailing Spaces"
 msgstr "行末の空白を削除"
 
-#: LiteEditor/frame.cpp:1022 Runtime/rc/menu.xrc:821
+#: LiteEditor/frame.cpp:1041 Runtime/rc/menu.xrc:821
 msgid "Copy Path Relative to Workspace"
 msgstr "ワークスペースへの相対パスをコピー"
 
-#: LiteEditor/frame.cpp:1024 Runtime/rc/menu.xrc:817
+#: LiteEditor/frame.cpp:1043 Runtime/rc/menu.xrc:817
 msgid "Copy Path to Clipboard"
 msgstr "パスをクリップボードにコピー"
 
-#: LiteEditor/frame.cpp:1025 Runtime/rc/menu.xrc:814
+#: LiteEditor/frame.cpp:1044 Runtime/rc/menu.xrc:814
 msgid "Copy Full Path to Clipboard"
 msgstr "完全なパスをクリップボードにコピー"
 
-#: LiteEditor/frame.cpp:1026 Runtime/rc/menu.xrc:811
+#: LiteEditor/frame.cpp:1045 Runtime/rc/menu.xrc:811
 msgid "Copy File Name to Clipboard"
 msgstr "ファイル名をクリップボードにコピー"
 
-#: LiteEditor/frame.cpp:1027 LiteEditor/frame.cpp:1532
+#: LiteEditor/frame.cpp:1046 LiteEditor/frame.cpp:1472
 #: Plugin/clTreeCtrlPanel.cpp:102 Plugin/clTreeCtrlPanel.cpp:434
 #: codelitephp/php-plugin/php_ui.h:134
-#: codelitephp/php-plugin/php_workspace_view.cpp:644
+#: codelitephp/php-plugin/php_workspace_view.cpp:646
 msgid "New File"
 msgstr "新しいファイル"
 
-#: LiteEditor/frame.cpp:1028
+#: LiteEditor/frame.cpp:1047
 msgid "Open File..."
 msgstr "ファイルを開く..."
 
-#: LiteEditor/frame.cpp:1029 LiteEditor/frame.cpp:1534
-#: LiteEditor/frame.cpp:1980
+#: LiteEditor/frame.cpp:1048 LiteEditor/frame.cpp:1474
+#: LiteEditor/frame.cpp:1920
 msgid "Reload File"
 msgstr "ファイルを再読み込み"
 
-#: LiteEditor/frame.cpp:1030
+#: LiteEditor/frame.cpp:1049
 msgid "Save File"
 msgstr "ファイルを保存"
 
-#: LiteEditor/frame.cpp:1031
+#: LiteEditor/frame.cpp:1050
 msgid "Duplicate Tab"
 msgstr "タブを複製"
 
-#: LiteEditor/frame.cpp:1032
+#: LiteEditor/frame.cpp:1051
 msgid "Save As..."
 msgstr "名前を付けて保存..."
 
-#: LiteEditor/frame.cpp:1036 Runtime/rc/menu.xrc:101
+#: LiteEditor/frame.cpp:1055 Runtime/rc/menu.xrc:101
 msgid "Print..."
 msgstr "印刷..."
 
-#: LiteEditor/frame.cpp:1037
+#: LiteEditor/frame.cpp:1056
 msgid "Exit"
 msgstr "終了"
 
-#: LiteEditor/frame.cpp:1039
+#: LiteEditor/frame.cpp:1058
 msgid "Manage Plugins..."
 msgstr "プラグインを管理..."
 
-#: LiteEditor/frame.cpp:1039 LiteEditor/plugindlgbase.cpp:51
+#: LiteEditor/frame.cpp:1058 LiteEditor/plugindlgbase.cpp:51
 msgid "Plugins"
 msgstr "プラグイン"
 
-#: LiteEditor/frame.cpp:1040 Plugin/clRemoteFinderHelper.cpp:104
+#: LiteEditor/frame.cpp:1059 Plugin/clRemoteFinderHelper.cpp:104
 #: Plugin/clStrings.h:4 Plugin/editor_config.cpp:451
 #: Plugin/editor_config.cpp:488 SFTP/SFTPStatusPage.cpp:195 SFTP/UI.cpp:82
 msgid "Search"
 msgstr "検索"
 
-#: LiteEditor/frame.cpp:1041 Runtime/rc/menu.xrc:465
+#: LiteEditor/frame.cpp:1060 Runtime/rc/menu.xrc:465
 msgid "Grep Selection in the Current File"
 msgstr "選択したテキストを現在のファイルから検索"
 
-#: LiteEditor/frame.cpp:1042 Runtime/rc/menu.xrc:468
+#: LiteEditor/frame.cpp:1061 Runtime/rc/menu.xrc:468
 msgid "Grep Selection in the Workspace"
 msgstr "選択したテキストをワークスペースから検索"
 
-#: LiteEditor/frame.cpp:1043 Runtime/rc/menu.xrc:471
+#: LiteEditor/frame.cpp:1062 Runtime/rc/menu.xrc:471
 msgid "Search for Selection with default browser"
 msgstr "選択したテキストを既定のブラウザーで検索"
 
-#: LiteEditor/frame.cpp:1044 Plugin/GotoAnythingBaseUI.h:54
+#: LiteEditor/frame.cpp:1063 Plugin/GotoAnythingBaseUI.h:54
 #: Runtime/rc/menu.xrc:485
 msgid "Goto Anything"
 msgstr "CodeLite の機能を表示/実行"
 
-#: LiteEditor/frame.cpp:1045
+#: LiteEditor/frame.cpp:1064
 msgid "Find Previous"
 msgstr "前を検索"
 
-#: LiteEditor/frame.cpp:1046
+#: LiteEditor/frame.cpp:1065
 msgid "Find Resource..."
 msgstr "リソースを検索..."
 
-#: LiteEditor/frame.cpp:1047
+#: LiteEditor/frame.cpp:1066
 msgid "Quick Outline..."
 msgstr "クイックアウトライン..."
 
-#: LiteEditor/frame.cpp:1049
+#: LiteEditor/frame.cpp:1068
 msgid "Search | Bookmarks"
 msgstr "検索 | ブックマーク"
 
-#: LiteEditor/frame.cpp:1050 LiteEditor/frame.cpp:1552
-#: LiteEditor/frame.cpp:1553 Runtime/rc/menu.xrc:901
+#: LiteEditor/frame.cpp:1069 LiteEditor/frame.cpp:1492
+#: LiteEditor/frame.cpp:1493 Runtime/rc/menu.xrc:901
 msgid "Toggle Bookmark"
 msgstr "ブックマークを切り替え"
 
-#: LiteEditor/frame.cpp:1051 Plugin/bookmark_manager.cpp:82
+#: LiteEditor/frame.cpp:1070 Plugin/bookmark_manager.cpp:82
 msgid "Next Bookmark"
 msgstr "次のブックマーク"
 
-#: LiteEditor/frame.cpp:1052 Plugin/bookmark_manager.cpp:83
+#: LiteEditor/frame.cpp:1071 Plugin/bookmark_manager.cpp:83
 msgid "Previous Bookmark"
 msgstr "前のブックマーク"
 
-#: LiteEditor/frame.cpp:1054 Plugin/bookmark_manager.cpp:106
+#: LiteEditor/frame.cpp:1073 Plugin/bookmark_manager.cpp:106
 msgid "Remove All Currently-Active Bookmarks"
 msgstr "現在アクティブなブックマークを全て削除"
 
-#: LiteEditor/frame.cpp:1055
+#: LiteEditor/frame.cpp:1074
 msgid "Open Shell From File Path"
 msgstr "ファイルパスからシェルを開く"
 
-#: LiteEditor/frame.cpp:1057
+#: LiteEditor/frame.cpp:1076
 msgid "Search | Find In Files"
 msgstr "検索 | ファイルから検索"
 
-#: LiteEditor/frame.cpp:1058
+#: LiteEditor/frame.cpp:1077
 msgid "Find In Files..."
 msgstr "ファイルから検索..."
 
-#: LiteEditor/frame.cpp:1059 Runtime/rc/menu.xrc:425
+#: LiteEditor/frame.cpp:1078 Runtime/rc/menu.xrc:425
 msgid "Go to Next 'Find In File' Match"
 msgstr "次の 'ファイルから検索' の一致へ移動"
 
-#: LiteEditor/frame.cpp:1060 Runtime/rc/menu.xrc:428
+#: LiteEditor/frame.cpp:1079 Runtime/rc/menu.xrc:428
 msgid "Go to Previous 'Find In File' Match"
 msgstr "前の 'ファイルから検索' の一致へ移動"
 
-#: LiteEditor/frame.cpp:1061
+#: LiteEditor/frame.cpp:1080
 msgid "Search | Find and Replace"
 msgstr "検索 | 検索と置換"
 
-#: LiteEditor/frame.cpp:1062
+#: LiteEditor/frame.cpp:1081
 msgid "Find..."
 msgstr "検索..."
 
-#: LiteEditor/frame.cpp:1063 Runtime/rc/menu.xrc:412
+#: LiteEditor/frame.cpp:1082 Runtime/rc/menu.xrc:412
 msgid "Quick Add Next"
 msgstr "次をクイック追加"
 
-#: LiteEditor/frame.cpp:1064 Runtime/rc/menu.xrc:415
+#: LiteEditor/frame.cpp:1083 Runtime/rc/menu.xrc:415
 msgid "Quick Find All"
 msgstr "全てをクイック検索"
 
-#: LiteEditor/frame.cpp:1065
+#: LiteEditor/frame.cpp:1084
 msgid "Replace..."
 msgstr "置換..."
 
-#: LiteEditor/frame.cpp:1066
+#: LiteEditor/frame.cpp:1085
 msgid "Find Next"
 msgstr "次を検索"
 
-#: LiteEditor/frame.cpp:1067 Runtime/rc/menu.xrc:405
+#: LiteEditor/frame.cpp:1086 Runtime/rc/menu.xrc:405
 msgid "Find Word At Caret"
 msgstr "キャレットの単語を検索"
 
-#: LiteEditor/frame.cpp:1068 Runtime/rc/menu.xrc:408
+#: LiteEditor/frame.cpp:1087 Runtime/rc/menu.xrc:408
 msgid "Find Word At Caret Backward"
 msgstr "キャレットの単語を後方へ検索"
 
-#: LiteEditor/frame.cpp:1069
+#: LiteEditor/frame.cpp:1088
 msgid "Go To Previous Location"
 msgstr "前の場所へ移動"
 
-#: LiteEditor/frame.cpp:1069
+#: LiteEditor/frame.cpp:1088
 msgid "Search | Go To"
 msgstr "検索 | 指定先へ移動"
 
-#: LiteEditor/frame.cpp:1070
+#: LiteEditor/frame.cpp:1089
 msgid "Go To Forward Location"
 msgstr "次の場所へ移動"
 
-#: LiteEditor/frame.cpp:1071
+#: LiteEditor/frame.cpp:1090
 msgid "Go To Line..."
 msgstr "行へ移動..."
 
-#: LiteEditor/frame.cpp:1072 LiteEditor/options_base_dlg2.h:61
+#: LiteEditor/frame.cpp:1091 LiteEditor/options_base_dlg2.h:61
 #: Plugin/DiffSideBySidePanel.cpp:106
 msgid "Preferences"
 msgstr "個人設定"
 
-#: LiteEditor/frame.cpp:1073
+#: LiteEditor/frame.cpp:1092
 msgid "Colours and Fonts..."
 msgstr "色とフォント..."
 
-#: LiteEditor/frame.cpp:1074
+#: LiteEditor/frame.cpp:1093
 msgid "Keyboard shortcuts..."
 msgstr "キーボードショートカット..."
 
-#: LiteEditor/frame.cpp:1075
+#: LiteEditor/frame.cpp:1094
 msgid "Environment Variables..."
 msgstr "環境変数..."
 
-#: LiteEditor/frame.cpp:1076
+#: LiteEditor/frame.cpp:1095
 msgid "Build Settings..."
 msgstr "ビルドの設定..."
 
-#: LiteEditor/frame.cpp:1077
+#: LiteEditor/frame.cpp:1096
 msgid "GDB Settings..."
 msgstr "GDB の設定..."
 
-#: LiteEditor/frame.cpp:1078
+#: LiteEditor/frame.cpp:1097
 msgid "Code Completion..."
 msgstr "コード補完..."
 
-#: LiteEditor/frame.cpp:1079
+#: LiteEditor/frame.cpp:1098
 msgid "Switch to Next Tab"
 msgstr "次のタブに切り替え"
 
-#: LiteEditor/frame.cpp:1079
+#: LiteEditor/frame.cpp:1098
 msgid "Tab"
 msgstr "タブ"
 
-#: LiteEditor/frame.cpp:1080
+#: LiteEditor/frame.cpp:1099
 msgid "Switch to Previous Tab"
 msgstr "前のタブに切り替え"
 
-#: LiteEditor/frame.cpp:1081
+#: LiteEditor/frame.cpp:1100
 msgid "Move Tab Left"
 msgstr "タブを左へ移動"
 
-#: LiteEditor/frame.cpp:1082
+#: LiteEditor/frame.cpp:1101
 msgid "Move Tab Right"
 msgstr "タブを右へ移動"
 
-#: LiteEditor/frame.cpp:1083 LiteEditor/outputtabwindow.cpp:203
+#: LiteEditor/frame.cpp:1102 LiteEditor/outputtabwindow.cpp:203
 #: LiteEditor/shelltab.cpp:216
 msgid "Word Wrap"
 msgstr "単語を折り返す"
 
-#: LiteEditor/frame.cpp:1084
+#: LiteEditor/frame.cpp:1103
 msgid "Toggle Current Fold"
 msgstr "現在のブロックを折り畳む/広げる"
 
-#: LiteEditor/frame.cpp:1085
+#: LiteEditor/frame.cpp:1104
 msgid "Toggle All Folds"
 msgstr "全てのブロックを折り畳む/広げる"
 
-#: LiteEditor/frame.cpp:1086
+#: LiteEditor/frame.cpp:1105
 msgid "Toggle All Topmost Folds in Selection"
 msgstr "選択箇所の最上位ブロックを全て折り畳む/広げる"
 
-#: LiteEditor/frame.cpp:1087
+#: LiteEditor/frame.cpp:1106
 msgid "Toggle Every Fold in Selection"
 msgstr "選択しているブロックを全て折り畳む/広げる"
 
-#: LiteEditor/frame.cpp:1088 Plugin/clStatusBar.cpp:502
+#: LiteEditor/frame.cpp:1107 Plugin/clStatusBar.cpp:502
 msgid "Display EOL"
 msgstr "改行コードを表示"
 
-#: LiteEditor/frame.cpp:1089 Runtime/rc/menu.xrc:305
+#: LiteEditor/frame.cpp:1108 Runtime/rc/menu.xrc:305
 msgid "Next tab"
 msgstr "次のタブ"
 
-#: LiteEditor/frame.cpp:1090 Runtime/rc/menu.xrc:308
+#: LiteEditor/frame.cpp:1109 Runtime/rc/menu.xrc:308
 msgid "Previous tab"
 msgstr "前のタブ"
 
-#: LiteEditor/frame.cpp:1091 Runtime/rc/menu.xrc:312
+#: LiteEditor/frame.cpp:1110 Runtime/rc/menu.xrc:312
 msgid "Full Screen..."
 msgstr "全画面表示..."
 
-#: LiteEditor/frame.cpp:1092
+#: LiteEditor/frame.cpp:1111
 msgid "Output Pane"
 msgstr "出力ペイン"
 
-#: LiteEditor/frame.cpp:1093
+#: LiteEditor/frame.cpp:1112
 msgid "Workspace Pane"
 msgstr "ワークスペースペイン"
 
-#: LiteEditor/frame.cpp:1094
+#: LiteEditor/frame.cpp:1113
 msgid "Debugger Pane"
 msgstr "デバッガーペイン"
 
-#: LiteEditor/frame.cpp:1095
+#: LiteEditor/frame.cpp:1114
 msgid "Navigation Bar"
 msgstr "ナビゲーションバー"
 
-#: LiteEditor/frame.cpp:1096
+#: LiteEditor/frame.cpp:1115
 msgid "Toggle All Panes"
 msgstr "全てのペインを切り替え"
 
-#: LiteEditor/frame.cpp:1097 Runtime/rc/menu.xrc:369
+#: LiteEditor/frame.cpp:1116 Runtime/rc/menu.xrc:369
 msgid "Toggle Minimal View"
 msgstr "最小表示を切り替え"
 
-#: LiteEditor/frame.cpp:1098 LiteEditor/frame.cpp:1216 Runtime/rc/menu.xrc:382
+#: LiteEditor/frame.cpp:1117 Runtime/rc/menu.xrc:382
 msgid "Show Menu Bar"
 msgstr "メニューバーを表示"
 
-#: LiteEditor/frame.cpp:1099 Runtime/rc/menu.xrc:374
+#: LiteEditor/frame.cpp:1118 Runtime/rc/menu.xrc:374
 msgid "Show Status Bar"
 msgstr "ステータスバーを表示"
 
-#: LiteEditor/frame.cpp:1100 LiteEditor/frame.cpp:1222 Runtime/rc/menu.xrc:378
+#: LiteEditor/frame.cpp:1119 Runtime/rc/menu.xrc:378
 msgid "Show Tool Bar"
 msgstr "ツールバーを表示"
 
-#: LiteEditor/frame.cpp:1101
+#: LiteEditor/frame.cpp:1120
 msgid "View | Show Whitespace"
 msgstr "表示 | 空白の表示"
 
-#: LiteEditor/frame.cpp:1103 Runtime/rc/menu.xrc:291
+#: LiteEditor/frame.cpp:1122 Runtime/rc/menu.xrc:291
 msgid "Show Always"
 msgstr "常に表示"
 
-#: LiteEditor/frame.cpp:1104 Runtime/rc/menu.xrc:295
+#: LiteEditor/frame.cpp:1123 Runtime/rc/menu.xrc:295
 msgid "Visible After First Indent"
 msgstr "最初のインデント後に表示"
 
-#: LiteEditor/frame.cpp:1105 Runtime/rc/menu.xrc:299
+#: LiteEditor/frame.cpp:1124 Runtime/rc/menu.xrc:299
 msgid "Indentation Only"
 msgstr "インデントのみ"
 
-#: LiteEditor/frame.cpp:1106
+#: LiteEditor/frame.cpp:1125
 msgid "View | Zoom"
 msgstr "表示 | ズーム"
 
-#: LiteEditor/frame.cpp:1106 Runtime/rc/menu.xrc:275
+#: LiteEditor/frame.cpp:1125 Runtime/rc/menu.xrc:275
 msgid "Zoom In"
 msgstr "拡大"
 
-#: LiteEditor/frame.cpp:1107 Runtime/rc/menu.xrc:278
+#: LiteEditor/frame.cpp:1126 Runtime/rc/menu.xrc:278
 msgid "Zoom Out"
 msgstr "縮小"
 
-#: LiteEditor/frame.cpp:1108 Runtime/rc/menu.xrc:281
+#: LiteEditor/frame.cpp:1127 Runtime/rc/menu.xrc:281
 msgid "Reset Zoom"
 msgstr "ズームをリセット"
 
-#: LiteEditor/frame.cpp:1109
+#: LiteEditor/frame.cpp:1128
 msgid "New Workspace..."
 msgstr "新しいワークスペース..."
 
-#: LiteEditor/frame.cpp:1109 LiteEditor/frame.cpp:5578
-#: LiteEditor/tabgroupbasedlgs.cpp:163 LiteEditor/workspace_pane.cpp:129
-#: LiteEditor/workspace_pane.cpp:156 LiteEditor/workspace_pane.cpp:362
+#: LiteEditor/frame.cpp:1128 LiteEditor/frame.cpp:5577
+#: LiteEditor/tabgroupbasedlgs.cpp:163 LiteEditor/workspace_pane.cpp:130
+#: LiteEditor/workspace_pane.cpp:157 LiteEditor/workspace_pane.cpp:362
 #: LiteEditor/workspace_pane.cpp:380 LiteEditor/workspace_pane.cpp:381
 msgid "Workspace"
 msgstr "ワークスペース"
 
-#: LiteEditor/frame.cpp:1110
+#: LiteEditor/frame.cpp:1129
 msgid "Open Workspace..."
 msgstr "ワークスペースを開く..."
 
-#: LiteEditor/frame.cpp:1111 Runtime/rc/menu.xrc:111 Runtime/rc/menu.xrc:1001
+#: LiteEditor/frame.cpp:1130 Runtime/rc/menu.xrc:111 Runtime/rc/menu.xrc:1001
 #: WebTools/NodeJSWorkspaceView.cpp:75
 msgid "Close Workspace"
 msgstr "ワークスペースを閉じる"
 
-#: LiteEditor/frame.cpp:1112 Runtime/rc/menu.xrc:1004
+#: LiteEditor/frame.cpp:1131 Runtime/rc/menu.xrc:1004
 #: codelitephp/PHPParser/php_workspace.cpp:488
 msgid "Reload Workspace"
 msgstr "ワークスペースを再読み込み"
 
-#: LiteEditor/frame.cpp:1113 Runtime/rc/menu.xrc:1012
+#: LiteEditor/frame.cpp:1132 Runtime/rc/menu.xrc:1012
 msgid "Workspace Settings..."
 msgstr "ワークスペースの設定..."
 
-#: LiteEditor/frame.cpp:1114 Runtime/rc/menu.xrc:1008
+#: LiteEditor/frame.cpp:1133 Runtime/rc/menu.xrc:1008
 msgid "Workspace Editor Preferences..."
 msgstr "エディターの個人設定 (ワークスペース固有)..."
 
-#: LiteEditor/frame.cpp:1115
+#: LiteEditor/frame.cpp:1134
 msgid "Import other IDEs solution/workspace files..."
 msgstr "他の IDE ソリューション/ワークスペースファイルをインポート..."
 
-#: LiteEditor/frame.cpp:1116
+#: LiteEditor/frame.cpp:1135
 msgid "Open Active Project Settings..."
 msgstr "アクティブなプロジェクトの設定を開く..."
 
-#: LiteEditor/frame.cpp:1117
+#: LiteEditor/frame.cpp:1136
 msgid "Create New Project"
 msgstr "新しいプロジェクトを作成"
 
-#: LiteEditor/frame.cpp:1118 Runtime/rc/menu.xrc:997
+#: LiteEditor/frame.cpp:1137 Runtime/rc/menu.xrc:997
 msgid "Add an Existing Project"
 msgstr "既存のプロジェクトを追加"
 
-#: LiteEditor/frame.cpp:1119 Runtime/rc/menu.xrc:525
+#: LiteEditor/frame.cpp:1138 Runtime/rc/menu.xrc:525
 msgid "Parse Workspace"
 msgstr "ワークスペースを解析"
 
-#: LiteEditor/frame.cpp:1234
-msgid "Show Output View "
-msgstr "出力ビューを表示 "
-
-#: LiteEditor/frame.cpp:1297
+#: LiteEditor/frame.cpp:1261
 msgid "Output View"
 msgstr "出力ビュー"
 
-#: LiteEditor/frame.cpp:1298
+#: LiteEditor/frame.cpp:1262
 msgid "Workspace View"
 msgstr "ワークスペースビュー"
 
-#: LiteEditor/frame.cpp:1300 wxcrafter/gui.h:167 wxcrafter/main.cpp:706
+#: LiteEditor/frame.cpp:1264 wxcrafter/gui.h:167 wxcrafter/main.cpp:706
 #: wxcrafter/wxcrafter_plugin.cpp:185 wxcrafter/wxcrafter_plugin.cpp:186
 #: wxcrafter/wxcrafter_plugin.cpp:268 wxcrafter/wxcrafter_plugin.cpp:408
 #: wxcrafter/wxcrafter_plugin.cpp:439 wxcrafter/wxcrafter_plugin.cpp:554
@@ -9468,119 +9563,119 @@ msgstr "ワークスペースビュー"
 msgid "wxCrafter"
 msgstr "wxCrafter"
 
-#: LiteEditor/frame.cpp:1533 LiteEditor/frame.cpp:2115
+#: LiteEditor/frame.cpp:1473 LiteEditor/frame.cpp:2055
 #: Subversion2/subversion_view.cpp:443 git/GitConsole.cpp:397
 msgid "Open File"
 msgstr "ファイルを開く"
 
-#: LiteEditor/frame.cpp:1536
+#: LiteEditor/frame.cpp:1476
 msgid "Save All"
 msgstr "全て保存"
 
-#: LiteEditor/frame.cpp:1537
+#: LiteEditor/frame.cpp:1477
 msgid "Close File"
 msgstr "ファイルを閉じる"
 
-#: LiteEditor/frame.cpp:1545
+#: LiteEditor/frame.cpp:1485
 msgid "Backward"
 msgstr "後方"
 
-#: LiteEditor/frame.cpp:1546
+#: LiteEditor/frame.cpp:1486
 msgid "Forward"
 msgstr "前方"
 
-#: LiteEditor/frame.cpp:1556 LiteEditor/project_settings_base_dlg.cpp:389
+#: LiteEditor/frame.cpp:1496 LiteEditor/project_settings_base_dlg.cpp:389
 #: LiteEditor/quickfindbarbase.cpp:74 LiteEditor/replaceinfilespanel.cpp:69
 #: Plugin/clStrings.h:8 Plugin/editor_config.cpp:453
 #: Plugin/editor_config.cpp:490 Plugin/quickfindbarbase.cpp:74
 msgid "Replace"
 msgstr "置換"
 
-#: LiteEditor/frame.cpp:1559 LiteEditor/frame.cpp:1560
+#: LiteEditor/frame.cpp:1499 LiteEditor/frame.cpp:1500
 msgid "Find Resource In Workspace"
 msgstr "ワークスペースからリソースを検索"
 
-#: LiteEditor/frame.cpp:1561
+#: LiteEditor/frame.cpp:1501
 msgid "Highlight Word"
 msgstr "単語を強調表示"
 
-#: LiteEditor/frame.cpp:1562
+#: LiteEditor/frame.cpp:1502
 msgid "Highlight Matching Words"
 msgstr "一致する単語を強調表示"
 
-#: LiteEditor/frame.cpp:1569 LiteEditor/frame.cpp:1570
+#: LiteEditor/frame.cpp:1509 LiteEditor/frame.cpp:1510
 #: LiteEditor/workspacetab.cpp:153 LiteEditor/workspacetab.cpp:154
 #: LiteEditor/workspacetab.cpp:580 Plugin/clFileSystemWorkspaceView.cpp:33
 msgid "Build Active Project"
 msgstr "アクティブなプロジェクトをビルド"
 
-#: LiteEditor/frame.cpp:1571 LiteEditor/frame.cpp:1572
+#: LiteEditor/frame.cpp:1511 LiteEditor/frame.cpp:1512
 #: LiteEditor/workspacetab.cpp:567 Plugin/clFileSystemWorkspaceView.cpp:34
 msgid "Stop Current Build"
 msgstr "現在のビルドを停止"
 
-#: LiteEditor/frame.cpp:1573 LiteEditor/frame.cpp:1574
+#: LiteEditor/frame.cpp:1513 LiteEditor/frame.cpp:1514
 msgid "Clean Active Project"
 msgstr "アクティブなプロジェクトをクリーン"
 
-#: LiteEditor/frame.cpp:1576 LiteEditor/frame.cpp:1577
+#: LiteEditor/frame.cpp:1516 LiteEditor/frame.cpp:1517
 #: LiteEditor/workspacetab.cpp:155 LiteEditor/workspacetab.cpp:156
 msgid "Run Active Project"
 msgstr "アクティブなプロジェクトを実行"
 
-#: LiteEditor/frame.cpp:1578 LiteEditor/frame.cpp:1579
+#: LiteEditor/frame.cpp:1518 LiteEditor/frame.cpp:1519
 msgid "Stop Running Program"
 msgstr "実行中のプログラムを停止"
 
-#: LiteEditor/frame.cpp:1585 LiteEditor/frame.cpp:1586
+#: LiteEditor/frame.cpp:1525 LiteEditor/frame.cpp:1526
 msgid "Start or Continue debugger"
 msgstr "デバッガーを開始、または続行"
 
-#: LiteEditor/frame.cpp:1601
+#: LiteEditor/frame.cpp:1541
 msgid "Applying your choices and restarting CodeLite"
 msgstr "新しい設定を適用し、CodeLite を再起動しています"
 
-#: LiteEditor/frame.cpp:1603
+#: LiteEditor/frame.cpp:1543
 msgid "Applying your choices, this may take a few seconds"
 msgstr "新しい設定を適用しています。しばらくお待ちください"
 
-#: LiteEditor/frame.cpp:1806
+#: LiteEditor/frame.cpp:1746
 msgid "Eran Ifrah (Project admin)"
 msgstr "Eran Ifrah (プロジェクトの管理者)"
 
-#: LiteEditor/frame.cpp:1807 Plugin/clAboutDialog.cpp:35
+#: LiteEditor/frame.cpp:1747 Plugin/clAboutDialog.cpp:35
 msgid "David G. Hart"
 msgstr "David G. Hart"
 
-#: LiteEditor/frame.cpp:1808 Plugin/clAboutDialog.cpp:38
+#: LiteEditor/frame.cpp:1748 Plugin/clAboutDialog.cpp:38
 msgid "Frank Lichtner"
 msgstr "Frank Lichtner"
 
-#: LiteEditor/frame.cpp:1809 Plugin/clAboutDialog.cpp:39
+#: LiteEditor/frame.cpp:1749 Plugin/clAboutDialog.cpp:39
 msgid "Jacek Kucharski"
 msgstr "Jacek Kucharski"
 
-#: LiteEditor/frame.cpp:1810 Plugin/clAboutDialog.cpp:40
+#: LiteEditor/frame.cpp:1750 Plugin/clAboutDialog.cpp:40
 msgid "Marrianne Gagnon"
 msgstr "Marrianne Gagnon"
 
-#: LiteEditor/frame.cpp:1811 Plugin/clAboutDialog.cpp:41
+#: LiteEditor/frame.cpp:1751 Plugin/clAboutDialog.cpp:41
 msgid "Scott Dolim"
 msgstr "Scott Dolim"
 
-#: LiteEditor/frame.cpp:1814
+#: LiteEditor/frame.cpp:1754
 msgid "CodeLite Home"
 msgstr "CodeLite ホーム"
 
-#: LiteEditor/frame.cpp:1823 Plugin/clAboutDialogBase.cpp:100
+#: LiteEditor/frame.cpp:1763 Plugin/clAboutDialogBase.cpp:100
 msgid "CodeLite IDE"
 msgstr "CodeLite IDE"
 
-#: LiteEditor/frame.cpp:1824
+#: LiteEditor/frame.cpp:1764
 msgid "A free, open source, C/C++/PHP and JavaScript IDE"
 msgstr "フリーでオープンソースの C/C++, PHP, JavaScript 統合開発環境"
 
-#: LiteEditor/frame.cpp:1979
+#: LiteEditor/frame.cpp:1919
 msgid ""
 "' is modified\n"
 "Continue with reload?"
@@ -9588,27 +9683,27 @@ msgstr ""
 "' が変更されています\n"
 "それでも再読み込みしますか？"
 
-#: LiteEditor/frame.cpp:1979
+#: LiteEditor/frame.cpp:1919
 msgid "File '"
 msgstr "ファイル '"
 
-#: LiteEditor/frame.cpp:2168
+#: LiteEditor/frame.cpp:2108
 msgid "Please enter a name for the tab group"
 msgstr "タブグループの名前を入力してください"
 
-#: LiteEditor/frame.cpp:2184
+#: LiteEditor/frame.cpp:2124
 msgid "There is already a file with this name. Do you want to overwrite it?"
 msgstr "この名前のファイルが既に存在します。上書きしますか？"
 
-#: LiteEditor/frame.cpp:2206
+#: LiteEditor/frame.cpp:2146
 msgid "Tab group saved"
 msgstr "タブグループを保存しました"
 
-#: LiteEditor/frame.cpp:2247
+#: LiteEditor/frame.cpp:2187
 msgid "Select the workspace type:"
 msgstr "ワークスペースの種類を選択:"
 
-#: LiteEditor/frame.cpp:2535
+#: LiteEditor/frame.cpp:2475
 msgid ""
 "Build ended with errors\n"
 "Continue with execute?"
@@ -9616,19 +9711,19 @@ msgstr ""
 "ビルドがエラーで終了しました\n"
 "このまま実行しますか？"
 
-#: LiteEditor/frame.cpp:2536
+#: LiteEditor/frame.cpp:2476
 msgid " Cancel "
 msgstr " キャンセル "
 
-#: LiteEditor/frame.cpp:2536
+#: LiteEditor/frame.cpp:2476
 msgid " Execute "
 msgstr " 実行 "
 
-#: LiteEditor/frame.cpp:2575
+#: LiteEditor/frame.cpp:2515
 msgid "Build starting..."
 msgstr "ビルドを開始しています..."
 
-#: LiteEditor/frame.cpp:2782
+#: LiteEditor/frame.cpp:2722
 msgid ""
 "Would you like to build the active project\n"
 "before executing it?"
@@ -9636,67 +9731,67 @@ msgstr ""
 "実行する前に、アクティブなプロジェクトを\n"
 "ビルドしますか？"
 
-#: LiteEditor/frame.cpp:2783
+#: LiteEditor/frame.cpp:2723
 msgid "Build and Execute"
 msgstr "ビルドして実行"
 
-#: LiteEditor/frame.cpp:2783
+#: LiteEditor/frame.cpp:2723
 msgid "Execute"
 msgstr "実行"
 
-#: LiteEditor/frame.cpp:2866
+#: LiteEditor/frame.cpp:2799
 msgid "A workspace reparse is needed"
 msgstr "ワークスペースの再解析が必要です"
 
-#: LiteEditor/frame.cpp:3063
+#: LiteEditor/frame.cpp:2996
 msgid "Open IDE Solution/Workspace File"
 msgstr "IDE ソリューション/ワークスペースファイルを開く"
 
-#: LiteEditor/frame.cpp:3076
+#: LiteEditor/frame.cpp:3009
 msgid "Choose compiler"
 msgstr "コンパイラーを選択"
 
-#: LiteEditor/frame.cpp:3076
+#: LiteEditor/frame.cpp:3009
 msgid "Select the compiler to use:"
 msgstr "使用するコンパイラーを選択:"
 
-#: LiteEditor/frame.cpp:3134
+#: LiteEditor/frame.cpp:3067
 msgid "Attempting to debug workspace with no active project? Ignoring."
 msgstr ""
 "アクティブなプロジェクトがないのに、ワークスペースをデバッグしようとしている"
 "みたいですね？無視します。"
 
-#: LiteEditor/frame.cpp:3142
+#: LiteEditor/frame.cpp:3075
 msgid "Would you like to build the project before debugging it?"
 msgstr "デバッグする前に、プロジェクトをビルドしますか？"
 
-#: LiteEditor/frame.cpp:3143
+#: LiteEditor/frame.cpp:3076
 msgid "Build and Debug"
 msgstr "ビルドしてデバッグ"
 
-#: LiteEditor/frame.cpp:3523
+#: LiteEditor/frame.cpp:3482
 msgid ""
 "CodeLite now offers a better editor colour theme support, would you like to "
 "fix this now?"
 msgstr "エディターの配色を自動調整できます。今すぐ行いますか？"
 
-#: LiteEditor/frame.cpp:3864
+#: LiteEditor/frame.cpp:3862
 msgid "You already have the latest version of CodeLite"
 msgstr "既に最新の CodeLite をお使いです"
 
-#: LiteEditor/frame.cpp:3869
+#: LiteEditor/frame.cpp:3867
 msgid "A new version of CodeLite is available for download"
 msgstr "新しいバージョンの CodeLite をダウンロードできます"
 
-#: LiteEditor/frame.cpp:3871
+#: LiteEditor/frame.cpp:3869
 msgid "Download"
 msgstr "ダウンロード"
 
-#: LiteEditor/frame.cpp:4301 LiteEditor/frame.cpp:4385
+#: LiteEditor/frame.cpp:4299 LiteEditor/frame.cpp:4383
 msgid "Could not start TTY console for debugger!"
 msgstr "デバッガー用の TTY コンソールを開始できませんでした！"
 
-#: LiteEditor/frame.cpp:4628
+#: LiteEditor/frame.cpp:4627
 msgid ""
 "Workspace or project settings have been modified outside of CodeLite\n"
 "Would you like to reload the workspace?"
@@ -9704,48 +9799,48 @@ msgstr ""
 "ワークスペース、またはプロジェクトの設定が外部から変更されました\n"
 "ワークスペースを再読み込みしますか？"
 
-#: LiteEditor/frame.cpp:4630
+#: LiteEditor/frame.cpp:4629
 msgid "Not now"
 msgstr "今はしない"
 
-#: LiteEditor/frame.cpp:4630 Remoty/RemotyWorkspaceView.cpp:151
-#: codelitephp/php-plugin/php_workspace_view.cpp:319
+#: LiteEditor/frame.cpp:4629 Remoty/RemotyWorkspaceView.cpp:151
+#: codelitephp/php-plugin/php_workspace_view.cpp:321
 msgid "Reload workspace"
 msgstr "ワークスペースを再読み込み"
 
-#: LiteEditor/frame.cpp:4936
+#: LiteEditor/frame.cpp:4935
 msgid "A CodeLite restart is needed. Would you like to restart it now?"
 msgstr "CodeLite の再起動が必要です。今すぐ再起動しますか？"
 
-#: LiteEditor/frame.cpp:5162 LiteEditor/frame.cpp:5180
+#: LiteEditor/frame.cpp:5161 LiteEditor/frame.cpp:5179
 msgid "Perspective"
 msgstr "外観"
 
-#: LiteEditor/frame.cpp:5176 Runtime/rc/menu.xrc:704
+#: LiteEditor/frame.cpp:5175 Runtime/rc/menu.xrc:704
 msgid "Manage Perspectives..."
 msgstr "外観を管理..."
 
-#: LiteEditor/frame.cpp:5177 Runtime/rc/menu.xrc:707
+#: LiteEditor/frame.cpp:5176 Runtime/rc/menu.xrc:707
 msgid "Save Current Layout As..."
 msgstr "現在のレイアウトを保存..."
 
-#: LiteEditor/frame.cpp:5178 Runtime/rc/menu.xrc:710
+#: LiteEditor/frame.cpp:5177 Runtime/rc/menu.xrc:710
 msgid "Reset..."
 msgstr "リセット..."
 
-#: LiteEditor/frame.cpp:5247
+#: LiteEditor/frame.cpp:5246
 msgid "Project Only - Build"
 msgstr "プロジェクトのみ - ビルド"
 
-#: LiteEditor/frame.cpp:5248
+#: LiteEditor/frame.cpp:5247
 msgid "Project Only - Clean"
 msgstr "プロジェクトのみ - クリーン"
 
-#: LiteEditor/frame.cpp:5586 Plugin/DiffUI.h:61
+#: LiteEditor/frame.cpp:5585 Plugin/DiffUI.h:61
 msgid "Select Folder"
 msgstr "フォルダーを選択"
 
-#: LiteEditor/frame.cpp:6156
+#: LiteEditor/frame.cpp:6150
 msgid "Select Project"
 msgstr "プロジェクトを選択"
 
@@ -9785,12 +9880,12 @@ msgid "Document"
 msgstr "ドキュメント"
 
 #: LiteEditor/implementparentvirtualfunctionsbase.cpp:81
-#: LiteEditor/wxcrafter.cpp:123
+#: LiteEditor/wxcrafter.cpp:120
 msgid "Check all"
 msgstr "全てチェック"
 
 #: LiteEditor/implementparentvirtualfunctionsbase.cpp:85
-#: LiteEditor/wxcrafter.cpp:128
+#: LiteEditor/wxcrafter.cpp:125
 msgid "Uncheck all"
 msgstr "全てチェック解除"
 
@@ -9854,17 +9949,17 @@ msgstr "式を編集"
 msgid "Insert new value for '%s':"
 msgstr "'%s' の新しい値を入力:"
 
-#: LiteEditor/mainbook.cpp:280
+#: LiteEditor/mainbook.cpp:281
 msgid "Save changes to '"
 msgstr "変更を保存しますか '"
 
-#: LiteEditor/mainbook.cpp:741 LiteEditor/mainbook.cpp:895
-#: LiteEditor/mainbook.cpp:935 LiteEditor/replaceinfilespanel.cpp:432
+#: LiteEditor/mainbook.cpp:742 LiteEditor/mainbook.cpp:896
+#: LiteEditor/mainbook.cpp:936 LiteEditor/replaceinfilespanel.cpp:432
 msgid "Save Modified Files"
 msgstr "変更されたファイルを保存"
 
-#: LiteEditor/mainbook.cpp:742 LiteEditor/mainbook.cpp:896
-#: LiteEditor/mainbook.cpp:936 LiteEditor/replaceinfilespanel.cpp:433
+#: LiteEditor/mainbook.cpp:743 LiteEditor/mainbook.cpp:897
+#: LiteEditor/mainbook.cpp:937 LiteEditor/replaceinfilespanel.cpp:433
 msgid ""
 "Some files are modified.\n"
 "Choose the files you would like to save."
@@ -9872,11 +9967,11 @@ msgstr ""
 "一部のファイルが変更されています。\n"
 "保存したいファイルを選択してください。"
 
-#: LiteEditor/mainbook.cpp:820
+#: LiteEditor/mainbook.cpp:821
 msgid "Reload Modified Files"
 msgstr "変更されたファイルを再読み込み"
 
-#: LiteEditor/mainbook.cpp:821
+#: LiteEditor/mainbook.cpp:822
 msgid ""
 "Files have been modified outside the editor.\n"
 "Choose which files you would like to reload."
@@ -9884,7 +9979,7 @@ msgstr ""
 "ファイルがエディターの外部から変更されました。\n"
 "どのファイルを再読み込みするか選択してください。"
 
-#: LiteEditor/mainbook.cpp:1104
+#: LiteEditor/mainbook.cpp:1105
 msgid "Please save your changes before marking the file as read only"
 msgstr "ファイルを読み取り専用にする前に、変更を保存してください"
 
@@ -9913,36 +10008,36 @@ msgstr "外観..."
 msgid "Save Perspective As..."
 msgstr "外観を保存..."
 
-#: LiteEditor/manager.cpp:336 Plugin/clBoostrapWizardBase.h:101
+#: LiteEditor/manager.cpp:407 Plugin/clBoostrapWizardBase.h:101
 msgid "Welcome!"
 msgstr "ようこそ！"
 
-#: LiteEditor/manager.cpp:580
+#: LiteEditor/manager.cpp:651
 msgid "' already exists"
 msgstr "' が既に存在します"
 
-#: LiteEditor/manager.cpp:580
+#: LiteEditor/manager.cpp:651
 msgid "A file with similar name '"
 msgstr "似た名前を持つファイル '"
 
-#: LiteEditor/manager.cpp:581
+#: LiteEditor/manager.cpp:652
 msgid "Overwrite it?"
 msgstr "上書きしますか？"
 
-#: LiteEditor/manager.cpp:582 MacBundler/macbundler.cpp:400
+#: LiteEditor/manager.cpp:653 MacBundler/macbundler.cpp:400
 #: cppchecker/cppchecker.cpp:499 cppchecker/cppchecker.cpp:642
 msgid "Warning"
 msgstr "警告"
 
-#: LiteEditor/manager.cpp:657
+#: LiteEditor/manager.cpp:738
 msgid "Importing IDE solution/workspace..."
 msgstr "IDE ソリューション/ワークスペースをインポートしています..."
 
-#: LiteEditor/manager.cpp:672
+#: LiteEditor/manager.cpp:753
 msgid "Solution/workspace unsupported"
 msgstr "サポートされていないソリューション/ワークスペースです"
 
-#: LiteEditor/manager.cpp:1095
+#: LiteEditor/manager.cpp:1176
 #, c-format
 msgid ""
 "There is already a file in this folder with a name:\n"
@@ -9953,7 +10048,7 @@ msgstr ""
 "%s\n"
 "が存在し、大文字小文字以外の違いがありません"
 
-#: LiteEditor/manager.cpp:1099
+#: LiteEditor/manager.cpp:1180
 msgid ""
 "\n"
 "This won't be a problem on Linux, but it may be on other, case-insensitive "
@@ -9963,7 +10058,7 @@ msgstr ""
 "Linux 環境では大丈夫ですが、大文字小文字を区別しないプラットフォームだと問題"
 "が起こります"
 
-#: LiteEditor/manager.cpp:1100
+#: LiteEditor/manager.cpp:1181
 msgid ""
 "\n"
 "\n"
@@ -9973,24 +10068,24 @@ msgstr ""
 "\n"
 "それでもファイルを追加しますか？"
 
-#: LiteEditor/manager.cpp:1101
+#: LiteEditor/manager.cpp:1182
 msgid "Possible name-clash"
 msgstr "名前衝突の可能性あり"
 
-#: LiteEditor/manager.cpp:1137
+#: LiteEditor/manager.cpp:1218
 #, c-format
 msgid "%u file(s) not added, probably due to a name-clash"
 msgstr "%u 個のファイルは追加されませんでした。恐らく名前が衝突しています"
 
-#: LiteEditor/manager.cpp:1740 MemCheck/memcheck.cpp:327
+#: LiteEditor/manager.cpp:1821 MemCheck/memcheck.cpp:327
 msgid "Working directory is set to: "
 msgstr "作業ディレクトリを設定: "
 
-#: LiteEditor/manager.cpp:1764
+#: LiteEditor/manager.cpp:1845
 msgid "Program exited\n"
 msgstr "プログラムが終了しました\n"
 
-#: LiteEditor/manager.cpp:1918
+#: LiteEditor/manager.cpp:1999
 msgid ""
 "Failed to locate the configured default terminal application required by "
 "CodeLite, please install it or check your configuration!"
@@ -9998,15 +10093,15 @@ msgstr ""
 "既定の端末アプリケーションが構成されていないか、見つかりません。端末をインス"
 "トールするか、構成を確認してください！"
 
-#: LiteEditor/manager.cpp:1979
+#: LiteEditor/manager.cpp:2060
 msgid "': debugger not loaded\n"
 msgstr "': デバッガーが読み込まれていません\n"
 
-#: LiteEditor/manager.cpp:1979
+#: LiteEditor/manager.cpp:2060
 msgid "Failed to launch debugger '"
 msgstr "デバッガーの起動に失敗しました '"
 
-#: LiteEditor/manager.cpp:1980
+#: LiteEditor/manager.cpp:2061
 msgid ""
 "Make sure that you have an open workspace and that the active project is of "
 "type 'Executable'"
@@ -10014,35 +10109,35 @@ msgstr ""
 "ワークスペースを開いており、アクティブなプロジェクトの種類が '実行ファイル' "
 "になっていることを確認してください"
 
-#: LiteEditor/manager.cpp:2029
+#: LiteEditor/manager.cpp:2109
 msgid "Could not find project configuration!\n"
 msgstr "プロジェクトの構成が見つかりませんでした！\n"
 
-#: LiteEditor/manager.cpp:2030
+#: LiteEditor/manager.cpp:2110
 msgid "Make sure that everything is set properly in your project settings"
 msgstr "プロジェクトが正しく設定されていることを確認してください"
 
-#: LiteEditor/manager.cpp:2109
+#: LiteEditor/manager.cpp:2189
 msgid "Could not launch terminal for debugger"
 msgstr "デバッガー用の端末を起動できませんでした"
 
-#: LiteEditor/manager.cpp:2147 LiteEditor/manager.cpp:2158
+#: LiteEditor/manager.cpp:2227 LiteEditor/manager.cpp:2238
 msgid "Failed to initialize debugger: "
 msgstr "デバッガーの初期化に失敗しました: "
 
-#: LiteEditor/manager.cpp:2191
+#: LiteEditor/manager.cpp:2271
 msgid "Debug session started successfully!\n"
 msgstr "デバッグセッションを正常に開始しました！\n"
 
-#: LiteEditor/manager.cpp:2464 LiteEditor/manager.cpp:2467
+#: LiteEditor/manager.cpp:2544 LiteEditor/manager.cpp:2547
 msgid "Program Received signal "
 msgstr "プログラムがシグナルを受信しました "
 
-#: LiteEditor/manager.cpp:2468
+#: LiteEditor/manager.cpp:2548
 msgid "Stack trace is available in the 'Call Stack' tab\n"
 msgstr "スタックトレースは 'コールスタック' タブで確認できます\n"
 
-#: LiteEditor/manager.cpp:2493
+#: LiteEditor/manager.cpp:2573
 msgid ""
 "Assertion failed!\n"
 "Stack trace is available in the 'Call Stack' tab\n"
@@ -10050,7 +10145,7 @@ msgstr ""
 "アサートが失敗しました！\n"
 "スタックトレースは 'コールスタック' タブで確認できます\n"
 
-#: LiteEditor/manager.cpp:2524
+#: LiteEditor/manager.cpp:2604
 #, c-format
 msgid ""
 "Debugger exited with the following error string:\n"
@@ -10059,24 +10154,24 @@ msgstr ""
 "デバッガーがエラー文字列で終了しました:\n"
 "%s"
 
-#: LiteEditor/manager.cpp:2543
+#: LiteEditor/manager.cpp:2623
 msgid "Continuing...\n"
 msgstr "続行しています...\n"
 
-#: LiteEditor/manager.cpp:2777 LiteEditor/manager.cpp:2828
-#: LiteEditor/manager.cpp:2866
+#: LiteEditor/manager.cpp:2857 LiteEditor/manager.cpp:2908
+#: LiteEditor/manager.cpp:2946
 msgid "This would terminate the current debug session, continue?"
 msgstr "現在のデバッグセッションを中断します。よろしいですか？"
 
-#: LiteEditor/manager.cpp:2791
+#: LiteEditor/manager.cpp:2871
 msgid "Compile Single File"
 msgstr "単一ファイルをコンパイル"
 
-#: LiteEditor/manager.cpp:2791
+#: LiteEditor/manager.cpp:2871
 msgid "Preprocess File"
 msgstr "ファイルをプリプロセッサーに通す"
 
-#: LiteEditor/manager.cpp:3414
+#: LiteEditor/manager.cpp:3494
 msgid ""
 "Build cancelled. The following compilers referred by the workspace could not "
 "be found:\n"
@@ -10084,15 +10179,15 @@ msgstr ""
 "ビルドをキャンセルしました。ワークスペースが使用しているコンパイラーを見つけ"
 "られませんでした:\n"
 
-#: LiteEditor/manager.cpp:3416
+#: LiteEditor/manager.cpp:3496
 msgid "Please fix your project settings by selecting a valid compiler"
 msgstr "プロジェクトの設定から、有効なコンパイラーを選択してください"
 
-#: LiteEditor/manager.cpp:3417
+#: LiteEditor/manager.cpp:3497
 msgid "Build Aborted"
 msgstr "ビルドを中断しました"
 
-#: LiteEditor/manager.cpp:3445
+#: LiteEditor/manager.cpp:3525
 msgid ""
 "Compilers updated successfully!\n"
 "You can now build your workspace"
@@ -10263,7 +10358,7 @@ msgstr "保存のオプション"
 msgid "Code"
 msgstr "コード"
 
-#: LiteEditor/output_pane.cpp:358 LiteEditor/workspace_pane.cpp:509
+#: LiteEditor/output_pane.cpp:365 LiteEditor/workspace_pane.cpp:509
 msgid "Hidden Tabs"
 msgstr "非表示のタブ"
 
@@ -10304,7 +10399,7 @@ msgstr "プラグインを管理"
 msgid "Version"
 msgstr "バージョン"
 
-#: LiteEditor/pluginmgrdlg.cpp:124 git/gitui.cpp:481
+#: LiteEditor/pluginmgrdlg.cpp:124 git/gitui.cpp:540
 msgid "Author"
 msgstr "作者"
 
@@ -10977,7 +11072,7 @@ msgstr "対象 '%s' が既に存在します！"
 msgid "Adjust settings to fit this generator?"
 msgstr "このジェネレーターに合わせて設定を調整しますか？"
 
-#: LiteEditor/ps_general_page.cpp:254 Plugin/clPropertiesPage.cpp:320
+#: LiteEditor/ps_general_page.cpp:254 Plugin/clPropertiesPage.cpp:339
 msgid "Choose a directory"
 msgstr "ディレクトリを選択"
 
@@ -11086,53 +11181,53 @@ msgstr "gdb を選択"
 msgid "Select working directory"
 msgstr "作業ディレクトリを選択"
 
-#: LiteEditor/quickfindbar.cpp:121 LiteEditor/quickfindbarbase.cpp:158
+#: LiteEditor/quickfindbar.cpp:114 LiteEditor/quickfindbarbase.cpp:158
 #: Plugin/clPluginsFindBar.cpp:107 Plugin/quickfindbarbase.cpp:158
 msgid "Case Sensitive"
 msgstr "大文字小文字を区別"
 
-#: LiteEditor/quickfindbar.cpp:122 Plugin/clPluginsFindBar.cpp:108
-#: Plugin/sftp_ui.cpp:548 SFTP/UI.cpp:677
+#: LiteEditor/quickfindbar.cpp:115 Plugin/clPluginsFindBar.cpp:108
+#: Plugin/sftp_ui.cpp:548 SFTP/UI.cpp:640
 msgid "Whole word"
 msgstr "全体の単語"
 
-#: LiteEditor/quickfindbar.cpp:125
+#: LiteEditor/quickfindbar.cpp:118
 msgid "In Selection"
 msgstr "選択した範囲のみ"
 
-#: LiteEditor/quickfindbar.cpp:552 Plugin/clPluginsFindBar.cpp:716
+#: LiteEditor/quickfindbar.cpp:545 Plugin/clPluginsFindBar.cpp:716
 #: Plugin/clPluginsFindBar.cpp:892 Plugin/clPluginsFindBar.cpp:1213
 msgid "No matches found"
 msgstr "一致が見つかりません"
 
-#: LiteEditor/quickfindbar.cpp:568
+#: LiteEditor/quickfindbar.cpp:561
 #, c-format
 msgid "Selected %lu matches"
 msgstr "%lu 件の一致を選択しました"
 
-#: LiteEditor/quickfindbar.cpp:628
+#: LiteEditor/quickfindbar.cpp:621
 msgid " result"
 msgid_plural " results"
 msgstr[0] " 件の結果"
 
-#: LiteEditor/quickfindbar.cpp:628
+#: LiteEditor/quickfindbar.cpp:621
 msgid "Found "
 msgstr "計 "
 
-#: LiteEditor/quickfindbar.cpp:813
+#: LiteEditor/quickfindbar.cpp:806
 #, c-format
 msgid "Made %d replacements"
 msgstr "%d 件を置き換えました"
 
-#: LiteEditor/quickfindbar.cpp:1038
+#: LiteEditor/quickfindbar.cpp:1031
 msgid "Reached the start of the document"
 msgstr "ドキュメントの始まりに達しました"
 
-#: LiteEditor/quickfindbar.cpp:1040
+#: LiteEditor/quickfindbar.cpp:1033
 msgid "Reached the end of the document"
 msgstr "ドキュメントの終わりに達しました"
 
-#: LiteEditor/quickfindbar.cpp:1052 Plugin/clPluginsFindBar.cpp:1178
+#: LiteEditor/quickfindbar.cpp:1045 Plugin/clPluginsFindBar.cpp:1178
 #: Plugin/clPluginsFindBar.cpp:1193
 msgid "Wrapped past end of file"
 msgstr "ファイルの終端を折り返しました"
@@ -11722,11 +11817,11 @@ msgstr "色とフォント"
 msgid "New Theme"
 msgstr "新しいテーマ"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:83 Plugin/bitmap_loader.cpp:81
+#: LiteEditor/syntaxhighlightdlg.cpp:83 Plugin/bitmap_loader.cpp:83
 msgid "Dark Theme Icons Set"
 msgstr "ダークテーマのアイコンセット"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:84 Plugin/bitmap_loader.cpp:82
+#: LiteEditor/syntaxhighlightdlg.cpp:84 Plugin/bitmap_loader.cpp:84
 msgid "Light Theme Icons Set"
 msgstr "ライトテーマのアイコンセット"
 
@@ -11848,7 +11943,7 @@ msgstr "クリックで全項目を消去"
 msgid "Choose a name for the group:"
 msgstr "グループの名前を選択:"
 
-#: LiteEditor/tabgroupbasedlgs.cpp:164 LiteEditor/tabgroupspane.cpp:633
+#: LiteEditor/tabgroupbasedlgs.cpp:164 LiteEditor/tabgroupspane.cpp:635
 msgid "Global"
 msgstr "グローバル"
 
@@ -11882,11 +11977,11 @@ msgstr "タブグループを選択:"
 msgid "Tab groups"
 msgstr "タブグループ"
 
-#: LiteEditor/tabgroupspane.cpp:212
+#: LiteEditor/tabgroupspane.cpp:214
 msgid "I'm afraid that tabgroup no longer exists :/"
 msgstr "申し訳ありません、タブグループが既に存在しません (・_・;)"
 
-#: LiteEditor/tabgroupspane.cpp:229
+#: LiteEditor/tabgroupspane.cpp:231
 msgid ""
 "Do you want to replace the existing editors? (Say 'No' to load the new ones "
 "alongside)"
@@ -11894,131 +11989,131 @@ msgstr ""
 "既存のエディターを置き換えますか？ ('いいえ' にすると、新しいものを別々に読み"
 "込みます)"
 
-#: LiteEditor/tabgroupspane.cpp:230
+#: LiteEditor/tabgroupspane.cpp:232
 msgid "Load the tabgroup"
 msgstr "タブグループを読み込み"
 
-#: LiteEditor/tabgroupspane.cpp:256
+#: LiteEditor/tabgroupspane.cpp:258
 msgid "I'm afraid that tabgroup item no longer exists :/"
 msgstr "申し訳ありません、タブグループの項目が既に存在しません (・_・;)"
 
-#: LiteEditor/tabgroupspane.cpp:279
+#: LiteEditor/tabgroupspane.cpp:281
 msgid "&Add a new item to this tabgroup"
 msgstr "このタブグループに新しい項目を追加 (&A)"
 
-#: LiteEditor/tabgroupspane.cpp:281 LiteEditor/tabgroupspane.cpp:290
+#: LiteEditor/tabgroupspane.cpp:283 LiteEditor/tabgroupspane.cpp:292
 msgid "&Paste an item into this tabgroup"
 msgstr "このタブグループに項目を貼り付け (&P)"
 
-#: LiteEditor/tabgroupspane.cpp:284
+#: LiteEditor/tabgroupspane.cpp:286
 msgid "Du&plicate this tabgroup"
 msgstr "このタブグループを複製 (&P)"
 
-#: LiteEditor/tabgroupspane.cpp:285
+#: LiteEditor/tabgroupspane.cpp:287
 msgid "&Delete this tabgroup"
 msgstr "このタブグループを削除 (&D)"
 
-#: LiteEditor/tabgroupspane.cpp:287
+#: LiteEditor/tabgroupspane.cpp:289
 msgid "&Copy this item, to be pasted to another tabgroup"
 msgstr "この項目をコピーし、後で他のタブグループに貼り付け (&C)"
 
-#: LiteEditor/tabgroupspane.cpp:288
+#: LiteEditor/tabgroupspane.cpp:290
 msgid "Cu&t this item, to be pasted to another tabgroup"
 msgstr "この項目を切り取り、後で他のタブグループに貼り付ける (&T)"
 
-#: LiteEditor/tabgroupspane.cpp:292
+#: LiteEditor/tabgroupspane.cpp:294
 msgid "&Remove this item from the tabgroup"
 msgstr "このタブグループから項目を削除 (&R)"
 
-#: LiteEditor/tabgroupspane.cpp:376
+#: LiteEditor/tabgroupspane.cpp:378
 msgid "There is already a file with this name. Overwrite it?"
 msgstr "この名前のファイルが既に存在します。上書きしますか？"
 
-#: LiteEditor/tabgroupspane.cpp:377
+#: LiteEditor/tabgroupspane.cpp:379
 msgid "Overwrite?"
 msgstr "上書きしますか？"
 
-#: LiteEditor/tabgroupspane.cpp:385
+#: LiteEditor/tabgroupspane.cpp:387
 msgid "Tabgroup renamed"
 msgstr "タブグループ名を変更しました"
 
-#: LiteEditor/tabgroupspane.cpp:450
+#: LiteEditor/tabgroupspane.cpp:452
 msgid "Select the file you want to add"
 msgstr "追加したいファイルを選択"
 
-#: LiteEditor/tabgroupspane.cpp:456
+#: LiteEditor/tabgroupspane.cpp:458
 msgid "That filepath doesn't seem to exist. Are you sure?"
 msgstr "指定したファイルパスが存在しないようです。よく確認しましたか？"
 
-#: LiteEditor/tabgroupspane.cpp:504
+#: LiteEditor/tabgroupspane.cpp:506
 msgid "Failed to load the destination tabgroup :/"
 msgstr "目的のタブグループを読み込めませんでした (・_・;)"
 
-#: LiteEditor/tabgroupspane.cpp:511
+#: LiteEditor/tabgroupspane.cpp:513
 msgid ""
 "There is already an item with this filepath in the tabgroup. Overwrite it?"
 msgstr ""
 "タブグループには既に、このファイルパスの項目が存在します。上書きしますか？"
 
-#: LiteEditor/tabgroupspane.cpp:551
+#: LiteEditor/tabgroupspane.cpp:553
 msgid "Tabgroup item pasted"
 msgstr "タブグループの項目を貼り付けました"
 
-#: LiteEditor/tabgroupspane.cpp:574
+#: LiteEditor/tabgroupspane.cpp:576
 #, c-format
 msgid "Delete tabgroup %s?"
 msgstr "タブグループ %s を削除しますか？"
 
-#: LiteEditor/tabgroupspane.cpp:589
+#: LiteEditor/tabgroupspane.cpp:591
 msgid "Tabgroup deleted"
 msgstr "タブグループを削除しました"
 
-#: LiteEditor/tabgroupspane.cpp:609
+#: LiteEditor/tabgroupspane.cpp:611
 msgid "What name to you want to give the duplicated tabgroup?"
 msgstr "複製したタブグループには、どんな名前を付けますか？"
 
-#: LiteEditor/tabgroupspane.cpp:610
+#: LiteEditor/tabgroupspane.cpp:612
 msgid "Duplicate a tabgroup"
 msgstr "タブグループを複製"
 
-#: LiteEditor/tabgroupspane.cpp:620
+#: LiteEditor/tabgroupspane.cpp:622
 msgid "Sorry, there is already a tabgroup with this name"
 msgstr "すみません、この名前のタブグループが既に存在します"
 
-#: LiteEditor/tabgroupspane.cpp:626
+#: LiteEditor/tabgroupspane.cpp:628
 msgid "Sorry, duplication of the tabgroup failed :/"
 msgstr "すみません、タブグループの複製が失敗しました (・_・;)"
 
-#: LiteEditor/tabgroupspane.cpp:637
+#: LiteEditor/tabgroupspane.cpp:639
 msgid "Tabgroup duplicated"
 msgstr "タブグループを複製しました"
 
-#: LiteEditor/tabgroupspane.cpp:694
+#: LiteEditor/tabgroupspane.cpp:696
 msgid "Tabgroup item copied"
 msgstr "タブグループの項目をコピーしました"
 
-#: LiteEditor/tabgroupspane.cpp:725
+#: LiteEditor/tabgroupspane.cpp:727
 #, c-format
 msgid "Remove item %s from %s?"
 msgstr "項目 %s を %s から削除しますか？"
 
-#: LiteEditor/tabgroupspane.cpp:741
+#: LiteEditor/tabgroupspane.cpp:743
 msgid "Tabgroup item Cut"
 msgstr "タブグループの項目を切り取りました"
 
-#: LiteEditor/tabgroupspane.cpp:743
+#: LiteEditor/tabgroupspane.cpp:745
 msgid "Tabgroup item deleted"
 msgstr "タブグループの項目を削除しました"
 
-#: LiteEditor/tabgroupspane.cpp:750
+#: LiteEditor/tabgroupspane.cpp:752
 msgid "Failed to amend the tabgroup :/"
 msgstr "タブグループの修正に失敗しました (・_・;)"
 
-#: LiteEditor/tabgroupspane.cpp:803
+#: LiteEditor/tabgroupspane.cpp:805
 msgid "Global tabgroups"
 msgstr "グローバルなタブグループ"
 
-#: LiteEditor/tabgroupspane.cpp:803
+#: LiteEditor/tabgroupspane.cpp:805
 msgid "Workspace tabgroups"
 msgstr "ワークスペースのタブグループ"
 
@@ -12107,16 +12202,16 @@ msgstr ""
 msgid "Add Search Paths to Code Completion Parser"
 msgstr "コード補完パーサー用の検索パスを追加"
 
-#: LiteEditor/workspace_pane.cpp:134 LiteEditor/workspace_pane.cpp:223
+#: LiteEditor/workspace_pane.cpp:135 LiteEditor/workspace_pane.cpp:224
 msgid "Parsing workspace..."
 msgstr "ワークスペースを解析しています..."
 
-#: LiteEditor/workspace_pane.cpp:200 LiteEditor/workspace_pane.cpp:368
+#: LiteEditor/workspace_pane.cpp:201 LiteEditor/workspace_pane.cpp:368
 #: LiteEditor/workspace_pane.cpp:394 LiteEditor/workspace_pane.cpp:395
 msgid "Tabgroups"
 msgstr "タブグループ"
 
-#: LiteEditor/workspace_pane.cpp:236
+#: LiteEditor/workspace_pane.cpp:237
 #, c-format
 msgid "Parsing workspace: %d%% completed"
 msgstr "ワークスペースを解析しています: %d%% 完了"
@@ -12193,7 +12288,7 @@ msgid "Link Editor"
 msgstr "エディターと連携"
 
 #: LiteEditor/workspacetab.cpp:146
-#: codelitephp/php-plugin/php_workspace_view.cpp:125
+#: codelitephp/php-plugin/php_workspace_view.cpp:127
 msgid "Collapse All"
 msgstr "全て折り畳む"
 
@@ -12221,39 +12316,39 @@ msgstr "実行中のプログラムを停止"
 msgid "Run active project"
 msgstr "アクティブなプロジェクトを実行"
 
-#: LiteEditor/wxcrafter.cpp:134
+#: LiteEditor/wxcrafter.cpp:131
 msgid "The functions will be placed into this file"
 msgstr "このファイルに関数が配置されます"
 
-#: LiteEditor/wxcrafter.cpp:260
+#: LiteEditor/wxcrafter.cpp:251
 msgid "C++ Workspace"
 msgstr "C++ ワークスペース"
 
-#: LiteEditor/wxcrafter.cpp:376
+#: LiteEditor/wxcrafter.cpp:363
 msgid "Save\tCtrl-S"
 msgstr "保存\tCtrl-S"
 
-#: LiteEditor/wxcrafter.cpp:379
+#: LiteEditor/wxcrafter.cpp:366
 msgid "Reload File\tCtrl-R"
 msgstr "ファイルを再読み込み\tCtrl-R"
 
-#: LiteEditor/wxcrafter.cpp:384
+#: LiteEditor/wxcrafter.cpp:371
 msgid "Close\tCtrl-W"
 msgstr "閉じる\tCtrl-W"
 
-#: LiteEditor/wxcrafter.cpp:390
+#: LiteEditor/wxcrafter.cpp:377
 msgid "Find\tCtrl-F"
 msgstr "検索\tCtrl-F"
 
-#: LiteEditor/wxcrafter.cpp:492
+#: LiteEditor/wxcrafter.cpp:455
 msgid "Goto Folder:"
 msgstr "フォルダーへ移動:"
 
-#: LiteEditor/wxcrafter.cpp:499
+#: LiteEditor/wxcrafter.cpp:462
 msgid "Type the folder path"
 msgstr "フォルダーへのパスを入力"
 
-#: LiteEditor/wxcrafter.cpp:555 Plugin/wxcrafter_plugin.cpp:568
+#: LiteEditor/wxcrafter.cpp:516 Plugin/wxcrafter_plugin.cpp:568
 msgid ""
 "DRAG AND DROP\n"
 "A FOLDER HERE"
@@ -12261,23 +12356,23 @@ msgstr ""
 "ここにフォルダーを\n"
 "ドラッグアンドドロップします"
 
-#: LiteEditor/wxcrafter.cpp:597
+#: LiteEditor/wxcrafter.cpp:558
 msgid "Choose the view to use for this folder from the list below"
 msgstr "このフォルダーに使用する表示形式を、一覧から選択します"
 
-#: LiteEditor/wxcrafter.cpp:597 LiteEditor/wxcrafter.h:308
+#: LiteEditor/wxcrafter.cpp:558 LiteEditor/wxcrafter.h:286
 msgid "Select View"
 msgstr "表示を選択"
 
-#: LiteEditor/wxcrafter.h:142
+#: LiteEditor/wxcrafter.h:135
 msgid "Add function implementation"
 msgstr "関数の実装を追加"
 
-#: LiteEditor/wxcrafter.h:247
+#: LiteEditor/wxcrafter.h:229
 msgid "EditorFrame"
 msgstr "エディターのフレーム"
 
-#: LiteEditor/wxcrafter.h:268
+#: LiteEditor/wxcrafter.h:248
 msgid "Open Folder"
 msgstr "フォルダーを開く"
 
@@ -12487,49 +12582,49 @@ msgstr "検索文字列"
 msgid "Search 'nonworkspace'"
 msgstr "'ワークスペース外' を検索"
 
-#: MemCheck/memcheckoutputview.cpp:352 MemCheck/memcheckui.cpp:287
+#: MemCheck/memcheckoutputview.cpp:360 MemCheck/memcheckui.cpp:287
 msgid "Current"
 msgstr "現在"
 
-#: MemCheck/memcheckoutputview.cpp:440 MemCheck/memcheckoutputview.cpp:543
-#: MemCheck/memcheckoutputview.cpp:607 MemCheck/memcheckoutputview.cpp:695
+#: MemCheck/memcheckoutputview.cpp:450 MemCheck/memcheckoutputview.cpp:555
+#: MemCheck/memcheckoutputview.cpp:626 MemCheck/memcheckoutputview.cpp:717
 #: MemCheck/memcheckui.cpp:288 cppchecker/cppchecksettingsdlgbase.cpp:148
 msgid "Suppress"
 msgstr "抑制"
 
-#: MemCheck/memcheckoutputview.cpp:467
+#: MemCheck/memcheckoutputview.cpp:478
 msgid "Jump to location"
 msgstr "場所へジャンプ"
 
-#: MemCheck/memcheckoutputview.cpp:470
+#: MemCheck/memcheckoutputview.cpp:481
 msgid "Mark all"
 msgstr "全てマーク"
 
-#: MemCheck/memcheckoutputview.cpp:472
+#: MemCheck/memcheckoutputview.cpp:483
 msgid "Unmark all"
 msgstr "全てマーク解除"
 
-#: MemCheck/memcheckoutputview.cpp:475
+#: MemCheck/memcheckoutputview.cpp:486
 msgid "Suppress this error"
 msgstr "このエラーを抑制"
 
-#: MemCheck/memcheckoutputview.cpp:477
+#: MemCheck/memcheckoutputview.cpp:488
 msgid "Suppress all marked errors"
 msgstr "マークしたエラーを全て抑制"
 
-#: MemCheck/memcheckoutputview.cpp:480
+#: MemCheck/memcheckoutputview.cpp:491
 msgid "Copy line as string to clipboard"
 msgstr "行の文字列をクリップボードにコピー"
 
-#: MemCheck/memcheckoutputview.cpp:482
+#: MemCheck/memcheckoutputview.cpp:493
 msgid "Copy error as string to clipboard"
 msgstr "エラー文字列をクリップボードにコピー"
 
-#: MemCheck/memcheckoutputview.cpp:484
+#: MemCheck/memcheckoutputview.cpp:495
 msgid "Copy marked errors to clipboard"
 msgstr "マークしたエラーをクリップボードにコピー"
 
-#: MemCheck/memcheckoutputview.cpp:666
+#: MemCheck/memcheckoutputview.cpp:686
 #, c-format
 msgid "Total: %lu  Filtered: %lu  Selected: %d"
 msgstr "合計: %lu  絞り込み: %lu  選択: %d"
@@ -12993,7 +13088,7 @@ msgstr ""
 
 #: Plugin/CompileCommandsGenerator.cpp:174
 msgid "Generating "
-msgstr "生成しています "
+msgstr "生成しています: "
 
 #: Plugin/CompilersDetectorManager.cpp:81
 msgid "Searching for installed compilers..."
@@ -13260,15 +13355,15 @@ msgstr "一致"
 msgid "Shortcut"
 msgstr "ショートカット"
 
-#: Plugin/LSPNetworkSTDIO.cpp:107
+#: Plugin/LSPNetworkSTDIO.cpp:106
 msgid "LSP: could not locate SSH account "
 msgstr "LSP: SSH アカウントが見つかりませんでした "
 
-#: Plugin/LanguageServerProtocol.cpp:911
+#: Plugin/LanguageServerProtocol.cpp:910
 msgid "Method: `"
 msgstr "メソッド: `"
 
-#: Plugin/LanguageServerProtocol.cpp:911
+#: Plugin/LanguageServerProtocol.cpp:910
 msgid "` is not supported"
 msgstr "` はサポートされていません"
 
@@ -14005,7 +14100,7 @@ msgstr "プロパティの名前"
 msgid "Property Value"
 msgstr "プロパティの値"
 
-#: Plugin/clPropertiesPage.cpp:339
+#: Plugin/clPropertiesPage.cpp:364
 msgid "Choose a number"
 msgstr "数字を選択"
 
@@ -14017,49 +14112,49 @@ msgstr "SSH アカウントが見つかりませんでした: "
 msgid "Could not locate ssh executable"
 msgstr "SSH の実行ファイルが見つかりませんでした"
 
-#: Plugin/clRemoteDirCtrl.cpp:205
+#: Plugin/clRemoteDirCtrl.cpp:210
 msgid "Download and Open Containing Folder..."
 msgstr "ダウンロードして、保存先のフォルダーを開く..."
 
-#: Plugin/clRemoteDirCtrl.cpp:222
+#: Plugin/clRemoteDirCtrl.cpp:227
 msgid "Create a new directory..."
 msgstr "新しいディレクトリを作成..."
 
-#: Plugin/clRemoteDirCtrl.cpp:227
+#: Plugin/clRemoteDirCtrl.cpp:232
 msgid "Create a new folder"
 msgstr "新しいフォルダーを作成"
 
-#: Plugin/clRemoteDirCtrl.cpp:227
+#: Plugin/clRemoteDirCtrl.cpp:232
 msgid "New folder name"
 msgstr "新しいフォルダー名"
 
-#: Plugin/clRemoteDirCtrl.cpp:234
+#: Plugin/clRemoteDirCtrl.cpp:239
 msgid "Create a new file..."
 msgstr "新しいファイルを作成..."
 
-#: Plugin/clRemoteDirCtrl.cpp:239
+#: Plugin/clRemoteDirCtrl.cpp:244
 msgid "Create a new file"
 msgstr "新しいファイルを作成"
 
-#: Plugin/clRemoteDirCtrl.cpp:239
+#: Plugin/clRemoteDirCtrl.cpp:244
 msgid "New file name"
 msgstr "新しいファイル名"
 
-#: Plugin/clRemoteDirCtrl.cpp:392 QmakePlugin/qmakesettingsdlg.cpp:130
+#: Plugin/clRemoteDirCtrl.cpp:397 QmakePlugin/qmakesettingsdlg.cpp:130
 #: Subversion2/subversion2.cpp:1084 Subversion2/subversion2.cpp:1091
 #: Subversion2/subversion_view.cpp:1249
 msgid "New name:"
 msgstr "新しい名前:"
 
-#: Plugin/clRemoteDirCtrl.cpp:392
+#: Plugin/clRemoteDirCtrl.cpp:397
 msgid "Renaming "
 msgstr "名前を変更 "
 
-#: Plugin/clRemoteDirCtrl.cpp:423 Plugin/clTreeCtrlPanel.cpp:596
+#: Plugin/clRemoteDirCtrl.cpp:428 Plugin/clTreeCtrlPanel.cpp:596
 msgid "Are you sure you want to delete the selected items?"
 msgstr "選択した項目を削除しますか？"
 
-#: Plugin/clRemoteDirCtrl.cpp:483
+#: Plugin/clRemoteDirCtrl.cpp:488
 msgid ""
 "\n"
 "No such directory"
@@ -14067,7 +14162,7 @@ msgstr ""
 "\n"
 "そのようなディレクトリはありません"
 
-#: Plugin/clRemoteDirCtrl.cpp:483
+#: Plugin/clRemoteDirCtrl.cpp:488
 msgid "Can not set new root directory: "
 msgstr "新しいルートディレクトリを設定できません: "
 
@@ -14189,7 +14284,7 @@ msgstr " 件の項目"
 msgid "Message"
 msgstr "メッセージ"
 
-#: Plugin/clToolBar.cpp:519
+#: Plugin/clToolBar.cpp:520
 msgid "Customise..."
 msgstr "カスタマイズ..."
 
@@ -14202,7 +14297,7 @@ msgid "Folders"
 msgstr "フォルダー"
 
 #: Plugin/clTreeCtrlPanel.cpp:101 Plugin/clTreeCtrlPanel.cpp:464
-#: codelitephp/php-plugin/php_workspace_view.cpp:540
+#: codelitephp/php-plugin/php_workspace_view.cpp:542
 msgid "New Folder"
 msgstr "新しいフォルダー"
 
@@ -14219,7 +14314,7 @@ msgid "Open Folder..."
 msgstr "フォルダーを開く..."
 
 #: Plugin/clTreeCtrlPanel.cpp:434
-#: codelitephp/php-plugin/php_workspace_view.cpp:644
+#: codelitephp/php-plugin/php_workspace_view.cpp:646
 msgid "Set the file name:"
 msgstr "ファイル名を設定:"
 
@@ -14236,7 +14331,7 @@ msgid "Rename File"
 msgstr "ファイル名を変更"
 
 #: Plugin/clTreeCtrlPanel.cpp:1076
-#: codelitephp/php-plugin/php_workspace_view.cpp:1485
+#: codelitephp/php-plugin/php_workspace_view.cpp:1486
 msgid "Rename folder"
 msgstr "フォルダー名を変更"
 
@@ -14981,7 +15076,7 @@ msgstr ""
 "SSH のポートです。よく分からなければ 22 (SSH 既定のポート) のままにしてくださ"
 "い"
 
-#: Plugin/sftp_ui.cpp:197 Subversion2/subversion2_ui.cpp:302 git/gitui.cpp:1834
+#: Plugin/sftp_ui.cpp:197 Subversion2/subversion2_ui.cpp:302 git/gitui.cpp:2039
 msgid "Username:"
 msgstr "ユーザー名:"
 
@@ -15088,24 +15183,24 @@ msgstr ""
 "ワークスペースのファイルをディスクに保存できませんでした。書き込み権限がある"
 "ことを確認してください"
 
-#: Plugin/workspace.cpp:863
+#: Plugin/workspace.cpp:864
 msgid "Malformed project name"
 msgstr "不正なプロジェクト名です"
 
-#: Plugin/workspace.cpp:875
+#: Plugin/workspace.cpp:876
 msgid "No such project"
 msgstr "そのようなプロジェクトはありません"
 
-#: Plugin/workspace.cpp:881
+#: Plugin/workspace.cpp:882
 msgid "File removal failed"
 msgstr "ファイルの削除に失敗しました"
 
-#: Plugin/workspace.cpp:1438
+#: Plugin/workspace.cpp:1439
 #, c-format
 msgid "Could not open workspace file: '%s'"
 msgstr "ワークスペースのファイルを開けませんでした: '%s'"
 
-#: Plugin/workspace.cpp:1445
+#: Plugin/workspace.cpp:1446
 msgid "Corrupted workspace file"
 msgstr "ワークスペースのファイルが壊れています"
 
@@ -15378,9 +15473,13 @@ msgstr "実行するファイルを指定してください"
 msgid "Failed to write remote script on the remote machine!"
 msgstr "リモートマシン上にスクリプトを書き込めませんでした！"
 
-#: Remoty/RemotyWorkspace.cpp:972
-msgid "Remote file system scan completed"
-msgstr "リモートのファイルシステムを正常にスキャンしました"
+#: Remoty/RemotyWorkspace.cpp:973
+msgid " files"
+msgstr " 個のファイルが見つかりました"
+
+#: Remoty/RemotyWorkspace.cpp:973
+msgid "Remote file system scan completed. Found: "
+msgstr "リモートファイルシステムのスキャンが完了しました。"
 
 #: Remoty/RemotyWorkspaceView.cpp:122
 msgid "Workspace settings..."
@@ -15391,7 +15490,7 @@ msgid "Edit codelite-remote.json..."
 msgstr "codelite-remote.json を編集..."
 
 #: Remoty/RemotyWorkspaceView.cpp:160
-#: codelitephp/php-plugin/php_workspace_view.cpp:320
+#: codelitephp/php-plugin/php_workspace_view.cpp:322
 msgid "Close workspace"
 msgstr "ワークスペースを閉じる"
 
@@ -16201,51 +16300,51 @@ msgstr "移動先:"
 msgid "Type a path and hit ENTER"
 msgstr "パスを入力して Enter を押してください"
 
-#: SFTP/UI.cpp:313 Subversion2/subversion2_ui.cpp:512
+#: SFTP/UI.cpp:305 Subversion2/subversion2_ui.cpp:512
 msgid "SSH Client:"
 msgstr "SSH クライアント:"
 
-#: SFTP/UI.cpp:376
+#: SFTP/UI.cpp:365
 msgid "Upload the files to this folder:"
 msgstr "このフォルダーにファイルをアップロード:"
 
-#: SFTP/UI.cpp:393
+#: SFTP/UI.cpp:382
 msgid "Set the remote folder path"
 msgstr "リモートフォルダーのパスを設定"
 
-#: SFTP/UI.cpp:455
+#: SFTP/UI.cpp:442
 msgid "Connect to an existing account"
 msgstr "既存のアカウントに接続"
 
-#: SFTP/UI.cpp:464
+#: SFTP/UI.cpp:451
 msgid "Choose an account to connect to"
 msgstr "接続するアカウントを選択"
 
-#: SFTP/UI.cpp:474
+#: SFTP/UI.cpp:461
 msgid "Quick connect"
 msgstr "クイック接続"
 
-#: SFTP/UI.cpp:487
+#: SFTP/UI.cpp:474
 msgid "Host:"
 msgstr "ホスト:"
 
-#: SFTP/UI.cpp:512
+#: SFTP/UI.cpp:499
 msgid "User:"
 msgstr "ユーザー:"
 
-#: SFTP/UI.cpp:643
+#: SFTP/UI.cpp:606
 msgid "Find What:"
 msgstr "検索文字列:"
 
-#: SFTP/UI.cpp:649
+#: SFTP/UI.cpp:612
 msgid "String to search"
 msgstr "検索する文字列"
 
-#: SFTP/UI.cpp:658
+#: SFTP/UI.cpp:621
 msgid "Search In:"
 msgstr "検索対象:"
 
-#: SFTP/UI.cpp:663
+#: SFTP/UI.cpp:626
 msgid ""
 "File types to search\n"
 "e.g: *.txt"
@@ -16253,7 +16352,7 @@ msgstr ""
 "検索するファイルの種類\n"
 "例: *.txt"
 
-#: SFTP/UI.cpp:683 git/gitui.cpp:470
+#: SFTP/UI.cpp:646 git/gitui.cpp:524
 msgid "Ignore case"
 msgstr "大文字小文字を区別しない"
 
@@ -16498,7 +16597,7 @@ msgstr "新しいクラスの名前"
 msgid "Template for new class"
 msgstr "新しいクラスのテンプレート"
 
-#: SnipWiz/templateclassbasedlg.cpp:81 git/gitui.cpp:250
+#: SnipWiz/templateclassbasedlg.cpp:81 git/gitui.cpp:283
 msgid "Files"
 msgstr "ファイル"
 
@@ -16770,7 +16869,7 @@ msgstr "このフォルダーをウォッチ"
 
 #: Subversion2/subversion2.cpp:277 Subversion2/subversion_view.cpp:446
 #: Subversion2/subversion_view.cpp:477 git/GitConsole.cpp:199 git/git.cpp:2379
-#: git/gitui.cpp:480 git/gitui.cpp:823 git/gitui.cpp:879
+#: git/gitui.cpp:538 git/gitui.cpp:916 git/gitui.cpp:982
 msgid "Commit"
 msgstr "コミット"
 
@@ -16882,7 +16981,7 @@ msgstr "最近の変更を何件まで表示しますか？"
 msgid "Svn show recent changes"
 msgstr "SVN 最近の変更を表示"
 
-#: Subversion2/subversion2_ui.cpp:49 git/gitui.cpp:1307
+#: Subversion2/subversion2_ui.cpp:49 git/gitui.cpp:1453
 msgid "Changes"
 msgstr "変更箇所"
 
@@ -17406,8 +17505,8 @@ msgstr "サーバー証明書の検証に失敗しました。再試行してい
 msgid "Modified Paths:"
 msgstr "変更されたパス:"
 
-#: Subversion2/wxcrafter.cpp:73 git/gitui.cpp:564 git/gitui.cpp:701
-#: git/gitui.cpp:1566
+#: Subversion2/wxcrafter.cpp:73 git/gitui.cpp:635 git/gitui.cpp:780
+#: git/gitui.cpp:1755
 msgid "Diff:"
 msgstr "差分:"
 
@@ -18221,15 +18320,15 @@ msgstr "プロジェクト '"
 msgid "' is located under this path"
 msgstr "' がこのパスの配下に置かれています"
 
-#: codelitephp/PHPParser/phpexecutor.cpp:73
+#: codelitephp/PHPParser/phpexecutor.cpp:74
 msgid "Another process is already running"
 msgstr "他のプロセスが既に実行中です"
 
-#: codelitephp/PHPParser/phpexecutor.cpp:169
+#: codelitephp/PHPParser/phpexecutor.cpp:170
 msgid "Please set an index file to execute in the project settings"
 msgstr "プロジェクトの設定から、実行するインデックスファイルを設定してください"
 
-#: codelitephp/PHPParser/phpexecutor.cpp:176
+#: codelitephp/PHPParser/phpexecutor.cpp:177
 msgid ""
 "Could not find any PHP binary to execute. Please set one in from: 'PHP | "
 "Settings'"
@@ -18263,7 +18362,7 @@ msgstr "全てのブレークポイントを削除"
 msgid "Failed to locate SSH account: "
 msgstr "SSH アカウントが見つかりませんでした: "
 
-#: codelitephp/php-plugin/XDebugManager.cpp:141
+#: codelitephp/php-plugin/XDebugManager.cpp:143
 msgid ""
 "This project has no file mapping defined. This may result in breakpoints not "
 "applied\n"
@@ -18271,45 +18370,45 @@ msgstr ""
 "このプロジェクトにはファイルの対応付けが定義されてないため、ブレークポイント"
 "を正しく適用できない可能性があります\n"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:142
+#: codelitephp/php-plugin/XDebugManager.cpp:144
 msgid "To fix this, set file mapping from Project Settings -> Debug"
 msgstr ""
 "ファイルの対応付けは [プロジェクトの設定] -> [デバッグ] から設定できます"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:146
+#: codelitephp/php-plugin/XDebugManager.cpp:148
 msgid "Remember my answer and don't show this message again"
 msgstr "次回からメッセージを表示しない"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:147
+#: codelitephp/php-plugin/XDebugManager.cpp:149
 msgid "OK, Continue to Debug"
 msgstr "デバッグを続行"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:147
+#: codelitephp/php-plugin/XDebugManager.cpp:149
 msgid "Stop the debugger"
 msgstr "デバッガーを停止"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:588
-#: codelitephp/php-plugin/XDebugManager.cpp:650
+#: codelitephp/php-plugin/XDebugManager.cpp:590
+#: codelitephp/php-plugin/XDebugManager.cpp:652
 msgid "Could not open file: "
 msgstr "ファイルを開けませんでした: "
 
-#: codelitephp/php-plugin/XDebugManager.cpp:734
+#: codelitephp/php-plugin/XDebugManager.cpp:736
 msgid "XDebug did not connect in a timely manner"
 msgstr "XDebug が時間内に接続しませんでした"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:736
+#: codelitephp/php-plugin/XDebugManager.cpp:738
 msgid "Run XDebug Test"
 msgstr "XDebug テストを実行"
 
-#: codelitephp/php-plugin/XDebugManager.cpp:750
+#: codelitephp/php-plugin/XDebugManager.cpp:752
 msgid "Error evaluating expression "
 msgstr "式の評価エラー "
 
-#: codelitephp/php-plugin/XDebugRunCmdHandler.cpp:48
+#: codelitephp/php-plugin/XDebugRunCmdHandler.cpp:50
 msgid "Failed to map remote file: "
 msgstr "リモートファイルの対応付けに失敗しました: "
 
-#: codelitephp/php-plugin/XDebugRunCmdHandler.cpp:49
+#: codelitephp/php-plugin/XDebugRunCmdHandler.cpp:51
 msgid "Check your project settings->Debug to define folder mapping"
 msgstr ""
 "[プロジェクトの設定] -> [デバッグ] を確認し、フォルダーを対応付けてください"
@@ -18318,7 +18417,7 @@ msgstr ""
 msgid "*** Error evaluating expression: "
 msgstr "*** 式の評価エラー: "
 
-#: codelitephp/php-plugin/localsview.cpp:196
+#: codelitephp/php-plugin/localsview.cpp:205
 msgid "Copy Value"
 msgstr "値をコピー"
 
@@ -18378,15 +18477,15 @@ msgid ""
 "class"
 msgstr "生成されるクラスがシングルトンクラスになります"
 
-#: codelitephp/php-plugin/php.cpp:61
+#: codelitephp/php-plugin/php.cpp:63
 msgid "Enable PHP support for codelite IDE"
 msgstr "CodeLite IDE に PHP のサポートを追加"
 
-#: codelitephp/php-plugin/php.cpp:80
+#: codelitephp/php-plugin/php.cpp:82
 msgid "PHP Plugin for the codelite IDE"
 msgstr "CodeLite IDE 用の PHP プラグイン"
 
-#: codelitephp/php-plugin/php.cpp:308
+#: codelitephp/php-plugin/php.cpp:310
 #, c-format
 msgid ""
 "Could not create workspace folder:\n"
@@ -18395,24 +18494,24 @@ msgstr ""
 "ワークスペースのフォルダーを作成できませんでした:\n"
 "%s"
 
-#: codelitephp/php-plugin/php.cpp:389
+#: codelitephp/php-plugin/php.cpp:391
 msgid "Failed to open workspace: corrupted workspace file"
 msgstr ""
 "ワークスペースを開けませんでした: ワークスペースのファイルが壊れています"
 
-#: codelitephp/php-plugin/php.cpp:503
+#: codelitephp/php-plugin/php.cpp:505
 msgid "PHP Settings..."
 msgstr "PHP の設定..."
 
-#: codelitephp/php-plugin/php.cpp:504 codelitephp/php-plugin/php.cpp:505
+#: codelitephp/php-plugin/php.cpp:506 codelitephp/php-plugin/php.cpp:507
 msgid "Run XDebug Setup Wizard..."
 msgstr "XDebug セットアップウィザードを実行..."
 
-#: codelitephp/php-plugin/php.cpp:509
+#: codelitephp/php-plugin/php.cpp:511
 msgid "P&HP"
 msgstr "PHP (&H)"
 
-#: codelitephp/php-plugin/php.cpp:634
+#: codelitephp/php-plugin/php.cpp:635
 msgid "Can't create PHP project. Close your current workspace first"
 msgstr ""
 "PHP プロジェクトを作成できません。現在のワークスペースをまず閉じてください"
@@ -18900,51 +18999,51 @@ msgstr "新しい PHP プロジェクト"
 msgid "XDebug Setup"
 msgstr "XDebug のセットアップ"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:118
-#: codelitephp/php-plugin/php_workspace_view.cpp:119
+#: codelitephp/php-plugin/php_workspace_view.cpp:120
+#: codelitephp/php-plugin/php_workspace_view.cpp:121
 msgid "Open active project settings"
 msgstr "アクティブなプロジェクトの設定を開く"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:121
-#: codelitephp/php-plugin/php_workspace_view.cpp:122
+#: codelitephp/php-plugin/php_workspace_view.cpp:123
+#: codelitephp/php-plugin/php_workspace_view.cpp:124
 msgid "Setup automatic upload"
 msgstr "自動アップロードをセットアップ"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:127
+#: codelitephp/php-plugin/php_workspace_view.cpp:129
 msgid "Sync workspace with file system"
 msgstr "ワークスペースをファイルシステムと同期"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:128
-#: codelitephp/php-plugin/php_workspace_view.cpp:334
+#: codelitephp/php-plugin/php_workspace_view.cpp:130
+#: codelitephp/php-plugin/php_workspace_view.cpp:336
 msgid "Sync workspace with file system..."
 msgstr "ワークスペースをファイルシステムと同期..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:130
-#: codelitephp/php-plugin/php_workspace_view.cpp:131
+#: codelitephp/php-plugin/php_workspace_view.cpp:132
+#: codelitephp/php-plugin/php_workspace_view.cpp:133
 msgid "Wait for Debugger Connection"
 msgstr "デバッガーの接続まで待機"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:194
+#: codelitephp/php-plugin/php_workspace_view.cpp:196
 msgid "Can only import one folder at a time"
 msgstr "同時にインポートできるフォルダーはひとつのみです"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:226
+#: codelitephp/php-plugin/php_workspace_view.cpp:228
 msgid "Failed to create workspace '"
 msgstr "ワークスペースの作成に失敗しました '"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:227
+#: codelitephp/php-plugin/php_workspace_view.cpp:229
 msgid "Permission denied."
 msgstr "権限がありません。"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:234
+#: codelitephp/php-plugin/php_workspace_view.cpp:236
 msgid "Failed to open workspace '"
 msgstr "ワークスペースを開けませんでした '"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:234
+#: codelitephp/php-plugin/php_workspace_view.cpp:236
 msgid "File exists"
 msgstr "ファイルが存在します"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:257
+#: codelitephp/php-plugin/php_workspace_view.cpp:259
 msgid ""
 "The folder already contains a workspace file\n"
 "Please close the current workspace before continuing"
@@ -18952,92 +19051,92 @@ msgstr ""
 "フォルダーには、既にワークスペースのファイルが入っています\n"
 "続行する前に、まず現在のワークスペースを閉じてください"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:303
+#: codelitephp/php-plugin/php_workspace_view.cpp:305
 msgid "Open with Default Application"
 msgstr "既定のアプリケーションで開く"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:322
+#: codelitephp/php-plugin/php_workspace_view.cpp:324
 msgid "Create a new project..."
 msgstr "新しいプロジェクトを作成..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:323
+#: codelitephp/php-plugin/php_workspace_view.cpp:325
 msgid "Add an existing project..."
 msgstr "既存のプロジェクトを追加..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:325
+#: codelitephp/php-plugin/php_workspace_view.cpp:327
 msgid "Parse workspace"
 msgstr "ワークスペースを解析"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:338
-#: codelitephp/php-plugin/php_workspace_view.cpp:354
-#: codelitephp/php-plugin/php_workspace_view.cpp:398
+#: codelitephp/php-plugin/php_workspace_view.cpp:340
+#: codelitephp/php-plugin/php_workspace_view.cpp:356
+#: codelitephp/php-plugin/php_workspace_view.cpp:400
 msgid "Find In Folder..."
 msgstr "フォルダーから検索..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:345
+#: codelitephp/php-plugin/php_workspace_view.cpp:347
 msgid "Set as active project"
 msgstr "アクティブなプロジェクトに設定"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:347
+#: codelitephp/php-plugin/php_workspace_view.cpp:349
 msgid "Remove project"
 msgstr "プロジェクトを削除"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:349
-#: codelitephp/php-plugin/php_workspace_view.cpp:381
+#: codelitephp/php-plugin/php_workspace_view.cpp:351
+#: codelitephp/php-plugin/php_workspace_view.cpp:383
 msgid "New Class..."
 msgstr "新しいクラス..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:350
-#: codelitephp/php-plugin/php_workspace_view.cpp:383
+#: codelitephp/php-plugin/php_workspace_view.cpp:352
+#: codelitephp/php-plugin/php_workspace_view.cpp:385
 msgid "New Folder..."
 msgstr "新しいフォルダー..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:351
-#: codelitephp/php-plugin/php_workspace_view.cpp:384
+#: codelitephp/php-plugin/php_workspace_view.cpp:353
+#: codelitephp/php-plugin/php_workspace_view.cpp:386
 msgid "New File..."
 msgstr "新しいファイル..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:363
+#: codelitephp/php-plugin/php_workspace_view.cpp:365
 msgid "Sync project with file system..."
 msgstr "プロジェクトをファイルシステムと同期..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:367
+#: codelitephp/php-plugin/php_workspace_view.cpp:369
 msgid "Run project..."
 msgstr "プロジェクトを実行..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:369
+#: codelitephp/php-plugin/php_workspace_view.cpp:371
 msgid "Project settings..."
 msgstr "プロジェクトの設定..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:391
+#: codelitephp/php-plugin/php_workspace_view.cpp:393
 msgid "Sync folder with file system..."
 msgstr "フォルダーをファイルシステムと同期..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:446
+#: codelitephp/php-plugin/php_workspace_view.cpp:448
 msgid "Building workspace tree view"
 msgstr "ワークスペースのツリー表示を構築しています"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:522
+#: codelitephp/php-plugin/php_workspace_view.cpp:524
 msgid "Are you sure you want to remove project '"
 msgstr "プロジェクトを削除しますか '"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:540
+#: codelitephp/php-plugin/php_workspace_view.cpp:542
 msgid "New Folder Name:"
 msgstr "新しいフォルダー名:"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:687
+#: codelitephp/php-plugin/php_workspace_view.cpp:689
 msgid "' and its content?"
 msgstr "' とその中身を削除しますか？"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:687
+#: codelitephp/php-plugin/php_workspace_view.cpp:689
 msgid "Are you sure you want to delete folder '"
 msgstr "フォルダー '"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:767
+#: codelitephp/php-plugin/php_workspace_view.cpp:769
 msgid "Rename file"
 msgstr "ファイル名を変更"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:815
+#: codelitephp/php-plugin/php_workspace_view.cpp:817
 msgid ""
 "This operation will delete the selected items.\n"
 "Continue?"
@@ -19045,7 +19144,7 @@ msgstr ""
 "選択した項目が削除されます。\n"
 "よろしいですか？"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:832
+#: codelitephp/php-plugin/php_workspace_view.cpp:834
 #, c-format
 msgid ""
 "'%s' is a folder.\n"
@@ -19056,7 +19155,7 @@ msgstr ""
 "対象のフォルダーそのものと中身が削除されます。\n"
 "よろしいですか？"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:882
+#: codelitephp/php-plugin/php_workspace_view.cpp:884
 msgid ""
 "No active project is set !?\n"
 "Please set an active project and try again"
@@ -19064,36 +19163,36 @@ msgstr ""
 "アクティブなプロジェクトが設定されていませんよ！？\n"
 "いずれかのプロジェクトをアクティブ化し、やり直してください"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1045
+#: codelitephp/php-plugin/php_workspace_view.cpp:1046
 msgid "New workspace name:"
 msgstr "新しいワークスペース名:"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1045
+#: codelitephp/php-plugin/php_workspace_view.cpp:1046
 msgid "Rename workspace"
 msgstr "ワークスペース名を変更"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1060
-#: codelitephp/php-plugin/php_workspace_view.cpp:1065
+#: codelitephp/php-plugin/php_workspace_view.cpp:1061
+#: codelitephp/php-plugin/php_workspace_view.cpp:1066
 msgid "Enable automatic upload"
 msgstr "自動アップロードを有効化"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1094
+#: codelitephp/php-plugin/php_workspace_view.cpp:1095
 msgid "Select the remote folder corrseponding to the current workspace file"
 msgstr "現在のワークスペースファイルに対応するリモートフォルダーを選択"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1485
+#: codelitephp/php-plugin/php_workspace_view.cpp:1486
 msgid "Folder name:"
 msgstr "フォルダー名:"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1569
+#: codelitephp/php-plugin/php_workspace_view.cpp:1570
 msgid "Scanning for PHP files..."
 msgstr "PHP ファイルをスキャンしています..."
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1576
+#: codelitephp/php-plugin/php_workspace_view.cpp:1577
 msgid "Scanning for PHP files completed"
 msgstr "PHP ファイルのスキャンが完了しました"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1762
+#: codelitephp/php-plugin/php_workspace_view.cpp:1763
 msgid ""
 "A file with this name already exists in the target folder\n"
 "Overwrite it?"
@@ -19101,7 +19200,7 @@ msgstr ""
 "この名前のファイルが、既に対象のフォルダーに存在します\n"
 "上書きしますか？"
 
-#: codelitephp/php-plugin/php_workspace_view.cpp:1763
+#: codelitephp/php-plugin/php_workspace_view.cpp:1764
 msgid "Do this for all files"
 msgstr "全てのファイルに行う"
 
@@ -20096,35 +20195,35 @@ msgstr "コミットを取り消しますか #"
 msgid "Git executable:"
 msgstr "Git の実行ファイル:"
 
-#: git/gitui.cpp:55
+#: git/gitui.cpp:58
 msgid "Gitk executable:"
 msgstr "Gitk の実行ファイル:"
 
-#: git/gitui.cpp:63
+#: git/gitui.cpp:69
 msgid "Git Shell command:"
 msgstr "Git シェルのコマンド:"
 
-#: git/gitui.cpp:87
+#: git/gitui.cpp:96
 msgid "Global user name:"
 msgstr "グローバルなユーザー名:"
 
-#: git/gitui.cpp:92
+#: git/gitui.cpp:103
 msgid "Set the global user name (this name will tell git who you are)"
 msgstr "グローバルなユーザー名を設定します (Git に伝える、あなたの情報です)"
 
-#: git/gitui.cpp:99
+#: git/gitui.cpp:110
 msgid "Global email:"
 msgstr "グローバルな E メール:"
 
-#: git/gitui.cpp:104
+#: git/gitui.cpp:117
 msgid "Set the global email"
 msgstr "グローバルな E メールを設定します"
 
-#: git/gitui.cpp:111
+#: git/gitui.cpp:124
 msgid "Local repository user name:"
 msgstr "ローカルリポジトリのユーザー名:"
 
-#: git/gitui.cpp:116
+#: git/gitui.cpp:131
 msgid ""
 "Set the current repository user name (this name will tell git who you are).\n"
 "If this field left empty, the global one is used"
@@ -20133,11 +20232,11 @@ msgstr ""
 "す)。\n"
 "空欄でグローバルなものを使います"
 
-#: git/gitui.cpp:123
+#: git/gitui.cpp:139
 msgid "Local repository email:"
 msgstr "ローカルリポジトリの E メール:"
 
-#: git/gitui.cpp:128
+#: git/gitui.cpp:147
 msgid ""
 "Set the current repository email\n"
 "If this field left empty, the global one is used"
@@ -20145,15 +20244,15 @@ msgstr ""
 "現在のリポジトリに使う E メールを設定します\n"
 "空欄でグローバルなものを使います"
 
-#: git/gitui.cpp:135
+#: git/gitui.cpp:154
 msgid "Optional - Full path to project's git repo:"
 msgstr "任意 - プロジェクトの Git リポジトリへの完全なパス:"
 
-#: git/gitui.cpp:149
+#: git/gitui.cpp:172
 msgid "Show Terminal"
 msgstr "端末を表示"
 
-#: git/gitui.cpp:151
+#: git/gitui.cpp:176
 msgid ""
 "Mainly useful for Windows when the password\n"
 "prompt is not accessible via the UI"
@@ -20161,23 +20260,23 @@ msgstr ""
 "Windows 環境下において、パスワードを入力する UI に\n"
 "アクセスできないなどの状況で役立つオプションです"
 
-#: git/gitui.cpp:155
+#: git/gitui.cpp:180
 msgid "Verbose Logging"
 msgstr "冗長ログ"
 
-#: git/gitui.cpp:157
+#: git/gitui.cpp:183
 msgid "Tick this option to enable a verbose logging of git"
 msgstr "チェックを入れると、Git の冗長ログが有効になります"
 
-#: git/gitui.cpp:161
+#: git/gitui.cpp:187
 msgid "Show commit info in the status bar"
 msgstr "ステータスバーにコミット情報を表示"
 
-#: git/gitui.cpp:345
+#: git/gitui.cpp:383
 msgid "Amend the previous commit"
 msgstr "直前のコミットを修正"
 
-#: git/gitui.cpp:347
+#: git/gitui.cpp:387
 msgid ""
 "The 'git commit --amend' command is a convenient way to fix up the most "
 "recent commit. It lets you combine staged changes with the previous commit "
@@ -20189,7 +20288,7 @@ msgstr ""
 "取り込めます。また、スナップショットはそのままに、コミットの説明だけを編集す"
 "ることもできます"
 
-#: git/gitui.cpp:439
+#: git/gitui.cpp:487
 msgid ""
 "Search for specific text in commits.\n"
 "This uses --grep, and so searches only the text of the commit message. To "
@@ -20199,39 +20298,39 @@ msgstr ""
 "これには --grep を使用するため、コミットの説明からしかテキストを検索しませ"
 "ん。作者などを検索するには '追加の引数' ボックスを使用してください。"
 
-#: git/gitui.cpp:446 git/gitui.cpp:1397
+#: git/gitui.cpp:495 git/gitui.cpp:1559
 msgid "Previous"
 msgstr "前"
 
-#: git/gitui.cpp:447
+#: git/gitui.cpp:497
 msgid "Show previous 100 commits"
 msgstr "前の 100 コミットを表示"
 
-#: git/gitui.cpp:452
+#: git/gitui.cpp:503
 msgid "Fetch the next 100 commits"
 msgstr "次の 100 コミットを取得"
 
-#: git/gitui.cpp:457
+#: git/gitui.cpp:508
 msgid "--since="
 msgstr "--since="
 
-#: git/gitui.cpp:458
+#: git/gitui.cpp:509
 msgid "--before="
 msgstr "--before="
 
-#: git/gitui.cpp:459
+#: git/gitui.cpp:510
 msgid "--author="
 msgstr "--author="
 
-#: git/gitui.cpp:460
+#: git/gitui.cpp:511
 msgid "--committer="
 msgstr "--committer="
 
-#: git/gitui.cpp:461
+#: git/gitui.cpp:512
 msgid "-S"
 msgstr "-S"
 
-#: git/gitui.cpp:463
+#: git/gitui.cpp:516
 msgid ""
 "Optional extra arguments that you wish passed to git log.\n"
 "\n"
@@ -20248,7 +20347,7 @@ msgstr ""
 "注: 引数の誤りや、不正なエスケープなどは一切検査されず、ありのままに追加され"
 "ます"
 
-#: git/gitui.cpp:472
+#: git/gitui.cpp:528
 msgid ""
 "--regexp-ignore-case Display commits that match the pattern without regard "
 "to case"
@@ -20256,53 +20355,53 @@ msgstr ""
 "--regexp-ignore-case パターンに一致するコミットを、大文字小文字の考慮なしに表"
 "示します"
 
-#: git/gitui.cpp:482
+#: git/gitui.cpp:542
 msgid "Date"
 msgstr "日付"
 
-#: git/gitui.cpp:483
+#: git/gitui.cpp:544
 msgid "Subject"
 msgstr "題名"
 
-#: git/gitui.cpp:501 git/gitui.cpp:686 git/gitui.cpp:1551
+#: git/gitui.cpp:566 git/gitui.cpp:762 git/gitui.cpp:1737
 msgid "Modified files:"
 msgstr "変更されたファイル:"
 
-#: git/gitui.cpp:516 git/gitui.cpp:1492
+#: git/gitui.cpp:584 git/gitui.cpp:1673
 msgid "Commit message:"
 msgstr "コミットの説明:"
 
-#: git/gitui.cpp:713
+#: git/gitui.cpp:793
 msgid "Unstaged"
 msgstr "未ステージの項目"
 
-#: git/gitui.cpp:714
+#: git/gitui.cpp:794
 msgid "Staged"
 msgstr "ステージに上げた項目"
 
-#: git/gitui.cpp:715
+#: git/gitui.cpp:795
 msgid "Both"
 msgstr "両方"
 
-#: git/gitui.cpp:716
+#: git/gitui.cpp:796
 msgid "Show changes that are:"
 msgstr "表示する変更の状態:"
 
-#: git/gitui.cpp:721
+#: git/gitui.cpp:802
 msgid "Ignore if whitespace-only"
 msgstr "空白のみの差分を無視"
 
-#: git/gitui.cpp:723
+#: git/gitui.cpp:805
 msgid ""
 "Suppress any lines where the change is only to whitespace. This makes it "
 "easier to see the interesting parts of the diff."
 msgstr "空白だけの変更行を抑制し、差分をより見やすくします。"
 
-#: git/gitui.cpp:729
+#: git/gitui.cpp:813
 msgid "Choose commits"
 msgstr "コミットを選択"
 
-#: git/gitui.cpp:730
+#: git/gitui.cpp:815
 msgid ""
 "This dialog normally shows only the current difference from HEAD. Click to "
 "choose any two commits to diff."
@@ -20310,11 +20409,11 @@ msgstr ""
 "このダイアログは通常、HEAD から現在の差分のみを表示します。このボタンをクリッ"
 "クすると、差分の対象を変更できます。"
 
-#: git/gitui.cpp:780
+#: git/gitui.cpp:864
 msgid "Choose two commits to diff"
 msgstr "差分を取るコミット 2 つを選択"
 
-#: git/gitui.cpp:784
+#: git/gitui.cpp:871
 msgid ""
 "Either select a branch, tag or commit hash, or enter your own commit-ish.\n"
 "Optionally you can then specify the 'n'th parent of each commit,\n"
@@ -20325,15 +20424,15 @@ msgstr ""
 "また、各コミットから 'n' 番目までの親コミットを指定したり、\n"
 "コミットを 3 重ドット表記で指定することもできます。"
 
-#: git/gitui.cpp:792
+#: git/gitui.cpp:881
 msgid "First"
 msgstr "1 つ目"
 
-#: git/gitui.cpp:803 git/gitui.cpp:859
+#: git/gitui.cpp:893 git/gitui.cpp:959
 msgid "Branch"
 msgstr "ブランチ"
 
-#: git/gitui.cpp:830 git/gitui.cpp:886
+#: git/gitui.cpp:924 git/gitui.cpp:990
 msgid ""
 "Here you can choose one of the last 1000 commits to diff against.\n"
 "They will normally be from the currently checked-out branch. However if you "
@@ -20344,25 +20443,25 @@ msgstr ""
 "のを指定しますが、上の欄で異なるブランチを選択すると、そのブランチのコミット"
 "が表示されます。"
 
-#: git/gitui.cpp:834 git/gitui.cpp:890
+#: git/gitui.cpp:930 git/gitui.cpp:996
 msgid "Enter commit-ish"
 msgstr "コミット名を入力"
 
-#: git/gitui.cpp:841 git/gitui.cpp:897
+#: git/gitui.cpp:939 git/gitui.cpp:1005
 msgid ""
 "You can enter any valid commit-ish here. It will not be sanity-checked..."
 msgstr ""
 "有効なコミット名であれば何でも入力できます。ただし、構文の検証はされません..."
 
-#: git/gitui.cpp:848
+#: git/gitui.cpp:947
 msgid "Second"
 msgstr "2 つ目"
 
-#: git/gitui.cpp:904
+#: git/gitui.cpp:1012
 msgid "Use '...'"
 msgstr "'...' を使用"
 
-#: git/gitui.cpp:906
+#: git/gitui.cpp:1016
 msgid ""
 "Check this to use the 'triple-dot' notation. The resulting diff will show "
 "the changes between the merge-base and the second commit-ish. So if the "
@@ -20376,11 +20475,11 @@ msgstr ""
 "今に至るまでの foo への変更が表示されます。\n"
 "注: 指定するコミット名によっては、意味のない結果が出力されます。"
 
-#: git/gitui.cpp:929 git/gitui.cpp:955
+#: git/gitui.cpp:1044 git/gitui.cpp:1075
 msgid "~"
 msgstr "~"
 
-#: git/gitui.cpp:934 git/gitui.cpp:960
+#: git/gitui.cpp:1051 git/gitui.cpp:1082
 msgid ""
 "If you enter a non-zero value here, the diff will use that parent of the "
 "commit instead of the commit itself.\n"
@@ -20390,35 +20489,35 @@ msgstr ""
 "なので、コミットが HEAD の状態で 5 を入力すると、HEAD~5 (5 番目の親) を使用し"
 "ます。"
 
-#: git/gitui.cpp:1056
+#: git/gitui.cpp:1191
 msgid "Clone URL:"
 msgstr "クローンする URL:"
 
-#: git/gitui.cpp:1061
+#: git/gitui.cpp:1196
 msgid "git URL to clone"
 msgstr "クローンする Git の URL"
 
-#: git/gitui.cpp:1068
+#: git/gitui.cpp:1203
 msgid "Target Directory:"
 msgstr "対象ディレクトリ:"
 
-#: git/gitui.cpp:1073
+#: git/gitui.cpp:1211
 msgid "Clone the sources into this target directory"
 msgstr "このディレクトリにソースをクローンします"
 
-#: git/gitui.cpp:1218
+#: git/gitui.cpp:1354
 msgid "Select patch file"
 msgstr "パッチファイルを選択"
 
-#: git/gitui.cpp:1223
+#: git/gitui.cpp:1363
 msgid "Patch file to apply"
 msgstr "適用するパッチファイル"
 
-#: git/gitui.cpp:1228
+#: git/gitui.cpp:1368
 msgid "git apply additional flags to use:"
 msgstr "git apply への追加フラグ:"
 
-#: git/gitui.cpp:1233
+#: git/gitui.cpp:1375
 msgid ""
 "By default, codelite uses the command 'git apply --whitespace=nowarn --"
 "ignore-whitespace' for applying patch files.\n"
@@ -20436,31 +20535,31 @@ msgstr ""
 "\n"
 "詳細については Git のマニュアルをご覧ください"
 
-#: git/gitui.cpp:1319
+#: git/gitui.cpp:1470
 msgid "Untracked"
 msgstr "未追跡"
 
-#: git/gitui.cpp:1397
+#: git/gitui.cpp:1560
 msgid "Go backwards to earlier commit's blame"
 msgstr "古いコミットの Blame へ戻る"
 
-#: git/gitui.cpp:1397
+#: git/gitui.cpp:1561
 msgid "Show earlier commit's blame"
 msgstr "前のコミットの Blame を表示"
 
-#: git/gitui.cpp:1399
+#: git/gitui.cpp:1564
 msgid "Go forward to more-recent commit's blame"
 msgstr "もっと新しいコミットの Blame へ進む"
 
-#: git/gitui.cpp:1399
+#: git/gitui.cpp:1565
 msgid "Show next-seen commit's blame"
 msgstr "次のコミットの Blame を表示"
 
-#: git/gitui.cpp:1402
+#: git/gitui.cpp:1568
 msgid "abcd4444 (HEAD)"
 msgstr "abcd4444 (HEAD)"
 
-#: git/gitui.cpp:1404
+#: git/gitui.cpp:1571
 msgid ""
 "Previously-visited commits. Note that these are listed in the order that you "
 "visited them, not commit-date order."
@@ -20468,15 +20567,15 @@ msgstr ""
 "以前に閲覧したコミットです。コミットの日付順ではなく、閲覧した順番に並んでい"
 "ます。"
 
-#: git/gitui.cpp:1407
+#: git/gitui.cpp:1575
 msgid "    Extra arguments:"
 msgstr "    追加の引数:"
 
-#: git/gitui.cpp:1411
+#: git/gitui.cpp:1580
 msgid "-L 123,130 foo bar"
 msgstr "-L 123,130 foo bar"
 
-#: git/gitui.cpp:1413
+#: git/gitui.cpp:1583
 msgid ""
 "Optional extra arguments that you wish passed to git blame.\n"
 "An example might be: -L 100,130\n"
@@ -20487,15 +20586,15 @@ msgstr ""
 "注: 引数の誤りや、不正なエスケープなどは一切検査されず、ありのままに追加され"
 "ます。"
 
-#: git/gitui.cpp:1419
+#: git/gitui.cpp:1592
 msgid "Redo the current commit's blame"
 msgstr "現在のコミットの Blame をやり直す"
 
-#: git/gitui.cpp:1677
+#: git/gitui.cpp:1867
 msgid "Double-clicking a line shows blame for the parent commit"
 msgstr "行のダブルクリックで親コミットの Blame を表示"
 
-#: git/gitui.cpp:1679
+#: git/gitui.cpp:1870
 msgid ""
 "A double-click on a code line refreshes blame, rebasing it either to the "
 "commit clicked or to its parent commit.\n"
@@ -20507,11 +20606,11 @@ msgstr ""
 "一般的には、直前のコードと何が変わったのかを知るために、親コミットと比較する"
 "ことが多いです。"
 
-#: git/gitui.cpp:1683
+#: git/gitui.cpp:1876
 msgid "Show the log and diff for the selected commit"
 msgstr "選択したコミットのログと差分を表示"
 
-#: git/gitui.cpp:1685
+#: git/gitui.cpp:1879
 msgid ""
 "When a blame line is selected, the commit log message and diff are shown at "
 "the bottom of the dialog. Uncheck this box to hide those fields."
@@ -20519,80 +20618,80 @@ msgstr ""
 "Blame の行を選択すると、ダイアログの下にコミットの記録メッセージと差分が表示"
 "されます。このチェックを外すと、それらの欄を隠します。"
 
-#: git/gitui.cpp:1736
+#: git/gitui.cpp:1930
 msgid "These are the file(s) you have chosen to Reset"
 msgstr "これらのファイルをリセット対象として選択しました"
 
-#: git/gitui.cpp:1748
+#: git/gitui.cpp:1943
 msgid "Altered files"
 msgstr "変更されたファイル"
 
-#: git/gitui.cpp:1759
+#: git/gitui.cpp:1958
 msgid "These are the files that are altered. Select which you want to reset."
 msgstr "これらは変更されたファイルです。どれをリセットするか選択してください。"
 
-#: git/gitui.cpp:1767
+#: git/gitui.cpp:1966
 msgid "Added files"
 msgstr "追加されたファイル"
 
-#: git/gitui.cpp:1778
+#: git/gitui.cpp:1980
 msgid ""
 "These are the files that have been added. Select which you want to remove."
 msgstr "これらは追加されたファイルです。どれを削除するか選択してください。"
 
-#: git/gitui.cpp:1823
+#: git/gitui.cpp:2026
 msgid "Please tell me who you are:"
 msgstr "あなたについて教えてください:"
 
-#: git/gitui.cpp:1845
+#: git/gitui.cpp:2051
 msgid "Email:"
 msgstr "E メール:"
 
-#: git/gitui.h:203
+#: git/gitui.h:128
 msgid "Git settings..."
 msgstr "Git の設定..."
 
-#: git/gitui.h:292
+#: git/gitui.h:170
 msgid "Git commit"
 msgstr "Git コミット"
 
-#: git/gitui.h:459
+#: git/gitui.h:239
 msgid "Commit List"
 msgstr "コミットの一覧"
 
-#: git/gitui.h:538
+#: git/gitui.h:277
 msgid "Current Diffs"
 msgstr "現在の差分"
 
-#: git/gitui.h:754
+#: git/gitui.h:363
 msgid "Select Commits to Diff"
 msgstr "差分を取るコミットを選択"
 
-#: git/gitui.h:793
+#: git/gitui.h:388
 msgid "git clone.."
 msgstr "Git クローン.."
 
-#: git/gitui.h:821
+#: git/gitui.h:408
 msgid "File diff"
 msgstr "ファイルの差分"
 
-#: git/gitui.h:856
+#: git/gitui.h:431
 msgid "Git Apply Patch"
 msgstr "Git パッチを適用"
 
-#: git/gitui.h:1115
+#: git/gitui.h:541
 msgid "Git Blame"
 msgstr "Git Blame"
 
-#: git/gitui.h:1140
+#: git/gitui.h:560
 msgid "Git Blame Settings"
 msgstr "Git Blame の設定"
 
-#: git/gitui.h:1195
+#: git/gitui.h:591
 msgid "Git Reset Files"
 msgstr "Git ファイルをリセット"
 
-#: git/gitui.h:1239
+#: git/gitui.h:618
 msgid "Git User"
 msgstr "Git ユーザー"
 
@@ -21304,7 +21403,7 @@ msgstr "生成したファイルを置く仮想フォルダー"
 
 #: wxcrafter/AuiToolBarTopLevel.cpp:45
 #: wxcrafter/command_link_button_wrapper.cpp:23
-#: wxcrafter/custom_control_wrapper.cpp:12
+#: wxcrafter/custom_control_wrapper.cpp:14
 #: wxcrafter/data_view_list_ctrl_wrapper.cpp:61
 #: wxcrafter/data_view_tree_ctrl_wrapper.cpp:61
 #: wxcrafter/data_view_tree_list_ctrl_wrapper.cpp:68
@@ -23520,18 +23619,18 @@ msgstr "wxSmith プロジェクトをインポート"
 msgid "Import an XRC file"
 msgstr "XRC ファイルをインポート"
 
-#: wxcrafter/import_from_wxFB.cpp:35 wxcrafter/import_from_wxSmith.cpp:36
-#: wxcrafter/import_from_xrc.cpp:33
+#: wxcrafter/import_from_wxFB.cpp:41 wxcrafter/import_from_wxSmith.cpp:36
+#: wxcrafter/import_from_xrc.cpp:39
 msgid "Failed to load the file to import"
 msgstr "インポートするファイルの読み込みに失敗しました"
 
-#: wxcrafter/import_from_wxFB.cpp:50
+#: wxcrafter/import_from_wxFB.cpp:56
 msgid "This doesn't seem to be a valid wxFormBuilder project file. Aborting."
 msgstr ""
 "これは正しい wxFormBuilder プロジェクトのファイルじゃなさそうです。中断しま"
 "す。"
 
-#: wxcrafter/import_from_wxFB.cpp:169
+#: wxcrafter/import_from_wxFB.cpp:173
 #, c-format
 msgid "Can't import unknown class %s from wxFB"
 msgstr "不明なクラス %s を wxFB からインポートできません"
@@ -23540,16 +23639,16 @@ msgstr "不明なクラス %s を wxFB からインポートできません"
 msgid "This doesn't seem to be a valid wxSmith file. Aborting."
 msgstr "これは正しい wxSmith のファイルじゃなさそうです。中断します。"
 
-#: wxcrafter/import_from_wxSmith.cpp:131
+#: wxcrafter/import_from_wxSmith.cpp:128
 #, c-format
 msgid "Can't import unknown class %s in from wxSmith"
 msgstr "不明なクラス %s を wxSmith からインポートできません"
 
-#: wxcrafter/import_from_xrc.cpp:52
+#: wxcrafter/import_from_xrc.cpp:58
 msgid "This doesn't seem to be a valid XRC file. Aborting."
 msgstr "これは正しい XRC ファイルじゃなさそうです。中断します。"
 
-#: wxcrafter/import_from_xrc.cpp:147
+#: wxcrafter/import_from_xrc.cpp:152
 #, c-format
 msgid "Can't import unknown class %s from XRC"
 msgstr "不明なクラス %s を XRC からインポートできません"
