@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-02 14:07+0900\n"
-"PO-Revision-Date: 2022-06-02 14:23+0900\n"
+"PO-Revision-Date: 2022-06-06 04:03+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: AutoSave/AutoSaveUI.cpp:36
 msgid "Enable Auto Save"
@@ -5706,7 +5706,7 @@ msgstr "相対的な行番号を使用"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:16
 msgid "What to highlight?"
-msgstr "何を強調表示しますか？"
+msgstr "どれを強調表示しますか？"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:17
 msgid "Indentation lines"
@@ -7930,7 +7930,7 @@ msgstr "自動的に検索結果を畳まない"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:111
 msgid "When searching, don't override search string with current selection"
-msgstr "検索時、新たに選択したテキストで、検索文字列を上書きしない"
+msgstr "検索するとき、新たに選択したテキストで、検索文字列を上書きしない"
 
 #: LiteEditor/editorsettingsfolding.cpp:36 LiteEditor/options_dlg2.cpp:91
 msgid "Folding"
