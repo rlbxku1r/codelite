@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-02 14:07+0900\n"
-"PO-Revision-Date: 2022-06-06 04:03+0900\n"
+"PO-Revision-Date: 2022-06-09 14:47+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -13088,7 +13088,7 @@ msgstr ""
 
 #: Plugin/CompileCommandsGenerator.cpp:174
 msgid "Generating "
-msgstr "生成しています: "
+msgstr "生成しています "
 
 #: Plugin/CompilersDetectorManager.cpp:81
 msgid "Searching for installed compilers..."
