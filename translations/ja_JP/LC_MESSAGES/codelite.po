@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-02 14:07+0900\n"
-"PO-Revision-Date: 2022-06-09 14:47+0900\n"
+"PO-Revision-Date: 2022-06-16 17:59+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: AutoSave/AutoSaveUI.cpp:36
 msgid "Enable Auto Save"
@@ -7835,11 +7835,11 @@ msgstr "コメント"
 
 #: LiteEditor/editorsettingscomments.cpp:36
 msgid "Hitting ENTER in C comment, adds `*`"
-msgstr "C 言語コメントで Enter を押すと `*` を追加"
+msgstr "C 言語コメントで Enter を押すと、`*` を追加"
 
 #: LiteEditor/editorsettingscomments.cpp:45
 msgid "Hitting ENTER in C++ comment, adds `//`"
-msgstr "C++ コメントで Enter を押すと `//` を追加"
+msgstr "C++ コメントで Enter を押すと、`//` を追加"
 
 #: LiteEditor/editorsettingscomments.cpp:54
 msgid "Code navigation shortcut is: Mouse left button and:"
