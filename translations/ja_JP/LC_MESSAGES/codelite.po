@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 14:07+0900\n"
-"PO-Revision-Date: 2022-06-16 17:59+0900\n"
+"POT-Creation-Date: 2022-06-27 03:07+0900\n"
+"PO-Revision-Date: 2022-06-27 03:24+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -327,7 +327,7 @@ msgstr "名前空間を隠す"
 #: CallGraph/uicallgraph.cpp:69 Docker/DockerOutputPane.cpp:59
 #: Docker/DockerOutputPane.cpp:72 ExternalTools/external_tools.cpp:160
 #: LiteEditor/simpletablebase.cpp:50 Plugin/DiffFoldersFrame.cpp:32
-#: Plugin/DiffSideBySidePanel.cpp:92 Plugin/clFileSystemWorkspace.cpp:544
+#: Plugin/DiffSideBySidePanel.cpp:92 Plugin/clFileSystemWorkspace.cpp:546
 #: Plugin/clFileSystemWorkspaceView.cpp:26 Plugin/clRemoteDirCtrl.cpp:251
 #: Plugin/clTreeCtrlPanel.cpp:98 Runtime/rc/menu.xrc:1130
 #: git/GitConsole.cpp:110 git/gitui.cpp:1590
@@ -528,17 +528,17 @@ msgstr "新しいクラスダイヤグラム..."
 #: Gizmos/newwxprojectdlg.cpp:88 LanguageServer/LanguageServerPage.cpp:115
 #: LiteEditor/CompilerMainPage.cpp:220 LiteEditor/CompilerMainPage.cpp:242
 #: LiteEditor/CompilerMainPage.cpp:252 LiteEditor/CompilerMainPage.cpp:867
-#: LiteEditor/acceltabledlg.cpp:155 LiteEditor/cl_editor.cpp:316
-#: LiteEditor/cl_editor.cpp:321 LiteEditor/cl_editor.cpp:2458
-#: LiteEditor/cl_editor.cpp:2491 LiteEditor/configuration_manager_dlg.cpp:171
+#: LiteEditor/acceltabledlg.cpp:155 LiteEditor/cl_editor.cpp:317
+#: LiteEditor/cl_editor.cpp:322 LiteEditor/cl_editor.cpp:2461
+#: LiteEditor/cl_editor.cpp:2494 LiteEditor/configuration_manager_dlg.cpp:171
 #: LiteEditor/context_cpp.cpp:1666
 #: LiteEditor/debugger_predefined_types_page.cpp:85
 #: LiteEditor/edit_workspace_conf_dlg.cpp:124 LiteEditor/fileview.cpp:978
 #: LiteEditor/fileview.cpp:1829 LiteEditor/findresultstab.cpp:120
-#: LiteEditor/frame.cpp:2108 LiteEditor/manager.cpp:1220
-#: LiteEditor/manager.cpp:2001 LiteEditor/manager.cpp:2062
-#: LiteEditor/manager.cpp:2549 LiteEditor/manager.cpp:2573
-#: LiteEditor/manager.cpp:2605 LiteEditor/movefuncimpldlg.cpp:77
+#: LiteEditor/frame.cpp:2108 LiteEditor/manager.cpp:1209
+#: LiteEditor/manager.cpp:1990 LiteEditor/manager.cpp:2051
+#: LiteEditor/manager.cpp:2538 LiteEditor/manager.cpp:2562
+#: LiteEditor/manager.cpp:2594 LiteEditor/movefuncimpldlg.cpp:77
 #: LiteEditor/new_configuration_dlg.cpp:132
 #: LiteEditor/ps_custom_build_page.cpp:90 LiteEditor/reconcileproject.cpp:132
 #: LiteEditor/reconcileproject.cpp:786 LiteEditor/renamesymboldlg.cpp:91
@@ -556,7 +556,7 @@ msgstr "新しいクラスダイヤグラム..."
 #: UnitTestCPP/testclassdlg.cpp:113 UnitTestCPP/testclassdlg.cpp:138
 #: UnitTestCPP/unittestpp.cpp:210 UnitTestCPP/unittestpp.cpp:278
 #: UnitTestCPP/unittestpp.cpp:332 UnitTestCPP/unittestpp.cpp:400
-#: WebTools/NodeDebugger.cpp:268 abbreviation/abbreviationssettingsdlg.cpp:95
+#: WebTools/NodeDebugger.cpp:270 abbreviation/abbreviationssettingsdlg.cpp:95
 #: codelitephp/php-plugin/php_workspace_view.cpp:526
 #: wxcrafter/import_from_wxFB.cpp:41 wxcrafter/import_from_wxFB.cpp:59
 #: wxcrafter/import_from_wxFB.cpp:64 wxcrafter/import_from_wxFB.cpp:82
@@ -1030,7 +1030,8 @@ msgstr ""
 " が既に存在します\n"
 "続行しますか？"
 
-#: CodeFormatter/codeformatterdlgbase.cpp:37 LLDBDebugger/UI.cpp:332
+#: CodeFormatter/codeformatterdlgbase.cpp:37
+#: DebugAdapterClient/DapSettingsPage.cpp:36
 #: LiteEditor/debuggersettingsbasedlg.cpp:338
 #: LiteEditor/editorsettingsmiscpanel.cpp:50
 #: LiteEditor/project_settings_base_dlg.cpp:166
@@ -1696,7 +1697,7 @@ msgstr "除去"
 #: CodeFormatter/codeformatterdlgbase.cpp:806
 #: CodeFormatter/codeformatterdlgbase.cpp:821 SpellChecker/spellcheck.cpp:228
 #: SpellChecker/wxcrafter.cpp:232 Subversion2/subversion_view.cpp:471
-#: codelitephp/PHPParser/php_workspace.cpp:488
+#: codelitephp/PHPParser/php_workspace.cpp:490
 msgid "Ignore"
 msgstr "無視"
 
@@ -1947,7 +1948,7 @@ msgstr "端末"
 msgid "Failed to start child process"
 msgstr "子プロセスの開始に失敗しました"
 
-#: CodeLite/clCommandProcessor.cpp:28 LiteEditor/manager.cpp:1822
+#: CodeLite/clCommandProcessor.cpp:28 LiteEditor/manager.cpp:1811
 msgid "Executing: "
 msgstr "実行中: "
 
@@ -1956,63 +1957,63 @@ msgstr "実行中: "
 msgid "Failed to execute command: %s"
 msgstr "コマンドの実行に失敗しました: %s"
 
-#: CodeLite/cl_sftp.cpp:164
+#: CodeLite/cl_sftp.cpp:166
 msgid "Can't open file: "
 msgstr "ファイルを開けません: "
 
-#: CodeLite/cl_sftp.cpp:178
+#: CodeLite/cl_sftp.cpp:180
 msgid "Can't write data to file: "
 msgstr "データをファイルに書き込めません: "
 
-#: CodeLite/cl_sftp.cpp:192
+#: CodeLite/cl_sftp.cpp:194
 msgid "Failed to unlink file: "
 msgstr "ファイルをリンク解除できません: "
 
-#: CodeLite/cl_sftp.cpp:199
+#: CodeLite/cl_sftp.cpp:201
 msgid "Failed to rename file: "
 msgstr "ファイル名の変更に失敗しました: "
 
-#: CodeLite/cl_sftp.cpp:220
+#: CodeLite/cl_sftp.cpp:222
 msgid "Failed to list directory: "
 msgstr "ディレクトリの列挙に失敗しました: "
 
-#: CodeLite/cl_sftp.cpp:278
+#: CodeLite/cl_sftp.cpp:280
 msgid "Failed to open remote file: "
 msgstr "リモートファイルを開けませんでした: "
 
-#: CodeLite/cl_sftp.cpp:285
+#: CodeLite/cl_sftp.cpp:287
 msgid "Could not stat file:"
 msgstr "ファイルの情報を取得できませんでした:"
 
-#: CodeLite/cl_sftp.cpp:309
+#: CodeLite/cl_sftp.cpp:311
 msgid "Could not read file:"
 msgstr "ファイルを読み取れませんでした:"
 
-#: CodeLite/cl_sftp.cpp:327
-msgid "Failed to create directory: "
-msgstr "ディレクトリの作成に失敗しました: "
+#: CodeLite/cl_sftp.cpp:339
+msgid "SFTP: failed to create directory: "
+msgstr "SFTP: ディレクトリの作成に失敗しました: "
 
-#: CodeLite/cl_sftp.cpp:343
+#: CodeLite/cl_sftp.cpp:355
 msgid "Failed to rename path. "
 msgstr "パス名の変更に失敗しました。 "
 
-#: CodeLite/cl_sftp.cpp:358
+#: CodeLite/cl_sftp.cpp:370
 msgid "Failed to remove directory: "
 msgstr "ディレクトリの削除に失敗しました: "
 
-#: CodeLite/cl_sftp.cpp:372
+#: CodeLite/cl_sftp.cpp:384
 msgid "Failed to unlink path: "
 msgstr "パスをリンク解除できません: "
 
-#: CodeLite/cl_sftp.cpp:386
+#: CodeLite/cl_sftp.cpp:398
 msgid "Could not stat: "
 msgstr "情報を取得できませんでした: "
 
-#: CodeLite/cl_sftp.cpp:394
+#: CodeLite/cl_sftp.cpp:406
 msgid "Failed to read symlink target. "
 msgstr "シンボリックリンクの対象を読み取れませんでした。 "
 
-#: CodeLite/cl_sftp.cpp:468
+#: CodeLite/cl_sftp.cpp:480
 msgid "Failed to chmod file: "
 msgstr "ファイルの chmod に失敗しました: "
 
@@ -2422,7 +2423,7 @@ msgstr "......... エラー！！！\n"
 msgid "Table %s has no primary key defined!\n"
 msgstr "テーブル %s には主キーが定義されていません！\n"
 
-#: DatabaseExplorer/DbSettingDialog.cpp:50 LLDBDebugger/UI.cpp:199
+#: DatabaseExplorer/DbSettingDialog.cpp:50
 msgid "File name"
 msgstr "ファイル名"
 
@@ -2547,13 +2548,13 @@ msgid "Can't create new db in this database engine!"
 msgstr "このデータベースエンジンでは、新しいデータベースを作成できません！"
 
 #: DatabaseExplorer/DbViewerPanel.cpp:348 Gizmos/newwxprojectdlg.cpp:103
-#: LiteEditor/advanced_settings.cpp:89 LiteEditor/cl_editor.cpp:1691
+#: LiteEditor/advanced_settings.cpp:89 LiteEditor/cl_editor.cpp:1694
 #: LiteEditor/fileview.cpp:914 LiteEditor/fileview.cpp:925
 #: LiteEditor/manager.cpp:370 LiteEditor/manager.cpp:387
-#: LiteEditor/manager.cpp:570 LiteEditor/manager.cpp:698
-#: LiteEditor/manager.cpp:768 LiteEditor/manager.cpp:1066
-#: LiteEditor/manager.cpp:1093 LiteEditor/manager.cpp:1236
-#: LiteEditor/manager.cpp:1392 LiteEditor/newworkspacedlg.cpp:107
+#: LiteEditor/manager.cpp:559 LiteEditor/manager.cpp:687
+#: LiteEditor/manager.cpp:757 LiteEditor/manager.cpp:1055
+#: LiteEditor/manager.cpp:1082 LiteEditor/manager.cpp:1225
+#: LiteEditor/manager.cpp:1381 LiteEditor/newworkspacedlg.cpp:107
 msgid "Error"
 msgstr "エラー"
 
@@ -2759,7 +2760,7 @@ msgstr "データファイルをバックアップ"
 #: DatabaseExplorer/ErdCommitWizard.cpp:175
 #: DatabaseExplorer/ErdCommitWizard.cpp:181
 #: DatabaseExplorer/ErdCommitWizard.cpp:399 LiteEditor/context_cpp.cpp:2196
-#: LiteEditor/syntaxhighlightdlg.cpp:612
+#: LiteEditor/syntaxhighlightdlg.cpp:614
 msgid "Select file"
 msgstr "ファイルを選択"
 
@@ -3262,9 +3263,8 @@ msgstr "フォルダー:"
 
 #: DatabaseExplorer/GUI.cpp:1062 Docker/UI.cpp:53 EOSWiki/eosUI.cpp:53
 #: EOSWiki/eosUI.cpp:64 Gizmos/gizmos_base.cpp:87 Gizmos/gizmos_base.cpp:96
-#: LLDBDebugger/UI.cpp:636 LiteEditor/ps_debugger_page.cpp:165
-#: LiteEditor/reconcileprojectbase.cpp:272 Plugin/DiffUI.cpp:40
-#: Plugin/DiffUI.cpp:46 Plugin/NewProjectDialogBase.cpp:40
+#: LiteEditor/ps_debugger_page.cpp:165 LiteEditor/reconcileprojectbase.cpp:272
+#: Plugin/DiffUI.cpp:40 Plugin/DiffUI.cpp:46 Plugin/NewProjectDialogBase.cpp:40
 #: Plugin/clFileSystemWorkspaceDlgBase.cpp:810 QmakePlugin/NewQtProj.cpp:51
 #: SpellChecker/wxcrafter.cpp:37 Subversion2/subversion2_ui.cpp:1348
 #: Subversion2/wxcrafter.cpp:283 WebTools/WebToolsBase.cpp:247
@@ -3340,8 +3340,7 @@ msgid "Column name"
 msgstr "列名"
 
 #: DatabaseExplorer/GUI.cpp:1343 DatabaseExplorer/TableSettings.cpp:70
-#: LLDBDebugger/LLDBLocalsView.cpp:57 LiteEditor/breakpointslistctrl.h:55
-#: LiteEditor/compiler_pages.cpp:600
+#: LiteEditor/breakpointslistctrl.h:55 LiteEditor/compiler_pages.cpp:600
 #: LiteEditor/debugger_predefined_types_page.cpp:36
 #: LiteEditor/localstable.cpp:56 LiteEditor/simpletable.cpp:117
 #: Plugin/sftp_ui.cpp:375 codelitephp/php-plugin/localsview.cpp:36
@@ -3571,6 +3570,199 @@ msgstr "キャンバスのスケールには小数値を指定してください
 msgid "Export ERD to image..."
 msgstr "ERD を画像にエクスポート..."
 
+#: DebugAdapterClient/DAPMainView.cpp:12 DebugAdapterClient/UI.cpp:157
+#: Docker/UI.cpp:430 Docker/UI.cpp:463 ExternalTools/external_tools.cpp:37
+#: LiteEditor/breakpointslistctrl.h:55
+msgid "ID"
+msgstr "ID"
+
+#: DebugAdapterClient/DAPMainView.cpp:13 ExternalTools/external_tools.cpp:39
+#: LanguageServer/UI.cpp:148 LiteEditor/CompilerMainPage.cpp:77
+#: LiteEditor/CompilersFoundDlgBase.cpp:39
+#: LiteEditor/attachdbgprocbasedlg.cpp:72 LiteEditor/localstable.cpp:54
+#: Plugin/clFileSystemWorkspace.cpp:825 Plugin/clSelectSymbolDialogBase.cpp:40
+#: Plugin/openresourcedialogbase.cpp:45 Plugin/sftp_ui.cpp:373
+#: Subversion2/subversion2_ui.cpp:76 codelitephp/php-plugin/localsview.cpp:35
+#: codelitephp/php-plugin/php_ui.cpp:286 wxcrafter/aui_pane_info.cpp:51
+#: wxcrafter/aui_pane_info.cpp:174 wxcrafter/info_bar_button_wrapper.cpp:16
+#: wxcrafter/properties_list_view.cpp:316
+#: wxcrafter/ribbon_tool_separator.cpp:15
+#: wxcrafter/wx_collapsible_pane_pane_wrapper.cpp:12
+#: wxcrafter/wxcrafter.cpp:1126
+msgid "Name"
+msgstr "名前"
+
+#: DebugAdapterClient/DAPMainView.cpp:14 DebugAdapterClient/UI.cpp:159
+#: LiteEditor/ThreadListPanelBase.cpp:45 LiteEditor/breakpointslistctrl.h:55
+#: LiteEditor/listctrlpanelbase.cpp:39 LiteEditor/symbols_dialog.cpp:45
+#: MemCheck/memcheckui.cpp:291 Runtime/rc/menu.xrc:160
+#: UnitTestCPP/unittestreport.cpp:102 WebTools/WebToolsBase.cpp:539
+#: WebTools/WebToolsBase.cpp:562 codelitephp/php-plugin/php_ui.cpp:1243
+#: codelitephp/php-plugin/php_ui.cpp:1268
+msgid "Line"
+msgstr "行"
+
+#: DebugAdapterClient/DAPMainView.cpp:15 wxcrafter/gui.cpp:384
+msgid "Source"
+msgstr "ソース"
+
+#: DebugAdapterClient/DAPMainView.cpp:16 LiteEditor/debuggerpane.cpp:54
+#: Runtime/rc/menu.xrc:666
+msgid "Threads"
+msgstr "スレッド"
+
+#: DebugAdapterClient/DAPMainView.cpp:122 LiteEditor/new_quick_watch_dlg.cpp:97
+#: LiteEditor/new_quick_watch_dlg.cpp:158
+msgid "Loading..."
+msgstr "読み込んでいます..."
+
+#: DebugAdapterClient/DapDebuggerSettingsDlg.cpp:15 LiteEditor/frame.cpp:1472
+#: LiteEditor/simpletablebase.cpp:59 Plugin/clFileSystemWorkspaceDlgBase.cpp:41
+#: Plugin/clFileSystemWorkspaceDlgBase.cpp:449 Runtime/rc/menu.xrc:975
+msgid "New"
+msgstr "新規"
+
+#: DebugAdapterClient/DapDebuggerSettingsDlg.cpp:16
+#: Plugin/clBoostrapWizardBase.cpp:108
+msgid "Scan"
+msgstr "スキャン"
+
+#: DebugAdapterClient/DapDebuggerSettingsDlg.cpp:45
+msgid "Enter name"
+msgstr "名前を入力"
+
+#: DebugAdapterClient/DapDebuggerSettingsDlg.cpp:45
+msgid "New dap server name"
+msgstr "新しい DAP サーバー名"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:37 Docker/UI.cpp:434
+#: ExternalTools/external_tools.cpp:144 LanguageServer/UI.cpp:196
+#: LiteEditor/project_settings_base_dlg.cpp:1173
+#: Plugin/clFileSystemWorkspaceDlgBase.cpp:442
+msgid "Command"
+msgstr "コマンド"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:38
+msgid "Connection string"
+msgstr "接続文字列"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:39 LanguageServer/UI.cpp:242
+#: LiteEditor/project_settings_dlg.cpp:108
+#: LiteEditor/workspacesettingsbase.cpp:35
+#: Plugin/clFileSystemWorkspaceDlgBase.cpp:597
+msgid "Environment"
+msgstr "環境"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:41
+msgid "File paths"
+msgstr "ファイルパス"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:42 wxcrafter/wxcrafter.cpp:1420
+msgid "Use relative paths"
+msgstr "相対パスを使用"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:45
+msgid "Path format"
+msgstr "パスの形式"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:77
+msgid "SSH Settings"
+msgstr "SSH の設定"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:78
+msgid "Is Remote"
+msgstr "リモート"
+
+#: DebugAdapterClient/DapSettingsPage.cpp:79
+msgid "SSH Account"
+msgstr "SSH アカウント"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:64
+msgid "Thread, stacks & variables"
+msgstr "スレッド、スタック & 変数"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:65 LiteEditor/debuggerpane.cpp:53
+#: LiteEditor/debuggerpane.cpp:113 Runtime/rc/menu.xrc:678
+#: WebTools/WebToolsBase.cpp:543 codelitephp/php-plugin/php.cpp:578
+#: codelitephp/php-plugin/php_ui.cpp:1247
+msgid "Breakpoints"
+msgstr "ブレークポイント"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:148
+#: DebugAdapterClient/DebugAdapterClient.cpp:166
+#: DebugAdapterClient/DebugAdapterClient.cpp:606
+msgid "Debug Adapter Client"
+msgstr "デバッグアダプタークライアント"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:333 DebugAdapterClient/UI.h:83
+#: Docker/docker.cpp:66 HelpPlugin/HelpPluginUI.h:99
+#: LanguageServer/languageserver.cpp:91 LiteEditor/frame.cpp:1091
+#: MemCheck/memcheckui.cpp:257 Plugin/clFileSystemWorkspaceView.cpp:25
+#: Plugin/clFileSystemWorkspaceView.cpp:131
+#: WordCompletion/wordcompletion.cpp:69 ZoomNavigator/zoomnavigator.cpp:130
+#: codelite_terminal/wxcrafter.h:95 cppchecker/cppchecker.cpp:156
+#: cppchecker/cppchecker.cpp:233 cppchecker/cppchecker.cpp:249
+#: cppchecker/cppchecker.cpp:263 cppchecker/cppchecker.cpp:277
+#: git/gitui.cpp:1596 git/gitui.cpp:1597
+msgid "Settings"
+msgstr "設定"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:337
+msgid "Debug Adapter Client..."
+msgstr "デバッグアダプタークライアント..."
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:402
+msgid "Could not locate project: "
+msgstr "プロジェクトが見つかりませんでした: "
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:410
+msgid "Could not locate the requested build configuration"
+msgstr "要求されたビルド構成が見つかりませんでした"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:665
+msgid ""
+"A debug session is running\n"
+"Cancel debug session and continue building?"
+msgstr ""
+"デバッグセッションが実行中です\n"
+"ビルドを続行する前に、デバッグセッションをキャンセルしますか？"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:760
+#: DebugAdapterClient/DebugAdapterClient.cpp:810
+#: DebugAdapterClient/DebugAdapterClient.cpp:859
+msgid "Could not connect to codelite-lldb at '"
+msgstr "codelite-lldb に接続できませんでした '"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:777
+msgid "Debug core file with LLDB is not supported under Windows"
+msgstr "Windows 環境下では、LLDB でコアファイルをデバッグすることはできません"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:826
+msgid "Attach to process with LLDB is not supported under Windows"
+msgstr "Windows 環境下では、LLDB をプロセスにアタッチすることはできません"
+
+#: DebugAdapterClient/DebugAdapterClient.cpp:1144
+msgid "Can't debug an empty command!"
+msgstr "空のコマンドはデバッグできません！"
+
+#: DebugAdapterClient/UI.cpp:158 Gizmos/newclassbasedlg.cpp:171
+#: LiteEditor/ThreadListPanelBase.cpp:43 LiteEditor/breakpointslistctrl.h:55
+#: LiteEditor/frame.cpp:1046 LiteEditor/listctrlpanelbase.cpp:37
+#: LiteEditor/symbols_dialog.cpp:44 LiteEditor/wxcrafter.cpp:361
+#: MemCheck/memcheckui.cpp:290
+#: Runtime/templates/projects/executable-wxcrafter-frame/wxcrafter.cpp:36
+#: UnitTestCPP/unittestreport.cpp:100 WebTools/WebToolsBase.cpp:537
+#: WebTools/WebToolsBase.cpp:560 codelite-cli/codelite-client/wxcrafter.cpp:107
+#: codelite_terminal/wxcrafter.cpp:54 codelitephp/php-plugin/php_ui.cpp:290
+#: codelitephp/php-plugin/php_ui.cpp:1241
+#: codelitephp/php-plugin/php_ui.cpp:1266
+msgid "File"
+msgstr "ファイル"
+
+#: DebugAdapterClient/UI.cpp:160
+msgid "Verified"
+msgstr "検証済み"
+
 #: Debugger/dbgcmd.cpp:272
 #, c-format
 msgid ""
@@ -3780,20 +3972,9 @@ msgstr ""
 msgid "Output"
 msgstr "出力"
 
-#: Docker/UI.cpp:430 Docker/UI.cpp:463 ExternalTools/external_tools.cpp:37
-#: LiteEditor/breakpointslistctrl.h:55
-msgid "ID"
-msgstr "ID"
-
 #: Docker/UI.cpp:432
 msgid "Image"
 msgstr "画像"
-
-#: Docker/UI.cpp:434 ExternalTools/external_tools.cpp:144
-#: LanguageServer/UI.cpp:196 LiteEditor/project_settings_base_dlg.cpp:1173
-#: Plugin/clFileSystemWorkspaceDlgBase.cpp:442
-msgid "Command"
-msgstr "コマンド"
 
 #: Docker/UI.cpp:436
 msgid "Created"
@@ -3887,19 +4068,6 @@ msgstr "ビルド..."
 #: Docker/docker.cpp:28 Docker/docker.cpp:38
 msgid "Docker for CodeLite"
 msgstr "CodeLite への Docker 統合"
-
-#: Docker/docker.cpp:66 HelpPlugin/HelpPluginUI.h:99
-#: LLDBDebugger/LLDBPlugin.cpp:278 LanguageServer/languageserver.cpp:91
-#: LiteEditor/frame.cpp:1091 MemCheck/memcheckui.cpp:257
-#: Plugin/clFileSystemWorkspaceView.cpp:25
-#: Plugin/clFileSystemWorkspaceView.cpp:131
-#: WordCompletion/wordcompletion.cpp:69 ZoomNavigator/zoomnavigator.cpp:130
-#: codelite_terminal/wxcrafter.h:95 cppchecker/cppchecker.cpp:156
-#: cppchecker/cppchecker.cpp:233 cppchecker/cppchecker.cpp:249
-#: cppchecker/cppchecker.cpp:263 cppchecker/cppchecker.cpp:277
-#: git/gitui.cpp:1596 git/gitui.cpp:1597
-msgid "Settings"
-msgstr "設定"
 
 #: EOSWiki/eosUI.cpp:49 Gizmos/newclassbasedlg.cpp:144
 #: Plugin/NewProjectDialogBase.cpp:36 Plugin/sftp_ui.cpp:347
@@ -4062,22 +4230,6 @@ msgstr "利用できるマクロの一覧を表示"
 #: ExternalTools/NewToolBase.h:98
 msgid "External Tool"
 msgstr "外部ツール"
-
-#: ExternalTools/external_tools.cpp:39 LLDBDebugger/LLDBLocalsView.cpp:54
-#: LLDBDebugger/UI.cpp:574 LanguageServer/UI.cpp:148
-#: LiteEditor/CompilerMainPage.cpp:77 LiteEditor/CompilersFoundDlgBase.cpp:39
-#: LiteEditor/attachdbgprocbasedlg.cpp:72 LiteEditor/localstable.cpp:54
-#: Plugin/clFileSystemWorkspace.cpp:823 Plugin/clSelectSymbolDialogBase.cpp:40
-#: Plugin/openresourcedialogbase.cpp:45 Plugin/sftp_ui.cpp:373
-#: Subversion2/subversion2_ui.cpp:76 codelitephp/php-plugin/localsview.cpp:35
-#: codelitephp/php-plugin/php_ui.cpp:286 wxcrafter/aui_pane_info.cpp:51
-#: wxcrafter/aui_pane_info.cpp:174 wxcrafter/info_bar_button_wrapper.cpp:16
-#: wxcrafter/properties_list_view.cpp:316
-#: wxcrafter/ribbon_tool_separator.cpp:15
-#: wxcrafter/wx_collapsible_pane_pane_wrapper.cpp:12
-#: wxcrafter/wxcrafter.cpp:1126
-msgid "Name"
-msgstr "名前"
 
 #: ExternalTools/external_tools.cpp:41 LiteEditor/openwindowspanelbase.cpp:33
 #: LiteEditor/project_settings_base_dlg.cpp:584
@@ -4326,20 +4478,6 @@ msgstr ""
 "ディレクトリと対応している場所に置きますが、ここで代替のディレクトリを指定す"
 "ることもできます。"
 
-#: Gizmos/newclassbasedlg.cpp:171 LLDBDebugger/UI.cpp:37
-#: LLDBDebugger/UI.cpp:580 LiteEditor/ThreadListPanelBase.cpp:43
-#: LiteEditor/breakpointslistctrl.h:55 LiteEditor/frame.cpp:1046
-#: LiteEditor/listctrlpanelbase.cpp:37 LiteEditor/symbols_dialog.cpp:44
-#: LiteEditor/wxcrafter.cpp:361 MemCheck/memcheckui.cpp:290
-#: Runtime/templates/projects/executable-wxcrafter-frame/wxcrafter.cpp:36
-#: UnitTestCPP/unittestreport.cpp:100 WebTools/WebToolsBase.cpp:537
-#: WebTools/WebToolsBase.cpp:560 codelite-cli/codelite-client/wxcrafter.cpp:107
-#: codelite_terminal/wxcrafter.cpp:54 codelitephp/php-plugin/php_ui.cpp:290
-#: codelitephp/php-plugin/php_ui.cpp:1241
-#: codelitephp/php-plugin/php_ui.cpp:1266
-msgid "File"
-msgstr "ファイル"
-
 #: Gizmos/newclassbasedlg.cpp:184
 msgid "Create .hpp instead of .h"
 msgstr ".hpp 拡張子で作成"
@@ -4356,8 +4494,8 @@ msgstr "小文字のファイル名を使用"
 msgid "Use #pragma once"
 msgstr "#pragma once を使用"
 
-#: Gizmos/newclassbasedlg.cpp:205 LLDBDebugger/UI.cpp:446
-#: LiteEditor/compiler_pages.cpp:670 wxcrafter/wxcrafter_gui.cpp:953
+#: Gizmos/newclassbasedlg.cpp:205 LiteEditor/compiler_pages.cpp:670
+#: wxcrafter/wxcrafter_gui.cpp:953
 msgid "Advanced"
 msgstr "詳細"
 
@@ -4710,439 +4848,6 @@ msgstr "ヘルププラグイン"
 msgid "Search the docs for '"
 msgstr "ドキュメントを検索 '"
 
-#: LLDBDebugger/LLDBCallStack.cpp:114
-msgid "Copy backtrace"
-msgstr "バックトレースをコピー"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:55
-msgid "Summary"
-msgstr "概要"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:56 LiteEditor/CompilerMainPage.cpp:78
-#: LiteEditor/debuggersettingsbasedlg.cpp:861 LiteEditor/localstable.cpp:55
-#: LiteEditor/simpletable.cpp:116 Plugin/macrosdlg.cpp:68
-#: codelitephp/php-plugin/localsview.cpp:38 wxcrafter/check_box_wrapper.cpp:14
-#: wxcrafter/dir_picker_ctrl_wrapper.cpp:12
-#: wxcrafter/rich_text_ctrl_wrapper.cpp:61 wxcrafter/slider_wrapper.cpp:10
-msgid "Value"
-msgstr "値"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:58
-msgid "Local Variables"
-msgstr "ローカル変数"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:76 LiteEditor/frame.cpp:1472
-#: LiteEditor/simpletablebase.cpp:59 Plugin/clFileSystemWorkspaceDlgBase.cpp:41
-#: Plugin/clFileSystemWorkspaceDlgBase.cpp:449 Runtime/rc/menu.xrc:975
-msgid "New"
-msgstr "新規"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:77 LanguageServer/UI.cpp:74
-#: LiteEditor/compiler_pages.cpp:434 LiteEditor/compiler_pages.cpp:475
-#: LiteEditor/compiler_pages.cpp:519 LiteEditor/compiler_pages.cpp:556
-#: LiteEditor/compiler_pages.cpp:615 LiteEditor/fileview.cpp:2668
-#: LiteEditor/project_settings_base_dlg.cpp:1189
-#: LiteEditor/simpletablebase.cpp:55 Plugin/clFileSystemWorkspaceDlgBase.cpp:46
-#: Plugin/clFileSystemWorkspaceDlgBase.cpp:459 Plugin/clRemoteDirCtrl.cpp:276
-#: Plugin/clTreeCtrlPanel.cpp:105 Plugin/clTreeCtrlPanel.cpp:157
-#: QmakePlugin/qmakesettingsdlg.cpp:102 Runtime/rc/menu.xrc:893
-#: Runtime/rc/menu.xrc:928 Runtime/rc/menu.xrc:1092 Runtime/rc/menu.xrc:1134
-#: SFTP/UI.cpp:241 Subversion2/subversion2.cpp:280
-#: Subversion2/subversion_view.cpp:456
-#: abbreviation/abbreviationssettingsbase.cpp:47
-#: codelitephp/php-plugin/PHPDebugPane.cpp:33
-#: codelitephp/php-plugin/php_workspace_view.cpp:300
-#: codelitephp/php-plugin/php_workspace_view.cpp:390
-#: wxcrafter/allocator_mgr.cpp:1036 wxcrafter/wxcrafter.cpp:556
-#: wxcrafter/wxcrafter.cpp:733 wxcrafter/wxcrafter.cpp:1810
-msgid "Delete"
-msgstr "削除"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:258
-msgid "Add New Watch"
-msgstr "新しいウォッチを追加"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:258 LiteEditor/simpletable.cpp:147
-msgid "Expression to watch:"
-msgstr "ウォッチする式:"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:306
-msgid "Copy value to clipboard"
-msgid_plural "Copy values to clipboard"
-msgstr[0] "値をクリップボードにコピー"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:308
-msgid "Edit value"
-msgstr "値を編集"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:311
-msgid "Add watch"
-msgid_plural "Add watches"
-msgstr[0] "ウォッチを追加"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:317
-msgid "Remove watch"
-msgid_plural "Remove watches"
-msgstr[0] "ウォッチを削除"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:321
-msgid "Display as"
-msgstr "表示形式"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:459 LiteEditor/AddOptionsDialogBase.h:49
-#: LiteEditor/CompilerMainPage.cpp:623
-#: LiteEditor/EditorOptionsGeneralEdit.cpp:10 LiteEditor/frame.cpp:1009
-#: LiteEditor/free_text_dialog.h:57 LiteEditor/options_dlg2.cpp:86
-#: LiteEditor/wxcrafter.cpp:375 Plugin/clFileSystemWorkspaceDlgBase.cpp:419
-#: Plugin/clFileSystemWorkspaceDlgBase.cpp:454 Runtime/rc/menu.xrc:1088
-msgid "Edit"
-msgstr "編集"
-
-#: LLDBDebugger/LLDBLocalsView.cpp:459
-msgid "New value:"
-msgstr "新しい値:"
-
-#: LLDBDebugger/LLDBOutputView.cpp:59 LiteEditor/breakpointdlg.cpp:213
-msgid "Delete Breakpoint"
-msgstr "ブレークポイントを削除"
-
-#: LLDBDebugger/LLDBOutputView.cpp:60 LiteEditor/frame.cpp:1007
-#: Runtime/rc/menu.xrc:907
-msgid "Delete All Breakpoints"
-msgstr "全てのブレークポイントを削除"
-
-#: LLDBDebugger/LLDBOutputView.cpp:61 LLDBDebugger/UI.h:121
-msgid "New Breakpoint"
-msgstr "新しいブレークポイント"
-
-#: LLDBDebugger/LLDBPlugin.cpp:109 LLDBDebugger/LLDBPlugin.cpp:127
-msgid "LLDB Debugger for CodeLite"
-msgstr "CodeLite 用の LLDB デバッガー"
-
-#: LLDBDebugger/LLDBPlugin.cpp:282
-msgid "LLDB Settings..."
-msgstr "LLDB の設定..."
-
-#: LLDBDebugger/LLDBPlugin.cpp:304 LiteEditor/cl_editor.cpp:4187
-#: LiteEditor/frame.cpp:1003 Runtime/rc/menu.xrc:623
-msgid "Jump to Caret Line"
-msgstr "キャレットがある行へジャンプ"
-
-#: LLDBDebugger/LLDBPlugin.cpp:307 LiteEditor/cl_editor.cpp:4186
-#: LiteEditor/frame.cpp:1002 Runtime/rc/menu.xrc:626
-msgid "Run to Caret Line"
-msgstr "キャレットがある行まで実行"
-
-#: LLDBDebugger/LLDBPlugin.cpp:324 LiteEditor/cl_editor.cpp:4178
-#: LiteEditor/new_quick_watch_dlg.cpp:273
-msgid "Add Watch"
-msgstr "ウォッチを追加"
-
-#: LLDBDebugger/LLDBPlugin.cpp:389
-msgid "Could not locate project: "
-msgstr "プロジェクトが見つかりませんでした: "
-
-#: LLDBDebugger/LLDBPlugin.cpp:403
-msgid "Could not locate the requested build configuration"
-msgstr "要求されたビルド構成が見つかりませんでした"
-
-#: LLDBDebugger/LLDBPlugin.cpp:465 LLDBDebugger/LLDBPlugin.cpp:1182
-msgid "Failed to start terminal for debugger"
-msgstr "デバッガー用の端末を開始できませんでした"
-
-#: LLDBDebugger/LLDBPlugin.cpp:518 LLDBDebugger/LLDBPlugin.cpp:1102
-#: LLDBDebugger/LLDBPlugin.cpp:1149 LLDBDebugger/LLDBPlugin.cpp:1239
-msgid "Could not connect to codelite-lldb at '"
-msgstr "codelite-lldb に接続できませんでした '"
-
-#: LLDBDebugger/LLDBPlugin.cpp:946
-msgid "LLDB crashed! Terminating debug session"
-msgstr "LLDB がクラッシュしました！デバッグセッションを中断します"
-
-#: LLDBDebugger/LLDBPlugin.cpp:965
-msgid ""
-"A debug session is running\n"
-"Cancel debug session and continue building?"
-msgstr ""
-"デバッグセッションが実行中です\n"
-"ビルドを続行する前に、デバッグセッションをキャンセルしますか？"
-
-#: LLDBDebugger/LLDBPlugin.cpp:1116
-msgid "Debug core file with LLDB is not supported under Windows"
-msgstr "Windows 環境下では、LLDB でコアファイルをデバッグすることはできません"
-
-#: LLDBDebugger/LLDBPlugin.cpp:1164
-msgid "Another debug session is already in progress. Please stop it first"
-msgstr "他のデバッグセッションが既に進行中です。まずそれを停止してください"
-
-#: LLDBDebugger/LLDBPlugin.cpp:1206
-msgid "Attach to process with LLDB is not supported under Windows"
-msgstr "Windows 環境下では、LLDB をプロセスにアタッチすることはできません"
-
-#: LLDBDebugger/LLDBProtocol/LLDBConnector.cpp:507
-msgid "Locally debugging with LLDB on Windows is not supported by LLDB"
-msgstr ""
-"Windows 環境下では、LLDB でローカルプロセスをデバッグすることはできません"
-
-#: LLDBDebugger/LLDBThreadsView.cpp:152
-msgid "Suspend thread"
-msgid_plural "Suspend threads"
-msgstr[0] "スレッドを一時停止"
-
-#: LLDBDebugger/LLDBThreadsView.cpp:153
-msgid "Suspend other threads"
-msgstr "他のスレッドを一時停止"
-
-#: LLDBDebugger/LLDBThreadsView.cpp:155
-msgid "Resume thread"
-msgid_plural "Resume threads"
-msgstr[0] "スレッドを再開"
-
-#: LLDBDebugger/LLDBThreadsView.cpp:156
-msgid "Resume other threads"
-msgstr "他のスレッドを再開"
-
-#: LLDBDebugger/LLDBThreadsView.cpp:159
-msgid "Resume all threads"
-msgstr "全てのスレッドを再開"
-
-#: LLDBDebugger/UI.cpp:33 LLDBDebugger/UI.cpp:572
-#: LiteEditor/ThreadListPanelBase.cpp:37 LiteEditor/listctrlpanelbase.cpp:33
-#: WebTools/WebToolsBase.cpp:533 codelitephp/php-plugin/php_ui.cpp:1237
-#: codelitephp/php-plugin/php_ui.cpp:1264
-msgid "#"
-msgstr "#"
-
-#: LLDBDebugger/UI.cpp:35 LLDBDebugger/UI.cpp:578
-#: LiteEditor/ThreadListPanelBase.cpp:41 LiteEditor/breakpointslistctrl.h:55
-#: LiteEditor/implementparentvirtualfunctionsbase.cpp:67
-#: LiteEditor/listctrlpanelbase.cpp:35 LiteEditor/setters_getters.cpp:46
-#: LiteEditor/wxcrafter.cpp:114
-msgid "Function"
-msgstr "関数"
-
-#: LLDBDebugger/UI.cpp:39 LLDBDebugger/UI.cpp:582
-#: LiteEditor/ThreadListPanelBase.cpp:45 LiteEditor/breakpointslistctrl.h:55
-#: LiteEditor/listctrlpanelbase.cpp:39 LiteEditor/symbols_dialog.cpp:45
-#: MemCheck/memcheckui.cpp:291 Runtime/rc/menu.xrc:160
-#: UnitTestCPP/unittestreport.cpp:102 WebTools/WebToolsBase.cpp:539
-#: WebTools/WebToolsBase.cpp:562 codelitephp/php-plugin/php_ui.cpp:1243
-#: codelitephp/php-plugin/php_ui.cpp:1268
-msgid "Line"
-msgstr "行"
-
-#: LLDBDebugger/UI.cpp:81 LiteEditor/debuggerpane.cpp:53
-#: LiteEditor/debuggerpane.cpp:113 Runtime/rc/menu.xrc:678
-#: WebTools/WebToolsBase.cpp:543 codelitephp/php-plugin/php.cpp:578
-#: codelitephp/php-plugin/php_ui.cpp:1247
-msgid "Breakpoints"
-msgstr "ブレークポイント"
-
-#: LLDBDebugger/UI.cpp:100 Plugin/console_frame.cpp:47
-#: Plugin/console_frame.cpp:54 WebTools/WebToolsBase.cpp:566
-#: codelitephp/php-plugin/PHPDebugPane.cpp:28
-msgid "Console"
-msgstr "コンソール"
-
-#: LLDBDebugger/UI.cpp:148
-msgid "Send commands to lldb"
-msgstr "LLDB にコマンドを送信"
-
-#: LLDBDebugger/UI.cpp:192
-msgid "File and Line:"
-msgstr "ファイルと行:"
-
-#: LLDBDebugger/UI.cpp:207 LiteEditor/breakpointdlgbase.cpp:154
-msgid "Line number"
-msgstr "行番号"
-
-#: LLDBDebugger/UI.cpp:214
-msgid "Function name:"
-msgstr "関数名:"
-
-#: LLDBDebugger/UI.cpp:347
-msgid "Behaviour"
-msgstr "挙動"
-
-#: LLDBDebugger/UI.cpp:351
-msgid "Raise CodeLite when breakpoint hit"
-msgstr "ブレークポイントがヒットしたら CodeLite を前面に表示"
-
-#: LLDBDebugger/UI.cpp:352
-msgid "When a breakpoint is hit, notify the user raising CodeLite"
-msgstr ""
-"ブレークポイントがヒットしたら CodeLite を前面に押し上げて、ユーザーの注意を"
-"引きます"
-
-#: LLDBDebugger/UI.cpp:354 LiteEditor/debuggersettingsbasedlg.cpp:461
-msgid "Display"
-msgstr "表示"
-
-#: LLDBDebugger/UI.cpp:358
-msgid "Max number of array elements"
-msgstr "配列要素の最大数"
-
-#: LLDBDebugger/UI.cpp:359
-msgid "The maximum number of elements to display in arrays"
-msgstr "表示する配列の最大要素数"
-
-#: LLDBDebugger/UI.cpp:362
-msgid "Backtrace frames"
-msgstr "バックトレースのフレーム"
-
-#: LLDBDebugger/UI.cpp:363
-msgid "Maximum number of frames to show in the callstack window"
-msgstr "コールスタックのウィンドウに表示するフレームの最大数"
-
-#: LLDBDebugger/UI.cpp:366
-msgid "Show thread names"
-msgstr "スレッド名を表示"
-
-#: LLDBDebugger/UI.cpp:367
-msgid ""
-"Whether to show thread names in the thread pane (thread names can be set "
-"with, for example, pthread_setname_np() on Linux)."
-msgstr ""
-"スレッドペインにスレッド名を表示するかどうかです (スレッド名を設定する API に"
-"は Linux の pthread_setname_np() などがあります)。"
-
-#: LLDBDebugger/UI.cpp:371
-msgid "Show filenames only"
-msgstr "ファイル名のみを表示"
-
-#: LLDBDebugger/UI.cpp:373
-msgid ""
-"Whether to show complete file paths or just file names in the callstack, "
-"breakpoint and thread panes"
-msgstr ""
-"コールスタック、ブレークポイント、スレッドペインに、完全なパスを付けたファイ"
-"ル名を表示するかどうかです"
-
-#: LLDBDebugger/UI.cpp:377
-msgid "Types"
-msgstr "型"
-
-#: LLDBDebugger/UI.cpp:393
-msgid ""
-"LLDB has a data formatters subsystem that allows users to define custom "
-"display options for their variables\n"
-"You can set here the types to pass to LLDB"
-msgstr ""
-"LLDB には、変数をどのような書式で表示するのかを自分で定義できる、データ書式整"
-"形のサブシステムがあります\n"
-"ここで LLDB に渡すデータ型を設定できます"
-
-#: LLDBDebugger/UI.cpp:435
-msgid "Learn more about LLDB types"
-msgstr "LLDB のデータ型について詳しく見る"
-
-#: LLDBDebugger/UI.cpp:461
-msgid "Debugger Proxy"
-msgstr "デバッガーのプロキシ"
-
-#: LLDBDebugger/UI.cpp:466
-msgid "Local proxy process (default)"
-msgstr "ローカルのプロキシプロセス (既定)"
-
-#: LLDBDebugger/UI.cpp:467
-msgid "Remote proxy process over TCP/IP"
-msgstr "リモートのプロキシプロセス (TCP/IP)"
-
-#: LLDBDebugger/UI.cpp:469
-msgid "Proxy type"
-msgstr "プロキシの種類"
-
-#: LLDBDebugger/UI.cpp:471
-msgid ""
-"Debugging using LLDB is always done over a proxy process (i.e. codelite-"
-"lldb)\n"
-"Here you can select the type of the proxy to use (local or remote):\n"
-"* Local proxy is used by default to debug local processes (this is the "
-"default)\n"
-"* Remote proxy: use this method to connect to a remote codelite-lldb proxy "
-"server over TCP/IP"
-msgstr ""
-"LLDB でのデバッグは、常にプロキシプロセス (codelite-lldb) を経由して行われま"
-"す\n"
-"ここでは、使用するプロキシの種類を選択できます (ローカル、またはリモート)\n"
-"* ローカルプロキシは、ローカルプロセスのデバッグに使います (これが既定です)\n"
-"* リモートプロキシ: リモートの codelite-lldb プロキシサーバーに TCP/IP 経由で"
-"接続します"
-
-#: LLDBDebugger/UI.cpp:476
-msgid "Debug Server Path:"
-msgstr "デバッグサーバーへのパス:"
-
-#: LLDBDebugger/UI.cpp:480
-msgid ""
-"The path to lldb's lldb-server.\n"
-"This is a mandatory field"
-msgstr "LLDB の lldb-server へのパスです (必須)"
-
-#: LLDBDebugger/UI.cpp:482
-msgid "Remote proxy settings"
-msgstr "リモートプロキシの設定"
-
-#: LLDBDebugger/UI.cpp:486
-msgid "127.0.0.1"
-msgstr "127.0.0.1"
-
-#: LLDBDebugger/UI.cpp:486 LiteEditor/listctrlpanelbase.cpp:41
-msgid "Address"
-msgstr "アドレス"
-
-#: LLDBDebugger/UI.cpp:487
-msgid ""
-"The IP address on which the remote proxy server is accepting connections"
-msgstr "接続を待機しているリモートプロキシサーバーの IP アドレス"
-
-#: LLDBDebugger/UI.cpp:489
-msgid "Port"
-msgstr "ポート"
-
-#: LLDBDebugger/UI.cpp:490
-msgid ""
-"The port number on which the remote proxy server is accepting connections"
-msgstr "リモートのプロキシサーバーが接続を待機しているポート番号です"
-
-#: LLDBDebugger/UI.cpp:576
-msgid "Stop Reason"
-msgstr "停止理由"
-
-#: LLDBDebugger/UI.cpp:615
-msgid ""
-"You are debugging on a remote machine. In order for codelite\n"
-"to be able to load files into the editor, codelite needs to map the folders "
-"on\n"
-"your local machine to the folders on the remote machine"
-msgstr ""
-"リモートマシン上でデバッグしています。ファイルをエディターで開くには\n"
-"ローカルマシンとリモートマシンのフォルダーを対応付けてください"
-
-#: LLDBDebugger/UI.cpp:632
-msgid "Local Folder:"
-msgstr "ローカルフォルダー:"
-
-#: LLDBDebugger/UI.cpp:639
-msgid "Local Folder"
-msgstr "ローカルフォルダー"
-
-#: LLDBDebugger/UI.cpp:645
-msgid "Remote Folder:"
-msgstr "リモートフォルダー:"
-
-#: LLDBDebugger/UI.cpp:650
-msgid "Remote Folder"
-msgstr "リモートフォルダー"
-
-#: LLDBDebugger/UI.h:184
-msgid "LLDB Settings"
-msgstr "LLDB の設定"
-
-#: LLDBDebugger/UI.h:226
-msgid "Folder Mapping"
-msgstr "フォルダーの対応付け"
-
 #: LanguageServer/LSPOutlineViewDlg.cpp:41 Outline/outline_tab.cpp:75
 msgid "Language Server is still not ready... "
 msgstr "言語サーバーの準備がまだ終わってません... "
@@ -5155,7 +4860,7 @@ msgstr "(Esc キーで閉じます)"
 msgid "Restarting Language Servers..."
 msgstr "言語サーバーを再起動しています..."
 
-#: LanguageServer/LanguageServerCluster.cpp:665 LiteEditor/cl_editor.cpp:3456
+#: LanguageServer/LanguageServerCluster.cpp:665 LiteEditor/cl_editor.cpp:3459
 #: Plugin/CompileCommandsGenerator.cpp:52 cscope/cscopetab.cpp:63
 #: cscope/cscopetab.cpp:144
 msgid "Ready"
@@ -5198,6 +4903,26 @@ msgstr "追加..."
 msgid "Add new Language Server"
 msgstr "新しい言語サーバーを追加"
 
+#: LanguageServer/UI.cpp:74 LiteEditor/compiler_pages.cpp:434
+#: LiteEditor/compiler_pages.cpp:475 LiteEditor/compiler_pages.cpp:519
+#: LiteEditor/compiler_pages.cpp:556 LiteEditor/compiler_pages.cpp:615
+#: LiteEditor/fileview.cpp:2668 LiteEditor/project_settings_base_dlg.cpp:1189
+#: LiteEditor/simpletablebase.cpp:55 Plugin/clFileSystemWorkspaceDlgBase.cpp:46
+#: Plugin/clFileSystemWorkspaceDlgBase.cpp:459 Plugin/clRemoteDirCtrl.cpp:276
+#: Plugin/clTreeCtrlPanel.cpp:105 Plugin/clTreeCtrlPanel.cpp:157
+#: QmakePlugin/qmakesettingsdlg.cpp:102 Runtime/rc/menu.xrc:893
+#: Runtime/rc/menu.xrc:928 Runtime/rc/menu.xrc:1092 Runtime/rc/menu.xrc:1134
+#: SFTP/UI.cpp:241 Subversion2/subversion2.cpp:280
+#: Subversion2/subversion_view.cpp:456
+#: abbreviation/abbreviationssettingsbase.cpp:47
+#: codelitephp/php-plugin/PHPDebugPane.cpp:33
+#: codelitephp/php-plugin/php_workspace_view.cpp:300
+#: codelitephp/php-plugin/php_workspace_view.cpp:390
+#: wxcrafter/allocator_mgr.cpp:1036 wxcrafter/wxcrafter.cpp:556
+#: wxcrafter/wxcrafter.cpp:733 wxcrafter/wxcrafter.cpp:1810
+msgid "Delete"
+msgstr "削除"
+
 #: LanguageServer/UI.cpp:142 LiteEditor/breakpointslistctrl.h:55
 #: WordCompletion/UI.cpp:38
 msgid "Enabled"
@@ -5214,12 +4939,6 @@ msgstr "リモートサーバー"
 #: LanguageServer/UI.cpp:181
 msgid "The language server executable"
 msgstr "言語サーバーの実行ファイル"
-
-#: LanguageServer/UI.cpp:242 LiteEditor/project_settings_dlg.cpp:108
-#: LiteEditor/workspacesettingsbase.cpp:35
-#: Plugin/clFileSystemWorkspaceDlgBase.cpp:597
-msgid "Environment"
-msgstr "環境"
 
 #: LanguageServer/UI.cpp:288
 msgid "Initialization Options"
@@ -5364,6 +5083,52 @@ msgstr "既定 (&D)"
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
+#: LiteEditor/AddOptionsDialogBase.h:49 LiteEditor/CompilerMainPage.cpp:623
+#: LiteEditor/EditorOptionsGeneralEdit.cpp:10 LiteEditor/frame.cpp:1009
+#: LiteEditor/free_text_dialog.h:57 LiteEditor/options_dlg2.cpp:86
+#: LiteEditor/wxcrafter.cpp:375 Plugin/clFileSystemWorkspaceDlgBase.cpp:419
+#: Plugin/clFileSystemWorkspaceDlgBase.cpp:454 Runtime/rc/menu.xrc:1088
+msgid "Edit"
+msgstr "編集"
+
+#: LiteEditor/BreakpointsView.cpp:98 LiteEditor/cl_editor.cpp:3995
+msgid "Breakpoint successfully deleted"
+msgstr "ブレークポイントを正常に削除しました"
+
+#: LiteEditor/BreakpointsView.cpp:108
+msgid "All Breakpoints deleted"
+msgstr "全てのブレークポイントを削除しました"
+
+#: LiteEditor/BreakpointsView.cpp:120
+msgid "Pending Breakpoints reapplied"
+msgstr "保留ブレークポイントを再適用しました"
+
+#: LiteEditor/BreakpointsView.cpp:178
+msgid "Temp. "
+msgstr "一時的な"
+
+#: LiteEditor/BreakpointsView.cpp:180 LiteEditor/breakpointdlgbase.cpp:133
+#: LiteEditor/breakpointpropertiesdlg.cpp:237
+msgid "Breakpoint"
+msgstr "ブレークポイント"
+
+#: LiteEditor/BreakpointsView.cpp:180 LiteEditor/breakpointdlgbase.cpp:248
+#: LiteEditor/breakpointpropertiesdlg.cpp:110
+msgid "Watchpoint"
+msgstr "ウォッチポイント"
+
+#: LiteEditor/BreakpointsView.cpp:185
+msgid "disabled"
+msgstr "無効"
+
+#: LiteEditor/BreakpointsView.cpp:217
+msgid "Edit Breakpoint..."
+msgstr "ブレークポイントを編集..."
+
+#: LiteEditor/BreakpointsView.cpp:218
+msgid "Delete Breakpoint"
+msgstr "ブレークポイントを削除"
+
 #: LiteEditor/BuildOrderDialog.cpp:12
 msgid "Edit build order for project '"
 msgstr "プロジェクトのビルド順を編集 '"
@@ -5448,6 +5213,15 @@ msgstr "行番号のインデックス"
 #: LiteEditor/CompilerMainPage.cpp:57 LiteEditor/CompilerMainPage.cpp:67
 msgid "Column index"
 msgstr "列のインデックス"
+
+#: LiteEditor/CompilerMainPage.cpp:78
+#: LiteEditor/debuggersettingsbasedlg.cpp:861 LiteEditor/localstable.cpp:55
+#: LiteEditor/simpletable.cpp:116 Plugin/macrosdlg.cpp:68
+#: codelitephp/php-plugin/localsview.cpp:38 wxcrafter/check_box_wrapper.cpp:14
+#: wxcrafter/dir_picker_ctrl_wrapper.cpp:12
+#: wxcrafter/rich_text_ctrl_wrapper.cpp:61 wxcrafter/slider_wrapper.cpp:10
+msgid "Value"
+msgstr "値"
 
 #: LiteEditor/CompilerMainPage.cpp:83 LiteEditor/CompilerMainPage.cpp:89
 msgid "Switch"
@@ -5787,9 +5561,22 @@ msgstr "行間のスペース"
 msgid "Select working directory:"
 msgstr "作業ディレクトリを選択:"
 
+#: LiteEditor/ThreadListPanelBase.cpp:37 LiteEditor/listctrlpanelbase.cpp:33
+#: WebTools/WebToolsBase.cpp:533 codelitephp/php-plugin/php_ui.cpp:1237
+#: codelitephp/php-plugin/php_ui.cpp:1264
+msgid "#"
+msgstr "#"
+
 #: LiteEditor/ThreadListPanelBase.cpp:39
 msgid "Active?"
 msgstr "アクティブ"
+
+#: LiteEditor/ThreadListPanelBase.cpp:41 LiteEditor/breakpointslistctrl.h:55
+#: LiteEditor/implementparentvirtualfunctionsbase.cpp:67
+#: LiteEditor/listctrlpanelbase.cpp:35 LiteEditor/setters_getters.cpp:46
+#: LiteEditor/wxcrafter.cpp:114
+msgid "Function"
+msgstr "関数"
 
 #: LiteEditor/WelcomePage.cpp:90
 msgid "Select file to open"
@@ -5904,8 +5691,8 @@ msgstr "この名前のコンパイラーが既に存在します"
 #: LiteEditor/advanced_settings.cpp:106 LiteEditor/edit_configuration.cpp:179
 #: LiteEditor/fileview.cpp:855 LiteEditor/fileview.cpp:894
 #: LiteEditor/fileview.cpp:1132 LiteEditor/mainbook.cpp:287
-#: LiteEditor/manager.cpp:2857 LiteEditor/manager.cpp:2908
-#: LiteEditor/manager.cpp:2946 LiteEditor/syntaxhighlightdlg.cpp:655
+#: LiteEditor/manager.cpp:2846 LiteEditor/manager.cpp:2897
+#: LiteEditor/manager.cpp:2935 LiteEditor/syntaxhighlightdlg.cpp:657
 #: Plugin/EnvironmentVariablesDlg.cpp:122 Plugin/clTreeCtrlPanel.cpp:598
 #: Subversion2/subversion_view.cpp:711 Subversion2/subversion_view.cpp:1301
 #: Subversion2/svn_checkout_dialog.cpp:84
@@ -5999,40 +5786,6 @@ msgstr "下へ移動"
 msgid "Batch Build"
 msgstr "一括ビルド"
 
-#: LiteEditor/breakpointdlg.cpp:93 LiteEditor/cl_editor.cpp:3992
-msgid "Breakpoint successfully deleted"
-msgstr "ブレークポイントを正常に削除しました"
-
-#: LiteEditor/breakpointdlg.cpp:103
-msgid "All Breakpoints deleted"
-msgstr "全てのブレークポイントを削除しました"
-
-#: LiteEditor/breakpointdlg.cpp:115
-msgid "Pending Breakpoints reapplied"
-msgstr "保留ブレークポイントを再適用しました"
-
-#: LiteEditor/breakpointdlg.cpp:173
-msgid "Temp. "
-msgstr "一時的な"
-
-#: LiteEditor/breakpointdlg.cpp:175 LiteEditor/breakpointdlgbase.cpp:133
-#: LiteEditor/breakpointpropertiesdlg.cpp:237
-msgid "Breakpoint"
-msgstr "ブレークポイント"
-
-#: LiteEditor/breakpointdlg.cpp:175 LiteEditor/breakpointdlgbase.cpp:248
-#: LiteEditor/breakpointpropertiesdlg.cpp:110
-msgid "Watchpoint"
-msgstr "ウォッチポイント"
-
-#: LiteEditor/breakpointdlg.cpp:180
-msgid "disabled"
-msgstr "無効"
-
-#: LiteEditor/breakpointdlg.cpp:212
-msgid "Edit Breakpoint..."
-msgstr "ブレークポイントを編集..."
-
 #: LiteEditor/breakpointdlgbase.cpp:38 Plugin/sftp_ui.cpp:49
 msgid "&Add"
 msgstr "追加 (&A)"
@@ -6099,6 +5852,10 @@ msgstr "ブレークポイントの種類を選択:"
 #: LiteEditor/breakpointdlgbase.cpp:138
 msgid "Break by line, function or memory address:"
 msgstr "行、関数、メモリアドレスによるブレークポイント:"
+
+#: LiteEditor/breakpointdlgbase.cpp:154
+msgid "Line number"
+msgstr "行番号"
 
 #: LiteEditor/breakpointdlgbase.cpp:162
 msgid ""
@@ -6410,7 +6167,7 @@ msgstr "ブレークポイント、またはウォッチポイントを作成"
 msgid "Watchpoint successfully added"
 msgstr "ウォッチポイントを正常に追加しました"
 
-#: LiteEditor/breakpointsmgr.cpp:140 LiteEditor/cl_editor.cpp:3964
+#: LiteEditor/breakpointsmgr.cpp:140 LiteEditor/cl_editor.cpp:3967
 msgid "Breakpoint successfully added"
 msgstr "ブレークポイントを正常に追加しました"
 
@@ -6561,31 +6318,31 @@ msgstr "箱状の注釈"
 msgid "Open Workspace Configuration Manager..."
 msgstr "ワークスペースの構成マネージャーを開く..."
 
-#: LiteEditor/cl_editor.cpp:314
+#: LiteEditor/cl_editor.cpp:315
 msgid "has the read-only attribute set"
 msgstr "には読み取り専用の属性が設定されています"
 
-#: LiteEditor/cl_editor.cpp:315
+#: LiteEditor/cl_editor.cpp:316
 msgid "Would you like CodeLite to try and remove it?"
 msgstr "CodeLite 側で削除を試みますか？"
 
-#: LiteEditor/cl_editor.cpp:319
+#: LiteEditor/cl_editor.cpp:320
 msgid "Failed to open file"
 msgstr "ファイル"
 
-#: LiteEditor/cl_editor.cpp:320
+#: LiteEditor/cl_editor.cpp:321
 msgid "for write"
 msgstr "を書き込み用に開けませんでした"
 
-#: LiteEditor/cl_editor.cpp:1677
+#: LiteEditor/cl_editor.cpp:1680
 msgid "Save As"
 msgstr "名前を付けて保存"
 
-#: LiteEditor/cl_editor.cpp:1691
+#: LiteEditor/cl_editor.cpp:1694
 msgid "Failed to save file"
 msgstr "ファイルの保存に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:1760
+#: LiteEditor/cl_editor.cpp:1763
 #, c-format
 msgid ""
 "Unable to create intermediate file\n"
@@ -6597,7 +6354,7 @@ msgstr ""
 "を書き込み用に作成できませんでした。\n"
 "ファイルが既に存在します！"
 
-#: LiteEditor/cl_editor.cpp:1769
+#: LiteEditor/cl_editor.cpp:1772
 #, c-format
 msgid ""
 "Failed to open file\n"
@@ -6608,15 +6365,15 @@ msgstr ""
 "'%s'\n"
 "を開けませんでした"
 
-#: LiteEditor/cl_editor.cpp:1777
+#: LiteEditor/cl_editor.cpp:1780
 msgid "Save file failed!"
 msgstr "ファイルの保存に失敗しました！"
 
-#: LiteEditor/cl_editor.cpp:1778
+#: LiteEditor/cl_editor.cpp:1781
 msgid "Could not convert the file to the requested encoding"
 msgstr "ファイルを要求されたエンコーディングに変換できませんでした"
 
-#: LiteEditor/cl_editor.cpp:1788
+#: LiteEditor/cl_editor.cpp:1791
 msgid ""
 "File text conversion failed!\n"
 "Check your file font encoding from\n"
@@ -6627,11 +6384,11 @@ msgstr ""
 "[設定] | [個人設定] | [その他] | [ロケール]\n"
 "で確認してください"
 
-#: LiteEditor/cl_editor.cpp:1814
+#: LiteEditor/cl_editor.cpp:1817
 msgid "The file\n"
 msgstr "ファイル\n"
 
-#: LiteEditor/cl_editor.cpp:1815
+#: LiteEditor/cl_editor.cpp:1818
 msgid ""
 "\n"
 "is a read only file, continue?"
@@ -6639,136 +6396,150 @@ msgstr ""
 "\n"
 "は読み取り専用です。それでもよろしいですか？"
 
-#: LiteEditor/cl_editor.cpp:1828 LiteEditor/cl_editor.cpp:1837
+#: LiteEditor/cl_editor.cpp:1831 LiteEditor/cl_editor.cpp:1840
 msgid "Failed to override read-only file"
 msgstr "読み取り専用のファイルを上書きできませんでした"
 
-#: LiteEditor/cl_editor.cpp:2457 LiteEditor/cl_editor.cpp:2491
+#: LiteEditor/cl_editor.cpp:2460 LiteEditor/cl_editor.cpp:2494
 msgid "Can not find the string '"
 msgstr "文字列を見つけられません '"
 
-#: LiteEditor/cl_editor.cpp:3180
+#: LiteEditor/cl_editor.cpp:3183
 #, c-format
 msgid "Type %i bookmark"
 msgstr "種類 %i のブックマーク"
 
-#: LiteEditor/cl_editor.cpp:3199 LiteEditor/editorsettingsbookmarkspanel.cpp:37
+#: LiteEditor/cl_editor.cpp:3202 LiteEditor/editorsettingsbookmarkspanel.cpp:37
 #: LiteEditor/options_dlg2.cpp:93 Plugin/clEditorBar.cpp:135
 #: Runtime/rc/menu.xrc:446
 msgid "Bookmarks"
 msgstr "ブックマーク"
 
-#: LiteEditor/cl_editor.cpp:3415
+#: LiteEditor/cl_editor.cpp:3418
 msgid "Loading file..."
 msgstr "ファイルを読み込んでいます..."
 
-#: LiteEditor/cl_editor.cpp:3868 SFTP/SFTPTreeView.cpp:84
+#: LiteEditor/cl_editor.cpp:3871 SFTP/SFTPTreeView.cpp:84
 msgid "Add Bookmark"
 msgstr "ブックマークを追加"
 
-#: LiteEditor/cl_editor.cpp:3868
+#: LiteEditor/cl_editor.cpp:3871
 msgid "Remove Bookmark"
 msgstr "ブックマークを削除"
 
-#: LiteEditor/cl_editor.cpp:3869 LiteEditor/frame.cpp:1072
+#: LiteEditor/cl_editor.cpp:3872 LiteEditor/frame.cpp:1072
 msgid "Remove All Bookmarks"
 msgstr "全てのブックマークを削除"
 
-#: LiteEditor/cl_editor.cpp:3874
+#: LiteEditor/cl_editor.cpp:3877
 msgid "Add Breakpoint"
 msgstr "ブレークポイントを追加"
 
-#: LiteEditor/cl_editor.cpp:3875
+#: LiteEditor/cl_editor.cpp:3878
 msgid "Add a Temporary Breakpoint"
 msgstr "一時的なブレークポイントを追加"
 
-#: LiteEditor/cl_editor.cpp:3876
+#: LiteEditor/cl_editor.cpp:3879
 msgid "Add a Disabled Breakpoint"
 msgstr "無効化したブレークポイントを追加"
 
-#: LiteEditor/cl_editor.cpp:3877
+#: LiteEditor/cl_editor.cpp:3880
 msgid "Add a Conditional Breakpoint.."
 msgstr "条件付きブレークポイントを追加.."
 
-#: LiteEditor/cl_editor.cpp:3892
+#: LiteEditor/cl_editor.cpp:3895
 msgid "Remove Breakpoint"
 msgstr "ブレークポイントを削除"
 
-#: LiteEditor/cl_editor.cpp:3893
+#: LiteEditor/cl_editor.cpp:3896
 msgid "Ignore Breakpoint"
 msgstr "ブレークポイントを無視"
 
-#: LiteEditor/cl_editor.cpp:3899
+#: LiteEditor/cl_editor.cpp:3902
 msgid "Disable Breakpoint"
 msgstr "ブレークポイントを無効化"
 
-#: LiteEditor/cl_editor.cpp:3899
+#: LiteEditor/cl_editor.cpp:3902
 msgid "Enable Breakpoint"
 msgstr "ブレークポイントを有効化"
 
-#: LiteEditor/cl_editor.cpp:3900
+#: LiteEditor/cl_editor.cpp:3903
 msgid "Edit Breakpoint"
 msgstr "ブレークポイントを編集"
 
-#: LiteEditor/cl_editor.cpp:3905
+#: LiteEditor/cl_editor.cpp:3908
 msgid "Run to here"
 msgstr "ここまで実行"
 
-#: LiteEditor/cl_editor.cpp:3924
+#: LiteEditor/cl_editor.cpp:3927
 msgid "Create Conditional Breakpoint"
 msgstr "条件付きブレークポイントを作成"
 
-#: LiteEditor/cl_editor.cpp:3924
+#: LiteEditor/cl_editor.cpp:3927
 msgid "Enter the condition statement"
 msgstr "条件文を入力"
 
-#: LiteEditor/cl_editor.cpp:3959
+#: LiteEditor/cl_editor.cpp:3962
 msgid "Failed to insert breakpoint"
 msgstr "ブレークポイントの挿入に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:3966
+#: LiteEditor/cl_editor.cpp:3969
 msgid "Temporary "
 msgstr "一時的な"
 
-#: LiteEditor/cl_editor.cpp:3968
+#: LiteEditor/cl_editor.cpp:3971
 msgid "Disabled "
 msgstr "無効化した"
 
-#: LiteEditor/cl_editor.cpp:3970
+#: LiteEditor/cl_editor.cpp:3973
 msgid "Conditional "
 msgstr "条件付き"
 
-#: LiteEditor/cl_editor.cpp:3997
+#: LiteEditor/cl_editor.cpp:4000
 msgid "No breakpoint found on this line"
 msgstr "この行にブレークポイントは見つかりません"
 
-#: LiteEditor/cl_editor.cpp:4000
+#: LiteEditor/cl_editor.cpp:4003
 msgid "Breakpoint deletion failed"
 msgstr "ブレークポイントの削除に失敗しました"
 
-#: LiteEditor/cl_editor.cpp:4003
+#: LiteEditor/cl_editor.cpp:4006
 msgid "Breakpoint not deleted"
 msgstr "ブレークポイントは削除されませんでした"
 
-#: LiteEditor/cl_editor.cpp:4175
+#: LiteEditor/cl_editor.cpp:4195
 msgid "More Watches"
 msgstr "他のウォッチ"
 
-#: LiteEditor/cl_editor.cpp:5147
+#: LiteEditor/cl_editor.cpp:4198 LiteEditor/new_quick_watch_dlg.cpp:273
+msgid "Add Watch"
+msgstr "ウォッチを追加"
+
+#: LiteEditor/cl_editor.cpp:4206 LiteEditor/frame.cpp:1002
+#: Runtime/rc/menu.xrc:626
+msgid "Run to Caret Line"
+msgstr "キャレットがある行まで実行"
+
+#: LiteEditor/cl_editor.cpp:4207 LiteEditor/frame.cpp:1003
+#: Runtime/rc/menu.xrc:623
+msgid "Jump to Caret Line"
+msgstr "キャレットがある行へジャンプ"
+
+#: LiteEditor/cl_editor.cpp:5167
 msgid "Watch"
 msgstr "ウォッチ"
 
-#: LiteEditor/cl_editor.cpp:5147
+#: LiteEditor/cl_editor.cpp:5167
 msgid "as"
 msgstr "- 型"
 
-#: LiteEditor/cl_editor.cpp:5951 LiteEditor/cl_editor.cpp:5992
+#: LiteEditor/cl_editor.cpp:5971 LiteEditor/cl_editor.cpp:6012
 #: Plugin/clPluginsFindBar.cpp:666 Plugin/clPluginsFindBar.cpp:890
 #: Plugin/clPluginsFindBar.cpp:1029
 msgid " matches"
 msgstr " 件の一致"
 
-#: LiteEditor/cl_editor.cpp:5951 LiteEditor/cl_editor.cpp:5992
+#: LiteEditor/cl_editor.cpp:5971 LiteEditor/cl_editor.cpp:6012
 #: Plugin/clPluginsFindBar.cpp:666
 msgid "Found and selected "
 msgstr "発見箇所を選択しました: "
@@ -7352,10 +7123,6 @@ msgstr "ウォッチ"
 msgid "Call Stack"
 msgstr "コールスタック"
 
-#: LiteEditor/debuggerpane.cpp:54 Runtime/rc/menu.xrc:666
-msgid "Threads"
-msgstr "スレッド"
-
 #: LiteEditor/debuggerpane.cpp:56
 msgid "Ascii Viewer"
 msgstr "ASCII ビューアー"
@@ -7495,6 +7262,10 @@ msgstr ""
 #: LiteEditor/debuggersettingsbasedlg.cpp:453
 msgid "Auto expand items under the cursor"
 msgstr "カーソルを項目に合わせて自動展開"
+
+#: LiteEditor/debuggersettingsbasedlg.cpp:461
+msgid "Display"
+msgstr "表示"
 
 #: LiteEditor/debuggersettingsbasedlg.cpp:473
 msgid "Max string size:"
@@ -8873,15 +8644,16 @@ msgstr "'ファイルから検索' 結果の始まりに到達しました"
 msgid "Search result is no longer valid"
 msgstr "検索結果が古くなっています"
 
-#: LiteEditor/findresultstab.cpp:507 Subversion2/SvnCommitDialog.cpp:313
+#: LiteEditor/findresultstab.cpp:513 Subversion2/SvnCommitDialog.cpp:313
 msgid "Clear History"
 msgstr "履歴を消去"
 
 #: LiteEditor/findusagetab.cpp:242 LiteEditor/findusagetab.cpp:294
+#: Remoty/RemotyWorkspace.cpp:1286
 msgid "Failed to open file: "
 msgstr "ファイルを開けませんでした: "
 
-#: LiteEditor/findusagetab.cpp:285 Remoty/RemotyWorkspace.cpp:535
+#: LiteEditor/findusagetab.cpp:285 Remoty/RemotyWorkspace.cpp:559
 msgid "Failed to download file: "
 msgstr "ファイルのダウンロードに失敗しました: "
 
@@ -9038,6 +8810,10 @@ msgstr "全てのブレークポイントを無効化"
 #: LiteEditor/frame.cpp:1006
 msgid "Enable All Breakpoints"
 msgstr "全てのブレークポイントを有効化"
+
+#: LiteEditor/frame.cpp:1007 Runtime/rc/menu.xrc:907
+msgid "Delete All Breakpoints"
+msgstr "全てのブレークポイントを削除"
 
 #: LiteEditor/frame.cpp:1008
 msgid "Quick Debug..."
@@ -9211,7 +8987,7 @@ msgstr "プラグインを管理..."
 msgid "Plugins"
 msgstr "プラグイン"
 
-#: LiteEditor/frame.cpp:1059 Plugin/clRemoteFinderHelper.cpp:104
+#: LiteEditor/frame.cpp:1059 Plugin/clRemoteFinderHelper.cpp:105
 #: Plugin/clStrings.h:4 Plugin/editor_config.cpp:451
 #: Plugin/editor_config.cpp:488 SFTP/SFTPStatusPage.cpp:195 SFTP/UI.cpp:82
 msgid "Search"
@@ -9510,7 +9286,7 @@ msgid "Close Workspace"
 msgstr "ワークスペースを閉じる"
 
 #: LiteEditor/frame.cpp:1131 Runtime/rc/menu.xrc:1004
-#: codelitephp/PHPParser/php_workspace.cpp:488
+#: codelitephp/PHPParser/php_workspace.cpp:490
 msgid "Reload Workspace"
 msgstr "ワークスペースを再読み込み"
 
@@ -9803,14 +9579,14 @@ msgstr ""
 msgid "Not now"
 msgstr "今はしない"
 
-#: LiteEditor/frame.cpp:4629 Remoty/RemotyWorkspaceView.cpp:151
+#: LiteEditor/frame.cpp:4629 Remoty/RemotyWorkspaceView.cpp:149
 #: codelitephp/php-plugin/php_workspace_view.cpp:321
 msgid "Reload workspace"
 msgstr "ワークスペースを再読み込み"
 
 #: LiteEditor/frame.cpp:4935
-msgid "A CodeLite restart is needed. Would you like to restart it now?"
-msgstr "CodeLite の再起動が必要です。今すぐ再起動しますか？"
+msgid "Reload CodeLite?"
+msgstr "CodeLite を再読み込みしますか？"
 
 #: LiteEditor/frame.cpp:5161 LiteEditor/frame.cpp:5179
 msgid "Perspective"
@@ -9931,6 +9707,10 @@ msgid "If you wish to import files without extensions, tick this option"
 msgstr ""
 "拡張子がないファイルもインポートするには、このオプションにチェックを入れます"
 
+#: LiteEditor/listctrlpanelbase.cpp:41
+msgid "Address"
+msgstr "アドレス"
+
 #: LiteEditor/localstable.cpp:366
 #, c-format
 msgid "Current scope is now set to: \"%s\", depth: %d\n"
@@ -10012,32 +9792,32 @@ msgstr "外観を保存..."
 msgid "Welcome!"
 msgstr "ようこそ！"
 
-#: LiteEditor/manager.cpp:651
+#: LiteEditor/manager.cpp:640
 msgid "' already exists"
 msgstr "' が既に存在します"
 
-#: LiteEditor/manager.cpp:651
+#: LiteEditor/manager.cpp:640
 msgid "A file with similar name '"
 msgstr "似た名前を持つファイル '"
 
-#: LiteEditor/manager.cpp:652
+#: LiteEditor/manager.cpp:641
 msgid "Overwrite it?"
 msgstr "上書きしますか？"
 
-#: LiteEditor/manager.cpp:653 MacBundler/macbundler.cpp:400
+#: LiteEditor/manager.cpp:642 MacBundler/macbundler.cpp:400
 #: cppchecker/cppchecker.cpp:499 cppchecker/cppchecker.cpp:642
 msgid "Warning"
 msgstr "警告"
 
-#: LiteEditor/manager.cpp:738
+#: LiteEditor/manager.cpp:727
 msgid "Importing IDE solution/workspace..."
 msgstr "IDE ソリューション/ワークスペースをインポートしています..."
 
-#: LiteEditor/manager.cpp:753
+#: LiteEditor/manager.cpp:742
 msgid "Solution/workspace unsupported"
 msgstr "サポートされていないソリューション/ワークスペースです"
 
-#: LiteEditor/manager.cpp:1176
+#: LiteEditor/manager.cpp:1165
 #, c-format
 msgid ""
 "There is already a file in this folder with a name:\n"
@@ -10048,7 +9828,7 @@ msgstr ""
 "%s\n"
 "が存在し、大文字小文字以外の違いがありません"
 
-#: LiteEditor/manager.cpp:1180
+#: LiteEditor/manager.cpp:1169
 msgid ""
 "\n"
 "This won't be a problem on Linux, but it may be on other, case-insensitive "
@@ -10058,7 +9838,7 @@ msgstr ""
 "Linux 環境では大丈夫ですが、大文字小文字を区別しないプラットフォームだと問題"
 "が起こります"
 
-#: LiteEditor/manager.cpp:1181
+#: LiteEditor/manager.cpp:1170
 msgid ""
 "\n"
 "\n"
@@ -10068,24 +9848,24 @@ msgstr ""
 "\n"
 "それでもファイルを追加しますか？"
 
-#: LiteEditor/manager.cpp:1182
+#: LiteEditor/manager.cpp:1171
 msgid "Possible name-clash"
 msgstr "名前衝突の可能性あり"
 
-#: LiteEditor/manager.cpp:1218
+#: LiteEditor/manager.cpp:1207
 #, c-format
 msgid "%u file(s) not added, probably due to a name-clash"
 msgstr "%u 個のファイルは追加されませんでした。恐らく名前が衝突しています"
 
-#: LiteEditor/manager.cpp:1821 MemCheck/memcheck.cpp:327
+#: LiteEditor/manager.cpp:1810 MemCheck/memcheck.cpp:327
 msgid "Working directory is set to: "
 msgstr "作業ディレクトリを設定: "
 
-#: LiteEditor/manager.cpp:1845
+#: LiteEditor/manager.cpp:1834
 msgid "Program exited\n"
 msgstr "プログラムが終了しました\n"
 
-#: LiteEditor/manager.cpp:1999
+#: LiteEditor/manager.cpp:1988
 msgid ""
 "Failed to locate the configured default terminal application required by "
 "CodeLite, please install it or check your configuration!"
@@ -10093,15 +9873,15 @@ msgstr ""
 "既定の端末アプリケーションが構成されていないか、見つかりません。端末をインス"
 "トールするか、構成を確認してください！"
 
-#: LiteEditor/manager.cpp:2060
+#: LiteEditor/manager.cpp:2049
 msgid "': debugger not loaded\n"
 msgstr "': デバッガーが読み込まれていません\n"
 
-#: LiteEditor/manager.cpp:2060
+#: LiteEditor/manager.cpp:2049
 msgid "Failed to launch debugger '"
 msgstr "デバッガーの起動に失敗しました '"
 
-#: LiteEditor/manager.cpp:2061
+#: LiteEditor/manager.cpp:2050
 msgid ""
 "Make sure that you have an open workspace and that the active project is of "
 "type 'Executable'"
@@ -10109,35 +9889,35 @@ msgstr ""
 "ワークスペースを開いており、アクティブなプロジェクトの種類が '実行ファイル' "
 "になっていることを確認してください"
 
-#: LiteEditor/manager.cpp:2109
+#: LiteEditor/manager.cpp:2098
 msgid "Could not find project configuration!\n"
 msgstr "プロジェクトの構成が見つかりませんでした！\n"
 
-#: LiteEditor/manager.cpp:2110
+#: LiteEditor/manager.cpp:2099
 msgid "Make sure that everything is set properly in your project settings"
 msgstr "プロジェクトが正しく設定されていることを確認してください"
 
-#: LiteEditor/manager.cpp:2189
+#: LiteEditor/manager.cpp:2178
 msgid "Could not launch terminal for debugger"
 msgstr "デバッガー用の端末を起動できませんでした"
 
-#: LiteEditor/manager.cpp:2227 LiteEditor/manager.cpp:2238
+#: LiteEditor/manager.cpp:2216 LiteEditor/manager.cpp:2227
 msgid "Failed to initialize debugger: "
 msgstr "デバッガーの初期化に失敗しました: "
 
-#: LiteEditor/manager.cpp:2271
+#: LiteEditor/manager.cpp:2260
 msgid "Debug session started successfully!\n"
 msgstr "デバッグセッションを正常に開始しました！\n"
 
-#: LiteEditor/manager.cpp:2544 LiteEditor/manager.cpp:2547
+#: LiteEditor/manager.cpp:2533 LiteEditor/manager.cpp:2536
 msgid "Program Received signal "
 msgstr "プログラムがシグナルを受信しました "
 
-#: LiteEditor/manager.cpp:2548
+#: LiteEditor/manager.cpp:2537
 msgid "Stack trace is available in the 'Call Stack' tab\n"
 msgstr "スタックトレースは 'コールスタック' タブで確認できます\n"
 
-#: LiteEditor/manager.cpp:2573
+#: LiteEditor/manager.cpp:2562
 msgid ""
 "Assertion failed!\n"
 "Stack trace is available in the 'Call Stack' tab\n"
@@ -10145,7 +9925,7 @@ msgstr ""
 "アサートが失敗しました！\n"
 "スタックトレースは 'コールスタック' タブで確認できます\n"
 
-#: LiteEditor/manager.cpp:2604
+#: LiteEditor/manager.cpp:2593
 #, c-format
 msgid ""
 "Debugger exited with the following error string:\n"
@@ -10154,24 +9934,24 @@ msgstr ""
 "デバッガーがエラー文字列で終了しました:\n"
 "%s"
 
-#: LiteEditor/manager.cpp:2623
+#: LiteEditor/manager.cpp:2612
 msgid "Continuing...\n"
 msgstr "続行しています...\n"
 
-#: LiteEditor/manager.cpp:2857 LiteEditor/manager.cpp:2908
-#: LiteEditor/manager.cpp:2946
+#: LiteEditor/manager.cpp:2846 LiteEditor/manager.cpp:2897
+#: LiteEditor/manager.cpp:2935
 msgid "This would terminate the current debug session, continue?"
 msgstr "現在のデバッグセッションを中断します。よろしいですか？"
 
-#: LiteEditor/manager.cpp:2871
+#: LiteEditor/manager.cpp:2860
 msgid "Compile Single File"
 msgstr "単一ファイルをコンパイル"
 
-#: LiteEditor/manager.cpp:2871
+#: LiteEditor/manager.cpp:2860
 msgid "Preprocess File"
 msgstr "ファイルをプリプロセッサーに通す"
 
-#: LiteEditor/manager.cpp:3494
+#: LiteEditor/manager.cpp:3483
 msgid ""
 "Build cancelled. The following compilers referred by the workspace could not "
 "be found:\n"
@@ -10179,15 +9959,15 @@ msgstr ""
 "ビルドをキャンセルしました。ワークスペースが使用しているコンパイラーを見つけ"
 "られませんでした:\n"
 
-#: LiteEditor/manager.cpp:3496
+#: LiteEditor/manager.cpp:3485
 msgid "Please fix your project settings by selecting a valid compiler"
 msgstr "プロジェクトの設定から、有効なコンパイラーを選択してください"
 
-#: LiteEditor/manager.cpp:3497
+#: LiteEditor/manager.cpp:3486
 msgid "Build Aborted"
 msgstr "ビルドを中断しました"
 
-#: LiteEditor/manager.cpp:3525
+#: LiteEditor/manager.cpp:3514
 msgid ""
 "Compilers updated successfully!\n"
 "You can now build your workspace"
@@ -10273,10 +10053,6 @@ msgstr "新しいファイルを追加"
 #: codelitephp/php-plugin/new_php_workspace_dlg.cpp:51
 msgid "select a folder"
 msgstr "フォルダーを選択"
-
-#: LiteEditor/new_quick_watch_dlg.cpp:97 LiteEditor/new_quick_watch_dlg.cpp:158
-msgid "Loading..."
-msgstr "読み込んでいます..."
 
 #: LiteEditor/new_quick_watch_dlg.cpp:274
 msgid "Copy Value to Clipboard"
@@ -11592,6 +11368,10 @@ msgid "Enable Log"
 msgstr "ログを有効化"
 
 #: LiteEditor/simpletable.cpp:147
+msgid "Expression to watch:"
+msgstr "ウォッチする式:"
+
+#: LiteEditor/simpletable.cpp:147
 msgid "New watch"
 msgstr "新しいウォッチ"
 
@@ -11846,19 +11626,19 @@ msgstr "ZIP ファイルからインポート"
 msgid "Import"
 msgstr "インポート"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:268
+#: LiteEditor/syntaxhighlightdlg.cpp:270
 msgid "Applying changes..."
 msgstr "変更を適用しています..."
 
-#: LiteEditor/syntaxhighlightdlg.cpp:634
+#: LiteEditor/syntaxhighlightdlg.cpp:636
 msgid "Export Themes"
 msgstr "テーマをエクスポート"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:634
+#: LiteEditor/syntaxhighlightdlg.cpp:636
 msgid "Select which themes to export:"
 msgstr "エクスポートするテーマを選択:"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:653
+#: LiteEditor/syntaxhighlightdlg.cpp:655
 msgid ""
 "Are you sure you want to restore colours to factory defaults?\n"
 "By choosing 'Yes', you will lose all your local modifications"
@@ -11866,11 +11646,11 @@ msgstr ""
 "初期の色設定に戻しますか？\n"
 "'はい' を選ぶと、今までに変更した設定が全て失われます"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:671
+#: LiteEditor/syntaxhighlightdlg.cpp:673
 msgid "Select theme to import"
 msgstr "インポートするテーマを選択"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:683
+#: LiteEditor/syntaxhighlightdlg.cpp:685
 msgid ""
 "\n"
 "Invalid file"
@@ -11878,24 +11658,24 @@ msgstr ""
 "\n"
 "無効なファイルです"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:683
+#: LiteEditor/syntaxhighlightdlg.cpp:685
 msgid "Failed to import theme file: "
 msgstr "テーマファイルのインポートに失敗しました: "
 
-#: LiteEditor/syntaxhighlightdlg.cpp:689
+#: LiteEditor/syntaxhighlightdlg.cpp:691
 msgid "' imported successfully!"
 msgstr "' を正常にインポートしました！"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:689
+#: LiteEditor/syntaxhighlightdlg.cpp:691
 msgid "Theme : '"
 msgstr "テーマ : '"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:767 git/gitFileDiffDlg.cpp:60
+#: LiteEditor/syntaxhighlightdlg.cpp:769 git/gitFileDiffDlg.cpp:60
 #: wxcrafter/wxguicraft_main_view.cpp:1011
 msgid "Save as"
 msgstr "名前を付けて保存"
 
-#: LiteEditor/syntaxhighlightdlg.cpp:786
+#: LiteEditor/syntaxhighlightdlg.cpp:788
 msgid "Settings have been saved into:\n"
 msgstr "設定が保存されました:\n"
 
@@ -13708,10 +13488,6 @@ msgstr ""
 "クリックすると、コンピューターにインストール済みのコンパイラーをスキャンしま"
 "す"
 
-#: Plugin/clBoostrapWizardBase.cpp:108
-msgid "Scan"
-msgstr "スキャン"
-
 #: Plugin/clBoostrapWizardBase.cpp:114
 msgid "Click to download a MinGW compiler"
 msgstr "クリックで MinGW をダウンロードします"
@@ -13832,15 +13608,15 @@ msgstr "'"
 msgid "' copied!"
 msgstr "' をコピーしました！"
 
-#: Plugin/clFileSystemWorkspace.cpp:439
+#: Plugin/clFileSystemWorkspace.cpp:441
 msgid "File system scan completed"
 msgstr "ファイルシステムのスキャンが完了しました"
 
-#: Plugin/clFileSystemWorkspace.cpp:544
+#: Plugin/clFileSystemWorkspace.cpp:546
 msgid "File System Workspace"
 msgstr "ファイルシステムのワークスペース"
 
-#: Plugin/clFileSystemWorkspace.cpp:709 Remoty/RemotyWorkspace.cpp:332
+#: Plugin/clFileSystemWorkspace.cpp:711 Remoty/RemotyWorkspace.cpp:356
 msgid ""
 "You should have at least one workspace configuration.\n"
 "0 found\n"
@@ -13849,19 +13625,19 @@ msgstr ""
 "ワークスペースの構成が少なくともひとつは必要です。\n"
 "プロジェクトの設定を開き、構成を追加してください"
 
-#: Plugin/clFileSystemWorkspace.cpp:717 Remoty/RemotyWorkspace.cpp:340
+#: Plugin/clFileSystemWorkspace.cpp:719 Remoty/RemotyWorkspace.cpp:364
 msgid "Don't know how to run '"
 msgstr "実行する方法が分かりません '"
 
-#: Plugin/clFileSystemWorkspace.cpp:794
+#: Plugin/clFileSystemWorkspace.cpp:796
 msgid "Unable to create a workspace on the root folder"
 msgstr "ルートフォルダーにワークスペースを作成できませんでした"
 
-#: Plugin/clFileSystemWorkspace.cpp:823
+#: Plugin/clFileSystemWorkspace.cpp:825
 msgid "Workspace Name"
 msgstr "ワークスペース名"
 
-#: Plugin/clFileSystemWorkspace.cpp:1109
+#: Plugin/clFileSystemWorkspace.cpp:1111
 msgid "Successfully generated file:\n"
 msgstr "ファイルを正常に生成しました:\n"
 
@@ -14170,7 +13946,7 @@ msgstr "新しいルートディレクトリを設定できません: "
 msgid "Inspect Variable"
 msgstr "変数を調査"
 
-#: Plugin/clSFTPManager.cpp:741
+#: Plugin/clSFTPManager.cpp:742
 msgid " saved"
 msgstr " を保存しました"
 
@@ -14279,12 +14055,12 @@ msgstr "項目を表示中: "
 msgid " entries"
 msgstr " 件の項目"
 
-#: Plugin/clTerminalViewCtrl.cpp:65 UnitTestCPP/unittestreport.cpp:104
+#: Plugin/clTerminalViewCtrl.cpp:70 UnitTestCPP/unittestreport.cpp:104
 #: wxcrafter/wxcrafter.h:132
 msgid "Message"
 msgstr "メッセージ"
 
-#: Plugin/clToolBar.cpp:520
+#: Plugin/clToolBar.cpp:529
 msgid "Customise..."
 msgstr "カスタマイズ..."
 
@@ -14382,6 +14158,11 @@ msgstr "コマンドラインが空です。ビルドを中断しました。"
 #: Plugin/compile_request.cpp:216 Plugin/custombuildrequest.cpp:227
 msgid "Failed to start build process, command: "
 msgstr "ビルド処理の開始に失敗しました。コマンド: "
+
+#: Plugin/console_frame.cpp:47 Plugin/console_frame.cpp:54
+#: WebTools/WebToolsBase.cpp:566 codelitephp/php-plugin/PHPDebugPane.cpp:28
+msgid "Console"
+msgstr "コンソール"
 
 #: Plugin/console_frame.cpp:152
 msgid ""
@@ -15414,36 +15195,36 @@ msgstr "ワークスペースに切り替え..."
 msgid "New File System Workspace (remote)"
 msgstr "新しいファイルシステムのワークスペース (リモート)"
 
-#: Remoty/RemotyWorkspace.cpp:429 SFTP/sftp_worker_thread.cpp:99
+#: Remoty/RemotyWorkspace.cpp:453 SFTP/sftp_worker_thread.cpp:99
 msgid "Downloading file: "
 msgstr "ファイルをダウンロードしています: "
 
-#: Remoty/RemotyWorkspace.cpp:462
+#: Remoty/RemotyWorkspace.cpp:486
 msgid "Failed to create new workspace file:\n"
 msgstr "新しいワークスペースのファイルを作成できませんでした:\n"
 
-#: Remoty/RemotyWorkspace.cpp:491
+#: Remoty/RemotyWorkspace.cpp:515
 msgid "Could not find a matching SSH account to load the workspace!"
 msgstr ""
 "一致する SSH アカウントが見つからないため、ワークスペースを読み込めません！"
 
-#: Remoty/RemotyWorkspace.cpp:500
+#: Remoty/RemotyWorkspace.cpp:524
 msgid "Failed to download remote workspace file!\n"
 msgstr "リモートのワークスペースファイルをダウンロードできませんでした！\n"
 
-#: Remoty/RemotyWorkspace.cpp:511
+#: Remoty/RemotyWorkspace.cpp:535
 msgid "Failed to load workspace file: "
 msgstr "ワークスペースのファイルを読み込めませんでした: "
 
-#: Remoty/RemotyWorkspace.cpp:533
+#: Remoty/RemotyWorkspace.cpp:557
 msgid "Downloaded .clang-format file"
 msgstr ".clang-format ファイルをダウンロードしました"
 
-#: Remoty/RemotyWorkspace.cpp:545
+#: Remoty/RemotyWorkspace.cpp:569
 msgid "Invalid empty remote path provided"
 msgstr "指定されたリモートのパスが無効です"
 
-#: Remoty/RemotyWorkspace.cpp:559
+#: Remoty/RemotyWorkspace.cpp:583
 msgid ""
 "Could not locate ssh executable in your PATH!\n"
 "Update your PATH from 'settings -> environment variables' to a location that "
@@ -15453,7 +15234,7 @@ msgstr ""
 "'ssh' 実行ファイルが存在する場所を '設定 -> 環境変数' の PATH に設定してくだ"
 "さい"
 
-#: Remoty/RemotyWorkspace.cpp:633
+#: Remoty/RemotyWorkspace.cpp:659
 msgid ""
 "Failed to start remote terminal process. Do you have `ssh` client installed "
 "and in PATH?"
@@ -15461,25 +15242,41 @@ msgstr ""
 "リモートの端末プロセスを開始できませんでした。`ssh` クライアントのインストー"
 "ル場所を PATH に通していますか？"
 
-#: Remoty/RemotyWorkspace.cpp:674
+#: Remoty/RemotyWorkspace.cpp:700
 msgid "Failed to start debugger!"
 msgstr "デバッガーの開始に失敗しました！"
 
-#: Remoty/RemotyWorkspace.cpp:781
+#: Remoty/RemotyWorkspace.cpp:807
 msgid "Please specify an executable to run"
 msgstr "実行するファイルを指定してください"
 
-#: Remoty/RemotyWorkspace.cpp:874
+#: Remoty/RemotyWorkspace.cpp:900
 msgid "Failed to write remote script on the remote machine!"
 msgstr "リモートマシン上にスクリプトを書き込めませんでした！"
 
-#: Remoty/RemotyWorkspace.cpp:973
+#: Remoty/RemotyWorkspace.cpp:1001
 msgid " files"
 msgstr " 個のファイルが見つかりました"
 
-#: Remoty/RemotyWorkspace.cpp:973
+#: Remoty/RemotyWorkspace.cpp:1001
 msgid "Remote file system scan completed. Found: "
 msgstr "リモートファイルシステムのスキャンが完了しました。"
+
+#: Remoty/RemotyWorkspace.cpp:1267
+msgid ""
+"Could not find codelite-remote.json file\n"
+"Would you like to create one?"
+msgstr ""
+"codelite-remote.json ファイルが見つかりませんでした\n"
+"作成しますか？"
+
+#: Remoty/RemotyWorkspace.cpp:1274
+msgid "Failed to create directory: "
+msgstr "ディレクトリの作成に失敗しました: "
+
+#: Remoty/RemotyWorkspace.cpp:1280
+msgid "Failed to create file: "
+msgstr "ファイルの作成に失敗しました: "
 
 #: Remoty/RemotyWorkspaceView.cpp:122
 msgid "Workspace settings..."
@@ -15489,12 +15286,12 @@ msgstr "ワークスペースの設定..."
 msgid "Edit codelite-remote.json..."
 msgstr "codelite-remote.json を編集..."
 
-#: Remoty/RemotyWorkspaceView.cpp:160
+#: Remoty/RemotyWorkspaceView.cpp:158
 #: codelitephp/php-plugin/php_workspace_view.cpp:322
 msgid "Close workspace"
 msgstr "ワークスペースを閉じる"
 
-#: Remoty/RemotyWorkspaceView.cpp:269
+#: Remoty/RemotyWorkspaceView.cpp:267
 msgid ""
 "NOTICE: a workspace reload is required in order for the changes to take "
 "place\n"
@@ -16825,7 +16622,7 @@ msgstr "スペルチェックの設定"
 msgid "Misspelling found!"
 msgstr "スペルミスが見つかりました！"
 
-#: Subversion2/SvnCommitDialog.cpp:284 git/gitCommitDlg.cpp:165
+#: Subversion2/SvnCommitDialog.cpp:284 git/gitCommitDlg.cpp:171
 msgid "Choose a commit"
 msgstr "コミットを選択"
 
@@ -17790,7 +17587,7 @@ msgstr "合格したテスト:"
 msgid "Clear report..."
 msgstr "報告を消去..."
 
-#: WebTools/NodeDebugger.cpp:266
+#: WebTools/NodeDebugger.cpp:268
 msgid ""
 "The old debugger protocol is not supported by your current Node.js version.\n"
 "Would you CodeLite to a CLI debug session for you in a terminal?"
@@ -17799,7 +17596,7 @@ msgstr ""
 "せん。\n"
 "端末で CLI デバッグセッションを開始しますか？"
 
-#: WebTools/NodeDebugger.cpp:288
+#: WebTools/NodeDebugger.cpp:290
 msgid "Failed to launch NodeJS: "
 msgstr "NodeJS の起動に失敗しました: "
 
@@ -18266,11 +18063,11 @@ msgstr "保存して閉じています"
 msgid "Unknown Error"
 msgstr "不明なエラー"
 
-#: codelitephp/PHPParser/php_workspace.cpp:294
+#: codelitephp/PHPParser/php_workspace.cpp:296
 msgid "Updating workspace..."
 msgstr "ワークスペースを更新しています..."
 
-#: codelitephp/PHPParser/php_workspace.cpp:464
+#: codelitephp/PHPParser/php_workspace.cpp:466
 msgid ""
 "'\n"
 "to:\n"
@@ -18280,7 +18077,7 @@ msgstr ""
 "↓\n"
 "'"
 
-#: codelitephp/PHPParser/php_workspace.cpp:464
+#: codelitephp/PHPParser/php_workspace.cpp:466
 msgid ""
 "Failed to rename workspace file:\n"
 "'"
@@ -18288,35 +18085,35 @@ msgstr ""
 "ワークスペース名を変更できませんでした:\n"
 "'"
 
-#: codelitephp/PHPParser/php_workspace.cpp:486
+#: codelitephp/PHPParser/php_workspace.cpp:488
 msgid ""
 "Workspace file modified externally. Would you like to reload the workspace?"
 msgstr ""
 "ワークスペースのファイルが外部から変更されました。ワークスペースを再読み込み"
 "しますか？"
 
-#: codelitephp/PHPParser/php_workspace.cpp:577
+#: codelitephp/PHPParser/php_workspace.cpp:579
 msgid "A project with similar name already exists in the workspace"
 msgstr "似た名前を持つプロジェクトが、既にワークスペースに存在します"
 
-#: codelitephp/PHPParser/php_workspace.cpp:615
+#: codelitephp/PHPParser/php_workspace.cpp:617
 msgid "Path '"
 msgstr "パス '"
 
-#: codelitephp/PHPParser/php_workspace.cpp:615
-#: codelitephp/PHPParser/php_workspace.cpp:625
+#: codelitephp/PHPParser/php_workspace.cpp:617
+#: codelitephp/PHPParser/php_workspace.cpp:627
 msgid "Unable to create a project at the selected path\n"
 msgstr "選択したパスにプロジェクトを作成できませんでした\n"
 
-#: codelitephp/PHPParser/php_workspace.cpp:616
+#: codelitephp/PHPParser/php_workspace.cpp:618
 msgid "' is already part of project '"
 msgstr "' は既にプロジェクトの一部です: '"
 
-#: codelitephp/PHPParser/php_workspace.cpp:625
+#: codelitephp/PHPParser/php_workspace.cpp:627
 msgid "Project '"
 msgstr "プロジェクト '"
 
-#: codelitephp/PHPParser/php_workspace.cpp:626
+#: codelitephp/PHPParser/php_workspace.cpp:628
 msgid "' is located under this path"
 msgstr "' がこのパスの配下に置かれています"
 
@@ -20167,15 +19964,15 @@ msgstr "エラー: コミットの説明が未指定のため、中断します"
 msgid "All files are up-to-date!"
 msgstr "ファイルは全て最新です！"
 
-#: git/gitCommitDlg.cpp:59
+#: git/gitCommitDlg.cpp:61
 msgid "Toggle files"
 msgstr "ファイルを切り替え"
 
-#: git/gitCommitDlg.cpp:60
+#: git/gitCommitDlg.cpp:62
 msgid "Show commit history"
 msgstr "コミット履歴を表示"
 
-#: git/gitCommitDlg.cpp:147
+#: git/gitCommitDlg.cpp:153
 msgid "Git requires a commit message"
 msgstr "Git のコミットには説明が必要です"
 
@@ -23257,10 +23054,6 @@ msgstr "ヘルプ (&H)"
 msgid "Designer"
 msgstr "デザイナー"
 
-#: wxcrafter/gui.cpp:384
-msgid "Source"
-msgstr "ソース"
-
 #: wxcrafter/gui.cpp:451
 msgid "Header"
 msgstr "ヘッダー"
@@ -26000,10 +25793,6 @@ msgstr ""
 #: wxcrafter/wxcrafter.cpp:1392
 msgid "Select bitmap from a file"
 msgstr "ファイルからビットマップを選択"
-
-#: wxcrafter/wxcrafter.cpp:1420
-msgid "Use relative paths"
-msgstr "相対パスを使用"
 
 #: wxcrafter/wxcrafter.cpp:1423
 msgid ""
