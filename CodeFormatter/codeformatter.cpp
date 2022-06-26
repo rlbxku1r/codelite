@@ -622,6 +622,9 @@ void CodeFormatter::DoFormatWithcJSON(const wxFileName& fileName)
 
     // prettify the content and save it
     wxString pretty = json.toElement().format();
+    if(m_mgr->GetEditorSettings()->GetAppendLF()) {
+        pretty << "\n";
+    }
     if(!FileUtils::WriteFileContent(fileName, pretty)) {
         clWARNING() << "Failed to save file:" << fileName << endl;
         return;
