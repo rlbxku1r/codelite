@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 02:02+0900\n"
-"PO-Revision-Date: 2022-10-06 01:51+0900\n"
+"PO-Revision-Date: 2022-12-15 14:58+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -4719,7 +4719,7 @@ msgstr "GitHub"
 
 #: LiteEditor/WelcomePage.cpp:79
 msgid "Visit our GitHub project page"
-msgstr "CodeLite の GitHub プロジェクトページを訪問"
+msgstr "GitHub プロジェクトページを訪問"
 
 #: LiteEditor/WelcomePage.cpp:81
 msgid "Gitter"
