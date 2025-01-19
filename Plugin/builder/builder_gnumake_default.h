@@ -89,7 +89,7 @@ protected:
                                          const wxString& arguments, bool isCommandlineCommand) const;
 
     bool SendBuildEvent(int eventId, const wxString& projectName, const wxString& configurationName);
-    bool HandleResourceFiles() const;
+    bool HandleResourceFiles(const CompilerPtr& cmp) const;
     bool IsResourceFile(const Compiler::CmpFileTypeInfo& file_type) const;
 
 private:

@@ -672,7 +672,7 @@ void BuilderGnuMake::CreateSrcList(ProjectPtr proj, const wxString& confToBuild,
             continue;
         }
 
-        if (IsResourceFile(ft) && !HandleResourceFiles()) {
+        if (IsResourceFile(ft) && !HandleResourceFiles(cmp)) {
             continue;
         }
 
@@ -746,7 +746,7 @@ void BuilderGnuMake::CreateObjectList(ProjectPtr proj, const wxString& confToBui
             continue;
         }
 
-        if (IsResourceFile(ft) && !HandleResourceFiles()) {
+        if (IsResourceFile(ft) && !HandleResourceFiles(cmp)) {
             continue;
         }
 
@@ -895,7 +895,7 @@ void BuilderGnuMake::CreateFileTargets(ProjectPtr proj, const wxString& confToBu
                          << source_file_to_compile << "\n\n";
                 }
 
-            } else if (IsResourceFile(ft) && HandleResourceFiles()) {
+            } else if (IsResourceFile(ft) && HandleResourceFiles(cmp)) {
                 // we construct an object name which also includes the full name of the reousrce file and appends a
                 // .o to the name (to be more precised, $(ObjectSuffix))
                 wxString objectName;
@@ -1254,7 +1254,7 @@ void BuilderGnuMake::CreateConfigsVariables(ProjectPtr proj, BuildConfigPtr bldC
     }
 
     // only if resource compiler required, evaluate the resource variables
-    if (HandleResourceFiles()) {
+    if (HandleResourceFiles(cmp)) {
         wxString rcBuildOpts = bldConf->GetResCompileOptions();
         rcBuildOpts.Replace(";", " ");
         text << "RcCmpOptions           :=" << rcBuildOpts << "\n";
@@ -1905,7 +1905,7 @@ bool BuilderGnuMake::SendBuildEvent(int eventId, const wxString& projectName, co
     return EventNotifier::Get()->ProcessEvent(e);
 }
 
-bool BuilderGnuMake::HandleResourceFiles() const { return m_isMSYSEnv || m_isWindows; }
+bool BuilderGnuMake::HandleResourceFiles(const CompilerPtr& cmp) const { return !cmp->GetTool("ResourceCompiler").IsEmpty(); }
 
 bool BuilderGnuMake::IsResourceFile(const Compiler::CmpFileTypeInfo& file_type) const
 {
