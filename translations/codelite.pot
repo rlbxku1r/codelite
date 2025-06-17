@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 04:55+0900\n"
+"POT-Creation-Date: 2025-06-17 21:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7933,7 +7933,8 @@ msgstr ""
 
 #: LiteEditor/frame.cpp:5007
 msgid ""
-"A restart is required for changes to take effect\rContinue with restart?"
+"A restart is required for changes to take effect\n"
+"Continue with restart?"
 msgstr ""
 
 #: LiteEditor/frame.cpp:5251
