@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-17 21:04+0900\n"
-"PO-Revision-Date: 2025-06-17 21:13+0900\n"
+"PO-Revision-Date: 2025-06-17 21:50+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -130,16 +130,14 @@ msgid "This folder already contains a CMakeLists.txt file"
 msgstr "このフォルダーには既に CMakeLists.txt ファイルが存在します"
 
 #: CMakePlugin/CMakePlugin.cpp:560
-#, fuzzy
 #| msgid "Executable:"
 msgid "Executable name:"
-msgstr "実行ファイル:"
+msgstr "実行ファイル名:"
 
 #: CMakePlugin/CMakePlugin.cpp:564 CMakePlugin/CMakePlugin.cpp:568
-#, fuzzy
 #| msgid "Library Path"
 msgid "Library name:"
-msgstr "ライブラリへのパス"
+msgstr "ライブラリ名:"
 
 #: CMakePlugin/CMakePluginUi.cpp:48
 msgid "CMake program:"
@@ -202,8 +200,6 @@ msgid "Modules"
 msgstr "モジュール"
 
 #: CMakePlugin/CMakePluginUi.cpp:149
-#, fuzzy
-#| msgid "Command"
 msgid "Commands"
 msgstr "コマンド"
 
@@ -555,12 +551,13 @@ msgid "A model with this name already exists"
 msgstr "この名前のセットが既に存在します"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
-#, fuzzy
 #| msgid "Continue?"
 msgid ""
 "\n"
 "Continue?"
-msgstr "続行しますか？"
+msgstr ""
+"\n"
+"続行しますか？"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
 #, fuzzy
@@ -616,10 +613,9 @@ msgstr ""
 "\n"
 
 #: ChatAI/LLAMCli.cpp:95
-#, fuzzy
 #| msgid "Failed to launch NodeJS: "
 msgid "Failed to launch command: '"
-msgstr "NodeJS の起動に失敗しました: "
+msgstr "コマンドの起動に失敗しました: '"
 
 #: ChatAI/UI.cpp:51 DebugAdapterClient/DapSettingsPage.cpp:32
 #: LiteEditor/debuggersettingsbasedlg.cpp:338
@@ -666,10 +662,8 @@ msgid "&New"
 msgstr "新規 (&N)"
 
 #: ChatAI/UI.cpp:118
-#, fuzzy
-#| msgid "Add new column"
 msgid "Add new model"
-msgstr "新しい列を追加"
+msgstr "新しいモデルを追加"
 
 #: ChatAI/UI.cpp:122 DebugAdapterClient/DAPWatchesView.cpp:19
 #: DebugAdapterClient/DapDebuggerSettingsDlg.cpp:19 LanguageServer/UI.cpp:81
@@ -731,10 +725,8 @@ msgid ""
 msgstr ""
 
 #: ChatAI/UI.hpp:86
-#, fuzzy
-#| msgid "wxCrafter Settings"
 msgid "Chat AI Settings"
-msgstr "wxCrafter の設定"
+msgstr "チャット AI の設定"
 
 #: CodeFormatter/FormatterPage.cpp:47 LanguageServer/UI.cpp:151
 #: LiteEditor/breakpointslistctrl.h:55 WordCompletion/UI.cpp:38
@@ -3581,18 +3573,16 @@ msgid "Ready"
 msgstr "準備完了"
 
 #: LanguageServer/LanguageServerCluster.cpp:1258
-#, fuzzy
-#| msgid "Choose a file:"
 msgid "Choose a fix to apply:"
-msgstr "ファイルを選択:"
+msgstr "適用する修正を選択してください:"
 
 #: LanguageServer/LanguageServerCluster.cpp:1267
 msgid "A fix is available"
-msgstr ""
+msgstr "修正候補があります"
 
 #: LanguageServer/LanguageServerCluster.cpp:1271
 msgid "Fix it!"
-msgstr ""
+msgstr "修正"
 
 #: LanguageServer/LanguageServerPage.cpp:79
 msgid "Select the supported languages by this server:"
@@ -3731,7 +3721,7 @@ msgstr "言語サーバー"
 
 #: LanguageServer/languageserver.cpp:97
 msgid "Attempt to fix"
-msgstr ""
+msgstr "修正を試みる"
 
 #: LanguageServer/languageserver.cpp:110
 msgid "Restart Language Servers"
@@ -4290,10 +4280,8 @@ msgid "Tabs"
 msgstr "タブ"
 
 #: LiteEditor/SideBar.cpp:67
-#, fuzzy
-#| msgid "Tabgroups"
 msgid "Groups"
-msgstr "タブグループ"
+msgstr "グループ"
 
 #: LiteEditor/SideBar.cpp:117 LiteEditor/SideBar.cpp:173
 msgid "Parsing workspace..."
@@ -5269,10 +5257,8 @@ msgid "Found and selected "
 msgstr "発見箇所を選択しました: "
 
 #: LiteEditor/cl_editor.cpp:6084
-#, fuzzy
-#| msgid "Failed to reload remote file:"
 msgid "Failed to reload remote file: "
-msgstr "リモートファイルの再読み込みに失敗しました:"
+msgstr "リモートファイルの再読み込みに失敗しました: "
 
 #: LiteEditor/close_all_dlg.cpp:67
 msgid "Ask me for each file"
@@ -6812,8 +6798,6 @@ msgid "Are you sure you want remove '"
 msgstr "削除しますか '"
 
 #: LiteEditor/fileview.cpp:854 LiteEditor/fileview.cpp:893
-#, fuzzy
-#| msgid "Remember my answer and apply it all files"
 msgid "Remember my answer and apply to all files"
 msgstr "次回から確認せず、全てのファイルに適用"
 
@@ -7961,10 +7945,8 @@ msgid "Output Pane"
 msgstr "出力ペイン"
 
 #: LiteEditor/frame.cpp:1199
-#, fuzzy
-#| msgid "Show Terminal"
 msgid "Show Builtin Terminal"
-msgstr "端末を表示"
+msgstr "内蔵の端末を表示"
 
 #: LiteEditor/frame.cpp:1200
 msgid "Workspace Pane"
@@ -8366,18 +8348,16 @@ msgid "Not now"
 msgstr "今はしない"
 
 #: LiteEditor/frame.cpp:5005
-#, fuzzy
-#| msgid ""
-#| "NOTICE: a workspace reload is required in order for the changes to take "
-#| "place"
 msgid "A restart is required for changes to take effect"
-msgstr "お知らせ: 変更を適用するには、ワークスペースの再読み込みが必要です"
+msgstr "変更を適用するには、再起動が必要です"
 
 #: LiteEditor/frame.cpp:5007
 msgid ""
 "A restart is required for changes to take effect\n"
 "Continue with restart?"
 msgstr ""
+"変更を適用するには、再起動が必要です\n"
+"再起動しますか？"
 
 #: LiteEditor/frame.cpp:5251
 msgid " Build"
@@ -10148,11 +10128,11 @@ msgstr "コントロールの前景色を設定"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:151
 msgid "Line number colour (dark theme):"
-msgstr ""
+msgstr "行番号の色 (ダークテーマ):"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:169
 msgid "Line number colour (light theme):"
-msgstr ""
+msgstr "行番号の色 (ライトテーマ):"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:186
 msgid "Global font:"
@@ -11967,6 +11947,8 @@ msgid ""
 "A CMakeLists.txt file was found in the workspace folder, would you like to "
 "use it?"
 msgstr ""
+"ワークスペースのフォルダーに CMakeLists.txt ファイルが見つかりました。これを"
+"使用しますか？"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlg.cpp:117
 msgid "Choosing 'Yes' will delete workspace configuration '"
@@ -13165,16 +13147,12 @@ msgid "Select Theme: "
 msgstr "テーマを選択: "
 
 #: Plugin/clStatusBar.cpp:636
-#, fuzzy
-#| msgid "Show Menu Bar"
 msgid "Show sidebar"
-msgstr "メニューバーを表示"
+msgstr "サイドバーを表示"
 
 #: Plugin/clStatusBar.cpp:637
-#, fuzzy
-#| msgid "Output Pane"
 msgid "Show output pane"
-msgstr "出力ペイン"
+msgstr "出力ペインを表示"
 
 #: Plugin/clStatusBar.cpp:639
 msgid "Show secondary sidebar"
@@ -14506,10 +14484,8 @@ msgid "&Debugger Pane"
 msgstr "デバッガーペイン (&D)"
 
 #: Runtime/rc/menu.xrc:338
-#, fuzzy
-#| msgid "Show Terminal"
 msgid "&Show Builtin Terminal"
-msgstr "端末を表示"
+msgstr "内蔵の端末を表示 (&S)"
 
 #: Runtime/rc/menu.xrc:342
 msgid "&Toggle All Panes"
