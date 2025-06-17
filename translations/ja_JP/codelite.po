@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-17 21:04+0900\n"
-"PO-Revision-Date: 2025-06-17 21:14+0900\n"
+"PO-Revision-Date: 2025-06-17 21:13+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -127,7 +127,7 @@ msgstr "ビルド"
 
 #: CMakePlugin/CMakePlugin.cpp:533
 msgid "This folder already contains a CMakeLists.txt file"
-msgstr ""
+msgstr "このフォルダーには既に CMakeLists.txt ファイルが存在します"
 
 #: CMakePlugin/CMakePlugin.cpp:560
 #, fuzzy
@@ -514,7 +514,7 @@ msgstr "外部ツールのパス設定を確認してください。"
 #: ChatAI/ChatAI.cpp:45 ChatAI/ChatAI.cpp:70 ChatAI/ChatAI.cpp:112
 #: ChatAI/ChatAIWindow.cpp:21
 msgid "Chat AI"
-msgstr ""
+msgstr "チャット AI"
 
 #: ChatAI/ChatAI.cpp:57 ChatAI/ChatAI.cpp:67 ChatAI/ChatAI.cpp:68
 msgid "A built-in AI assistance"
@@ -522,7 +522,7 @@ msgstr ""
 
 #: ChatAI/ChatAI.cpp:72
 msgid "Show AI Chat Window"
-msgstr ""
+msgstr "AI チャットウィンドウを表示"
 
 #: ChatAI/ChatAI.cpp:151
 #, fuzzy
@@ -1127,27 +1127,25 @@ msgstr "<編集...>"
 
 #: CodeLite/macros.h:95
 msgid "==========Build Started==========\n"
-msgstr ""
+msgstr "==========ビルドを開始しました==========\n"
 
 #: CodeLite/macros.h:96
 msgid "==========Build Ended==========\n"
-msgstr ""
+msgstr "==========ビルドが終了しました==========\n"
 
 #: CodeLite/macros.h:97
-#, fuzzy
 #| msgid "----------Building project:[ "
 msgid "==========Building project:[ "
-msgstr "----------プロジェクトをビルドしています:[ "
+msgstr "==========プロジェクトをビルドしています:[ "
 
 #: CodeLite/macros.h:98
 msgid " ]=========="
-msgstr ""
+msgstr " ]=========="
 
 #: CodeLite/macros.h:99
-#, fuzzy
 #| msgid "----------Cleaning project:[ "
 msgid "==========Cleaning project:[ "
-msgstr "----------プロジェクトをクリーンしています:[ "
+msgstr "==========プロジェクトをクリーンしています:[ "
 
 #: CodeLite/macros.h:102
 msgid "<Entire Workspace>"
@@ -1178,22 +1176,19 @@ msgid "<Use Defaults>"
 msgstr "<既定値を使用>"
 
 #: CodeLite/search_thread.h:319
-#, fuzzy
 #| msgid " Matches found: "
 msgid ", Matches found: "
-msgstr " 見つかった一致: "
+msgstr ", 見つかった一致: "
 
 #: CodeLite/search_thread.h:319
-#, fuzzy
 #| msgid "Number of files scanned: "
 msgid "====== Number of files scanned: "
-msgstr "スキャンしたファイル数: "
+msgstr "====== スキャンしたファイル数: "
 
 #: CodeLite/search_thread.h:321
-#, fuzzy
 #| msgid " Matches found: "
 msgid "====== Matches found: "
-msgstr " 見つかった一致: "
+msgstr "====== 見つかった一致: "
 
 #: CodeLite/search_thread.h:327
 msgid " seconds"
@@ -2016,11 +2011,11 @@ msgstr "データベース (%s)"
 
 #: DatabaseExplorer/GUI.cpp:600
 msgid "Debea (STL)"
-msgstr ""
+msgstr "Debea (STL)"
 
 #: DatabaseExplorer/GUI.cpp:601
 msgid "wxDebea (wxWidgets)"
-msgstr ""
+msgstr "wxDebea (wxWidgets)"
 
 #: DatabaseExplorer/GUI.cpp:602
 #, fuzzy
@@ -8116,8 +8111,6 @@ msgid "Open file"
 msgstr "ファイルを開く"
 
 #: LiteEditor/frame.cpp:1616
-#, fuzzy
-#| msgid "Close file"
 msgid "Close File"
 msgstr "ファイルを閉じる"
 
@@ -8128,10 +8121,8 @@ msgid "Save"
 msgstr "保存"
 
 #: LiteEditor/frame.cpp:1620
-#, fuzzy
-#| msgid "Save As"
 msgid "Save All"
-msgstr "名前を付けて保存"
+msgstr "全て保存"
 
 #: LiteEditor/frame.cpp:1634
 msgid "Backward"
@@ -11654,41 +11645,40 @@ msgstr "64"
 
 #: Plugin/Debugger/memoryviewbase.cpp:71
 msgid "128"
-msgstr ""
+msgstr "128"
 
 #: Plugin/Debugger/memoryviewbase.cpp:72
 msgid "256"
-msgstr ""
+msgstr "256"
 
 #: Plugin/Debugger/memoryviewbase.cpp:73
 msgid "512"
-msgstr ""
+msgstr "512"
 
 #: Plugin/Debugger/memoryviewbase.cpp:74
 msgid "1024"
-msgstr ""
+msgstr "1024"
 
 #: Plugin/Debugger/memoryviewbase.cpp:75
 msgid "2048"
-msgstr ""
+msgstr "2048"
 
 #: Plugin/Debugger/memoryviewbase.cpp:76
 msgid "4096"
-msgstr ""
+msgstr "4096"
 
 #: Plugin/Debugger/memoryviewbase.cpp:84
 msgid "Number of columns:"
 msgstr "列数:"
 
 #: Plugin/Debugger/memoryviewbase.cpp:90
-#, fuzzy
 #| msgid "24"
 msgid "4"
-msgstr "24"
+msgstr "4"
 
 #: Plugin/Debugger/memoryviewbase.cpp:91
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: Plugin/Debugger/memoryviewbase.cpp:92 wxcrafter/src/wxcrafter.cpp:1437
 msgid "16"
@@ -12074,10 +12064,8 @@ msgid "Host"
 msgstr "ホスト"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:554
-#, fuzzy
-#| msgid "Port:"
 msgid "Port"
-msgstr "ポート:"
+msgstr "ポート"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:565
 #, fuzzy
@@ -12736,7 +12724,7 @@ msgstr "作者:"
 #, fuzzy
 #| msgid "2007 - 2023, by Eran Ifrah"
 msgid "2007 - 2025, by Eran Ifrah"
-msgstr "2007 - 2023, Eran Ifrah"
+msgstr "2007 - 2025, by Eran Ifrah"
 
 #: Plugin/clAboutDialogBase.cpp:111
 msgid "Home Page:"
@@ -13794,20 +13782,18 @@ msgstr ""
 "参照するリモートフォルダーを設定し、'再読み込み' ボタンをクリックします"
 
 #: Plugin/sftp_ui.cpp:505
-#, fuzzy
 #| msgid "Tool"
 msgid "Tool:"
-msgstr "ツール"
+msgstr "ツール:"
 
 #: Plugin/sftp_ui.cpp:510
 msgid "grep"
-msgstr ""
+msgstr "grep"
 
 #: Plugin/sftp_ui.cpp:511
-#, fuzzy
 #| msgid " saved"
 msgid "sed"
-msgstr " を保存しました"
+msgstr "sed"
 
 #: Plugin/sftp_ui.cpp:518
 msgid "Find:"
