@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-17 21:04+0900\n"
-"PO-Revision-Date: 2025-06-17 21:50+0900\n"
+"POT-Creation-Date: 2025-06-18 02:05+0900\n"
+"PO-Revision-Date: 2025-06-18 02:07+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -130,12 +130,10 @@ msgid "This folder already contains a CMakeLists.txt file"
 msgstr "このフォルダーには既に CMakeLists.txt ファイルが存在します"
 
 #: CMakePlugin/CMakePlugin.cpp:560
-#| msgid "Executable:"
 msgid "Executable name:"
 msgstr "実行ファイル名:"
 
 #: CMakePlugin/CMakePlugin.cpp:564 CMakePlugin/CMakePlugin.cpp:568
-#| msgid "Library Path"
 msgid "Library name:"
 msgstr "ライブラリ名:"
 
@@ -551,7 +549,6 @@ msgid "A model with this name already exists"
 msgstr "この名前のセットが既に存在します"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
-#| msgid "Continue?"
 msgid ""
 "\n"
 "Continue?"
@@ -613,7 +610,6 @@ msgstr ""
 "\n"
 
 #: ChatAI/LLAMCli.cpp:95
-#| msgid "Failed to launch NodeJS: "
 msgid "Failed to launch command: '"
 msgstr "コマンドの起動に失敗しました: '"
 
@@ -1126,7 +1122,6 @@ msgid "==========Build Ended==========\n"
 msgstr "==========ビルドが終了しました==========\n"
 
 #: CodeLite/macros.h:97
-#| msgid "----------Building project:[ "
 msgid "==========Building project:[ "
 msgstr "==========プロジェクトをビルドしています:[ "
 
@@ -1135,7 +1130,6 @@ msgid " ]=========="
 msgstr " ]=========="
 
 #: CodeLite/macros.h:99
-#| msgid "----------Cleaning project:[ "
 msgid "==========Cleaning project:[ "
 msgstr "==========プロジェクトをクリーンしています:[ "
 
@@ -1168,17 +1162,14 @@ msgid "<Use Defaults>"
 msgstr "<既定値を使用>"
 
 #: CodeLite/search_thread.h:319
-#| msgid " Matches found: "
 msgid ", Matches found: "
 msgstr ", 見つかった一致: "
 
 #: CodeLite/search_thread.h:319
-#| msgid "Number of files scanned: "
 msgid "====== Number of files scanned: "
 msgstr "====== スキャンしたファイル数: "
 
 #: CodeLite/search_thread.h:321
-#| msgid " Matches found: "
 msgid "====== Matches found: "
 msgstr "====== 見つかった一致: "
 
@@ -11652,7 +11643,6 @@ msgid "Number of columns:"
 msgstr "列数:"
 
 #: Plugin/Debugger/memoryviewbase.cpp:90
-#| msgid "24"
 msgid "4"
 msgstr "4"
 
@@ -13760,7 +13750,6 @@ msgstr ""
 "参照するリモートフォルダーを設定し、'再読み込み' ボタンをクリックします"
 
 #: Plugin/sftp_ui.cpp:505
-#| msgid "Tool"
 msgid "Tool:"
 msgstr "ツール:"
 
@@ -13769,7 +13758,6 @@ msgid "grep"
 msgstr "grep"
 
 #: Plugin/sftp_ui.cpp:511
-#| msgid " saved"
 msgid "sed"
 msgstr "sed"
 
