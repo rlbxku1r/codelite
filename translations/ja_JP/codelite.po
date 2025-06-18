@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-18 02:05+0900\n"
-"PO-Revision-Date: 2025-06-18 02:07+0900\n"
+"PO-Revision-Date: 2025-06-18 21:56+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -512,7 +512,7 @@ msgstr "チャット AI"
 
 #: ChatAI/ChatAI.cpp:57 ChatAI/ChatAI.cpp:67 ChatAI/ChatAI.cpp:68
 msgid "A built-in AI assistance"
-msgstr ""
+msgstr "内蔵の AI アシスタンス"
 
 #: ChatAI/ChatAI.cpp:72
 msgid "Show AI Chat Window"
@@ -526,27 +526,24 @@ msgstr "これらの変数の値を定義してください:"
 
 #: ChatAI/ChatAI.cpp:151
 msgid "llama-cli is not configured properly!\n"
-msgstr ""
+msgstr "llama-cli が正しく構成されていません！\n"
 
 #: ChatAI/ChatAI.cpp:152
 msgid " An active model is selected\n"
 msgstr ""
 
 #: ChatAI/ChatAI.cpp:152
-#, fuzzy
 #| msgid "Path to cmake executable."
 msgid " Path to llama-cli executable\n"
-msgstr "cmake 実行ファイルへのパス。"
+msgstr " llama-cli 実行ファイルへのパス\n"
 
 #: ChatAI/ChatAI.cpp:153
 msgid " The active model contains the path to the local model file\n"
 msgstr ""
 
 #: ChatAI/ChatAISettingsDlg.cpp:46
-#, fuzzy
-#| msgid "A set with this name already exist"
 msgid "A model with this name already exists"
-msgstr "この名前のセットが既に存在します"
+msgstr "この名前のモデルが既に存在します"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
 msgid ""
@@ -574,14 +571,12 @@ msgid "Settings"
 msgstr "設定"
 
 #: ChatAI/ChatAIWindow.cpp:30
-#, fuzzy
-#| msgid "Clear output"
 msgid "Clear content"
-msgstr "出力を消去"
+msgstr "内容を消去"
 
 #: ChatAI/ChatAIWindow.cpp:34
 msgid "Launch local model"
-msgstr ""
+msgstr "ローカルモデルを起動"
 
 #: ChatAI/ChatAIWindow.cpp:35 Docker/DockerOutputPane.cpp:237
 #: ExternalTools/external_tools.cpp:150 LiteEditor/frame.cpp:1049
@@ -591,13 +586,12 @@ msgstr "停止"
 
 #: ChatAI/ChatAIWindow.cpp:36
 msgid "Restart - Ctrl-Shift-ENTER"
-msgstr ""
+msgstr "再起動 - Ctrl-Shift-ENTER"
 
 #: ChatAI/ChatAIWindow.cpp:158
-#, fuzzy
 #| msgid "Generating Code..."
 msgid "Starting model..."
-msgstr "コードを生成しています..."
+msgstr "モデルを開始しています..."
 
 #: ChatAI/ChatAIWindow.cpp:238
 #, fuzzy
@@ -630,19 +624,17 @@ msgstr "一般"
 
 #: ChatAI/UI.cpp:61
 msgid "llama-cli:"
-msgstr ""
+msgstr "llama-cli:"
 
 #: ChatAI/UI.cpp:82
 #, fuzzy
 #| msgid "Active Project"
 msgid "Active model:"
-msgstr "アクティブなプロジェクト"
+msgstr "アクティブなモデル:"
 
 #: ChatAI/UI.cpp:103
-#, fuzzy
-#| msgid "Search scope:"
 msgid "Search Models"
-msgstr "検索範囲:"
+msgstr "モデルを検索"
 
 #: ChatAI/UI.cpp:109
 msgid ""
@@ -701,10 +693,9 @@ msgid "Name:"
 msgstr "名前:"
 
 #: ChatAI/UI.cpp:208
-#, fuzzy
 #| msgid "Modified files:"
 msgid "Model file:"
-msgstr "変更されたファイル:"
+msgstr "モデルファイル:"
 
 #: ChatAI/UI.cpp:321
 msgid "Use Shift-ENTER to submit"
@@ -832,34 +823,25 @@ msgid "Lose all your modifications and restore default settings?"
 msgstr "変更を全て破棄し、設定を既定値に戻しますか？"
 
 #: CodeFormatter/codeformatterdlg.cpp:108
-#, fuzzy
-#| msgid "Enter the new name:"
 msgid "Enter the new formatter name:"
-msgstr "新しい名前を入力:"
+msgstr "新しい整形ツール名を入力:"
 
 #: CodeFormatter/codeformatterdlg.cpp:108
-#, fuzzy
-#| msgid "PHP formatter"
 msgid "New formatter"
-msgstr "PHP フォーマッター"
+msgstr "新しい整形ツール"
 
 #: CodeFormatter/codeformatterdlg.cpp:116
-#, fuzzy
-#| msgid "A compiler with this name already exists"
 msgid "Formatter with similar name already exists"
-msgstr "この名前のコンパイラーが既に存在します"
+msgstr "この名前の整形ツールが既に存在します"
 
 #: CodeFormatter/codeformatterdlg.cpp:130
-#, fuzzy
-#| msgid "Xml formatter"
 msgid "Delete formatter"
-msgstr "XML フォーマッター"
+msgstr "整形ツールを削除"
 
 #: CodeFormatter/codeformatterdlg.cpp:130
-#, fuzzy
 #| msgid "Xml formatter"
 msgid "Delete formatter '"
-msgstr "XML フォーマッター"
+msgstr "整形ツールを削除しますか '"
 
 #: CodeFormatter/codeformatterdlgbase.cpp:61
 msgid "name"
@@ -1987,10 +1969,9 @@ msgid "Template:"
 msgstr "テンプレート:"
 
 #: DatabaseExplorer/GUI.cpp:599
-#, fuzzy
 #| msgid "Databases (%s)"
 msgid "DatabaseLayer (wxWidgets)"
-msgstr "データベース (%s)"
+msgstr "DatabaseLayer (wxWidgets)"
 
 #: DatabaseExplorer/GUI.cpp:600
 msgid "Debea (STL)"
@@ -2001,10 +1982,9 @@ msgid "wxDebea (wxWidgets)"
 msgstr "wxDebea (wxWidgets)"
 
 #: DatabaseExplorer/GUI.cpp:602
-#, fuzzy
 #| msgid "Generate class files"
 msgid "Generic classes (STL)"
-msgstr "クラスファイルを生成"
+msgstr "汎用的なクラス (STL)"
 
 #: DatabaseExplorer/GUI.cpp:610
 msgid "Log:"
@@ -2174,10 +2154,8 @@ msgstr "無効な行番号です"
 
 #: DebugAdapterClient/DAPDebuggerPane.cpp:10
 #: DebugAdapterClient/DebugAdapterClient.cpp:71
-#, fuzzy
-#| msgid "Debugger line"
 msgid "Debugger Client"
-msgstr "デバッガーの行"
+msgstr "デバッガークライアント"
 
 #: DebugAdapterClient/DAPDebuggerPane.cpp:11
 msgid "Thread, stacks & variables"
@@ -2262,10 +2240,8 @@ msgid "Copy this thread backtrace"
 msgstr "このスレッドのバックトレースをコピー"
 
 #: DebugAdapterClient/DAPMainView.cpp:475
-#, fuzzy
-#| msgid "Path copied to clipboard"
 msgid "Backtrace copied to clipboard!"
-msgstr "パスをクリップボードにコピーしました"
+msgstr "バックトレースをクリップボードにコピーしました！"
 
 #: DebugAdapterClient/DAPOutputPane.cpp:16 Docker/UI.cpp:361
 #: LiteEditor/debuggerpane.cpp:57 Plugin/clStrings.h:6
@@ -2417,8 +2393,6 @@ msgid "ID"
 msgstr "ID"
 
 #: DebugAdapterClient/UI.cpp:88
-#, fuzzy
-#| msgid "Active?"
 msgid "Active"
 msgstr "アクティブ"
 
@@ -3585,15 +3559,11 @@ msgid "Are you sure you want to delete '"
 msgstr "削除しますか '"
 
 #: LanguageServer/LanguageServerSettingsDlg.cpp:74
-#, fuzzy
-#| msgid ""
-#| "This will clear the message history\n"
-#| "Continue?"
 msgid ""
 "This will reconfigure your language servers\n"
 "Continue?"
 msgstr ""
-"メッセージの履歴を消去します\n"
+"全ての言語サーバーを再構成します\n"
 "よろしいですか？"
 
 #: LanguageServer/UI.cpp:44
@@ -3631,10 +3601,8 @@ msgid "The language server executable"
 msgstr "言語サーバーの実行ファイル"
 
 #: LanguageServer/UI.cpp:233
-#, fuzzy
-#| msgid "Initialization completed"
 msgid "initializationOptions"
-msgstr "初期化が完了しました"
+msgstr "初期化オプション (initializationOptions)"
 
 #: LanguageServer/UI.cpp:279
 msgid "Set the language server working directory"
@@ -4207,10 +4175,8 @@ msgid "Debugger line"
 msgstr "デバッガーの行"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:38
-#, fuzzy
-#| msgid "Highlight caret line"
 msgid "Highlight debugger line"
-msgstr "キャレットの行を強調表示"
+msgstr "デバッガーの行を強調表示"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:42
 msgid "Whitespace"
@@ -4251,9 +4217,8 @@ msgstr "作業ディレクトリを選択:"
 
 #: LiteEditor/SecondarySideBar.cpp:63
 #, fuzzy
-#| msgid "Move Left into parent sizer"
 msgid "Move to primary sidebar"
-msgstr "左を親サイザーへ移動"
+msgstr "プライマリサイドバーに移動"
 
 #: LiteEditor/SideBar.cpp:64 LiteEditor/frame.cpp:1219
 #: LiteEditor/frame.cpp:5557 LiteEditor/tabgroupbasedlgs.cpp:163
@@ -4284,8 +4249,9 @@ msgid "Parsing workspace: %d%% completed"
 msgstr "ワークスペースを解析しています: %d%% 完了"
 
 #: LiteEditor/SideBar.cpp:314
+#, fuzzy
 msgid "Move to secondary sidebar"
-msgstr ""
+msgstr "セカンダリサイドバーに移動"
 
 #: LiteEditor/ThreadListPanelBase.cpp:39
 msgid "Active?"
@@ -5169,10 +5135,8 @@ msgid "Run to here"
 msgstr "ここまで実行"
 
 #: LiteEditor/cl_editor.cpp:3907
-#, fuzzy
-#| msgid "Path copied to clipboard"
 msgid "Breakpoint command copied to clipboard!"
-msgstr "パスをクリップボードにコピーしました"
+msgstr "ブレークポイントのコマンドをクリップボードにコピーしました！"
 
 #: LiteEditor/cl_editor.cpp:3922
 msgid "Create Conditional Breakpoint"
@@ -6206,10 +6170,8 @@ msgid "Tab width"
 msgstr "タブの幅"
 
 #: LiteEditor/editoroptionsgeneralsavepanel.cpp:31
-#, fuzzy
-#| msgid "Linker options"
 msgid "Trim \"on save\" options"
-msgstr "リンカーのオプション"
+msgstr "保存時に \"行末の空白を削除\" するオプション"
 
 #: LiteEditor/editoroptionsgeneralsavepanel.cpp:33
 msgid "Enable trim on save"
@@ -6343,7 +6305,7 @@ msgstr "高さ"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:64
 msgid "Sidebar buttons position"
-msgstr ""
+msgstr "サイドバーのボタンの位置"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:72
 msgid "Output tabs orientation"
@@ -6386,16 +6348,17 @@ msgid "When searching, don't override search string with current selection"
 msgstr "検索するとき、新たに選択したテキストで、検索文字列を上書きしない"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:102
-#, fuzzy
-#| msgid "Find Previous"
 msgid "Find next/Find previous"
-msgstr "前を検索"
+msgstr "次を検索/前を検索"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:103
+#, fuzzy
 msgid ""
 "Find next/Find previous actions override search string with current "
 "selection (like Find next at caret/prev at caret)"
 msgstr ""
+"次を検索/前を検索したとき、選択中の文字列を検索キーワードとして使用 (\"キャ"
+"レットの単語を検索\" と似た挙動です)"
 
 #: LiteEditor/editorsettingsfolding.cpp:36 LiteEditor/options_dlg2.cpp:92
 msgid "Folding"
@@ -6585,14 +6548,12 @@ msgid "Frame title"
 msgstr "フレームの題名"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:60
-#, fuzzy
-#| msgid "File path options"
 msgid "File path handling"
-msgstr "ファイルパスのオプション"
+msgstr "ファイルパスの扱い"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:61
 msgid "Resolve symlinks in file paths"
-msgstr ""
+msgstr "ファイルパスのシンボリックリンクを解決"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:71
 msgid "Startup"
@@ -6627,10 +6588,8 @@ msgid "Show current column"
 msgstr "現在の列を表示"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:86
-#, fuzzy
-#| msgid "Show number of selected chars"
 msgid "Show number of lines"
-msgstr "選択した文字数を表示"
+msgstr "行数を表示"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:88
 msgid "Show current position"
@@ -6645,10 +6604,8 @@ msgid "Show number of selected chars"
 msgstr "選択した文字数を表示"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:94
-#, fuzzy
-#| msgid "Show number of selected chars"
 msgid "Show number of selected lines"
-msgstr "選択した文字数を表示"
+msgstr "選択した行数を表示"
 
 #: LiteEditor/editorsettingsmiscpanel.cpp:97
 msgid "Tool bar"
@@ -9711,10 +9668,8 @@ msgid "Use the Up / Down arrows to show the search history list"
 msgstr ""
 
 #: LiteEditor/quickfindbarbase.cpp:252
-#, fuzzy
-#| msgid "Find what"
 msgid "Find what..."
-msgstr "検索する文字列"
+msgstr "検索する文字列..."
 
 #: LiteEditor/quickfindbarbase.cpp:264 Plugin/quickfindbarbase.cpp:68
 msgid "Find Prev"
@@ -9729,10 +9684,8 @@ msgid "Use the Up / Down arrows to show the replacement history list"
 msgstr ""
 
 #: LiteEditor/quickfindbarbase.cpp:277
-#, fuzzy
-#| msgid "Replace with"
 msgid "Replace with..."
-msgstr "置き換え内容"
+msgstr "置き換え内容..."
 
 #: LiteEditor/quickfindbarbase.cpp:288 Plugin/quickfindbarbase.cpp:90
 msgid "Replace All"
@@ -13145,8 +13098,9 @@ msgid "Show output pane"
 msgstr "出力ペインを表示"
 
 #: Plugin/clStatusBar.cpp:639
+#, fuzzy
 msgid "Show secondary sidebar"
-msgstr ""
+msgstr "セカンダリサイドバーを表示"
 
 #: Plugin/clStrings.h:9 Plugin/editor_config.cpp:399
 #: Plugin/editor_config.cpp:436
