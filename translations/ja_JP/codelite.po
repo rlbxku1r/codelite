@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-18 02:05+0900\n"
-"PO-Revision-Date: 2025-06-18 21:56+0900\n"
+"PO-Revision-Date: 2025-06-22 00:32+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -519,10 +519,9 @@ msgid "Show AI Chat Window"
 msgstr "AI チャットウィンドウを表示"
 
 #: ChatAI/ChatAI.cpp:151
-#, fuzzy
 #| msgid "Please define the value of the following variables:"
 msgid "Please ensure the following is set:\n"
-msgstr "これらの変数の値を定義してください:"
+msgstr "これらが正しく設定されていることを確認してください:\n"
 
 #: ChatAI/ChatAI.cpp:151
 msgid "llama-cli is not configured properly!\n"
@@ -530,7 +529,7 @@ msgstr "llama-cli が正しく構成されていません！\n"
 
 #: ChatAI/ChatAI.cpp:152
 msgid " An active model is selected\n"
-msgstr ""
+msgstr " アクティブなモデルが選択されている\n"
 
 #: ChatAI/ChatAI.cpp:152
 #| msgid "Path to cmake executable."
@@ -540,6 +539,7 @@ msgstr " llama-cli 実行ファイルへのパス\n"
 #: ChatAI/ChatAI.cpp:153
 msgid " The active model contains the path to the local model file\n"
 msgstr ""
+" アクティブなモデルに、ローカルモデルファイルへのパスが指定されている\n"
 
 #: ChatAI/ChatAISettingsDlg.cpp:46
 msgid "A model with this name already exists"
@@ -554,10 +554,9 @@ msgstr ""
 "続行しますか？"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
-#, fuzzy
 #| msgid "You are about to remove project '"
 msgid "You are about to delete model: "
-msgstr "プロジェクト '"
+msgstr "モデルを削除しようとしています: "
 
 #: ChatAI/ChatAIWindow.cpp:29 DebugAdapterClient/DebugAdapterClient.cpp:337
 #: DebugAdapterClient/UI.h:101 Docker/docker.cpp:59
@@ -627,7 +626,6 @@ msgid "llama-cli:"
 msgstr "llama-cli:"
 
 #: ChatAI/UI.cpp:82
-#, fuzzy
 #| msgid "Active Project"
 msgid "Active model:"
 msgstr "アクティブなモデル:"
@@ -642,6 +640,9 @@ msgid ""
 "\n"
 "https://huggingface.co/models?sort=downloads&search=gguf"
 msgstr ""
+"ウェブから他のモデルをダウンロードします。\n"
+"\n"
+"https://huggingface.co/models?sort=downloads&search=gguf"
 
 #: ChatAI/UI.cpp:117 CodeFormatter/codeformatterdlgbase.cpp:71
 #: LiteEditor/debuggersettingsbasedlg.cpp:711 Runtime/rc/menu.xrc:49
@@ -699,17 +700,19 @@ msgstr "モデルファイル:"
 
 #: ChatAI/UI.cpp:321
 msgid "Use Shift-ENTER to submit"
-msgstr ""
+msgstr "Shift-ENTER キーで送信します"
 
 #: ChatAI/UI.cpp:366
 msgid "Submit"
-msgstr ""
+msgstr "送信"
 
 #: ChatAI/UI.cpp:368
 msgid ""
 "Submit prompt\n"
 "Shift+ENTER"
 msgstr ""
+"プロンプトを送信\n"
+"Shift+ENTER"
 
 #: ChatAI/UI.hpp:86
 msgid "Chat AI Settings"
@@ -1015,12 +1018,14 @@ msgid "Failed to execute command: %s"
 msgstr "コマンドの実行に失敗しました: %s"
 
 #: CodeLite/LSP/RenameRequest.cpp:53
-#, fuzzy, c-format
+#, c-format
 #| msgid "Rename symbol"
 msgid ""
 "Rename symbol error:\n"
 "%s"
-msgstr "シンボル名を変更"
+msgstr ""
+"シンボル名の変更エラー:\n"
+"%s"
 
 #: CodeLite/PHP/PHPLookupTable.h:375
 msgid "PHP: parsed "
@@ -3796,6 +3801,8 @@ msgid ""
 "> WARNING: No toolchain selected. Build log highlighting will not be "
 "available!\n"
 msgstr ""
+"> 警告: ツールチェーンが選択されていないため、ビルドログの強調表示はできませ"
+"ん！\n"
 
 #: LiteEditor/BuildTab.cpp:87
 msgid ""
@@ -5089,10 +5096,9 @@ msgid "Remove All Bookmarks"
 msgstr "全てのブックマークを削除"
 
 #: LiteEditor/cl_editor.cpp:3856
-#, fuzzy
-#| msgid "Copy line as string to clipboard"
 msgid "Copy lldb/gdb 'set breakpoint' command to clipboard"
-msgstr "行の文字列をクリップボードにコピー"
+msgstr ""
+"LLDB/GDB の 'ブレークポイントを設定' するコマンドをクリップボードにコピー"
 
 #: LiteEditor/cl_editor.cpp:3859
 msgid "Add Breakpoint"
@@ -9665,7 +9671,7 @@ msgstr "以前の一致も選択したまま、それぞれの一致を選択し
 
 #: LiteEditor/quickfindbarbase.cpp:250
 msgid "Use the Up / Down arrows to show the search history list"
-msgstr ""
+msgstr "上 / 下の矢印キーで検索履歴の一覧を表示します"
 
 #: LiteEditor/quickfindbarbase.cpp:252
 msgid "Find what..."
@@ -9681,7 +9687,7 @@ msgstr "全て検索"
 
 #: LiteEditor/quickfindbarbase.cpp:275
 msgid "Use the Up / Down arrows to show the replacement history list"
-msgstr ""
+msgstr "上 / 下の矢印キーで置換履歴の一覧を表示します"
 
 #: LiteEditor/quickfindbarbase.cpp:277
 msgid "Replace with..."
@@ -10306,10 +10312,8 @@ msgid "Select theme to import"
 msgstr "インポートするテーマを選択"
 
 #: LiteEditor/syntaxhighlightdlg.cpp:703
-#, fuzzy
-#| msgid "Failed to import theme file: "
 msgid "Failed to import themes!"
-msgstr "テーマファイルのインポートに失敗しました: "
+msgstr "テーマのインポートに失敗しました！"
 
 #: LiteEditor/syntaxhighlightdlg.cpp:705
 #, fuzzy
@@ -12396,10 +12400,9 @@ msgid "` is not supported"
 msgstr "` はサポートされていません"
 
 #: Plugin/LSP/LanguageServerProtocol.cpp:1067
-#, fuzzy
 #| msgid "Rename Symbol"
 msgid "Rename Symbol: '"
-msgstr "シンボル名を変更"
+msgstr "シンボル名を変更: '"
 
 #: Plugin/LSP/LanguageServerProtocol.cpp:1068 Plugin/clRemoteDirCtrl.cpp:459
 #: QmakePlugin/qmakesettingsdlg.cpp:130 Subversion2/subversion2.cpp:1037
@@ -12968,26 +12971,20 @@ msgid "Path copied to clipboard"
 msgstr "パスをクリップボードにコピーしました"
 
 #: Plugin/clRemoteDirCtrl.cpp:368 Plugin/clRemoteDirCtrl.cpp:375
-#, fuzzy
-#| msgid "Failed to open file: "
 msgid "Failed to open file: connection lost"
-msgstr "ファイルを開けませんでした: "
+msgstr "ファイルを開けませんでした: 接続が失われました"
 
 #: Plugin/clRemoteDirCtrl.cpp:435
-#, fuzzy
-#| msgid "Failed to create file: "
 msgid "Failed to create file: connection lost"
-msgstr "ファイルの作成に失敗しました: "
+msgstr "ファイルの作成に失敗しました: 接続が失われました"
 
 #: Plugin/clRemoteDirCtrl.cpp:459
 msgid "Renaming "
 msgstr "名前を変更 "
 
 #: Plugin/clRemoteDirCtrl.cpp:468
-#, fuzzy
-#| msgid "Failed to rename file: "
 msgid "Failed to rename file: connection lost"
-msgstr "ファイル名の変更に失敗しました: "
+msgstr "ファイル名の変更に失敗しました: 接続が失われました"
 
 #: Plugin/clRemoteDirCtrl.cpp:496 Plugin/clTreeCtrlPanel.cpp:653
 msgid "Are you sure you want to delete the selected items?"
@@ -13685,10 +13682,9 @@ msgid "Set the home folder for this account"
 msgstr "このアカウントのホームフォルダーを設定"
 
 #: Plugin/sftp_ui.cpp:237
-#, fuzzy
 #| msgid "Additional include file"
 msgid "Additional key files:"
-msgstr "追加のインクルードファイル"
+msgstr "追加の鍵ファイル:"
 
 #: Plugin/sftp_ui.cpp:281
 msgid "Test Connection"
@@ -13757,7 +13753,7 @@ msgstr "SFTP ブラウザー"
 
 #: Plugin/sftp_ui.h:251
 msgid "Run tool on remote host"
-msgstr ""
+msgstr "リモートホスト上でツールを実行"
 
 #: Plugin/symbol_tree.cpp:207 Plugin/symbol_tree.cpp:208
 msgid "Global Functions and Variables"
@@ -18039,52 +18035,36 @@ msgid "unsupported message: `"
 msgstr "サポートしていないメッセージ: `"
 
 #: git/GitBlamePage.cpp:243
-#, fuzzy
-#| msgid "Copy commit hash to clipboard"
 msgid "Copy commit hash"
-msgstr "コミットハッシュをクリップボードにコピー"
+msgstr "コミットハッシュをコピー"
 
 #: git/GitBlamePage.cpp:244
-#, fuzzy
-#| msgid "Copy compiler"
 msgid "Copy commit date"
-msgstr "コンパイラーをコピー"
+msgstr "コミット日付をコピー"
 
 #: git/GitBlamePage.cpp:246
-#, fuzzy
-#| msgid "Copy item"
 msgid "Copy author email"
-msgstr "項目をコピー"
+msgstr "作者の E メールをコピー"
 
 #: git/GitBlamePage.cpp:247
-#, fuzzy
-#| msgid "Copy macro name"
 msgid "Copy author name"
-msgstr "マクロ名をコピー"
+msgstr "作者名をコピー"
 
 #: git/GitBlamePage.cpp:256
-#, fuzzy
-#| msgid "Path copied to clipboard"
 msgid "Commit hash copied to clipboard"
-msgstr "パスをクリップボードにコピーしました"
+msgstr "コミットハッシュをクリップボードにコピーしました"
 
 #: git/GitBlamePage.cpp:267
-#, fuzzy
-#| msgid "Path copied to clipboard"
 msgid "Commit date copied to clipboard"
-msgstr "パスをクリップボードにコピーしました"
+msgstr "コミット日付をクリップボードにコピーしました"
 
 #: git/GitBlamePage.cpp:278
-#, fuzzy
-#| msgid "Path copied to clipboard"
 msgid "Author email copied to clipboard"
-msgstr "パスをクリップボードにコピーしました"
+msgstr "作者の E メールをクリップボードにコピーしました"
 
 #: git/GitBlamePage.cpp:289
-#, fuzzy
-#| msgid "Path copied to clipboard"
 msgid "Author name copied to clipboard"
-msgstr "パスをクリップボードにコピーしました"
+msgstr "作者名をクリップボードにコピーしました"
 
 #: git/GitConsole.cpp:106 git/git.cpp:313
 msgid "Create local branch"
@@ -18195,22 +18175,22 @@ msgid "Reset file"
 msgstr "ファイルをリセット"
 
 #: git/GitConsole.cpp:485
-#, fuzzy
 #| msgid "Choose a folder:"
 msgid "Choose a tool to use:"
-msgstr "フォルダーを選択:"
+msgstr "使用するツールを選択:"
 
 #: git/GitConsole.cpp:495
-#, fuzzy
 #| msgid "Working directory is set to: "
 msgid "Your diff tool is set to: "
-msgstr "作業ディレクトリを設定: "
+msgstr "比較ツールを設定しました: "
 
 #: git/GitConsole.cpp:496
 msgid ""
 "You can change this from the menu bar: Plugins > Git > GIT plugin settings > "
 "Tools"
 msgstr ""
+"この設定は、メニューバーの [プラグイン] > [Git] > [Git プラグインの設定] > "
+"[ツール] からいつでも変更できます。"
 
 #: git/GitResetDlg.cpp:22 git/GitResetDlg.cpp:28
 msgid "Toggle All"
@@ -18489,47 +18469,46 @@ msgstr "コミットを取り消しますか #"
 
 #: git/gitui.cpp:60
 msgid "git:"
-msgstr ""
+msgstr "git:"
 
 #: git/gitui.cpp:76
 msgid "gitk:"
-msgstr ""
+msgstr "gitk:"
 
 #: git/gitui.cpp:92
 msgid "shell:"
-msgstr ""
+msgstr "シェル:"
 
 #: git/gitui.cpp:105
-#, fuzzy
 #| msgid "Diff Tool"
 msgid "diff tool:"
-msgstr "比較ツール"
+msgstr "比較ツール:"
 
 #: git/gitui.cpp:110
+#, fuzzy
 msgid "built-in"
-msgstr ""
+msgstr "内蔵"
 
 #: git/gitui.cpp:111
-#, fuzzy
 #| msgid "File diff"
 msgid "vimdiff"
-msgstr "ファイルの差分"
+msgstr "vimdiff"
 
 #: git/gitui.cpp:112
 msgid "vimdiff1"
-msgstr ""
+msgstr "vimdiff1"
 
 #: git/gitui.cpp:113
 msgid "vimdiff2"
-msgstr ""
+msgstr "vimdiff2"
 
 #: git/gitui.cpp:114
 msgid "vimdiff3"
-msgstr ""
+msgstr "vimdiff3"
 
 #: git/gitui.cpp:115
 msgid "winmerge"
-msgstr ""
+msgstr "winmerge"
 
 #: git/gitui.cpp:137
 msgid "Global user name:"
