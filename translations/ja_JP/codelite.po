@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-18 02:05+0900\n"
-"PO-Revision-Date: 2025-06-22 00:32+0900\n"
+"PO-Revision-Date: 2025-06-22 18:40+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -593,14 +593,11 @@ msgid "Starting model..."
 msgstr "モデルを開始しています..."
 
 #: ChatAI/ChatAIWindow.cpp:238
-#, fuzzy
 #| msgid ""
 #| "Would you like to remove the following folders from SVN?\n"
 #| "\n"
 msgid "Would you also like to change the running model to: "
-msgstr ""
-"これらのフォルダーを SVN から削除しますか？\n"
-"\n"
+msgstr "実行中のモデルも次のものに変更しますか: "
 
 #: ChatAI/LLAMCli.cpp:95
 msgid "Failed to launch command: '"
@@ -3791,10 +3788,9 @@ msgstr ""
 "保存されていない変更があります。構成を切り替える前に、変更を保存しますか？"
 
 #: LiteEditor/BuildTab.cpp:82 LiteEditor/BuildTab.cpp:89
-#, fuzzy
 #| msgid "'\n"
 msgid "\n"
-msgstr "'\n"
+msgstr "\n"
 
 #: LiteEditor/BuildTab.cpp:84
 msgid ""
@@ -3809,6 +3805,8 @@ msgid ""
 "           Check toolchain properly selected in the workspace build "
 "settings.\n"
 msgstr ""
+"           ワークスペースのビルド設定で、ツールチェーンが正しく選択されている"
+"ことを確認してください。\n"
 
 #: LiteEditor/BuildTab.cpp:192
 msgid "A file with the same name already exists, continue?"
@@ -4158,7 +4156,7 @@ msgstr "キャレットの行を強調表示"
 #, fuzzy
 #| msgid "Highlight colour:"
 msgid "Highlight with colour"
-msgstr "強調表示の色:"
+msgstr "強調表示を着色"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:30
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:40
@@ -8085,10 +8083,8 @@ msgid "Replace"
 msgstr "置換"
 
 #: LiteEditor/frame.cpp:1655
-#, fuzzy
-#| msgid "Recent &Workspaces"
 msgid "Find Resource In Workspace"
-msgstr "最近使ったワークスペース (&W)"
+msgstr "ワークスペースからリソースを検索"
 
 #: LiteEditor/frame.cpp:1661
 msgid "Build Active Project"
@@ -10053,28 +10049,22 @@ msgid "Force dark"
 msgstr "ダークモードを強制"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:86
-#, fuzzy
-#| msgid "Move Right"
 msgid "Force light"
-msgstr "右へ移動"
+msgstr "ライトモードを強制"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:102
-#, fuzzy
 #| msgid "Global email:"
 msgid "Global overrides:"
-msgstr "グローバルな E メール:"
+msgstr "全体設定の上書き:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:115
-#, fuzzy
 #| msgid "Set the control's background colour"
 msgid "Text selection background colour:"
-msgstr "コントロールの背景色を設定"
+msgstr "テキストの選択範囲の背景色:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:133
-#, fuzzy
-#| msgid "Set the control's foreground colour"
 msgid "Text selection foreground colour:"
-msgstr "コントロールの前景色を設定"
+msgstr "テキストの選択範囲の前景色:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:151
 msgid "Line number colour (dark theme):"
@@ -10093,10 +10083,9 @@ msgid "Set a global font for all the  supported languages"
 msgstr "サポートされている全ての言語に対し、グローバルなフォントを設定します"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:201
-#, fuzzy
 #| msgid "Global email:"
 msgid "Global theme:"
-msgstr "グローバルな E メール:"
+msgstr "全体のテーマ:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:213
 msgid ""
@@ -10115,8 +10104,6 @@ msgid "Preview:"
 msgstr "プレビュー:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:269
-#, fuzzy
-#| msgid "Customise"
 msgid "Customised"
 msgstr "カスタマイズ"
 
@@ -10319,7 +10306,7 @@ msgstr "テーマのインポートに失敗しました！"
 #, fuzzy
 #| msgid "Successfully formatted "
 msgid "Successfully imported "
-msgstr "正常に整形しました "
+msgstr "正常にインポートしました "
 
 #: LiteEditor/syntaxhighlightdlg.cpp:770 git/gitFileDiffDlg.cpp:54
 #: wxcrafter/src/wxguicraft_main_view.cpp:1053
@@ -11982,8 +11969,6 @@ msgid "Remote target"
 msgstr "リモート grep"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:531
-#, fuzzy
-#| msgid "Extended Protocol"
 msgid "Extended protocol"
 msgstr "拡張プロトコル"
 
@@ -12915,22 +12900,19 @@ msgid "Choose a number"
 msgstr "数字を選択"
 
 #: Plugin/clRemoteDirCtrl.cpp:120 Remoty/RemotyWorkspace.cpp:1285
-#, fuzzy
 #| msgid "Connecting to "
 msgid "Reconnecting to: "
-msgstr "接続中 "
+msgstr "再接続しています: "
 
 #: Plugin/clRemoteDirCtrl.cpp:126
-#, fuzzy
 #| msgid "Connecting to "
 msgid "Connected to: "
-msgstr "接続中 "
+msgstr "接続しました: "
 
 #: Plugin/clRemoteDirCtrl.cpp:142 Plugin/clRemoteDirCtrl.cpp:147
-#, fuzzy
 #| msgid "Failed to delete remote file '"
 msgid "Failed to list remote files. Connection lost"
-msgstr "リモートファイルの削除に失敗しました '"
+msgstr "リモートファイル一覧の取得に失敗しました。接続が失われました"
 
 #: Plugin/clRemoteDirCtrl.cpp:252
 msgid "Download and Open Containing Folder..."
@@ -17747,10 +17729,9 @@ msgid "CppCheck integration for CodeLite IDE"
 msgstr "CodeLite IDE 用の CppCheck 統合"
 
 #: cppchecker/cppchecker.cpp:104 cppchecker/cppchecker.cpp:114
-#, fuzzy
 #| msgid "Run check"
 msgid "Run cppcheck..."
-msgstr "チェックを実行"
+msgstr "C++ チェックを実行..."
 
 #: cppchecker/cppchecker.cpp:177
 #, fuzzy
@@ -17765,12 +17746,8 @@ msgstr ""
 "ル場所を PATH に通していますか？"
 
 #: cppchecker/cppchecker.cpp:189
-#, fuzzy
-#| msgid "Could not find EOS CDT installation. Please install it and try again"
 msgid "Could not locate \"cppcheck\". Please install it and try again"
-msgstr ""
-"EOS CDT がインストールされていないか、見つかりません。インストールしてから再"
-"試行してください"
+msgstr "\"cppcheck\" が見つかりません。インストールしてから再試行してください"
 
 #: cppchecker/cppchecker.cpp:234
 msgid "Cannot run cppcheck. Empty command"
