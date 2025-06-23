@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-18 02:05+0900\n"
-"PO-Revision-Date: 2025-06-22 18:40+0900\n"
+"POT-Creation-Date: 2025-06-23 21:17+0900\n"
+"PO-Revision-Date: 2025-06-23 21:20+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -519,7 +519,6 @@ msgid "Show AI Chat Window"
 msgstr "AI チャットウィンドウを表示"
 
 #: ChatAI/ChatAI.cpp:151
-#| msgid "Please define the value of the following variables:"
 msgid "Please ensure the following is set:\n"
 msgstr "これらが正しく設定されていることを確認してください:\n"
 
@@ -532,7 +531,6 @@ msgid " An active model is selected\n"
 msgstr " アクティブなモデルが選択されている\n"
 
 #: ChatAI/ChatAI.cpp:152
-#| msgid "Path to cmake executable."
 msgid " Path to llama-cli executable\n"
 msgstr " llama-cli 実行ファイルへのパス\n"
 
@@ -554,7 +552,6 @@ msgstr ""
 "続行しますか？"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
-#| msgid "You are about to remove project '"
 msgid "You are about to delete model: "
 msgstr "モデルを削除しようとしています: "
 
@@ -588,14 +585,10 @@ msgid "Restart - Ctrl-Shift-ENTER"
 msgstr "再起動 - Ctrl-Shift-ENTER"
 
 #: ChatAI/ChatAIWindow.cpp:158
-#| msgid "Generating Code..."
 msgid "Starting model..."
 msgstr "モデルを開始しています..."
 
 #: ChatAI/ChatAIWindow.cpp:238
-#| msgid ""
-#| "Would you like to remove the following folders from SVN?\n"
-#| "\n"
 msgid "Would you also like to change the running model to: "
 msgstr "実行中のモデルも次のものに変更しますか: "
 
@@ -623,7 +616,6 @@ msgid "llama-cli:"
 msgstr "llama-cli:"
 
 #: ChatAI/UI.cpp:82
-#| msgid "Active Project"
 msgid "Active model:"
 msgstr "アクティブなモデル:"
 
@@ -691,7 +683,6 @@ msgid "Name:"
 msgstr "名前:"
 
 #: ChatAI/UI.cpp:208
-#| msgid "Modified files:"
 msgid "Model file:"
 msgstr "モデルファイル:"
 
@@ -839,7 +830,6 @@ msgid "Delete formatter"
 msgstr "整形ツールを削除"
 
 #: CodeFormatter/codeformatterdlg.cpp:130
-#| msgid "Xml formatter"
 msgid "Delete formatter '"
 msgstr "整形ツールを削除しますか '"
 
@@ -1016,7 +1006,6 @@ msgstr "コマンドの実行に失敗しました: %s"
 
 #: CodeLite/LSP/RenameRequest.cpp:53
 #, c-format
-#| msgid "Rename symbol"
 msgid ""
 "Rename symbol error:\n"
 "%s"
@@ -1971,7 +1960,6 @@ msgid "Template:"
 msgstr "テンプレート:"
 
 #: DatabaseExplorer/GUI.cpp:599
-#| msgid "Databases (%s)"
 msgid "DatabaseLayer (wxWidgets)"
 msgstr "DatabaseLayer (wxWidgets)"
 
@@ -1984,7 +1972,6 @@ msgid "wxDebea (wxWidgets)"
 msgstr "wxDebea (wxWidgets)"
 
 #: DatabaseExplorer/GUI.cpp:602
-#| msgid "Generate class files"
 msgid "Generic classes (STL)"
 msgstr "汎用的なクラス (STL)"
 
@@ -3788,7 +3775,6 @@ msgstr ""
 "保存されていない変更があります。構成を切り替える前に、変更を保存しますか？"
 
 #: LiteEditor/BuildTab.cpp:82 LiteEditor/BuildTab.cpp:89
-#| msgid "'\n"
 msgid "\n"
 msgstr "\n"
 
@@ -10053,12 +10039,10 @@ msgid "Force light"
 msgstr "ライトモードを強制"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:102
-#| msgid "Global email:"
 msgid "Global overrides:"
 msgstr "全体設定の上書き:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:115
-#| msgid "Set the control's background colour"
 msgid "Text selection background colour:"
 msgstr "テキストの選択範囲の背景色:"
 
@@ -10083,7 +10067,6 @@ msgid "Set a global font for all the  supported languages"
 msgstr "サポートされている全ての言語に対し、グローバルなフォントを設定します"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:201
-#| msgid "Global email:"
 msgid "Global theme:"
 msgstr "全体のテーマ:"
 
@@ -10301,6 +10284,12 @@ msgstr "インポートするテーマを選択"
 #: LiteEditor/syntaxhighlightdlg.cpp:703
 msgid "Failed to import themes!"
 msgstr "テーマのインポートに失敗しました！"
+
+#: LiteEditor/syntaxhighlightdlg.cpp:705
+#, fuzzy
+#| msgid "Text theme:"
+msgid " themes"
+msgstr "テキストのテーマ:"
 
 #: LiteEditor/syntaxhighlightdlg.cpp:705
 #, fuzzy
@@ -12385,7 +12374,6 @@ msgid "` is not supported"
 msgstr "` はサポートされていません"
 
 #: Plugin/LSP/LanguageServerProtocol.cpp:1067
-#| msgid "Rename Symbol"
 msgid "Rename Symbol: '"
 msgstr "シンボル名を変更: '"
 
@@ -12900,17 +12888,14 @@ msgid "Choose a number"
 msgstr "数字を選択"
 
 #: Plugin/clRemoteDirCtrl.cpp:120 Remoty/RemotyWorkspace.cpp:1285
-#| msgid "Connecting to "
 msgid "Reconnecting to: "
 msgstr "再接続しています: "
 
 #: Plugin/clRemoteDirCtrl.cpp:126
-#| msgid "Connecting to "
 msgid "Connected to: "
 msgstr "接続しました: "
 
 #: Plugin/clRemoteDirCtrl.cpp:142 Plugin/clRemoteDirCtrl.cpp:147
-#| msgid "Failed to delete remote file '"
 msgid "Failed to list remote files. Connection lost"
 msgstr "リモートファイル一覧の取得に失敗しました。接続が失われました"
 
@@ -13664,7 +13649,6 @@ msgid "Set the home folder for this account"
 msgstr "このアカウントのホームフォルダーを設定"
 
 #: Plugin/sftp_ui.cpp:237
-#| msgid "Additional include file"
 msgid "Additional key files:"
 msgstr "追加の鍵ファイル:"
 
@@ -13801,6 +13785,10 @@ msgstr "ワークスペースのファイルを開けませんでした: '%s'"
 #: Plugin/workspace.cpp:1391
 msgid "Corrupted workspace file"
 msgstr "ワークスペースのファイルが壊れています"
+
+#: Plugin/wxTerminalCtrl/wxTerminalCtrl.cpp:89
+msgid ". Can't start a terminal"
+msgstr ""
 
 #: Plugin/wxTerminalCtrl/wxTerminalCtrl.cpp:89
 #, fuzzy
@@ -17729,7 +17717,6 @@ msgid "CppCheck integration for CodeLite IDE"
 msgstr "CodeLite IDE 用の CppCheck 統合"
 
 #: cppchecker/cppchecker.cpp:104 cppchecker/cppchecker.cpp:114
-#| msgid "Run check"
 msgid "Run cppcheck..."
 msgstr "C++ チェックを実行..."
 
@@ -18152,12 +18139,10 @@ msgid "Reset file"
 msgstr "ファイルをリセット"
 
 #: git/GitConsole.cpp:485
-#| msgid "Choose a folder:"
 msgid "Choose a tool to use:"
 msgstr "使用するツールを選択:"
 
 #: git/GitConsole.cpp:495
-#| msgid "Working directory is set to: "
 msgid "Your diff tool is set to: "
 msgstr "比較ツールを設定しました: "
 
@@ -18457,7 +18442,6 @@ msgid "shell:"
 msgstr "シェル:"
 
 #: git/gitui.cpp:105
-#| msgid "Diff Tool"
 msgid "diff tool:"
 msgstr "比較ツール:"
 
@@ -18467,7 +18451,6 @@ msgid "built-in"
 msgstr "内蔵"
 
 #: git/gitui.cpp:111
-#| msgid "File diff"
 msgid "vimdiff"
 msgstr "vimdiff"
 
@@ -26649,9 +26632,6 @@ msgstr "wxFormBuilder で開く..."
 
 #~ msgid "Syntax Highlight"
 #~ msgstr "構文の強調表示"
-
-#~ msgid "Text theme:"
-#~ msgstr "テキストのテーマ:"
 
 #~ msgid "Customise colours per language"
 #~ msgstr "言語ごとに色をカスタマイズ"

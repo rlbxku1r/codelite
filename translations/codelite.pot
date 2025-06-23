@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-18 02:05+0900\n"
+"POT-Creation-Date: 2025-06-23 21:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9802,6 +9802,10 @@ msgid "Failed to import themes!"
 msgstr ""
 
 #: LiteEditor/syntaxhighlightdlg.cpp:705
+msgid " themes"
+msgstr ""
+
+#: LiteEditor/syntaxhighlightdlg.cpp:705
 msgid "Successfully imported "
 msgstr ""
 
@@ -13126,6 +13130,10 @@ msgstr ""
 
 #: Plugin/workspace.cpp:1391
 msgid "Corrupted workspace file"
+msgstr ""
+
+#: Plugin/wxTerminalCtrl/wxTerminalCtrl.cpp:89
+msgid ". Can't start a terminal"
 msgstr ""
 
 #: Plugin/wxTerminalCtrl/wxTerminalCtrl.cpp:89
