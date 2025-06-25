@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 21:17+0900\n"
-"PO-Revision-Date: 2025-06-23 21:43+0900\n"
+"PO-Revision-Date: 2025-06-25 21:59+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -4139,10 +4139,8 @@ msgid "Highlight caret line"
 msgstr "キャレットの行を強調表示"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:27
-#, fuzzy
-#| msgid "Highlight colour:"
 msgid "Highlight with colour"
-msgstr "強調表示を着色"
+msgstr "強調表示に色を付ける"
 
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:30
 #: LiteEditor/EditorOptionsGeneralGuidesPanel.cpp:40
@@ -4207,9 +4205,8 @@ msgid "Select working directory:"
 msgstr "作業ディレクトリを選択:"
 
 #: LiteEditor/SecondarySideBar.cpp:63
-#, fuzzy
 msgid "Move to primary sidebar"
-msgstr "プライマリサイドバーに移動"
+msgstr "主サイドバーに移動"
 
 #: LiteEditor/SideBar.cpp:64 LiteEditor/frame.cpp:1219
 #: LiteEditor/frame.cpp:5557 LiteEditor/tabgroupbasedlgs.cpp:163
@@ -4240,9 +4237,8 @@ msgid "Parsing workspace: %d%% completed"
 msgstr "ワークスペースを解析しています: %d%% 完了"
 
 #: LiteEditor/SideBar.cpp:314
-#, fuzzy
 msgid "Move to secondary sidebar"
-msgstr "セカンダリサイドバーに移動"
+msgstr "副サイドバーに移動"
 
 #: LiteEditor/ThreadListPanelBase.cpp:39
 msgid "Active?"
@@ -6342,13 +6338,12 @@ msgid "Find next/Find previous"
 msgstr "次を検索/前を検索"
 
 #: LiteEditor/editorsettingsdockingwidows.cpp:103
-#, fuzzy
 msgid ""
 "Find next/Find previous actions override search string with current "
 "selection (like Find next at caret/prev at caret)"
 msgstr ""
-"次を検索/前を検索したとき、選択中の文字列を検索キーワードとして使用 (\"キャ"
-"レットの単語を検索\" と似た挙動です)"
+"次/前の検索時、選択中の文字列を検索キーワードとして使用 (\"キャレットの単語を"
+"検索\" と似た挙動です)"
 
 #: LiteEditor/editorsettingsfolding.cpp:36 LiteEditor/options_dlg2.cpp:92
 msgid "Folding"
@@ -11948,10 +11943,8 @@ msgid "Append the content here to the startup script, such as ~/.gdbinit"
 msgstr "~/.gdbinit などの起動スクリプトに追記する内容です"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:526
-#, fuzzy
-#| msgid "Remote Grep"
 msgid "Remote target"
-msgstr "リモート grep"
+msgstr "リモートターゲット"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:531
 msgid "Extended protocol"
@@ -11967,10 +11960,8 @@ msgid "Port"
 msgstr "ポート"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:565
-#, fuzzy
-#| msgid "Close connection?"
 msgid "Post connect commands"
-msgstr "接続を閉じますか？"
+msgstr "接続後に実行するコマンド"
 
 #: Plugin/FileSystemWorkspace/clFileSystemWorkspaceDlgBase.cpp:609
 msgid "compile_flags.txt"
@@ -13057,9 +13048,8 @@ msgid "Show output pane"
 msgstr "出力ペインを表示"
 
 #: Plugin/clStatusBar.cpp:639
-#, fuzzy
 msgid "Show secondary sidebar"
-msgstr "セカンダリサイドバーを表示"
+msgstr "副サイドバーを表示"
 
 #: Plugin/clStrings.h:9 Plugin/editor_config.cpp:399
 #: Plugin/editor_config.cpp:436
@@ -13563,7 +13553,7 @@ msgstr "リソースを開く"
 
 #: Plugin/renamefilebasedlg.cpp:49
 msgid "Replace With:"
-msgstr "置換内容:"
+msgstr "置き換え内容:"
 
 #: Plugin/renamefilebasedlg.cpp:59
 msgid "The following files will be updated:"
@@ -13675,20 +13665,18 @@ msgid "Find:"
 msgstr "検索:"
 
 #: Plugin/sftp_ui.cpp:538
-#, fuzzy
 #| msgid "Replace with"
 msgid "Replace with:"
-msgstr "置き換え内容"
+msgstr "置き換え内容:"
 
 #: Plugin/sftp_ui.cpp:576
-#, fuzzy
 #| msgid "Exclude paths:"
 msgid "Exclude patterns:"
-msgstr "除外するパス:"
+msgstr "除外パターン:"
 
 #: Plugin/sftp_ui.cpp:582
 msgid "A semi colon list of exclude patterns"
-msgstr ""
+msgstr "セミコロン区切りの除外パターンの一覧です"
 
 #: Plugin/sftp_ui.cpp:590
 msgid "File types:"
@@ -14062,15 +14050,11 @@ msgid "Remote file system scan completed. Found: "
 msgstr "リモートファイルシステムのスキャンが完了しました。"
 
 #: Remoty/RemotyWorkspace.cpp:1000
-#, fuzzy
-#| msgid ""
-#| "You are about to delete 'PreDefined Types' set '%s'\n"
-#| "Continue ?"
 msgid ""
 "You are about to execute a remote replace in files\n"
 "Do you wish to continue?"
 msgstr ""
-"'事前定義型' セット '%s' を削除しようとしています\n"
+"リモート上のファイルを一括置換しようとしています。\n"
 "続行しますか？"
 
 #: Remoty/RemotyWorkspace.cpp:1054
@@ -14078,6 +14062,8 @@ msgid ""
 "Remote replace in files completed, would you like to reload the following "
 "modified files:\n"
 msgstr ""
+"リモート上のファイルを一括置換しました。これらの変更されたファイルを再読み込"
+"みしますか:\n"
 
 #: Remoty/RemotyWorkspace.cpp:1218
 msgid ""
@@ -17710,16 +17696,12 @@ msgid "Run cppcheck..."
 msgstr "C++ チェックを実行..."
 
 #: cppchecker/cppchecker.cpp:177
-#, fuzzy
-#| msgid ""
-#| "Failed to start remote terminal process. Do you have `ssh` client "
-#| "installed and in PATH?"
 msgid ""
 "Failed to launch cppcheck process.\n"
 "Make sure its installed and in your PATH"
 msgstr ""
-"リモートの端末プロセスを開始できませんでした。`ssh` クライアントのインストー"
-"ル場所を PATH に通していますか？"
+"cppcheck プロセスの起動に失敗しました。\n"
+"PATH が通っている場所にインストールされていることを確認してください"
 
 #: cppchecker/cppchecker.cpp:189
 msgid "Could not locate \"cppcheck\". Please install it and try again"
