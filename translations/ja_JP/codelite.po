@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 21:17+0900\n"
-"PO-Revision-Date: 2025-06-25 21:59+0900\n"
+"PO-Revision-Date: 2025-06-25 22:57+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -18512,13 +18512,15 @@ msgstr "ステータスバーにコミット情報を表示"
 
 #: git/gitui.cpp:464
 msgid "Add a Signed-off-by trailer"
-msgstr ""
+msgstr "Signed-off-by 署名を追加"
 
 #: git/gitui.cpp:470
 msgid ""
 "Add a Signed-off-by trailer by the committer at the end of the commit log "
 "message"
 msgstr ""
+"コミットの作者による Signed-off-by 署名を、コミットの記録メッセージ末尾に追加"
+"します"
 
 #: git/gitui.cpp:475
 msgid "Amend the previous commit"
