@@ -700,7 +700,7 @@ void SyntaxHighlightDlg::OnImportEclipseTheme(wxCommandEvent& event)
         if (themes_imported.empty()) {
             message << _("Failed to import themes!");
         } else {
-            message << _("Successfully imported ") << themes_imported.size() << " themes";
+            message << _("Successfully imported ") << themes_imported.size() << _(" themes");
             // apply the font by reseting the global font again
             const wxFont& gFont = ColoursAndFontsManager::Get().GetGlobalFont();
             if (gFont.IsOk()) {
