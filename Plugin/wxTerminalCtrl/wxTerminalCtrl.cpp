@@ -85,7 +85,7 @@ void wxTerminalCtrl::StartShell()
     if (m_shellCommand.CmpNoCase("bash") == 0) {
         shell_exec = ThePlatform->Which(m_shellCommand).value_or("");
         if (shell_exec.IsEmpty()) {
-            wxMessageBox(wxString() << _("Unable to find ") << m_shellCommand << ". Can't start a terminal",
+            wxMessageBox(wxString() << _("Unable to find ") << m_shellCommand << _(". Can't start a terminal"),
                          "CodeLite",
                          wxICON_WARNING | wxOK | wxCENTRE | wxOK_DEFAULT);
             return;
