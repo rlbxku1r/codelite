@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-27 04:59+0900\n"
-"PO-Revision-Date: 2025-06-27 05:08+0900\n"
+"PO-Revision-Date: 2025-06-28 22:41+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -18361,9 +18361,8 @@ msgid "diff tool:"
 msgstr "比較ツール:"
 
 #: git/gitui.cpp:110
-#, fuzzy
 msgid "built-in"
-msgstr "内蔵"
+msgstr "built-in"
 
 #: git/gitui.cpp:111
 msgid "vimdiff"
