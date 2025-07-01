@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-02 04:44+0900\n"
+"PO-Revision-Date: 2025-07-02 04:48+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -173,9 +173,9 @@ msgid ""
 "project settings). If generator is not selected the CMake uses platform's "
 "default."
 msgstr ""
-"全てのプロジェクトの既定となるジェネレーターを指定できます (プロジェクトの設"
-"定で上書き可能)。ジェネレーターが選択されていない場合、CMake はプラットフォー"
-"ムの既定値を使います。"
+"すべてのプロジェクトの既定となるジェネレーターを指定できます (プロジェクトの"
+"設定で上書き可能)。ジェネレーターが選択されていない場合、CMake はプラット"
+"フォームの既定値を使います。"
 
 #: CMakePlugin/CMakePluginUi.cpp:128 Gizmos/newwxprojectbasedlg.cpp:162
 #: Plugin/clAboutDialogBase.cpp:97 wxcrafter/src/wxcrafter.cpp:1124
@@ -809,7 +809,7 @@ msgstr "完了"
 
 #: CodeFormatter/codeformatterdlg.cpp:94
 msgid "Lose all your modifications and restore default settings?"
-msgstr "変更を全て破棄し、設定を既定値に戻しますか？"
+msgstr "変更をすべて破棄し、設定を既定値に戻しますか？"
 
 #: CodeFormatter/codeformatterdlg.cpp:108
 msgid "Enter the new formatter name:"
@@ -852,7 +852,7 @@ msgstr "既定"
 
 #: CodeFormatter/codeformatterdlgbase.cpp:87
 msgid "Revert all changes and load factory defaults"
-msgstr "変更を全て取り消し、既定値を読み込む"
+msgstr "変更をすべて取り消し、既定値を読み込む"
 
 #: CodeFormatter/codeformatterdlgbase.cpp:96 DatabaseExplorer/GUI.cpp:393
 #: Gizmos/newwxprojectbasedlg.cpp:197 LiteEditor/DbgCommandBaseDlg.cpp:80
@@ -1367,7 +1367,7 @@ msgstr "継続的なビルドを有効化"
 
 #: ContinuousBuild/continousbuildbasepane.cpp:41
 msgid "&Clear All"
-msgstr "全て消去 (&C)"
+msgstr "すべて消去 (&C)"
 
 #: ContinuousBuild/continousbuildbasepane.cpp:65
 msgid "Failed Files:"
@@ -1530,11 +1530,11 @@ msgstr "著作権ブロックを挿入するプロジェクトを選択:"
 #: LiteEditor/plugindlgbase.cpp:70 LiteEditor/setters_getters.cpp:53
 #: UnitTestCPP/testclassbasedlg.cpp:136
 msgid "Check &All"
-msgstr "全てチェック (&A)"
+msgstr "すべてチェック (&A)"
 
 #: Copyright/copyrights_proj_sel_base_dlg.cpp:66
 msgid "&Un-Check All"
-msgstr "全てチェック解除 (&U)"
+msgstr "すべてチェック解除 (&U)"
 
 #: Copyright/copyrights_proj_sel_base_dlg.cpp:76
 msgid "&Insert"
@@ -2110,7 +2110,7 @@ msgstr "新しい関数ブレークポイント"
 #: DebugAdapterClient/DAPBreakpointsView.cpp:20
 #: DebugAdapterClient/DAPWatchesView.cpp:21 Runtime/rc/menu.xrc:1086
 msgid "Delete All"
-msgstr "全て削除"
+msgstr "すべて削除"
 
 #: DebugAdapterClient/DAPBreakpointsView.cpp:120
 msgid "New function breakppoint"
@@ -2218,7 +2218,7 @@ msgstr "コピー"
 
 #: DebugAdapterClient/DAPMainView.cpp:389
 msgid "Copy all"
-msgstr "全てコピー"
+msgstr "すべてコピー"
 
 #: DebugAdapterClient/DAPMainView.cpp:390
 msgid "Copy this thread backtrace"
@@ -2527,7 +2527,7 @@ msgstr "消去"
 
 #: Docker/DockerOutputPane.cpp:50
 msgid "Remove all containers"
-msgstr "全てのコンテナーを削除"
+msgstr "すべてのコンテナーを削除"
 
 #: Docker/DockerOutputPane.cpp:62
 msgid "Remove unused images"
@@ -2544,7 +2544,7 @@ msgstr "画像"
 
 #: Docker/DockerOutputPane.cpp:193
 msgid "Remove all unused images, not just dangling ones"
-msgstr "孤立したものを含む、全ての未使用イメージを削除"
+msgstr "孤立したものを含む、すべての未使用イメージを削除"
 
 #: Docker/DockerOutputPane.cpp:228
 msgid "Restart"
@@ -2848,7 +2848,7 @@ msgstr "ファイルを保存してから実行"
 
 #: ExternalTools/NewToolBase.cpp:154
 msgid "Before executing this tool, save all files"
-msgstr "このツールを実行する前に、ファイルを全て保存します"
+msgstr "このツールを実行する前に、ファイルをすべて保存します"
 
 #: ExternalTools/NewToolBase.cpp:158
 msgid "Capture process output"
@@ -2909,7 +2909,7 @@ msgstr "PID"
 
 #: ExternalTools/external_tools.cpp:155
 msgid "Stop All"
-msgstr "全て停止"
+msgstr "すべて停止"
 
 #: ExternalTools/external_tools.h:61 ExternalTools/externaltools.cpp:101
 #: ExternalTools/externaltools.cpp:260
@@ -3544,7 +3544,7 @@ msgid ""
 "This will reconfigure your language servers\n"
 "Continue?"
 msgstr ""
-"全ての言語サーバーを再構成します\n"
+"すべての言語サーバーを再構成します\n"
 "よろしいですか？"
 
 #: LanguageServer/UI.cpp:44
@@ -3723,7 +3723,7 @@ msgstr "ブレークポイントを正常に削除しました"
 
 #: LiteEditor/BreakpointsView.cpp:108
 msgid "All Breakpoints deleted"
-msgstr "全てのブレークポイントを削除しました"
+msgstr "すべてのブレークポイントを削除しました"
 
 #: LiteEditor/BreakpointsView.cpp:120
 msgid "Pending Breakpoints reapplied"
@@ -3837,7 +3837,7 @@ msgstr " 件の警告)"
 #: LiteEditor/BuildTabView.cpp:556 LiteEditor/frame.cpp:1098
 #: Runtime/rc/menu.xrc:888 Runtime/rc/menu.xrc:923
 msgid "Select All"
-msgstr "全て選択"
+msgstr "すべて選択"
 
 #: LiteEditor/CodeLiteUpgradeFrameBase.cpp:38
 #: LiteEditor/CodeLiteUpgradeFrameBase.h:65
@@ -3907,7 +3907,7 @@ msgstr " のスイッチ:"
 
 #: LiteEditor/CompilerMainPage.cpp:864
 msgid "Please fill all the fields"
-msgstr "全ての欄を埋めてください"
+msgstr "すべての欄を埋めてください"
 
 #: LiteEditor/CompilerMainPage.cpp:873 Plugin/clTreeCtrlPanel.cpp:127
 #: QmakePlugin/qmakesettingsdlg.cpp:101 QmakePlugin/qmakesettingsdlg.cpp:130
@@ -4400,7 +4400,7 @@ msgstr "クリーン (&C)"
 #: LiteEditor/batchbuildbasedlg.cpp:71 LiteEditor/rename_symbool_dlg.cpp:71
 #: LiteEditor/rename_symbool_dlg.cpp:209
 msgid "&Uncheck All"
-msgstr "全てチェック解除 (&U)"
+msgstr "すべてチェック解除 (&U)"
 
 #: LiteEditor/batchbuildbasedlg.cpp:79 Plugin/addincludefiledlg.cpp:62
 #: Plugin/addincludefiledlg.cpp:63 wxcrafter/src/allocator_mgr.cpp:1027
@@ -4441,11 +4441,11 @@ msgstr "選択した項目を削除"
 
 #: LiteEditor/breakpointdlgbase.cpp:56 LiteEditor/reconcileprojectbase.cpp:226
 msgid "Delete &All"
-msgstr "全て削除 (&A)"
+msgstr "すべて削除 (&A)"
 
 #: LiteEditor/breakpointdlgbase.cpp:57
 msgid "Delete all breakpoints and watchpoints"
-msgstr "全てのブレークポイントとウォッチポイントを削除"
+msgstr "すべてのブレークポイントとウォッチポイントを削除"
 
 #: LiteEditor/breakpointdlgbase.cpp:62
 msgid "Set Pending"
@@ -4500,7 +4500,7 @@ msgstr ""
 "ては、'MyClass::myFoo' と指定する必要があります\n"
 "\n"
 "また、下のボックスにチェックを入れ、正規表現を使うこともできます。この場合、"
-"一致し得る全ての関数にブレークポイントが設定されます。"
+"一致し得るすべての関数にブレークポイントが設定されます。"
 
 #: LiteEditor/breakpointdlgbase.cpp:190
 msgid "This is a regex"
@@ -5061,7 +5061,7 @@ msgstr "ブックマークを削除"
 #: LiteEditor/cl_editor.cpp:3553 LiteEditor/frame.cpp:1138
 #: LiteEditor/frame.cpp:1629
 msgid "Remove All Bookmarks"
-msgstr "全てのブックマークを削除"
+msgstr "すべてのブックマークを削除"
 
 #: LiteEditor/cl_editor.cpp:3558
 msgid "Copy lldb/gdb 'set breakpoint' command to clipboard"
@@ -5196,11 +5196,11 @@ msgstr "各ファイルごとに尋ねる"
 #: LiteEditor/close_all_dlg.cpp:70 LiteEditor/frame.cpp:1118
 #: Runtime/rc/menu.xrc:87
 msgid "Save all files"
-msgstr "全てのファイルを保存"
+msgstr "すべてのファイルを保存"
 
 #: LiteEditor/close_all_dlg.cpp:73
 msgid "Discard changes for all files"
-msgstr "全てのファイルへの変更を破棄"
+msgstr "すべてのファイルへの変更を破棄"
 
 #: LiteEditor/close_all_dlg.cpp:83
 msgid "Some of the files are modified, what action should CodeLite take?"
@@ -5209,7 +5209,7 @@ msgstr "一部のファイルが変更されています。どうしますか？
 #: LiteEditor/close_all_dlg.h:67 LiteEditor/frame.cpp:1120
 #: Runtime/rc/menu.xrc:108 Runtime/rc/menu.xrc:753 Runtime/rc/menu.xrc:772
 msgid "Close All"
-msgstr "全て閉じる"
+msgstr "すべて閉じる"
 
 #: LiteEditor/compiler_pages.cpp:48
 msgid "Switch:"
@@ -5628,7 +5628,7 @@ msgstr "次回から確認しない"
 
 #: LiteEditor/context_cpp.cpp:960
 msgid "Seems like you have all the getters/setters you need..."
-msgstr "既に全てのゲッター/セッターが揃っているようです..."
+msgstr "既にすべてのゲッター/セッターが揃っているようです..."
 
 #: LiteEditor/context_cpp.cpp:960 LiteEditor/frame.cpp:4380
 #: LiteEditor/frame.cpp:4465
@@ -6644,7 +6644,7 @@ msgstr "端末を選択"
 
 #: LiteEditor/filechecklistbase.cpp:46
 msgid "C&lear All"
-msgstr "全て消去 (&L)"
+msgstr "すべて消去 (&L)"
 
 #: LiteEditor/filechecklistbase.cpp:111
 msgid ""
@@ -6656,7 +6656,7 @@ msgstr ""
 
 #: LiteEditor/filechecklistbase.cpp:118
 msgid "Reload all the externally modified files"
-msgstr "外部から変更されたファイルを全て再読み込みします"
+msgstr "外部から変更されたファイルをすべて再読み込みします"
 
 #: LiteEditor/filechecklistbase.cpp:118
 msgid "Reload."
@@ -6720,7 +6720,7 @@ msgstr "削除しますか '"
 
 #: LiteEditor/fileview.cpp:854 LiteEditor/fileview.cpp:893
 msgid "Remember my answer and apply to all files"
-msgstr "次回から確認せず、全てのファイルに適用"
+msgstr "次回から確認せず、すべてのファイルに適用"
 
 #: LiteEditor/fileview.cpp:859 LiteEditor/frame.cpp:2270
 msgid "Are you sure?"
@@ -6761,7 +6761,7 @@ msgstr ""
 
 #: LiteEditor/fileview.cpp:974
 msgid " and all its contents will be removed from the project."
-msgstr " とその全ての内容は、プロジェクトから削除されます。"
+msgstr " とそのすべての内容は、プロジェクトから削除されます。"
 
 #: LiteEditor/fileview.cpp:1126
 msgid "You are about to remove project '"
@@ -7062,7 +7062,7 @@ msgstr ""
 "これらのフォルダーを検索します\n"
 "ファイルを検索対象から除外するには、ハイフン (\"-\") で始まるワイルドカードを"
 "使います\n"
-"例えば、このようにすると node_modules フォルダーからの一致を全て除外できま"
+"例えば、このようにすると node_modules フォルダーからの一致をすべて除外できま"
 "す:\n"
 "\n"
 "/home/user/path/to/root/folder\n"
@@ -7384,7 +7384,7 @@ msgstr "関数の実装を追加..."
 
 #: LiteEditor/frame.cpp:1053 Runtime/rc/menu.xrc:863
 msgid "Implement all Un-implemented Functions..."
-msgstr "未実装の関数を全て実装..."
+msgstr "未実装の関数をすべて実装..."
 
 #: LiteEditor/frame.cpp:1054 LiteEditor/project_settings_base_dlg.cpp:246
 #: LiteEditor/project_settings_dlg.cpp:103
@@ -7442,15 +7442,15 @@ msgstr "ブレークポイントを切り替え"
 
 #: LiteEditor/frame.cpp:1069
 msgid "Disable All Breakpoints"
-msgstr "全てのブレークポイントを無効化"
+msgstr "すべてのブレークポイントを無効化"
 
 #: LiteEditor/frame.cpp:1070
 msgid "Enable All Breakpoints"
-msgstr "全てのブレークポイントを有効化"
+msgstr "すべてのブレークポイントを有効化"
 
 #: LiteEditor/frame.cpp:1071 Runtime/rc/menu.xrc:898
 msgid "Delete All Breakpoints"
-msgstr "全てのブレークポイントを削除"
+msgstr "すべてのブレークポイントを削除"
 
 #: LiteEditor/frame.cpp:1072
 msgid "Quick Debug..."
@@ -7695,7 +7695,7 @@ msgstr "前のブックマーク"
 
 #: LiteEditor/frame.cpp:1139 Plugin/bookmark_manager.cpp:107
 msgid "Remove All Currently-Active Bookmarks"
-msgstr "現在アクティブなブックマークを全て削除"
+msgstr "現在アクティブなブックマークをすべて削除"
 
 #: LiteEditor/frame.cpp:1140
 msgid "Open Shell From File Path"
@@ -7731,7 +7731,7 @@ msgstr "次をクイック追加"
 
 #: LiteEditor/frame.cpp:1149 Runtime/rc/menu.xrc:418
 msgid "Quick Find All"
-msgstr "全てをクイック検索"
+msgstr "すべてをクイック検索"
 
 #: LiteEditor/frame.cpp:1150
 msgid "Replace..."
@@ -7826,15 +7826,15 @@ msgstr "現在のブロックを折り畳む/広げる"
 
 #: LiteEditor/frame.cpp:1174
 msgid "Toggle All Folds"
-msgstr "全てのブロックを折り畳む/広げる"
+msgstr "すべてのブロックを折り畳む/広げる"
 
 #: LiteEditor/frame.cpp:1175
 msgid "Toggle All Topmost Folds in Selection"
-msgstr "選択箇所の最上位ブロックを全て折り畳む/広げる"
+msgstr "選択箇所の最上位ブロックをすべて折り畳む/広げる"
 
 #: LiteEditor/frame.cpp:1176
 msgid "Toggle Every Fold in Selection"
-msgstr "選択しているブロックを全て折り畳む/広げる"
+msgstr "選択しているブロックをすべて折り畳む/広げる"
 
 #: LiteEditor/frame.cpp:1177 Plugin/clStatusBar.cpp:531
 msgid "Display EOL"
@@ -7874,7 +7874,7 @@ msgstr "ナビゲーションバー"
 
 #: LiteEditor/frame.cpp:1186
 msgid "Toggle All Panes"
-msgstr "全てのペインを切り替え"
+msgstr "すべてのペインを切り替え"
 
 #: LiteEditor/frame.cpp:1187 Runtime/rc/menu.xrc:345
 msgid "Toggle Minimal View"
@@ -8016,7 +8016,7 @@ msgstr "保存"
 
 #: LiteEditor/frame.cpp:1603
 msgid "Save All"
-msgstr "全て保存"
+msgstr "すべて保存"
 
 #: LiteEditor/frame.cpp:1617
 msgid "Backward"
@@ -8731,11 +8731,11 @@ msgstr "出力時にスクロール"
 #: LiteEditor/outputtabwindow.cpp:206 LiteEditor/shelltab.cpp:218
 #: LiteEditor/tabgroupbasedlgs.cpp:142
 msgid "Clear All"
-msgstr "全て消去"
+msgstr "すべて消去"
 
 #: LiteEditor/outputtabwindow.cpp:207
 msgid "Fold All Results"
-msgstr "全ての結果を折り畳む"
+msgstr "すべての結果を折り畳む"
 
 #: LiteEditor/outputtabwindow.cpp:208
 msgid "Repeat"
@@ -8743,7 +8743,7 @@ msgstr "繰り返す"
 
 #: LiteEditor/plugindlgbase.cpp:74
 msgid "Uncheck All"
-msgstr "全てチェック解除"
+msgstr "すべてチェック解除"
 
 #: LiteEditor/plugindlgbase.h:73
 msgid "Manage Plugins"
@@ -9243,7 +9243,7 @@ msgid ""
 "Release and Debug)"
 msgstr ""
 "コンパイラーに渡す追加のオプションです。セミコロン区切りの一覧で指定します。"
-"これらの設定は _全ての_ ビルド構成で使用されます (例: Release と Debug)"
+"これらの設定は _すべての_ ビルド構成で使用されます (例: Release と Debug)"
 
 #: LiteEditor/project_settings_base_dlg.cpp:1304
 msgid ""
@@ -9252,7 +9252,8 @@ msgid ""
 "(e.g. Release and Debug)"
 msgstr ""
 "C 言語コンパイラーに渡す追加のオプションです。セミコロン区切りの一覧で指定し"
-"ます。これらの設定は _全ての_ ビルド構成で使用されます (例: Release と Debug)"
+"ます。これらの設定は _すべての_ ビルド構成で使用されます (例: Release と "
+"Debug)"
 
 #: LiteEditor/project_settings_base_dlg.cpp:1309
 msgid "Additional Include Paths"
@@ -9264,7 +9265,7 @@ msgid ""
 "build configurations (e.g. Release and Debug)"
 msgstr ""
 "コンパイラーがヘッダーファイルを検索するパスです。セミコロン区切りの一覧で指"
-"定します。これらの設定は _全ての_ ビルド構成で使用されます (例: Release と "
+"定します。これらの設定は _すべての_ ビルド構成で使用されます (例: Release と "
 "Debug)"
 
 #: LiteEditor/project_settings_base_dlg.cpp:1317
@@ -9274,7 +9275,7 @@ msgid ""
 "Debug)"
 msgstr ""
 "追加のプリプロセッサー定義です。セミコロン区切りの一覧で指定します。これらの"
-"設定は _全ての_ ビルド構成で使用されます (例: Release と Debug)"
+"設定は _すべての_ ビルド構成で使用されます (例: Release と Debug)"
 
 #: LiteEditor/project_settings_base_dlg.cpp:1325
 msgid ""
@@ -9282,7 +9283,7 @@ msgid ""
 "settings are used by _all_ build configurations (e.g. Release and Debug)"
 msgstr ""
 "リンカーに渡す追加のオプションです。セミコロン区切りの一覧で指定します。これ"
-"らの設定は _全ての_ ビルド構成で使用されます (例: Release と Debug)"
+"らの設定は _すべての_ ビルド構成で使用されます (例: Release と Debug)"
 
 #: LiteEditor/project_settings_base_dlg.cpp:1329
 msgid "Library Path"
@@ -9294,7 +9295,7 @@ msgid ""
 "settings are used by _all_ build configurations (e.g. Release and Debug)"
 msgstr ""
 "追加のライブラリ検索パスです。セミコロン区切りの一覧で指定します。これらの設"
-"定は _全ての_ ビルド構成で使用されます (例: Release と Debug)"
+"定は _すべての_ ビルド構成で使用されます (例: Release と Debug)"
 
 #: LiteEditor/project_settings_base_dlg.cpp:1400
 msgid "Dependencies:"
@@ -9639,7 +9640,7 @@ msgstr "前を検索"
 
 #: LiteEditor/quickfindbarbase.cpp:269 Plugin/quickfindbarbase.cpp:73
 msgid "Find All"
-msgstr "全て検索"
+msgstr "すべて検索"
 
 #: LiteEditor/quickfindbarbase.cpp:275
 msgid "Use the Up / Down arrows to show the replacement history list"
@@ -9651,7 +9652,7 @@ msgstr "置き換え内容..."
 
 #: LiteEditor/quickfindbarbase.cpp:288 Plugin/quickfindbarbase.cpp:90
 msgid "Replace All"
-msgstr "全て置換"
+msgstr "すべて置換"
 
 #: LiteEditor/quickfindbarbase.h:146
 msgid "Find / Replace"
@@ -9764,7 +9765,7 @@ msgstr "適用 (&A)"
 
 #: LiteEditor/reconcileprojectbase.cpp:174
 msgid "A&pply All"
-msgstr "全て適用 (&P)"
+msgstr "すべて適用 (&P)"
 
 #: LiteEditor/reconcileprojectbase.cpp:181
 #: LiteEditor/reconcileprojectbase.cpp:189
@@ -9786,7 +9787,7 @@ msgid ""
 "or use the Delete All button."
 msgstr ""
 "プロジェクトには登録されているものの、実際はもう存在しないファイルの一覧で"
-"す。プロジェクトから削除する項目を選択するか、[全て削除] ボタンで一掃できま"
+"す。プロジェクトから削除する項目を選択するか、[すべて削除] ボタンで一掃できま"
 "す。"
 
 #: LiteEditor/reconcileprojectbase.cpp:214
@@ -9807,7 +9808,7 @@ msgid ""
 "If you really want to find all possible files, just add *"
 msgstr ""
 "セミコロンで区切られた、拡張子の一覧です。例: cpp;h;xrc\n"
-"全てのファイルを検索したい場合、* とだけ指定してください"
+"すべてのファイルを検索したい場合、* とだけ指定してください"
 
 #: LiteEditor/reconcileprojectbase.cpp:358
 msgid "Files to ignore:"
@@ -9888,7 +9889,7 @@ msgstr "位置"
 
 #: LiteEditor/rename_symbool_dlg.cpp:67 LiteEditor/rename_symbool_dlg.cpp:205
 msgid "&Check All"
-msgstr "全てチェック (&C)"
+msgstr "すべてチェック (&C)"
 
 #: LiteEditor/rename_symbool_dlg.cpp:186
 msgid "Select Projects"
@@ -9912,11 +9913,11 @@ msgstr "無効な C/C++ シンボル名です"
 
 #: LiteEditor/replaceinfilespanel.cpp:55
 msgid "&Unmark All"
-msgstr "全てマーク解除 (&U)"
+msgstr "すべてマーク解除 (&U)"
 
 #: LiteEditor/replaceinfilespanel.cpp:60
 msgid "Mark &All"
-msgstr "全てマーク (&A)"
+msgstr "すべてマーク (&A)"
 
 #: LiteEditor/replaceinfilespanel.cpp:176
 #: LiteEditor/replaceinfilespanel.cpp:208
@@ -10042,7 +10043,7 @@ msgstr "全体のフォント:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:196
 msgid "Set a global font for all the  supported languages"
-msgstr "サポートされている全ての言語に対し、グローバルなフォントを設定します"
+msgstr "サポートされているすべての言語に対し、グローバルなフォントを設定します"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:201
 msgid "Global theme:"
@@ -10055,7 +10056,7 @@ msgid ""
 "next available theme from\n"
 "the same family"
 msgstr ""
-"サポートされている全ての言語に対し、グローバルなテーマを設定します。\n"
+"サポートされているすべての言語に対し、グローバルなテーマを設定します。\n"
 "対象の言語にテーマがない場合は、同じファミリーで次に利用できるテーマを使用し"
 "ます"
 
@@ -10078,7 +10079,7 @@ msgstr "全体のフォント:"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:354
 msgid "Use this to select a font to be used by *all* styles of this lexer"
-msgstr "この字句解析器のスタイル *全て* に使うフォントを選択します"
+msgstr "この字句解析器のスタイル *すべて* に使うフォントを選択します"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:360
 msgid "Global background Colour:"
@@ -10088,7 +10089,7 @@ msgstr "全体の背景色:"
 msgid ""
 "Use this to select a background colour to be used by *all* styles of this "
 "lexer"
-msgstr "この字句解析器のスタイル *全て* に使う背景色を選択します"
+msgstr "この字句解析器のスタイル *すべて* に使う背景色を選択します"
 
 #: LiteEditor/syntaxhighlightbasedlg.cpp:380
 msgid "File Extensions:"
@@ -10216,7 +10217,7 @@ msgstr "エクスポート.."
 
 #: LiteEditor/syntaxhighlightdlg.cpp:153
 msgid "Export All"
-msgstr "全てエクスポート"
+msgstr "すべてエクスポート"
 
 #: LiteEditor/syntaxhighlightdlg.cpp:154
 msgid "Import from ZIP file"
@@ -10253,7 +10254,7 @@ msgid ""
 "By choosing 'Yes', you will lose all your local modifications"
 msgstr ""
 "初期の色設定に戻しますか？\n"
-"'はい' を選ぶと、今までに変更した設定が全て失われます"
+"'はい' を選ぶと、今までに変更した設定がすべて失われます"
 
 #: LiteEditor/syntaxhighlightdlg.cpp:680
 msgid "Select theme to import"
@@ -10310,7 +10311,7 @@ msgstr "グループに入れるタブを選択"
 
 #: LiteEditor/tabgroupbasedlgs.cpp:137
 msgid "Check All"
-msgstr "全てチェック"
+msgstr "すべてチェック"
 
 #: LiteEditor/tabgroupbasedlgs.cpp:138
 msgid "Click to select all items"
@@ -10671,7 +10672,7 @@ msgstr "エディターと連携"
 #: LiteEditor/workspacetab.cpp:134
 #: codelitephp/php-plugin/php_workspace_view.cpp:125
 msgid "Collapse All"
-msgstr "全て折り畳む"
+msgstr "すべて折り畳む"
 
 #: LiteEditor/workspacetab.cpp:135
 msgid "Goto Active Project"
@@ -10691,11 +10692,11 @@ msgstr "プロジェクトのピン留めを外す"
 
 #: LiteEditor/wxcrafter.cpp:132
 msgid "Check all"
-msgstr "全てチェック"
+msgstr "すべてチェック"
 
 #: LiteEditor/wxcrafter.cpp:137
 msgid "Uncheck all"
-msgstr "全てチェック解除"
+msgstr "すべてチェック解除"
 
 #: LiteEditor/wxcrafter.cpp:143
 msgid "The functions will be placed into this file"
@@ -10961,11 +10962,11 @@ msgstr "場所へジャンプ"
 
 #: MemCheck/memcheckoutputview.cpp:481
 msgid "Mark all"
-msgstr "全てマーク"
+msgstr "すべてマーク"
 
 #: MemCheck/memcheckoutputview.cpp:483
 msgid "Unmark all"
-msgstr "全てマーク解除"
+msgstr "すべてマーク解除"
 
 #: MemCheck/memcheckoutputview.cpp:486
 msgid "Suppress this error"
@@ -10973,7 +10974,7 @@ msgstr "このエラーを抑制"
 
 #: MemCheck/memcheckoutputview.cpp:488
 msgid "Suppress all marked errors"
-msgstr "マークしたエラーを全て抑制"
+msgstr "マークしたエラーをすべて抑制"
 
 #: MemCheck/memcheckoutputview.cpp:491
 msgid "Copy line as string to clipboard"
@@ -11018,7 +11019,7 @@ msgstr "プロセスを停止"
 
 #: MemCheck/memcheckui.cpp:247
 msgid "Expand all"
-msgstr "全て展開"
+msgstr "すべて展開"
 
 #: MemCheck/memcheckui.cpp:249
 msgid "Jump to next error"
@@ -11086,7 +11087,7 @@ msgstr "合計: 0  絞り込み: 0  選択: 0"
 
 #: MemCheck/memcheckui.cpp:430
 msgid "Suppress all"
-msgstr "全て抑制"
+msgstr "すべて抑制"
 
 #: MemCheck/memcheckui.cpp:434
 msgid "Suppress selected"
@@ -11351,7 +11352,7 @@ msgid ""
 msgstr ""
 "PSR-0 標準に従い、名前空間とクラスの識別子を、フォルダーとファイルの名前を組"
 "み合わせたものに変更します。\n"
-"この処理は、選択したフォルダー内のファイル全てに適用されます。\n"
+"この処理は、選択したフォルダー内のファイルすべてに適用されます。\n"
 "よろしいですか？"
 
 #: PHPRefactoring/phprefactoring.cpp:242 PHPRefactoring/phprefactoring.cpp:346
@@ -11443,7 +11444,7 @@ msgid ""
 "settings.\n"
 "Continue?"
 msgstr ""
-"構文の強調表示ファイルをインポートすると、重複している設定を全て上書きしま"
+"構文の強調表示ファイルをインポートすると、重複している設定をすべて上書きしま"
 "す。\n"
 "よろしいですか？"
 
@@ -11623,7 +11624,7 @@ msgstr "左へコピー"
 
 #: Plugin/Diff/DiffSideBySidePanel.cpp:121
 msgid "Copy All"
-msgstr "全てコピー"
+msgstr "すべてコピー"
 
 #: Plugin/Diff/DiffSideBySidePanel.cpp:123
 msgid "View Type"
@@ -11656,7 +11657,7 @@ msgid ""
 "Refreshing the view will lose all your changes\n"
 "Do you want to continue?"
 msgstr ""
-"表示を更新すると、変更が全て失われます\n"
+"表示を更新すると、変更がすべて失われます\n"
 "よろしいですか？"
 
 #: Plugin/Diff/DiffSideBySidePanel.cpp:750
@@ -11668,16 +11669,16 @@ msgid ""
 "Closing the diff viewer, will lose all your changes.\n"
 "Continue?"
 msgstr ""
-"差分表示を閉じると、変更が全て失われます。\n"
+"差分表示を閉じると、変更がすべて失われます。\n"
 "よろしいですか？"
 
 #: Plugin/Diff/DiffSideBySidePanel.cpp:1194
 msgid "Copy all: left <- right"
-msgstr "全てコピー: 左 <- 右"
+msgstr "すべてコピー: 左 <- 右"
 
 #: Plugin/Diff/DiffSideBySidePanel.cpp:1195
 msgid "Copy all: left -> right"
-msgstr "全てコピー: 左 -> 右"
+msgstr "すべてコピー: 左 -> 右"
 
 #: Plugin/Diff/DiffSideBySidePanel.cpp:1207
 msgid "Single View"
@@ -12101,7 +12102,7 @@ msgstr "提案..."
 
 #: Plugin/Keyboard/NewKeyShortcutBaseDlg.cpp:131
 msgid "Show list of all un-assigned keyboard shortcuts"
-msgstr "未割り当てキーボードショートカットの一覧を全て表示"
+msgstr "未割り当てキーボードショートカットの一覧をすべて表示"
 
 #: Plugin/Keyboard/NewKeyShortcutBaseDlg.h:89
 msgid "Set New Key Accelerator"
@@ -13423,7 +13424,7 @@ msgid ""
 "Expands to all preprocessors set in the project setting where each entry is "
 "prefixed with $(PreprocessorSwitch)"
 msgstr ""
-"プロジェクトに設定された、プリプロセッサーの定義全てを展開 (各項目は "
+"プロジェクトに設定された、プリプロセッサーの定義すべてを展開 (各項目は "
 "$(PreprocessorSwitch) で始まる)"
 
 #: Plugin/macrosdlg.cpp:137
@@ -13442,7 +13443,7 @@ msgstr "プロジェクトに設定された、リンカーのオプション"
 
 #: Plugin/macrosdlg.cpp:140
 msgid "All include paths prefixed with $(IncludeSwitch)"
-msgstr "$(IncludeSwitch) から始まる、全てのインクルードパス"
+msgstr "$(IncludeSwitch) から始まる、すべてのインクルードパス"
 
 #: Plugin/macrosdlg.cpp:141
 msgid "Resource compiler include path as set in the project settings"
@@ -14222,7 +14223,7 @@ msgstr "貼り付け (&E)"
 
 #: Runtime/rc/menu.xrc:153
 msgid "Select &All"
-msgstr "全て選択 (&A)"
+msgstr "すべて選択 (&A)"
 
 #: Runtime/rc/menu.xrc:162
 msgid "&Delete Line"
@@ -14302,15 +14303,15 @@ msgstr "現在のブロックを折り畳む/広げる (&F)"
 
 #: Runtime/rc/menu.xrc:265
 msgid "Toggle &All Folds"
-msgstr "全てのブロックを折り畳む/広げる (&A)"
+msgstr "すべてのブロックを折り畳む/広げる (&A)"
 
 #: Runtime/rc/menu.xrc:268
 msgid "Toggle All To&pmost Folds in Selection"
-msgstr "選択箇所の最上位ブロックを全て折り畳む/広げる (&P)"
+msgstr "選択箇所の最上位ブロックをすべて折り畳む/広げる (&P)"
 
 #: Runtime/rc/menu.xrc:271
 msgid "Toggle &Every Fold in Selection"
-msgstr "選択しているブロックを全て折り畳む/広げる (&E)"
+msgstr "選択しているブロックをすべて折り畳む/広げる (&E)"
 
 #: Runtime/rc/menu.xrc:274
 msgid "&Display EOL"
@@ -14346,7 +14347,7 @@ msgstr "内蔵の端末を表示 (&S)"
 
 #: Runtime/rc/menu.xrc:342
 msgid "&Toggle All Panes"
-msgstr "全てのペインを切り替え (&T)"
+msgstr "すべてのペインを切り替え (&T)"
 
 #: Runtime/rc/menu.xrc:350
 msgid "Main ToolBar Orientation"
@@ -14430,11 +14431,11 @@ msgstr "前のブックマーク (&U)"
 
 #: Runtime/rc/menu.xrc:460
 msgid "Remove All &Currently-Active Bookmarks"
-msgstr "現在アクティブなブックマークを全て削除 (&C)"
+msgstr "現在アクティブなブックマークをすべて削除 (&C)"
 
 #: Runtime/rc/menu.xrc:463
 msgid "Remove &All Bookmarks"
-msgstr "全てのブックマークを削除 (&A)"
+msgstr "すべてのブックマークを削除 (&A)"
 
 #: Runtime/rc/menu.xrc:478
 msgid "Find &Resource..."
@@ -14586,15 +14587,15 @@ msgstr "ブレークポイントを切り替え (&B)"
 
 #: Runtime/rc/menu.xrc:640
 msgid "Disab&le All Breakpoints"
-msgstr "全てのブレークポイントを無効化 (&L)"
+msgstr "すべてのブレークポイントを無効化 (&L)"
 
 #: Runtime/rc/menu.xrc:643
 msgid "E&nable All Breakpoints"
-msgstr "全てのブレークポイントを有効化 (&N)"
+msgstr "すべてのブレークポイントを有効化 (&N)"
 
 #: Runtime/rc/menu.xrc:646
 msgid "&Delete All Breakpoints"
-msgstr "全てのブレークポイントを削除 (&D)"
+msgstr "すべてのブレークポイントを削除 (&D)"
 
 #: Runtime/rc/menu.xrc:650
 msgid "&Quick Debug..."
@@ -15449,7 +15450,7 @@ msgid ""
 "You are about to revert all your changes\n"
 "Are you sure?"
 msgstr ""
-"全ての変更を取り消そうとしています\n"
+"すべての変更を取り消そうとしています\n"
 "本当によろしいですか？"
 
 #: Subversion2/subversion2.cpp:549
@@ -15856,11 +15857,11 @@ msgstr "SVN 更新"
 
 #: Subversion2/subversion_view.cpp:239 Subversion2/subversion_view.cpp:240
 msgid "Svn commit all changes"
-msgstr "SVN 全ての変更をコミット"
+msgstr "SVN すべての変更をコミット"
 
 #: Subversion2/subversion_view.cpp:241
 msgid "Svn revert all changes"
-msgstr "SVN 全ての変更を取り消す"
+msgstr "SVN すべての変更を取り消す"
 
 #: Subversion2/subversion_view.cpp:247
 msgid "Stop current svn process"
@@ -16270,7 +16271,7 @@ msgstr "NodeJS の起動に失敗しました: "
 
 #: WebTools/NodeDebuggerPane.cpp:71
 msgid "Clear all breakpoints"
-msgstr "全てのブレークポイントを消去"
+msgstr "すべてのブレークポイントを消去"
 
 #: WebTools/NodeDebuggerPane.cpp:72
 msgid "Delete breakpoint"
@@ -16454,8 +16455,8 @@ msgid ""
 "user typed"
 msgstr ""
 "単語を補完する際の比較方法を選択します:\n"
-"\"〜で始まる\": 入力された文字から始まる、全ての単語を候補に入れます\n"
-"\"〜を含む\": 入力された文字を含む、全ての単語を候補に入れます"
+"\"〜で始まる\": 入力された文字から始まる、すべての単語を候補に入れます\n"
+"\"〜を含む\": 入力された文字を含む、すべての単語を候補に入れます"
 
 #: WordCompletion/UI.h:75
 msgid "Word Completion Settings"
@@ -16775,7 +16776,7 @@ msgstr "選択したブレークポイントを削除"
 #: codelitephp/php-plugin/PHPDebugPane.cpp:37
 #: codelitephp/php-plugin/PHPDebugPane.cpp:39
 msgid "Delete all breakpoints"
-msgstr "全てのブレークポイントを削除"
+msgstr "すべてのブレークポイントを削除"
 
 #: codelitephp/php-plugin/PhpSFTPHandler.cpp:179
 msgid "Failed to locate SSH account: "
@@ -17625,7 +17626,7 @@ msgstr ""
 
 #: codelitephp/php-plugin/php_workspace_view.cpp:1702
 msgid "Do this for all files"
-msgstr "全てのファイルに行う"
+msgstr "すべてのファイルに行う"
 
 #: cppchecker/cppchecker.cpp:76
 msgid "CppChecker integration for CodeLite IDE"
@@ -18071,7 +18072,7 @@ msgstr ""
 
 #: git/GitResetDlg.cpp:22 git/GitResetDlg.cpp:28
 msgid "Toggle All"
-msgstr "全て切り替え"
+msgstr "すべて切り替え"
 
 #: git/git.cpp:180
 msgid "Simple GIT plugin"
@@ -18197,15 +18198,15 @@ msgstr "リモートがないため、プッシュできません！"
 
 #: git/git.cpp:892
 msgid "Push all local commits?"
-msgstr "全てのローカルコミットをプッシュしますか？"
+msgstr "すべてのローカルコミットをプッシュしますか？"
 
 #: git/git.cpp:918
 msgid "Save all changes and pull remote changes?"
-msgstr "全ての変更を保存し、リモートの変更をプルしますか？"
+msgstr "すべての変更を保存し、リモートの変更をプルしますか？"
 
 #: git/git.cpp:942
 msgid "Are you sure that you want to discard all local changes?"
-msgstr "ローカルの変更を全て破棄しますか？"
+msgstr "ローカルの変更をすべて破棄しますか？"
 
 #: git/git.cpp:981
 msgid "Jump to modified file"
@@ -18274,7 +18275,7 @@ msgstr "接続を続けますか"
 
 #: git/git.cpp:2395
 msgid "Save all changes and rebase?"
-msgstr "全ての変更を保存し、リベースしますか？"
+msgstr "すべての変更を保存し、リベースしますか？"
 
 #: git/git.cpp:2450
 msgid "Add file"
@@ -18318,7 +18319,7 @@ msgstr "エラー: コミットの説明が未指定のため、中断します"
 
 #: git/git.cpp:2693
 msgid "All files are up-to-date!"
-msgstr "ファイルは全て最新です！"
+msgstr "ファイルはすべて最新です！"
 
 #: git/gitCommitDlg.cpp:71
 msgid "Toggle files"
@@ -19544,7 +19545,7 @@ msgid ""
 msgstr ""
 "列の幅 (ピクセル単位)\n"
 "-1 - 未指定/既定値を表す、特別な値です\n"
-"-2 - 全ての値が収まるように、幅を自動調整します"
+"-2 - すべての値が収まるように、幅を自動調整します"
 
 #: wxcrafter/controls/data_view_list_ctrl_column.cpp:31
 #: wxcrafter/src/wxgui_defs.h:227
@@ -20432,7 +20433,7 @@ msgstr "項目を削除"
 
 #: wxcrafter/controls/list_ctrl_wrapper.cpp:58
 msgid "Delete all items"
-msgstr "全ての項目を削除"
+msgstr "すべての項目を削除"
 
 #: wxcrafter/controls/list_ctrl_wrapper.cpp:59
 msgid "An item has been inserted"
@@ -21068,7 +21069,7 @@ msgid ""
 "buffer has been reset by deleting all content.\n"
 "You can use this to set a default style for the first new paragraph."
 msgstr ""
-"全ての内容を削除し、バッファーをリセットしたときの "
+"すべての内容を削除し、バッファーをリセットしたときの "
 "wxEVT_COMMAND_RICHTEXT_BUFFER_RESET イベントを処理します。\n"
 "このイベントを使うと、新しく始まる文節に対し、既定のスタイルを設定できます。"
 
@@ -21974,7 +21975,7 @@ msgid ""
 msgstr ""
 "継承先のクラス名です\n"
 "この欄を埋めると、基底クラスから継承した、別の派生クラスを生成します。\n"
-"アプリケーションのロジックは、全て派生クラス側に実装してください。\n"
+"アプリケーションのロジックは、すべて派生クラス側に実装してください。\n"
 "例: 基底クラスが 'FooDialogBase' だったら、派生クラスは 'FooDialog' のように"
 "します。"
 
@@ -22039,8 +22040,8 @@ msgid ""
 "Make sure that all toplevel windows have a valid C++ class name"
 msgstr ""
 "コードを生成できません。\n"
-"全てのトップレベルウィンドウに対して、有効な C++ クラス名を設定しているか確認"
-"してください"
+"すべてのトップレベルウィンドウに対して、有効な C++ クラス名を設定しているか確"
+"認してください"
 
 #: wxcrafter/controls/top_level_win_wrapper.cpp:309
 msgid "Base class and inherited class have the same name"
@@ -22096,8 +22097,8 @@ msgstr ""
 "選択項目を変更したときの wxEVT_TREELIST_SELECTION_CHANGED イベントを処理しま"
 "す。単一選択の場合、今までの選択は解除され、新しい項目に切り替わります。複数"
 "選択の場合、一度の操作でいくつもの項目の選択が切り替わることもありますが、イ"
-"ベントで通知されるのはそのうちのひとつだけです。現在選択中の項目を全て取得す"
-"るには wxTreeListCtrl::GetSelections() を使ってください。"
+"ベントで通知されるのはそのうちのひとつだけです。現在選択中の項目をすべて取得"
+"するには wxTreeListCtrl::GetSelections() を使ってください。"
 
 #: wxcrafter/controls/tree_list_ctrl_wrapper.cpp:27
 msgid ""
@@ -23010,7 +23011,7 @@ msgstr ""
 
 #: wxcrafter/src/gui.cpp:1046
 msgid "Leave unchanged the names of all child controls"
-msgstr "全ての子コントロール名を変更しない"
+msgstr "すべての子コントロール名を変更しない"
 
 #: wxcrafter/src/gui.cpp:1050
 msgid ""
@@ -23176,8 +23177,8 @@ msgid ""
 "place them in this file"
 msgstr ""
 "ビットマップのファイル名を設定します\n"
-"プロジェクトのビットマップは全て C++ コードに変換され、このファイルに置かれま"
-"す"
+"プロジェクトのビットマップはすべて C++ コードに変換され、このファイルに置かれ"
+"ます"
 
 #: wxcrafter/src/properties_list_view.cpp:70
 msgid "wxWindow ID Generation"
@@ -23223,8 +23224,8 @@ msgid ""
 "otherwise allow users to directly enter native text string encapsulated by "
 "wxT() macro"
 msgstr ""
-"有効にすると、全ての文字列を \"_\" マクロで囲んで生成します。無効にすると、代"
-"わりに wxT() マクロで囲みます"
+"有効にすると、すべての文字列を \"_\" マクロで囲んで生成します。無効にすると、"
+"代わりに wxT() マクロで囲みます"
 
 #: wxcrafter/src/properties_list_view.cpp:82
 #: wxcrafter/src/properties_list_view.cpp:306
@@ -24241,7 +24242,7 @@ msgid ""
 "there."
 msgstr ""
 "基底クラス名です。例: FooBase\n"
-"生成した UI コードは、全てこのクラスに配置されます。\n"
+"生成した UI コードは、すべてこのクラスに配置されます。\n"
 "通常は、このクラスから Foo クラスを派生し、そこに自分のコードを書き込みます。"
 
 #: wxcrafter/src/wxcrafter_gui.cpp:1483
@@ -25020,7 +25021,7 @@ msgstr "下側に揃える"
 
 #: wxcrafter/src/wxguicraft_main_view.cpp:209
 msgid "All Borders"
-msgstr "全ての境界"
+msgstr "すべての境界"
 
 #: wxcrafter/src/wxguicraft_main_view.cpp:211
 msgid "Left Border"
@@ -25302,7 +25303,7 @@ msgstr "ビットマップのサイズ"
 
 #: wxcrafter/top_level_windows/image_list_wrapper.cpp:25
 msgid "True if masks should be created for all images"
-msgstr "全ての画像にマスクを作成するかどうかです"
+msgstr "すべての画像にマスクを作成するかどうかです"
 
 #: wxcrafter/top_level_windows/wizard_wrapper.cpp:18
 msgid "My Wizard"
