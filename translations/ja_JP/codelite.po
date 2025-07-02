@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-02 04:48+0900\n"
+"PO-Revision-Date: 2025-07-02 20:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -127,7 +127,7 @@ msgstr "ビルド"
 
 #: CMakePlugin/CMakePlugin.cpp:533
 msgid "This folder already contains a CMakeLists.txt file"
-msgstr "このフォルダーには既に CMakeLists.txt ファイルが存在します"
+msgstr "すでにこのフォルダーには CMakeLists.txt ファイルが存在します"
 
 #: CMakePlugin/CMakePlugin.cpp:560
 msgid "Executable name:"
@@ -539,7 +539,7 @@ msgstr ""
 
 #: ChatAI/ChatAISettingsDlg.cpp:46
 msgid "A model with this name already exists"
-msgstr "この名前のモデルが既に存在します"
+msgstr "すでにこの名前のモデルが存在します"
 
 #: ChatAI/ChatAISettingsDlg.cpp:77
 msgid ""
@@ -821,7 +821,7 @@ msgstr "新しい整形ツール"
 
 #: CodeFormatter/codeformatterdlg.cpp:116
 msgid "Formatter with similar name already exists"
-msgstr "この名前の整形ツールが既に存在します"
+msgstr "すでにこの名前の整形ツールが存在します"
 
 #: CodeFormatter/codeformatterdlg.cpp:130
 msgid "Delete formatter"
@@ -2697,7 +2697,7 @@ msgid ""
 "Workspace already exists"
 msgstr ""
 "ワークスペースの作成に失敗しました\n"
-"ワークスペースが既に存在します"
+"すでにワークスペースが存在します"
 
 #: Docker/clDockerWorkspaceView.cpp:81 Docker/clDockerWorkspaceView.cpp:115
 #: WebTools/NodeJSWorkspaceView.cpp:101
@@ -3185,7 +3185,7 @@ msgstr "ファイル名が空です"
 #: Gizmos/newclassdlg.cpp:173 Gizmos/newclassdlg.cpp:182
 #, c-format
 msgid "A file with this name: '%s' already exists, continue anyway?"
-msgstr "同じ名前のファイル '%s' が既に存在します。それでも続けますか？"
+msgstr "すでに同じ名前のファイル '%s' が存在します。それでも続けますか？"
 
 #: Gizmos/newclassdlg.cpp:189
 msgid "Please select a virtual directory"
@@ -3788,7 +3788,7 @@ msgstr ""
 
 #: LiteEditor/BuildTab.cpp:192
 msgid "A file with the same name already exists, continue?"
-msgstr "同じ名前のファイルが既に存在します。続行しますか？"
+msgstr "すでに同じ名前のファイルが存在します。続行しますか？"
 
 #: LiteEditor/BuildTab.cpp:210
 msgid "seconds"
@@ -4298,7 +4298,7 @@ msgid ""
 "'%s' is already assigned to: '%s'\n"
 "Would you like to replace it?"
 msgstr ""
-"'%s' は既に: '%s' へ割り当てられています\n"
+"すでに '%s' は: '%s' へ割り当てられています\n"
 "置き換えますか？"
 
 #: LiteEditor/addoptioncheckdlgbase.cpp:44
@@ -4323,7 +4323,7 @@ msgstr "ビルドパネル"
 
 #: LiteEditor/advanced_settings.cpp:89
 msgid "A compiler with this name already exists"
-msgstr "この名前のコンパイラーが既に存在します"
+msgstr "すでにこの名前のコンパイラーが存在します"
 
 #: LiteEditor/advanced_settings.cpp:106 LiteEditor/edit_configuration.cpp:185
 #: LiteEditor/fileview.cpp:852 LiteEditor/fileview.cpp:891
@@ -4988,7 +4988,7 @@ msgstr ""
 "中間ファイル\n"
 "'%s'\n"
 "を書き込み用に作成できませんでした。\n"
-"ファイルが既に存在します！"
+"すでにファイルが存在します！"
 
 #: LiteEditor/cl_editor.cpp:1761
 #, c-format
@@ -5628,7 +5628,7 @@ msgstr "次回から確認しない"
 
 #: LiteEditor/context_cpp.cpp:960
 msgid "Seems like you have all the getters/setters you need..."
-msgstr "既にすべてのゲッター/セッターが揃っているようです..."
+msgstr "すでにすべてのゲッター/セッターが揃っているようです..."
 
 #: LiteEditor/context_cpp.cpp:960 LiteEditor/frame.cpp:4380
 #: LiteEditor/frame.cpp:4465
@@ -5737,7 +5737,7 @@ msgstr "デバッガーのコマンド"
 
 #: LiteEditor/debugger_predefined_types_page.cpp:85
 msgid "A Debugger type with that name already exists"
-msgstr "指定したデバッガーの型名が既に存在します"
+msgstr "指定したデバッガーの型名がすでに存在します"
 
 #: LiteEditor/debuggerasciiviewerbase.cpp:47
 msgid "Displaying:"
@@ -6046,11 +6046,11 @@ msgstr "'事前定義型' セット削除の確認"
 
 #: LiteEditor/debuggersettingsdlg.cpp:240
 msgid "A set with this name already exist"
-msgstr "この名前のセットが既に存在します"
+msgstr "すでにこの名前のセットが存在します"
 
 #: LiteEditor/debuggersettingsdlg.cpp:240
 msgid "Name Already Exists"
-msgstr "名前が既に存在します"
+msgstr "すでに名前が存在します"
 
 #: LiteEditor/debuggersettingsdlg.cpp:285
 msgid "GNU gdb debugger"
@@ -6756,8 +6756,8 @@ msgid ""
 "An error occurred during file removal. Maybe it has been already deleted or "
 "you don't have the necessary permissions"
 msgstr ""
-"ファイルの削除中にエラーが発生しました。既に外部から削除されたか、必要な権限"
-"がないためかもしれません"
+"ファイルの削除中にエラーが発生しました。すでに外部から削除されたか、必要な権"
+"限がないためかもしれません"
 
 #: LiteEditor/fileview.cpp:974
 msgid " and all its contents will be removed from the project."
@@ -6812,7 +6812,7 @@ msgstr "ファイル名を変更:"
 
 #: LiteEditor/fileview.cpp:1826
 msgid "A File with that name already exists!"
-msgstr "指定した名前のファイルが既に存在します！"
+msgstr "指定した名前のファイルがすでに存在します！"
 
 #: LiteEditor/fileview.cpp:1857
 msgid "New virtual folder name:"
@@ -6840,7 +6840,7 @@ msgstr "プロジェクト名を変更"
 
 #: LiteEditor/fileview.cpp:2290
 msgid "A project with this name already exists in the workspace"
-msgstr "この名前のプロジェクトが、既にワークスペースに存在します"
+msgstr "すでにこの名前のプロジェクトが、ワークスペースに存在します"
 
 #: LiteEditor/fileview.cpp:2296
 msgid "Project names may contain only the following characters [a-z0-9_-]"
@@ -8148,7 +8148,7 @@ msgstr "タブグループの名前を入力してください"
 
 #: LiteEditor/frame.cpp:2269
 msgid "There is already a file with this name. Do you want to overwrite it?"
-msgstr "この名前のファイルが既に存在します。上書きしますか？"
+msgstr "すでにこの名前のファイルが存在します。上書きしますか？"
 
 #: LiteEditor/frame.cpp:2293
 msgid "Tab group saved"
@@ -8226,7 +8226,7 @@ msgstr "ビルドしてデバッグ"
 
 #: LiteEditor/frame.cpp:3973
 msgid "You already have the latest version of CodeLite"
-msgstr "既に最新の CodeLite をお使いです"
+msgstr "すでに最新の CodeLite をお使いです"
 
 #: LiteEditor/frame.cpp:3979
 msgid "A new version of CodeLite is available for download"
@@ -8397,11 +8397,11 @@ msgstr "ようこそ！"
 
 #: LiteEditor/manager.cpp:627
 msgid "' already exists"
-msgstr "' が既に存在します"
+msgstr "' が存在します"
 
 #: LiteEditor/manager.cpp:627
 msgid "A file with similar name '"
-msgstr "似た名前を持つファイル '"
+msgstr "すでに似た名前を持つファイル '"
 
 #: LiteEditor/manager.cpp:628
 msgid "Overwrite it?"
@@ -8427,7 +8427,7 @@ msgid ""
 "%s\n"
 "that matches using case-insensitive comparison"
 msgstr ""
-"このフォルダーには既に、この名前のファイル:\n"
+"すでにこのフォルダーには、この名前のファイル:\n"
 "%s\n"
 "が存在し、大文字小文字以外の違いがありません"
 
@@ -8690,7 +8690,7 @@ msgstr "無効なパスです: "
 
 #: LiteEditor/newworkspacedlg.cpp:155
 msgid "A workspace file with this name already exists"
-msgstr "この名前のワークスペースが既に存在します"
+msgstr "すでにこの名前のワークスペースが存在します"
 
 #: LiteEditor/openwindowspanel.cpp:76 LiteEditor/simpletablebase.cpp:63
 msgid "Sort"
@@ -9429,7 +9429,7 @@ msgstr "コンパイラーのオプション"
 #: LiteEditor/ps_custom_build_page.cpp:93
 #, c-format
 msgid "Target '%s' already exist!"
-msgstr "対象 '%s' が既に存在します！"
+msgstr "すでに対象 '%s' が存在します！"
 
 #: LiteEditor/ps_general_page.cpp:221
 msgid "Adjust settings to fit this generator?"
@@ -10361,7 +10361,7 @@ msgstr "タブグループ"
 
 #: LiteEditor/tabgroupspane.cpp:214
 msgid "I'm afraid that tabgroup no longer exists :/"
-msgstr "申し訳ありません、タブグループが既に存在しません (・_・;)"
+msgstr "申し訳ありません、すでにタブグループが存在しません (・_・;)"
 
 #: LiteEditor/tabgroupspane.cpp:229
 msgid ""
@@ -10377,7 +10377,7 @@ msgstr "タブグループを読み込み"
 
 #: LiteEditor/tabgroupspane.cpp:256
 msgid "I'm afraid that tabgroup item no longer exists :/"
-msgstr "申し訳ありません、タブグループの項目が既に存在しません (・_・;)"
+msgstr "申し訳ありません、すでにタブグループの項目が存在しません (・_・;)"
 
 #: LiteEditor/tabgroupspane.cpp:279
 msgid "&Add a new item to this tabgroup"
@@ -10409,7 +10409,7 @@ msgstr "このタブグループから項目を削除 (&R)"
 
 #: LiteEditor/tabgroupspane.cpp:376
 msgid "There is already a file with this name. Overwrite it?"
-msgstr "この名前のファイルが既に存在します。上書きしますか？"
+msgstr "すでにこの名前のファイルが存在します。上書きしますか？"
 
 #: LiteEditor/tabgroupspane.cpp:377
 msgid "Overwrite?"
@@ -10435,7 +10435,7 @@ msgstr "目的のタブグループを読み込めませんでした (・_・;)"
 msgid ""
 "There is already an item with this filepath in the tabgroup. Overwrite it?"
 msgstr ""
-"タブグループには既に、このファイルパスの項目が存在します。上書きしますか？"
+"すでにタブグループには、このファイルパスの項目が存在します。上書きしますか？"
 
 #: LiteEditor/tabgroupspane.cpp:551
 msgid "Tabgroup item pasted"
@@ -10460,7 +10460,7 @@ msgstr "タブグループを複製"
 
 #: LiteEditor/tabgroupspane.cpp:620
 msgid "Sorry, there is already a tabgroup with this name"
-msgstr "すみません、この名前のタブグループが既に存在します"
+msgstr "すみません、すでにこの名前のタブグループが存在します"
 
 #: LiteEditor/tabgroupspane.cpp:626
 msgid "Sorry, duplication of the tabgroup failed :/"
@@ -10829,9 +10829,9 @@ msgid ""
 "%s\n"
 "already exists, overwrite it?\n"
 msgstr ""
-"ファイル:\n"
+"すでにファイル:\n"
 "%s\n"
-"が既に存在します。上書きしますか？\n"
+"が存在します。上書きしますか？\n"
 
 #: MacBundler/macbundler.cpp:407
 msgid "Could not create Info.plist file\n"
@@ -10893,8 +10893,8 @@ msgid ""
 "Another instance is already running. Please stop it before executing another "
 "one"
 msgstr ""
-"他のインスタンスが既に実行中です。新しいものを起動する前に、まずそれを終了し"
-"てください"
+"すでに他のインスタンスが実行中です。新しいものを起動する前に、まずそれを終了"
+"してください"
 
 #: MemCheck/memcheck.cpp:307
 msgid "Launching MemCheck...\n"
@@ -12627,7 +12627,8 @@ msgid ""
 "If your CodeLite is already configured the way you like it, click to skip "
 "the Wizard"
 msgstr ""
-"既にあなた好みの構成になっているなら、クリックでウィザードをスキップできます"
+"すでにあなた好みの構成になっているなら、クリックでウィザードをスキップできま"
+"す"
 
 #: Plugin/clBoostrapWizardBase.cpp:65
 msgid "Development Profile"
@@ -15104,7 +15105,7 @@ msgstr "メニュー項目が重複しています！"
 
 #: SnipWiz/editsnippetsdlg.cpp:182
 msgid "That accelerator already exists"
-msgstr "指定したアクセラレーターが既に存在します"
+msgstr "指定したアクセラレーターがすでに存在します"
 
 #: SnipWiz/snipwiz.cpp:83
 msgid "A small tool to add expandable code snippets and template classes"
@@ -15239,7 +15240,7 @@ msgid ""
 "Class exists!\n"
 "Overwrite?"
 msgstr ""
-"クラスが既に存在します！\n"
+"すでにクラスが存在します！\n"
 "上書きしますか？"
 
 #: SnipWiz/templateclassdlg.cpp:272
@@ -15260,7 +15261,7 @@ msgid ""
 "\n"
 " Overwrite?"
 msgstr ""
-"ファイルが既に存在します！\n"
+"すでにファイルが存在します！\n"
 "\n"
 "上書きしますか？"
 
@@ -15844,7 +15845,7 @@ msgid ""
 "MESSAGE: Ignoring last command.\n"
 msgstr ""
 "\n"
-"メッセージ: 他のプロセスが既に実行されています。\n"
+"メッセージ: すでに他のプロセスが実行されています。\n"
 "メッセージ: 最後のコマンドを無視します。\n"
 
 #: Subversion2/subversion_view.cpp:186
@@ -15990,7 +15991,7 @@ msgid ""
 "The checkout directory '%s' already exists\n"
 "continue with the checkout?"
 msgstr ""
-"チェックアウトするディレクトリ '%s' が既に存在します\n"
+"チェックアウトするディレクトリ '%s' がすでに存在します\n"
 "それでもチェックアウトを続けますか？"
 
 #: Subversion2/svn_command_handlers.cpp:119
@@ -16588,7 +16589,7 @@ msgstr "新しい短縮キーワード..."
 
 #: abbreviation/abbreviationssettingsdlg.cpp:76
 msgid "An abbreviation with this name already exists!"
-msgstr "この名前の短縮キーワードが既に存在します！"
+msgstr "すでにこの名前の短縮キーワードが存在します！"
 
 #: abbreviation/abbreviationssettingsdlg.cpp:98
 #, c-format
@@ -16600,7 +16601,7 @@ msgid ""
 "This folder already contains a file named 'abbreviations.conf' - would you "
 "like to overwrite it?"
 msgstr ""
-"このフォルダーには、既に 'abbreviations.conf' という名前のファイルが含まれて"
+"すでにこのフォルダーには 'abbreviations.conf' という名前のファイルが含まれて"
 "います - 上書きしますか？"
 
 #: abbreviation/abbreviationssettingsdlg.cpp:251
@@ -16717,11 +16718,11 @@ msgstr ""
 
 #: codelitephp/PHPParser/php_workspace.cpp:510
 msgid "A project with similar name already exists in the workspace"
-msgstr "似た名前を持つプロジェクトが、既にワークスペースに存在します"
+msgstr "すでに似た名前を持つプロジェクトが、ワークスペースに存在します"
 
 #: codelitephp/PHPParser/php_workspace.cpp:546
 msgid "Path '"
-msgstr "パス '"
+msgstr "すでにパス '"
 
 #: codelitephp/PHPParser/php_workspace.cpp:546
 #: codelitephp/PHPParser/php_workspace.cpp:556
@@ -16730,7 +16731,7 @@ msgstr "選択したパスにプロジェクトを作成できませんでした
 
 #: codelitephp/PHPParser/php_workspace.cpp:547
 msgid "' is already part of project '"
-msgstr "' は既にプロジェクトの一部です: '"
+msgstr "' はプロジェクトの一部です: '"
 
 #: codelitephp/PHPParser/php_workspace.cpp:556
 msgid "Project '"
@@ -16742,7 +16743,7 @@ msgstr "' がこのパスの配下に置かれています"
 
 #: codelitephp/PHPParser/phpexecutor.cpp:75
 msgid "Another process is already running"
-msgstr "他のプロセスが既に実行中です"
+msgstr "すでに他のプロセスが実行中です"
 
 #: codelitephp/PHPParser/phpexecutor.cpp:178
 msgid "Please set an index file to execute in the project settings"
@@ -16966,7 +16967,7 @@ msgstr "フォルダーを選択"
 
 #: codelitephp/php-plugin/php_ui.cpp:91
 msgid "The workspace path. This path must exist"
-msgstr "ワークスペースへのパスです。既に存在している場所を指定してください"
+msgstr "ワークスペースへのパスです。すでに存在している場所を指定してください"
 
 #: codelitephp/php-plugin/php_ui.cpp:111
 msgid "Set here the workspace name"
@@ -17472,7 +17473,7 @@ msgid ""
 "The folder already contains a workspace file\n"
 "Please close the current workspace before continuing"
 msgstr ""
-"フォルダーには、既にワークスペースのファイルが入っています\n"
+"すでにフォルダーには、ワークスペースのファイルが入っています\n"
 "続行する前に、まず現在のワークスペースを閉じてください"
 
 #: codelitephp/php-plugin/php_workspace_view.cpp:303
@@ -17621,7 +17622,7 @@ msgid ""
 "A file with this name already exists in the target folder\n"
 "Overwrite it?"
 msgstr ""
-"この名前のファイルが、既に対象のフォルダーに存在します\n"
+"すでにこの名前のファイルが、対象のフォルダーに存在します\n"
 "上書きしますか？"
 
 #: codelitephp/php-plugin/php_workspace_view.cpp:1702
@@ -20909,9 +20910,9 @@ msgid ""
 "available since wxWidgets 2.9.2."
 msgstr ""
 "EVT_RIBBONGALLERY_SELECTED と似ていますが、ギャラリーの項目がクリックされるた"
-"びに発動します (既に選択済みだったとしても同様です)。注: イベントの ID は項目"
-"でなく、そのギャラリーを指します。このイベントは wxWidgets 2.9.2 以降で使用で"
-"きます。"
+"びに発動します (すでに選択済みだったとしても同様です)。注: イベントの ID は項"
+"目でなく、そのギャラリーを指します。このイベントは wxWidgets 2.9.2 以降で使用"
+"できます。"
 
 #: wxcrafter/controls/ribbon_gallery_wrapper.cpp:17
 msgid ""
@@ -22116,7 +22117,8 @@ msgid ""
 "vetoed."
 msgstr ""
 "対象の枝が広がったときの wxEVT_TREELIST_ITEM_EXPANDED イベントを処理します。"
-"前述の通り、この時点で枝は既に広がっているため、イベントの拒否はできません。"
+"前述の通り、すでにこの時点で枝は広がっているため、イベントの拒否はできませ"
+"ん。"
 
 #: wxcrafter/controls/tree_list_ctrl_wrapper.cpp:35
 msgid ""
@@ -23005,9 +23007,9 @@ msgid ""
 msgstr ""
 "同じ名前のトップレベルウィンドウ 2 つは持てませんが、FooBase::m_textEntry と "
 "BarBase::m_textEntry を持つことなら可能です。\n"
-"これにチェックを入れると、そのような同一の名前を維持します; 既に \"Foo の変数"
-"を Bar にコピー\" するようなコードを使っているが、m_text153 みたいな自動生成"
-"された名前は必要ない・・・という場合に便利です。"
+"これにチェックを入れると、そのような同一の名前を維持します; すでに \"Foo の変"
+"数を Bar にコピー\" するようなコードを使っているが、m_text153 みたいな自動生"
+"成された名前は必要ない・・・という場合に便利です。"
 
 #: wxcrafter/src/gui.cpp:1046
 msgid "Leave unchanged the names of all child controls"
@@ -23022,8 +23024,8 @@ msgid ""
 msgstr ""
 "同じ名前のトップレベルウィンドウ 2 つは持てませんが、FooBase::m_text123 と "
 "BarBase::m_text123 を持つことなら可能です。\n"
-"これにチェックを入れると、そのような同一の名前を維持します; 既に \"Foo の変数"
-"を Bar にコピー\" するようなコードを使っている場合に便利です。"
+"これにチェックを入れると、そのような同一の名前を維持します; すでに \"Foo の変"
+"数を Bar にコピー\" するようなコードを使っている場合に便利です。"
 
 #: wxcrafter/src/gui.cpp:1056
 msgid "Copy any event-handlers too"
@@ -23240,7 +23242,7 @@ msgstr ""
 
 #: wxcrafter/src/properties_list_view.cpp:323
 msgid "A control with this name already exists!"
-msgstr "この名前のコントロールが既に存在します！"
+msgstr "すでにこの名前のコントロールが存在します！"
 
 #: wxcrafter/src/properties_list_view.cpp:424
 msgid "Construct the Dropdown Menu"
@@ -25096,7 +25098,7 @@ msgstr "ここには貼り付けられません"
 #: wxcrafter/src/wxguicraft_main_view.cpp:1944
 #: wxcrafter/src/wxguicraft_main_view.cpp:2026
 msgid "This name is already in use. Try again?"
-msgstr "この名前は既に使われています。再試行しますか？"
+msgstr "すでにこの名前は使われています。再試行しますか？"
 
 #: wxcrafter/src/wxguicraft_main_view.cpp:2081
 #: wxcrafter/src/wxguicraft_main_view.cpp:2721
@@ -25110,7 +25112,7 @@ msgid ""
 "There is already a main sizer"
 msgstr ""
 "ここには挿入できない項目です\n"
-"メインサイザーが既に存在します"
+"すでにメインサイザーが存在します"
 
 #: wxcrafter/src/wxguicraft_main_view.cpp:2096
 msgid ""
