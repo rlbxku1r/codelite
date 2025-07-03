@@ -3333,7 +3333,7 @@ msgid ""
 "A permissions problem, perhaps?"
 msgstr ""
 "パスの作成に失敗しました: %s\n"
-"恐らく、パーミッションの問題なんじゃないでしょうか？"
+"おそらく、パーミッションの問題なんじゃないでしょうか？"
 
 #: HelpPlugin/HelpPluginMessageDlg.cpp:9
 msgid ""
@@ -8459,7 +8459,7 @@ msgstr "名前衝突の可能性あり"
 #: LiteEditor/manager.cpp:1056
 #, c-format
 msgid "%u file(s) not added, probably due to a name-clash"
-msgstr "%u 個のファイルは追加されませんでした。恐らく名前が衝突しています"
+msgstr "%u 個のファイルは追加されませんでした。おそらく名前が衝突しています"
 
 #: LiteEditor/manager.cpp:1623 MemCheck/memcheck.cpp:309
 msgid "Working directory is set to: "
