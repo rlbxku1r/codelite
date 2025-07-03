@@ -318,7 +318,8 @@ msgid ""
 "graph creation. You can alter it on the call graph panel."
 msgstr ""
 "呼び出し図プラグインが、ノードの閾値 %d を使用して、呼び出し図の生成速度を上"
-"げるよう提案しています。この設定は、後で呼び出し図のパネルから変更できます。"
+"げるよう提案しています。この設定は、あとで呼び出し図のパネルから変更できま"
+"す。"
 
 #: CallGraph/callgraph.cpp:413
 msgid ""
@@ -4678,7 +4679,7 @@ msgid ""
 "again."
 msgstr ""
 "チェックを入れると、ブレークポイント (またはウォッチポイント) を張ったままに"
-"しつつ、無効化します。後でチェックを外すことにより、再度有効化できます。"
+"しつつ、無効化します。あとでチェックを外すことにより、再度有効化できます。"
 
 #: LiteEditor/breakpointdlgbase.cpp:335
 msgid "Make temporary"
@@ -7236,7 +7237,7 @@ msgstr "最近の検索を表示"
 
 #: LiteEditor/findresultstab.cpp:122
 msgid "Another search is currently running, try again later"
-msgstr "現在、他の検索を実行しています。また後で試してください"
+msgstr "現在、他の検索を実行しています。またあとで試してください"
 
 #: LiteEditor/findresultstab.cpp:140
 msgid "'; Match case: "
@@ -9161,7 +9162,7 @@ msgid ""
 "Enter here any commands that should be passed to the debugger after "
 "attaching the remote target:"
 msgstr ""
-"デバッガーをリモートの対象にアタッチさせた後、これらのコマンドを実行します:"
+"デバッガーをリモートの対象にアタッチさせたあと、これらのコマンドを実行します:"
 
 #: LiteEditor/project_settings_base_dlg.cpp:705
 msgid "Debugging a remote target"
@@ -10397,11 +10398,11 @@ msgstr "このタブグループを削除 (&D)"
 
 #: LiteEditor/tabgroupspane.cpp:287
 msgid "&Copy this item, to be pasted to another tabgroup"
-msgstr "この項目をコピーし、後で他のタブグループに貼り付け (&C)"
+msgstr "この項目をコピーし、あとで他のタブグループに貼り付け (&C)"
 
 #: LiteEditor/tabgroupspane.cpp:288
 msgid "Cu&t this item, to be pasted to another tabgroup"
-msgstr "この項目を切り取り、後で他のタブグループに貼り付ける (&T)"
+msgstr "この項目を切り取り、あとで他のタブグループに貼り付ける (&T)"
 
 #: LiteEditor/tabgroupspane.cpp:292
 msgid "&Remove this item from the tabgroup"
@@ -12620,7 +12621,7 @@ msgstr ""
 
 #: Plugin/clBoostrapWizardBase.cpp:48
 msgid "Not this time!"
-msgstr "後で！"
+msgstr "あとで！"
 
 #: Plugin/clBoostrapWizardBase.cpp:49
 msgid ""
@@ -13937,8 +13938,8 @@ msgid ""
 "CodeLite will place the below text after the auto generated section (so you "
 "may override the generated variables)"
 msgstr ""
-"自動生成されたセクションの後に、次のテキストを配置します (なので、生成された"
-"変数を上書きできます)"
+"自動生成されたセクションのあとに、次のテキストを配置します (なので、生成され"
+"た変数を上書きできます)"
 
 #: Remoty/RemotyNewWorkspaceDlg.cpp:18
 msgid "Seelct a folder"
@@ -20810,7 +20811,7 @@ msgstr ""
 msgid ""
 "Triggered after the transition from one page being active to a different "
 "page being active."
-msgstr "ページ間を移動するトランジションがアクティブになった後に発動します。"
+msgstr "ページ間を移動するトランジションがアクティブになったあとに発動します。"
 
 #: wxcrafter/controls/ribbon_bar_wrapper.cpp:16
 msgid ""
@@ -21512,8 +21513,8 @@ msgid ""
 "Generated after a wxEVT_STC_DWELLSTART and the mouse is moved or other "
 "activity such as key press indicates the dwell is over"
 msgstr ""
-"wxEVT_STC_DWELLSTART の後、マウスを動かしたり、何かキーを押したりしたときに生"
-"成されます"
+"wxEVT_STC_DWELLSTART のあと、マウスを動かしたり、何かキーを押したりしたときに"
+"生成されます"
 
 #: wxcrafter/controls/styled_text_ctrl_wrapper.cpp:165
 msgid "Drag and Drop start event"
