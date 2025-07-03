@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-02 20:36+0900\n"
+"PO-Revision-Date: 2025-07-04 04:41+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -510,7 +510,7 @@ msgstr "チャット AI"
 
 #: ChatAI/ChatAI.cpp:57 ChatAI/ChatAI.cpp:67 ChatAI/ChatAI.cpp:68
 msgid "A built-in AI assistance"
-msgstr "内蔵の AI アシスタンス"
+msgstr "組み込みの AI アシスタンス"
 
 #: ChatAI/ChatAI.cpp:72
 msgid "Show AI Chat Window"
@@ -7858,7 +7858,7 @@ msgstr "出力ペイン"
 
 #: LiteEditor/frame.cpp:1182
 msgid "Show Builtin Terminal"
-msgstr "内蔵の端末を表示"
+msgstr "組み込みの端末を表示"
 
 #: LiteEditor/frame.cpp:1183
 msgid "Workspace Pane"
@@ -14344,7 +14344,7 @@ msgstr "デバッガーペイン (&D)"
 
 #: Runtime/rc/menu.xrc:338
 msgid "&Show Builtin Terminal"
-msgstr "内蔵の端末を表示 (&S)"
+msgstr "組み込みの端末を表示 (&S)"
 
 #: Runtime/rc/menu.xrc:342
 msgid "&Toggle All Panes"
