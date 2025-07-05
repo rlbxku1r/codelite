@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-04 19:57+0900\n"
+"PO-Revision-Date: 2025-07-05 16:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -378,11 +378,11 @@ msgstr "縮小"
 
 #: CallGraph/uicallgraph.cpp:110
 msgid "Zoom 100%"
-msgstr "画面に合わせてズーム"
+msgstr "画面に合わせて拡大"
 
 #: CallGraph/uicallgraph.cpp:114
 msgid "Zoom 1:1"
-msgstr "等倍にズーム"
+msgstr "等倍"
 
 #: CallGraph/uicallgraph.cpp:146
 msgid " Function name "
@@ -7923,7 +7923,7 @@ msgstr "縮小"
 
 #: LiteEditor/frame.cpp:1201 Runtime/rc/menu.xrc:286
 msgid "Reset Zoom"
-msgstr "ズームをリセット"
+msgstr "拡大率をリセット"
 
 #: LiteEditor/frame.cpp:1203
 msgid "New Workspace..."
@@ -16486,14 +16486,14 @@ msgstr "強調表示の色:"
 
 #: ZoomNavigator/zoom_navigator.cpp:65
 msgid "Zoom factor:"
-msgstr "ズーム率:"
+msgstr "拡大率:"
 
 #: ZoomNavigator/zoom_navigator.cpp:67 ZoomNavigator/zoom_navigator.cpp:74
 msgid ""
 "Sets the preview pane zoom factor.\n"
 "Valid values should be in the range of -10 and 20"
 msgstr ""
-"プレビューペインのズーム率を設定します。\n"
+"プレビューペインの拡大率を設定します。\n"
 "有効な値は -10 から 20 までです"
 
 #: ZoomNavigator/zoom_navigator.cpp:80
