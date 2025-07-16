@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-05 16:01+0900\n"
+"PO-Revision-Date: 2025-07-16 19:15+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -2472,9 +2472,8 @@ msgid "address "
 msgstr "アドレス "
 
 #: Debugger/dbgcmd.cpp:576
-#, fuzzy
 msgid "Successfully connected to debugger server"
-msgstr "デバッガーサーバーへ正常に接続しました"
+msgstr "デバッガーサーバーに正常に接続しました"
 
 #: Debugger/dbgcmd.cpp:579
 msgid "Applying breakpoints..."
@@ -4296,7 +4295,6 @@ msgstr "NodeJS"
 
 #: LiteEditor/acceltabledlg.cpp:150
 #, c-format
-#, fuzzy
 msgid ""
 "'%s' is already assigned to: '%s'\n"
 "Would you like to replace it?"
@@ -5675,14 +5673,12 @@ msgid "Find Symbol"
 msgstr "シンボルを検索"
 
 #: LiteEditor/context_cpp.cpp:2018
-#, fuzzy
 msgid "Go to Declaration"
-msgstr "宣言へ移動"
+msgstr "宣言に移動"
 
 #: LiteEditor/context_cpp.cpp:2019
-#, fuzzy
 msgid "Go to Implementation"
-msgstr "実装へ移動"
+msgstr "実装に移動"
 
 #: LiteEditor/debugcoredump.cpp:154
 msgid "Select core dump:"
@@ -7360,14 +7356,12 @@ msgid "Swap Header/Implementation file"
 msgstr "ヘッダー/実装ファイルを切り替え"
 
 #: LiteEditor/frame.cpp:1046
-#, fuzzy
 msgid "Goto Declaration"
-msgstr "宣言へ移動"
+msgstr "宣言に移動"
 
 #: LiteEditor/frame.cpp:1047
-#, fuzzy
 msgid "Goto Implementation"
-msgstr "実装へ移動"
+msgstr "実装に移動"
 
 #: LiteEditor/frame.cpp:1048
 msgid "Open Include File"
@@ -7427,7 +7421,6 @@ msgid "Step Out"
 msgstr "ステップアウト"
 
 #: LiteEditor/frame.cpp:1062
-#, fuzzy
 msgid "Step Into Instruction"
 msgstr "命令へステップイン"
 
@@ -7718,12 +7711,10 @@ msgid "Find In Files..."
 msgstr "ファイルから検索..."
 
 #: LiteEditor/frame.cpp:1144 Runtime/rc/menu.xrc:428
-#, fuzzy
 msgid "Go to Next 'Find In File' Match"
 msgstr "次の 'ファイルから検索' の一致へ移動"
 
 #: LiteEditor/frame.cpp:1145 Runtime/rc/menu.xrc:431
-#, fuzzy
 msgid "Go to Previous 'Find In File' Match"
 msgstr "前の 'ファイルから検索' の一致へ移動"
 
@@ -7760,24 +7751,20 @@ msgid "Find Word At Caret Backward"
 msgstr "キャレットの単語を後方へ検索"
 
 #: LiteEditor/frame.cpp:1154
-#, fuzzy
 msgid "Search | Go To"
-msgstr "検索 | 指定先へ移動"
+msgstr "検索 | 指定先に移動"
 
 #: LiteEditor/frame.cpp:1155
-#, fuzzy
 msgid "Go To Previous Location"
 msgstr "前の場所へ移動"
 
 #: LiteEditor/frame.cpp:1156
-#, fuzzy
 msgid "Go To Forward Location"
 msgstr "次の場所へ移動"
 
 #: LiteEditor/frame.cpp:1157
-#, fuzzy
 msgid "Go To Line..."
-msgstr "行へ移動..."
+msgstr "行に移動..."
 
 #: LiteEditor/frame.cpp:1159 LiteEditor/options_base_dlg2.h:61
 #: Plugin/Diff/DiffSideBySidePanel.cpp:125
@@ -8094,14 +8081,12 @@ msgstr "新しい設定を適用しています。しばらくお待ちくださ
 
 #: LiteEditor/frame.cpp:1845 LiteEditor/menu_event_handlers.cpp:274
 #, c-format
-#, fuzzy
 msgid "Go to line number (1 - %i):"
 msgstr "行番号へ移動 (1 - %i):"
 
 #: LiteEditor/frame.cpp:1846 LiteEditor/menu_event_handlers.cpp:276
-#, fuzzy
 msgid "Go To Line"
-msgstr "行へ移動"
+msgstr "行に移動"
 
 #: LiteEditor/frame.cpp:1894
 msgid "Eran Ifrah (Project admin)"
@@ -8872,16 +8857,15 @@ msgid "Pause when execution ends"
 msgstr "実行終了時に一時停止"
 
 #: LiteEditor/project_settings_base_dlg.cpp:217
-#, fuzzy
 msgid ""
 "After the execution of the program ends, show a console with the message "
 "\"Hit any key to continue...\"\n"
 "This is useful when you wish to view the output printed to stdout before the "
 "console terminates"
 msgstr ""
-"プログラムの実行が終わると、コンソールにメッセージ \"続行するには何かキーを押"
-"してください...\" を表示します\n"
-"これにより、stdout へ書き出された内容を、コンソールの終了前に確認できるように"
+"プログラムの実行が終わると、コンソールに \"続行するには何かキーを押してくださ"
+"い...\" というメッセージを表示します\n"
+"これにより、stdout に書き出された内容を、コンソールの終了前に確認できるように"
 "なります"
 
 #: LiteEditor/project_settings_base_dlg.cpp:221
@@ -10692,9 +10676,8 @@ msgid "Collapse All"
 msgstr "すべて折り畳む"
 
 #: LiteEditor/workspacetab.cpp:135
-#, fuzzy
 msgid "Goto Active Project"
-msgstr "アクティブなプロジェクトへ移動"
+msgstr "アクティブなプロジェクトに移動"
 
 #: LiteEditor/workspacetab.cpp:137
 msgid ""
@@ -10725,9 +10708,8 @@ msgid "C++ Workspace"
 msgstr "C++ ワークスペース"
 
 #: LiteEditor/wxcrafter.cpp:380
-#, fuzzy
 msgid "Goto Folder:"
-msgstr "フォルダーへ移動:"
+msgstr "フォルダーに移動:"
 
 #: LiteEditor/wxcrafter.cpp:387
 msgid "Type the folder path"
@@ -10976,9 +10958,8 @@ msgid "Suppress"
 msgstr "抑制"
 
 #: MemCheck/memcheckoutputview.cpp:478
-#, fuzzy
 msgid "Jump to location"
-msgstr "場所へジャンプ"
+msgstr "場所にジャンプ"
 
 #: MemCheck/memcheckoutputview.cpp:481
 msgid "Mark all"
@@ -11042,12 +11023,10 @@ msgid "Expand all"
 msgstr "すべて展開"
 
 #: MemCheck/memcheckui.cpp:249
-#, fuzzy
 msgid "Jump to next error"
 msgstr "次のエラーへジャンプ"
 
 #: MemCheck/memcheckui.cpp:251
-#, fuzzy
 msgid "Jump to previous error"
 msgstr "前のエラーへジャンプ"
 
@@ -11450,9 +11429,8 @@ msgid "PHP Refcatoring Preview"
 msgstr "PHP リファクタリングのプレビュー"
 
 #: Plugin/AddSSHAcountDlg.cpp:111
-#, fuzzy
 msgid "Successfully connected to host!"
-msgstr "ホストへ正常に接続しました！"
+msgstr "ホストに正常に接続しました！"
 
 #: Plugin/AddSSHAcountDlg.cpp:125
 msgid ""
@@ -11764,7 +11742,6 @@ msgstr "書き込み用にファイル: '%s' を開けませんでした"
 
 #: Plugin/EnvironmentVariablesDlg.cpp:196
 #, c-format
-#, fuzzy
 msgid "Environment exported to: '%s' successfully"
 msgstr "環境を正常に: '%s' へエクスポートしました"
 
@@ -12631,9 +12608,8 @@ msgid "Credits"
 msgstr "クレジット"
 
 #: Plugin/clBoostrapWizardBase.cpp:34
-#, fuzzy
 msgid "Welcome to the setup wizard"
-msgstr "セットアップウィザードへようこそ"
+msgstr "セットアップウィザードにようこそ"
 
 #: Plugin/clBoostrapWizardBase.cpp:35
 msgid ""
@@ -14428,9 +14404,8 @@ msgid "&Find In Files..."
 msgstr "ファイルから検索 (&F)..."
 
 #: Runtime/rc/menu.xrc:436
-#, fuzzy
 msgid "Go To"
-msgstr "指定先へ移動"
+msgstr "指定先に移動"
 
 #: Runtime/rc/menu.xrc:438
 msgid "Go To Pre&vious Location"
@@ -14441,9 +14416,8 @@ msgid "Go To For&ward Location"
 msgstr "次の場所へ移動 (&W)"
 
 #: Runtime/rc/menu.xrc:444
-#, fuzzy
 msgid "&Go To Line..."
-msgstr "行へ移動 (&G)..."
+msgstr "行に移動 (&G)..."
 
 #: Runtime/rc/menu.xrc:451
 msgid "Toggle &Bookmark"
@@ -14594,7 +14568,6 @@ msgid "Step &Into"
 msgstr "ステップイン (&I)"
 
 #: Runtime/rc/menu.xrc:613
-#, fuzzy
 msgid "Step Into &Instruction"
 msgstr "命令へステップイン (&I)"
 
@@ -15463,9 +15436,8 @@ msgid "Show Recent Changes"
 msgstr "最近の変更を表示"
 
 #: Subversion2/subversion2.cpp:308 Subversion2/subversion2.cpp:1391
-#, fuzzy
 msgid "Revert to revision"
-msgstr "リビジョンへ取り消す"
+msgstr "リビジョンに取り消す"
 
 #: Subversion2/subversion2.cpp:313
 msgid "Create Diff"
@@ -16967,9 +16939,8 @@ msgstr ""
 "PHP プロジェクトを作成できません。現在のワークスペースをまず閉じてください"
 
 #: codelitephp/php-plugin/php_editor_context_menu.cpp:93
-#, fuzzy
 msgid "Goto definition"
-msgstr "定義へ移動"
+msgstr "定義に移動"
 
 #: codelitephp/php-plugin/php_editor_context_menu.cpp:96
 msgid "Insert Doxygen Comment"
@@ -18240,9 +18211,8 @@ msgid "Are you sure that you want to discard all local changes?"
 msgstr "ローカルの変更をすべて破棄しますか？"
 
 #: git/git.cpp:981
-#, fuzzy
 msgid "Jump to modified file"
-msgstr "変更されたファイルへジャンプ"
+msgstr "変更されたファイルにジャンプ"
 
 #: git/git.cpp:981
 msgid "Modified files"
@@ -20225,14 +20195,12 @@ msgstr ""
 "wxEVT_GRID_LABEL_RIGHT_DCLICK を処理します。"
 
 #: wxcrafter/controls/grid_wrapper.cpp:74
-#, fuzzy
 msgid ""
 "The user moved to, and selected a cell. Processes a wxEVT_GRID_SELECT_CELL."
 msgstr ""
-"ユーザーがセルへ移動・選択しました。wxEVT_GRID_SELECT_CELL を処理します。"
+"ユーザーがセルに移動・選択しました。wxEVT_GRID_SELECT_CELL を処理します。"
 
 #: wxcrafter/controls/grid_wrapper.cpp:77
-#, fuzzy
 msgid ""
 "The user tries to change the order of the columns in the grid by dragging "
 "the column specified by GetCol(). This event can be vetoed to either prevent "
@@ -20249,7 +20217,7 @@ msgstr ""
 "す。このイベントを拒否すると、その並べ替えを完全に防止できます (ただし、そも"
 "そも wxGrid::EnableDragColMove() を呼び出さなければ、並べ替え操作そのものを無"
 "効にできます)。また、イベントを拒否する代わりに、別の方法で並べ替えを処理する"
-"こともできます。例えば、本当に列を新しい位置へ持ってくる (メモリ上のデータ自"
+"こともできます。例えば、本当に列を新しい位置に持ってくる (メモリ上のデータ自"
 "体を交換)、wxGrid::SetColPos() で表示上の位置だけを変更する (列のインデックス"
 "はそのまま維持)、などがあります。このイベントマクロは wxEVT_GRID_COL_MOVE イ"
 "ベントに対応します。"
@@ -20273,7 +20241,6 @@ msgstr ""
 "ベントマクロは wxEVT_GRID_COL_SORT イベントに対応します。"
 
 #: wxcrafter/controls/grid_wrapper.cpp:97
-#, fuzzy
 msgid ""
 "This event is generated when the user presses TAB or Shift-TAB in the grid. "
 "It can be used to customize the simple default TAB handling logic, e.g. to "
@@ -21139,15 +21106,13 @@ msgstr ""
 
 #: wxcrafter/controls/scroll_bar_wrapper.cpp:15
 #: wxcrafter/controls/slider_wrapper.cpp:26
-#, fuzzy
 msgid "Process wxEVT_SCROLL_TOP scroll-to-top events (minimum position)"
-msgstr "wxEVT_SCROLL_TOP (一番上へスクロール) イベントを処理します"
+msgstr "wxEVT_SCROLL_TOP (一番上にスクロール) イベントを処理します"
 
 #: wxcrafter/controls/scroll_bar_wrapper.cpp:17
 #: wxcrafter/controls/slider_wrapper.cpp:28
-#, fuzzy
 msgid "Process wxEVT_SCROLL_BOTTOM scroll-to-bottom events (maximum position)."
-msgstr "wxEVT_SCROLL_BOTTOM (一番下へスクロール) イベントを処理します。"
+msgstr "wxEVT_SCROLL_BOTTOM (一番下にスクロール) イベントを処理します。"
 
 #: wxcrafter/controls/scroll_bar_wrapper.cpp:18
 #: wxcrafter/controls/slider_wrapper.cpp:29
@@ -21206,13 +21171,12 @@ msgid "The maximum position of the scrollbar."
 msgstr "スクロールバーの最大位置です。"
 
 #: wxcrafter/controls/scroll_bar_wrapper.cpp:39
-#, fuzzy
 msgid ""
 "The size of the page size in scroll units. This is the number of units the "
 "scrollbar will scroll when it is paged up or down.\n"
 "Often it is the same as the thumb size."
 msgstr ""
-"ページサイズの大きさを、スクロール単位で指定します。つまり、ページを上下にス"
+"ページサイズの大きさを、スクロール単位で指定します。つまり、ページを上下へス"
 "クロールしたときの、スクロールバーの移動量のことです。\n"
 "つまみの大きさと同じな場合もあります。"
 
@@ -21533,12 +21497,11 @@ msgid "The user has selected an item in a user list."
 msgstr "ユーザーリストの項目を選択しました。"
 
 #: wxcrafter/controls/styled_text_ctrl_wrapper.cpp:158
-#, fuzzy
 msgid ""
 "Only on the GTK+ version. Indicates that the user has dragged a URI such as "
 "a file name or Web address onto Scintilla"
 msgstr ""
-"GTK+ 版のみ。ファイル名やウェブアドレスなどの URI が Scintilla へドラッグされ"
+"GTK+ 版のみ。ファイル名やウェブアドレスなどの URI が Scintilla にドラッグされ"
 "たことを示します"
 
 #: wxcrafter/controls/styled_text_ctrl_wrapper.cpp:161
@@ -22496,9 +22459,8 @@ msgid "Add Sizer"
 msgstr "サイザーを追加"
 
 #: wxcrafter/src/allocator_mgr.cpp:618
-#, fuzzy
 msgid "Insert into new Sizer"
-msgstr "新しいサイザーへ挿入"
+msgstr "新しいサイザーに挿入"
 
 #: wxcrafter/src/allocator_mgr.cpp:622
 msgid "Change wxSizer Type"
@@ -25251,14 +25213,13 @@ msgstr "生成したファイルを置く仮想フォルダー"
 
 #: wxcrafter/top_level_windows/dialog_wrapper.cpp:21
 #: wxcrafter/top_level_windows/wizard_wrapper.cpp:42
-#, fuzzy
 msgid ""
 "A wxInitDialogEvent is sent as a dialog or panel is being initialised. "
 "Handlers for this event can transfer data to the window.\n"
 "The default handler calls wxWindow::TransferDataToWindow"
 msgstr ""
 "ダイアログやパネルが初期化される際に wxInitDialogEvent が送信されます。このイ"
-"ベントのハンドラーは、ウィンドウへデータを転送できます。\n"
+"ベントのハンドラーは、ウィンドウにデータを転送できます。\n"
 "既定のハンドラーは wxWindow::TransferDataToWindow を呼び出します"
 
 #: wxcrafter/top_level_windows/dialog_wrapper.cpp:24
