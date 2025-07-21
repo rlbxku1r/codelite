@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-16 19:15+0900\n"
+"PO-Revision-Date: 2025-07-21 17:12+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -16769,7 +16769,7 @@ msgstr "クラス継承を編集"
 
 #: codelitephp/php-plugin/NewPHPClass.cpp:78
 msgid "Edit Class Interfaces"
-msgstr "クラスインタフェースを編集"
+msgstr "クラスインターフェイスを編集"
 
 #: codelitephp/php-plugin/PHPDebugPane.cpp:36
 msgid "Delete the selected breakpoints"
@@ -16875,7 +16875,7 @@ msgstr "実装:"
 #: codelitephp/php-plugin/new_class.cpp:107
 msgid "A comma separated list of interfaces for this class"
 msgstr ""
-"このクラスのインタフェースとなる親クラスを、カンマ区切りの一覧で指定します"
+"このクラスのインターフェイスとなる親クラスを、カンマ区切りの一覧で指定します"
 
 #: codelitephp/php-plugin/new_class.cpp:131
 msgid "Generate consturctor"
