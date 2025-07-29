@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 04:43+0900\n"
-"PO-Revision-Date: 2025-07-21 17:12+0900\n"
+"PO-Revision-Date: 2025-07-29 22:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -6216,11 +6216,11 @@ msgstr "箱型のキャレットを使用"
 
 #: LiteEditor/editorsettingscaret.cpp:35
 msgid "Allow caret to scroll beyond end of file"
-msgstr "ファイル終端を超えた所にスクロールできるようにする"
+msgstr "ファイル終端を超えたところにスクロールできるようにする"
 
 #: LiteEditor/editorsettingscaret.cpp:38
 msgid "Allow caret to be placed beyond the end of line"
-msgstr "行末を超えた所にキャレットを移動できるようにする"
+msgstr "行末を超えたところにキャレットを移動できるようにする"
 
 #: LiteEditor/editorsettingscaret.cpp:42
 msgid "Caret jumps between word segments"
