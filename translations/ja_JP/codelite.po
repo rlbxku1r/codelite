@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 19:09+0900\n"
-"PO-Revision-Date: 2025-10-17 19:34+0900\n"
+"POT-Creation-Date: 2025-10-17 19:38+0900\n"
+"PO-Revision-Date: 2025-10-17 19:39+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -474,7 +474,6 @@ msgid "Please choose a model first."
 msgstr "まずモデルを選択してください。"
 
 #: ChatAI/ChatAIWindow.cpp:284
-#| msgid "Failed to create file: "
 msgid "Failed to create configuration file:\n"
 msgstr "構成ファイルの作成に失敗しました:\n"
 
@@ -504,7 +503,6 @@ msgid "Use Shift-ENTER to submit"
 msgstr "Shift-ENTER キーで送信します"
 
 #: ChatAI/UI.hpp:81
-#| msgid "Chat AI"
 msgid "ChatAI"
 msgstr "チャット AI"
 
@@ -9032,6 +9030,10 @@ msgid "Failed to import themes!"
 msgstr "テーマのインポートに失敗しました！"
 
 #: LiteEditor/syntaxhighlightdlg.cpp:703
+msgid " themes"
+msgstr " 個のテーマをインポートしました"
+
+#: LiteEditor/syntaxhighlightdlg.cpp:703
 msgid "Successfully imported "
 msgstr "正常に "
 
@@ -11122,9 +11124,6 @@ msgstr ""
 "よろしいですか？"
 
 #: Plugin/ai/Tools.cpp:100
-#| msgid ""
-#| " exists.\n"
-#| "Would you like to overwrite it?\n"
 msgid ""
 " already exists.\n"
 "Would you like to overwrite it?"
@@ -11133,12 +11132,10 @@ msgstr ""
 "上書きしますか？"
 
 #: Plugin/ai/Tools.cpp:100 Plugin/ai/Tools.cpp:103
-#| msgid "The file\n"
 msgid "The file: "
 msgstr "すでにファイル: "
 
 #: Plugin/ai/Tools.cpp:103
-#| msgid "' already exists"
 msgid " already exists"
 msgstr " が存在します"
 
@@ -12318,6 +12315,10 @@ msgstr "ワークスペースのファイルを開けませんでした: '%s'"
 #: Plugin/workspace.cpp:1385
 msgid "Corrupted workspace file"
 msgstr "ワークスペースのファイルが壊れています"
+
+#: Plugin/wxTerminalCtrl/wxTerminalCtrl.cpp:88
+msgid ". Can't start a terminal"
+msgstr " が見つからないため、端末を開始できません"
 
 #: Plugin/wxTerminalCtrl/wxTerminalCtrl.cpp:88
 msgid "Unable to find "
@@ -16412,14 +16413,10 @@ msgid "You can change this from the menu bar: Plugins > Git > GIT plugin setting
 msgstr "この設定は、メニューバーの [プラグイン] > [Git] > [Git プラグインの設定] > [ツール] からいつでも変更できます。"
 
 #: git/GitConsole.cpp:910
-#| msgid "Creating file list..."
 msgid "Fetching git log..."
 msgstr "Git のログを取得しています..."
 
 #: git/GitConsole.cpp:913
-#| msgid ""
-#| "Failed to launch tool\n"
-#| "'"
 msgid "Failed to fetch git log.\n"
 msgstr "Git ログの取得に失敗しました。\n"
 
@@ -16728,7 +16725,6 @@ msgid "No models are available. Choose a model and try again."
 msgstr "利用できるモデルがありません。モデルを選択し、もう一度試してください。"
 
 #: git/gitCommitDlg.cpp:269
-#| msgid "Available Themes:"
 msgid "Available models:"
 msgstr "利用できるモデル:"
 
@@ -16737,7 +16733,6 @@ msgid "Choose model"
 msgstr "モデルを選択"
 
 #: git/gitCommitDlg.cpp:279
-#| msgid "Generating Code..."
 msgid "Generating commit message..."
 msgstr "コミットの説明を生成しています..."
 
@@ -17158,7 +17153,6 @@ msgid "Email:"
 msgstr "E メール:"
 
 #: git/gitui.cpp:1971
-#| msgid "List commits"
 msgid "First commit:"
 msgstr ""
 
@@ -17175,7 +17169,6 @@ msgid "The second commit in the range"
 msgstr ""
 
 #: git/gitui.cpp:1997
-#| msgid "Choose folder"
 msgid "Choose model:"
 msgstr "モデルを選択:"
 
@@ -23006,14 +22999,8 @@ msgstr "wxFormBuilder で開く..."
 #~ msgid "Scott Dolim"
 #~ msgstr "Scott Dolim"
 
-#~ msgid " themes"
-#~ msgstr " 個のテーマをインポートしました"
-
 #~ msgid "Failed to list remote files. Connection lost"
 #~ msgstr "リモートファイル一覧の取得に失敗しました。接続が失われました"
-
-#~ msgid ". Can't start a terminal"
-#~ msgstr " が見つからないため、端末を開始できません"
 
 #~ msgid "Failed to create directory: "
 #~ msgstr "ディレクトリの作成に失敗しました: "
