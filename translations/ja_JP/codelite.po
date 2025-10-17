@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-17 19:09+0900\n"
-"PO-Revision-Date: 2025-10-17 19:33+0900\n"
+"PO-Revision-Date: 2025-10-17 19:34+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -14756,7 +14756,7 @@ msgstr "対象のファイル '%s' を作成できませんでした"
 
 #: UnitTestCPP/unittestpp.cpp:491
 msgid "Project contains 0 tests. Nothing to be done"
-msgstr "プロジェクトには処理するテストが全くありません"
+msgstr "プロジェクトには処理するテストがまったくありません"
 
 #: UnitTestCPP/unittestreport.cpp:52
 msgid "Total tests:"
@@ -16882,8 +16882,8 @@ msgid ""
 "The 'git commit --amend' command is a convenient way to fix up the most recent commit. It lets you combine staged changes with the previous commit instead of committing it as an entirely new snapshot. It can also be "
 "used to simply edit the previous commit message without changing its snapshot"
 msgstr ""
-"直近のコミットを修正するには 'git commit --amend' コマンドが手っ取り早いです。全く新しいスナップショットを作成・コミットし直さずに、変更した部分だけを取り込めます。また、スナップショットはそのままに、コミットの説明だけを"
-"編集することもできます"
+"直近のコミットを修正するには 'git commit --amend' コマンドが手っ取り早いです。まったく新しいスナップショットを作成・コミットし直さずに、変更した部分だけを取り込めます。また、スナップショットはそのままに、コミットの説明だ"
+"けを編集することもできます"
 
 #: git/gitui.cpp:589
 msgid ""
