@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeLite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-17 19:38+0900\n"
-"PO-Revision-Date: 2025-10-17 19:57+0900\n"
+"PO-Revision-Date: 2025-10-29 19:31+0900\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -462,14 +462,12 @@ msgid "Enable auto scrolling"
 msgstr "自動スクロールを有効化"
 
 #: ChatAI/ChatAIWindow.cpp:66
-#, fuzzy
 msgid "Dock the chat window"
-msgstr "チャットウィンドウをくっつける"
+msgstr "サイドバーにチャットウィンドウを固定"
 
 #: ChatAI/ChatAIWindow.cpp:70
-#, fuzzy
 msgid "Move the chat into a separate window"
-msgstr "チャットを別のウィンドウに移動"
+msgstr "別のウィンドウにチャットを切り離す"
 
 #: ChatAI/ChatAIWindow.cpp:169
 msgid "Please choose a model first."
@@ -484,12 +482,10 @@ msgid "ChatAI configuration re-loaded successfully"
 msgstr "チャット AI の構成を正常に再読み込みしました"
 
 #: ChatAI/ChatAIWindow.cpp:349 git/GitConsole.cpp:951 git/git.cpp:3186
-#, fuzzy
 msgid "Thinking..."
 msgstr "考えています..."
 
 #: ChatAI/ChatAIWindow.cpp:356 ChatAI/ChatAIWindow.cpp:390 git/GitConsole.cpp:954 git/git.cpp:3189
-#, fuzzy
 msgid "Working..."
 msgstr "処理しています..."
 
@@ -16433,7 +16429,6 @@ msgid "Ready."
 msgstr "準備完了。"
 
 #: git/GitConsole.cpp:1009
-#, fuzzy
 msgid "Finalising notes..."
 msgstr "ノートを仕上げています..."
 
@@ -17158,22 +17153,18 @@ msgid "Email:"
 msgstr "E メール:"
 
 #: git/gitui.cpp:1971
-#, fuzzy
 msgid "First commit:"
 msgstr "1 つ目のコミット:"
 
 #: git/gitui.cpp:1978
-#, fuzzy
 msgid "The first commit in the range"
 msgstr "1 つ目のコミット範囲です"
 
 #: git/gitui.cpp:1984
-#, fuzzy
 msgid "Second commit:"
 msgstr "2 つ目のコミット:"
 
 #: git/gitui.cpp:1991
-#, fuzzy
 msgid "The second commit in the range"
 msgstr "2 つ目のコミット範囲です"
 
@@ -17182,23 +17173,20 @@ msgid "Choose model:"
 msgstr "モデルを選択:"
 
 #: git/gitui.cpp:2008
-#, fuzzy
 msgid "Limit response tokens:"
 msgstr "応答トークンの上限:"
 
 #: git/gitui.cpp:2015
-#, fuzzy
 msgid ""
 "Models are not perfect. This upper limit instructs\n"
 "CodeLite to terminate the release note generation process\n"
 "when the number of tokens generated hits this limit."
 msgstr ""
-"モデルは完璧ではありません。上限を設定すると、\n"
-"トークンの数がこの上限に達したときに、\n"
+"モデルは完璧ではありません。\n"
+"ここで設定した上限にトークンの数が達したとき、\n"
 "リリースノートの生成処理を止めさせるようにします。"
 
 #: git/gitui.cpp:2025
-#, fuzzy
 msgid "Use 'oneline' commit format"
 msgstr "'一行' コミットの形式を使用"
 
